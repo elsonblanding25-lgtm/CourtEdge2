@@ -3756,11 +3756,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "22:59",
     "site": "Neutral",
     "modelFavorite": "High Point",
-    "modelSpread": -7.4
+    "modelSpread": -7.4,
+    "awayScore": 57,
+    "homeScore": 72
   },
   {
     "id": "espn-401920982",
