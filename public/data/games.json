@@ -74,9 +74,9 @@
     "confidence": 2,
     "awayML": 110,
     "homeML": -130,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 98,
+    "homeScore": 103,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401921423"
   },
