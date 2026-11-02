@@ -14,7 +14,41 @@ function normalize(x=''){return x.toLowerCase().normalize('NFKD').replace(/[^a-z
 const aliases={"uconn":"connecticut","ole miss":"ole miss","miami hurricanes":"miami fla","miami oh redhawks":"miami oh","unc":"north carolina","ucf":"ucf","smu":"smu","utsa":"utsa","lsu":"lsu","vcu":"vcu","byu":"byu","tcu":"tcu","ucla":"ucla","usc":"usc","unc asheville":"unc asheville","st johns red storm":"st johns"};
 function lookup(name){const key=normalize(name);return rankByTeam.get(key)||rankByTeam.get(aliases[key])||null}
 function getDay(d){return new Intl.DateTimeFormat('en-CA',{timeZone:'America/Chicago',year:'numeric',month:'2-digit',day:'2-digit'}).format(d)}
-function near(a,b){return normalize(a)===normalize(b)}
+
+function teamKey(name = '') {
+  const aliases = {
+    "liberty flames": "liberty",
+    "high point panthers": "high point",
+    "grambling state": "grambling",
+    "grambling state tigers": "grambling",
+    "northern illinois huskies": "northern illinois",
+    "app state": "appalachian state",
+    "appalachian state mountaineers": "appalachian state",
+    "merrimack warriors": "merrimack",
+    "winthrop eagles": "winthrop",
+    "queens royals": "queens"
+  };
+
+  const key = normalize(name)
+    .replace(/\bst\b/g, "state")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  return aliases[key] || key;
+}
+
+function near(a, b) {
+  return teamKey(a) === teamKey(b);
+}
+
+function dateClose(a, b) {
+  if (!a || !b) return false;
+  const diff = Math.abs(
+    Date.parse(a + "T12:00:00Z") -
+    Date.parse(b + "T12:00:00Z")
+  );
+  return diff <= 86400000;
+}
 const today=new Date();
 const days=Number(process.env.SYNC_DAYS||3);
 const start=new Date(today);start.setUTCDate(start.getUTCDate()-1);
@@ -28,7 +62,27 @@ for(let offset=0;offset<days;offset++){
   const comp=event.competitions?.[0];if(!comp)continue;
   const away=comp.competitors?.find(c=>c.homeAway==='away'),home=comp.competitors?.find(c=>c.homeAway==='home');if(!away||!home)continue;
   const awayName=away.team?.displayName||'',homeName=home.team?.displayName||'';
-  const match=games.find(g=>g.espnId===event.id)||games.find(g=>g.date===date&&(near(g.away,away.team?.shortDisplayName)||near(g.away,awayName))&&(near(g.home,home.team?.shortDisplayName)||near(g.home,homeName)));
+
+const match =
+  games.find(g => String(g.espnId) === String(event.id)) ||
+  games.find(g =>
+    !g.espnId &&
+    dateClose(g.date, date) &&
+    (
+      near(g.away, awayName) ||
+      near(g.away, away.team?.shortDisplayName)
+    ) &&
+    (
+      near(g.home, homeName) ||
+      near(g.home, home.team?.shortDisplayName)
+    )
+  );
+
+if (match && !match.espnId) {
+  console.log(
+    `Linked ESPN ID ${event.id}: ${match.away} @ ${match.home}`
+  );
+}
   const g=match||{id:`espn-${event.id}`,espnId:event.id,date,away:away.team?.shortDisplayName||awayName,home:home.team?.shortDisplayName||homeName,source:'ESPN / The Odds API',marketFavorite:null,marketSpread:null,awayML:null,homeML:null};
   g.espnId=event.id;g.status=comp.status?.type?.completed?'final':'scheduled';g.time=new Intl.DateTimeFormat('en-US',{timeZone:'America/Chicago',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date(event.date));g.site=comp.neutralSite?'Neutral':'Home';
   if(!match){const a=lookup(g.away)||lookup(awayName),b=lookup(g.home)||lookup(homeName);if(a&&b){const homeMargin=.7*(efficiency[b.rank-1]-efficiency[a.rank-1])+(comp.neutralSite?0:3);g.modelFavorite=homeMargin>=0?g.home:g.away;g.modelSpread=-Math.round(Math.abs(homeMargin)*10)/10;}else{g.modelFavorite=null;g.modelSpread=null;}games.push(g);added++;}
