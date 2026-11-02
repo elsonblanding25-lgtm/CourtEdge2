@@ -155,9 +155,9 @@
     "confidence": 1,
     "awayML": 950,
     "homeML": -1650,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 54,
+    "homeScore": 82,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401920071"
   },
@@ -3984,11 +3984,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "15:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 46,
+    "homeScore": 78
   },
   {
     "id": "espn-401928858",
