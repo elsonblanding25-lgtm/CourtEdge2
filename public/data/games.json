@@ -3813,11 +3813,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "05:00",
     "site": "Neutral",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 49,
+    "homeScore": 63
   },
   {
     "id": "espn-401921173",
