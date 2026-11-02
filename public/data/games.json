@@ -2432,9 +2432,9 @@
     "confidence": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 53,
+    "homeScore": 90,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401929384"
   },
@@ -3832,11 +3832,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "10:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 76,
+    "homeScore": 113
   },
   {
     "id": "espn-401928619",
@@ -3849,11 +3851,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "10:30",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 73,
+    "homeScore": 117
   },
   {
     "id": "espn-401926830",
@@ -3866,11 +3870,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "10:30",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 51,
+    "homeScore": 97
   },
   {
     "id": "espn-401911707",
@@ -3883,11 +3889,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "10:30",
     "site": "Neutral",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 94,
+    "homeScore": 64
   },
   {
     "id": "espn-401925925",
@@ -3900,11 +3908,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "11:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 55,
+    "homeScore": 94
   },
   {
     "id": "espn-401925062",
@@ -3917,11 +3927,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "11:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 56,
+    "homeScore": 110
   },
   {
     "id": "espn-401911532",
