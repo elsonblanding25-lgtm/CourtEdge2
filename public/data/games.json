@@ -1243,7 +1243,7 @@
     "awayML": 1800,
     "homeML": -5000,
     "awayScore": 57,
-    "homeScore": 96,
+    "homeScore": 97,
     "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401917173"
@@ -1448,9 +1448,9 @@
     "confidence": 1,
     "awayML": 3000,
     "homeML": -10000,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 61,
+    "homeScore": 76,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401909490"
   },
@@ -1530,9 +1530,9 @@
     "confidence": 1,
     "awayML": 1100,
     "homeML": -2100,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 52,
+    "homeScore": 77,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401911228"
   },
@@ -1551,9 +1551,9 @@
     "confidence": 1,
     "awayML": -230,
     "homeML": 190,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 75,
+    "homeScore": 61,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401910993"
   },
@@ -1612,9 +1612,9 @@
     "confidence": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 68,
+    "homeScore": 64,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401906801"
   },
@@ -1633,9 +1633,9 @@
     "confidence": 2,
     "awayML": 2000,
     "homeML": -6500,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 65,
+    "homeScore": 95,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401909784"
   },
@@ -1674,9 +1674,9 @@
     "confidence": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 67,
+    "homeScore": 92,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401911248"
   },
@@ -1695,9 +1695,9 @@
     "confidence": 3,
     "awayML": 3500,
     "homeML": -20000,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 59,
+    "homeScore": 98,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401919047"
   },
@@ -1757,9 +1757,9 @@
     "confidence": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 72,
+    "homeScore": 85,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401918967"
   },
@@ -2043,9 +2043,9 @@
     "confidence": 1,
     "awayML": 4000,
     "homeML": -50000,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 50,
+    "homeScore": 85,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401916303"
   },
@@ -2064,9 +2064,9 @@
     "confidence": 3,
     "awayML": 1400,
     "homeML": -3200,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 60,
+    "homeScore": 100,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401924894"
   },
@@ -3310,9 +3310,9 @@
     "confidence": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 75,
+    "homeScore": 80,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401923269"
   },
@@ -3412,9 +3412,9 @@
     "confidence": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 65,
+    "homeScore": 109,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401917948"
   },
@@ -3433,9 +3433,9 @@
     "confidence": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 89,
+    "homeScore": 133,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401917510"
   },
@@ -4877,11 +4877,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 65,
+    "homeScore": 73
   },
   {
     "id": "espn-401929391",
@@ -4932,11 +4934,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 58,
+    "homeScore": 80
   },
   {
     "id": "espn-401925892",
@@ -4949,11 +4953,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 45,
+    "homeScore": 68
   },
   {
     "id": "espn-401925096",
@@ -4966,11 +4972,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 55,
+    "homeScore": 67
   },
   {
     "id": "espn-401921424",
@@ -4983,11 +4991,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Neutral",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 79,
+    "homeScore": 70
   },
   {
     "id": "espn-401920951",
@@ -5038,11 +5048,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 86,
+    "homeScore": 115
   },
   {
     "id": "espn-401910999",
@@ -5055,11 +5067,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 70,
+    "homeScore": 71
   },
   {
     "id": "espn-401909725",
@@ -5072,11 +5086,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 62,
+    "homeScore": 83
   },
   {
     "id": "espn-401926739",
@@ -5089,11 +5105,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:30",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 59,
+    "homeScore": 123
   },
   {
     "id": "espn-401925826",
@@ -5123,11 +5141,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:30",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 58,
+    "homeScore": 99
   },
   {
     "id": "espn-401925105",
@@ -5140,11 +5160,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:30",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 51,
+    "homeScore": 81
   },
   {
     "id": "espn-401917913",
@@ -5157,11 +5179,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:30",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 55,
+    "homeScore": 85
   },
   {
     "id": "espn-401909694",
@@ -5242,11 +5266,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "20:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 55,
+    "homeScore": 85
   },
   {
     "id": "espn-401925771",
@@ -5259,11 +5285,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "20:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 76,
+    "homeScore": 61
   },
   {
     "id": "espn-401921697",
@@ -5276,11 +5304,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "20:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 63,
+    "homeScore": 66
   },
   {
     "id": "espn-401919039",
@@ -5310,11 +5340,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "20:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 59,
+    "homeScore": 94
   },
   {
     "id": "espn-401925947",
