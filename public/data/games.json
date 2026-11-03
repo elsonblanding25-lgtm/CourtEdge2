@@ -2205,9 +2205,9 @@
     "confidence": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 76,
+    "homeScore": 90,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401920769"
   },
@@ -2287,9 +2287,9 @@
     "confidence": 1,
     "awayML": 550,
     "homeML": -800,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 49,
+    "homeScore": 86,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401911452"
   },
@@ -2308,9 +2308,9 @@
     "confidence": 1,
     "awayML": 340,
     "homeML": -440,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 79,
+    "homeScore": 75,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401911517"
   },
@@ -2329,9 +2329,9 @@
     "confidence": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 62,
+    "homeScore": 76,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401921060"
   },
@@ -2350,9 +2350,9 @@
     "confidence": 1,
     "awayML": 750,
     "homeML": -1200,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 70,
+    "homeScore": 89,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401917509"
   },
@@ -2391,9 +2391,9 @@
     "confidence": 2,
     "awayML": 2500,
     "homeML": -9000,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 63,
+    "homeScore": 95,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401926771"
   },
@@ -5447,11 +5447,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "21:00",
     "site": "Neutral",
     "modelFavorite": "Arizona",
-    "modelSpread": -5.9
+    "modelSpread": -5.9,
+    "awayScore": 75,
+    "homeScore": 84
   },
   {
     "id": "espn-401925921",
@@ -5521,11 +5523,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "21:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 65,
+    "homeScore": 74
   },
   {
     "id": "espn-401920348",
@@ -5538,11 +5542,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "21:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 74,
+    "homeScore": 90
   },
   {
     "id": "espn-401917507",
@@ -5555,11 +5561,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "21:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 85,
+    "homeScore": 90
   },
   {
     "id": "espn-401920122",
@@ -5572,11 +5580,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "21:30",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 62,
+    "homeScore": 78
   },
   {
     "id": "espn-401917506",
