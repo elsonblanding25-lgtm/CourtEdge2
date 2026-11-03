@@ -1469,9 +1469,9 @@
     "confidence": 2,
     "awayML": 320,
     "homeML": -410,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 98,
+    "homeScore": 100,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401919001"
   },
@@ -1899,9 +1899,9 @@
     "confidence": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 79,
+    "homeScore": 103,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401911389"
   },
@@ -1940,9 +1940,9 @@
     "confidence": 1,
     "awayML": 124,
     "homeML": -148,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 83,
+    "homeScore": 94,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401916313"
   },
@@ -1981,9 +1981,9 @@
     "confidence": 1,
     "awayML": 5000,
     "homeML": -100000,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 70,
+    "homeScore": 84,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401918947"
   },
@@ -2022,9 +2022,9 @@
     "confidence": 1,
     "awayML": 5000,
     "homeML": -100000,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 55,
+    "homeScore": 94,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401925811"
   },
@@ -2266,9 +2266,9 @@
     "confidence": 1,
     "awayML": 1400,
     "homeML": -3200,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 69,
+    "homeScore": 87,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401922029"
   },
@@ -3494,9 +3494,9 @@
     "confidence": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 57,
+    "homeScore": 90,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401925640"
   },
@@ -3535,9 +3535,9 @@
     "confidence": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 62,
+    "homeScore": 124,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401925010"
   },
@@ -3616,9 +3616,9 @@
     "confidence": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 62,
+    "homeScore": 79,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401917508"
   },
@@ -3637,9 +3637,9 @@
     "confidence": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 47,
+    "homeScore": 110,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401926776"
   },
@@ -3678,9 +3678,9 @@
     "confidence": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 56,
+    "homeScore": 97,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401922260"
   },
@@ -3699,9 +3699,9 @@
     "confidence": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 75,
+    "homeScore": 100,
+    "status": "final",
     "source": "November 1 market snapshot",
     "espnId": "401920370"
   },
@@ -5124,11 +5124,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "20:15",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 50,
+    "homeScore": 122
   },
   {
     "id": "espn-401925683",
@@ -5198,11 +5200,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "20:15",
     "site": "Neutral",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 112,
+    "homeScore": 69
   },
   {
     "id": "espn-401911390",
@@ -5215,11 +5219,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "20:00",
     "site": "Home",
     "modelFavorite": "UConn",
-    "modelSpread": -38.8
+    "modelSpread": -38.8,
+    "awayScore": 46,
+    "homeScore": 86
   },
   {
     "id": "espn-401906863",
@@ -5232,11 +5238,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "20:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 59,
+    "homeScore": 109
   },
   {
     "id": "espn-401929179",
@@ -5249,11 +5257,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "20:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 79,
+    "homeScore": 88
   },
   {
     "id": "espn-401928351",
@@ -5323,11 +5333,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "20:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 60,
+    "homeScore": 91
   },
   {
     "id": "espn-401909759",
@@ -5359,11 +5371,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "20:30",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 61,
+    "homeScore": 102
   },
   {
     "id": "espn-401925887",
@@ -5376,11 +5390,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "20:30",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 64,
+    "homeScore": 117
   },
   {
     "id": "espn-401922020",
@@ -5393,11 +5409,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "20:30",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 58,
+    "homeScore": 94
   },
   {
     "id": "espn-401909750",
@@ -5410,11 +5428,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "20:30",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 65,
+    "homeScore": 87
   },
   {
     "id": "espn-401909738",
@@ -5444,11 +5464,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "21:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 69,
+    "homeScore": 134
   },
   {
     "id": "espn-401925878",
@@ -5461,11 +5483,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "21:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 74,
+    "homeScore": 84
   },
   {
     "id": "espn-401921731",
@@ -5478,11 +5502,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "21:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 65,
+    "homeScore": 75
   },
   {
     "id": "espn-401920716",
