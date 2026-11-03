@@ -5599,11 +5599,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "22:59",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 73,
+    "homeScore": 74
   },
   {
     "id": "espn-401906848",
