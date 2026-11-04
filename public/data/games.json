@@ -5844,11 +5844,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 61,
+    "homeScore": 106
   },
   {
     "id": "espn-401928621",
@@ -5880,11 +5882,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 70,
+    "homeScore": 106
   },
   {
     "id": "espn-401924950",
@@ -5916,11 +5920,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 57,
+    "homeScore": 100
   },
   {
     "id": "espn-401921165",
@@ -5952,11 +5958,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 66,
+    "homeScore": 97
   },
   {
     "id": "espn-401920702",
@@ -5969,11 +5977,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": "Iowa",
-    "modelSpread": -17.2
+    "modelSpread": -17.2,
+    "awayScore": 54,
+    "homeScore": 76
   },
   {
     "id": "espn-401909796",
@@ -6005,11 +6015,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:30",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 66,
+    "homeScore": 73
   },
   {
     "id": "espn-401924920",
@@ -6022,11 +6034,13 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:30",
     "site": "Home",
     "modelFavorite": null,
-    "modelSpread": null
+    "modelSpread": null,
+    "awayScore": 48,
+    "homeScore": 95
   },
   {
     "id": "espn-401929624",
