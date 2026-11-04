@@ -59,6 +59,15 @@ for(let offset=0;offset<days;offset++){
  const url=`https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=${date.replaceAll('-','')}&limit=500&groups=50`;
  let payload;try{const res=await fetch(url);if(!res.ok)throw Error(`ESPN ${res.status}`);payload=await res.json()}catch(e){console.warn('Schedule unavailable:',date,e.message);continue}
  for(const event of payload.events||[]){
+   
+if (
+  JSON.stringify(event).toLowerCase().includes("liberty") ||
+  JSON.stringify(event).toLowerCase().includes("high point")
+) {
+  console.log("ESPN MATCH CHECK:", date, event.id,
+    event.name, event.status?.type?.name);
+}
+
   const comp=event.competitions?.[0];if(!comp)continue;
   const away=comp.competitors?.find(c=>c.homeAway==='away'),home=comp.competitors?.find(c=>c.homeAway==='home');if(!away||!home)continue;
   const awayName=away.team?.displayName||'',homeName=home.team?.displayName||'';
