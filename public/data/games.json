@@ -6725,13 +6725,15 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "20:00",
     "site": "Home",
     "modelFavorite": null,
     "modelSpread": null,
     "espnAwayTeamId": "110418",
-    "espnHomeTeamId": "68"
+    "espnHomeTeamId": "68",
+    "awayScore": 53,
+    "homeScore": 132
   },
   {
     "id": "espn-401925939",
@@ -6807,13 +6809,15 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "21:00",
     "site": "Home",
     "modelFavorite": "LMU",
     "modelSpread": -4.4,
     "espnAwayTeamId": "2511",
-    "espnHomeTeamId": "2351"
+    "espnHomeTeamId": "2351",
+    "awayScore": 96,
+    "homeScore": 95
   },
   {
     "id": "espn-401917513",
@@ -6826,13 +6830,15 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "21:00",
     "site": "Home",
     "modelFavorite": "Santa Clara",
     "modelSpread": -15.6,
     "espnAwayTeamId": "270",
-    "espnHomeTeamId": "2541"
+    "espnHomeTeamId": "2541",
+    "awayScore": 72,
+    "homeScore": 95
   },
   {
     "id": "espn-401917512",
@@ -6845,13 +6851,15 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "21:00",
     "site": "Home",
     "modelFavorite": "Saint Mary's",
     "modelSpread": -11.5,
     "espnAwayTeamId": "2449",
-    "espnHomeTeamId": "2608"
+    "espnHomeTeamId": "2608",
+    "awayScore": 64,
+    "homeScore": 105
   },
   {
     "id": "espn-401925031",
