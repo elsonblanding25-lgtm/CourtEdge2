@@ -1,105 +1,71 @@
 
+/**
+ * CourtEdge NCAA Division I basketball sync
+ *
+ * - ESPN schedules and final scores
+ * - The Odds API sportsbook spreads and moneylines
+ * - Safer school aliases and mascot matching
+ * - Division I vs Division I games only on the website
+ * - Full historical archive, including excluded games
+ * - Preserves existing pregame predictions and lines
+ *
+ * Files:
+ * public/data/ratings.json       DI ratings roster
+ * public/data/games.json         Published DI-only games
+ * public/data/games_archive.json Complete archive
+ */
+
 import fs from 'node:fs';
 
 const base = new URL('../public/data/', import.meta.url);
-const read = name => JSON.parse(
-  fs.readFileSync(new URL(name, base), 'utf8')
-);
-const write = (name, data) => fs.writeFileSync(
-  new URL(name, base),
-  JSON.stringify(data, null, 2) + '\n'
+
+function read(name, fallback = null) {
+  const path = new URL(name, base);
+  if (!fs.existsSync(path)) return fallback;
+  return JSON.parse(fs.readFileSync(path, 'utf8'));
+}
+
+function write(name, value) {
+  fs.writeFileSync(
+    new URL(name, base),
+    JSON.stringify(value, null, 2) + '\n'
+  );
+}
+
+const published = read('games.json', []);
+const archive = read('games_archive.json', null);
+const ratings = read('ratings.json', []).filter(
+  r => Number.isInteger(r.rank) &&
+       Number.isFinite(r.bqNet)
 );
 
-const games = read('games.json');
-const ratings = read('ratings.json').filter(
-  r => Number.isInteger(r.rank) && Number.isFinite(r.bqNet)
-);
-const efficiency = ratings.map(r => r.bqNet).sort((a, b) => b - a);
+if (!Array.isArray(published) || ratings.length < 300) {
+  throw Error('Missing games or incomplete DI ratings.');
+}
+
+// Archive is authoritative after the first run.
+// Merge in any records that exist only in published games.
+const games = Array.isArray(archive) ? [...archive] : [...published];
+
+function recordKey(g) {
+  return g.espnId
+    ? `espn:${g.espnId}`
+    : g.id
+      ? `id:${g.id}`
+      : `game:${g.date}:${g.away}:${g.home}`;
+}
+
+const existingKeys = new Set(games.map(recordKey));
+
+for (const g of published) {
+  const id = recordKey(g);
+  if (!existingKeys.has(id)) {
+    games.push(g);
+    existingKeys.add(id);
+  }
+}
+
 const now = new Date();
-
-// IMPORTANT: "St" means State by default.
-// "Saint" is handled through explicit aliases.
-const aliases = {
-  'app st': 'appalachian state',
-  'app state': 'appalachian state',
-  'arizona st': 'arizona state',
-  'arkansas st': 'arkansas state',
-  'ball st': 'ball state',
-  'boise st': 'boise state',
-  'cal baptist': 'california baptist',
-  'cal st northridge': 'cal state northridge',
-  'chicago st': 'chicago state',
-  'c connecticut': 'central connecticut',
-  'central conn': 'central connecticut',
-  'csu northridge': 'cal state northridge',
-  'e michigan': 'eastern michigan',
-  'e illinois': 'eastern illinois',
-  'east tennessee st': 'east tennessee state',
-  'etsu': 'east tennessee state',
-  'fau': 'florida atlantic',
-  'fgcu': 'florida gulf coast',
-  'florida st': 'florida state',
-  'g washington': 'george washington',
-  'georgia st': 'georgia state',
-  'gw': 'george washington',
-  'idaho st': 'idaho state',
-  'indiana st': 'indiana state',
-  'jackson st': 'jackson state',
-  'jacksonville st': 'jacksonville state',
-  'kansas st': 'kansas state',
-  'kent st': 'kent state',
-  'liu': 'long island',
-  'loyola chi': 'loyola chicago',
-  'loyola md': 'loyola maryland',
-  'mcneese': 'mcneese state',
-  'miami fl': 'miami florida',
-  'miami fla': 'miami florida',
-  'miami oh': 'miami ohio',
-  'mississippi st': 'mississippi state',
-  'michigan st': 'michigan state',
-  'middle tennessee st': 'middle tennessee',
-  'n colorado': 'northern colorado',
-  'n dakota': 'north dakota',
-  'n dakota st': 'north dakota state',
-  'n illinois': 'northern illinois',
-  'n iowa': 'northern iowa',
-  'n kentucky': 'northern kentucky',
-  'n texas': 'north texas',
-  'nc st': 'north carolina state',
-  'north carolina st': 'north carolina state',
-  'northwestern st': 'northwestern state',
-  'ole miss': 'mississippi',
-  'oregon st': 'oregon state',
-  'penn': 'pennsylvania',
-  'purdue fort wayne': 'fort wayne',
-  's dakota': 'south dakota',
-  's dakota st': 'south dakota state',
-  's florida': 'south florida',
-  's illinois': 'southern illinois',
-  'se missouri st': 'southeast missouri state',
-  'southern miss': 'southern mississippi',
-  'st bonaventure': 'saint bonaventure',
-  'st johns': 'saint johns',
-  'st josephs': 'saint josephs',
-  'st marys': 'saint marys',
-  'st peters': 'saint peters',
-  'st thomas': 'saint thomas',
-  'st thomas mn': 'saint thomas',
-  'tarleton st': 'tarleton state',
-  'tennessee st': 'tennessee state',
-  'texas st': 'texas state',
-  'uconn': 'connecticut',
-  'ucf': 'central florida',
-  'unc': 'north carolina',
-  'uncw': 'unc wilmington',
-  'umass': 'massachusetts',
-  'umkc': 'kansas city',
-  'ut martin': 'tennessee martin',
-  'usc upstate': 'south carolina upstate',
-  'w michigan': 'western michigan',
-  'wright st': 'wright state',
-  'youngstown st': 'youngstown state'
-};
 
 function clean(value) {
   return String(value ?? '')
@@ -112,71 +78,251 @@ function clean(value) {
     .trim();
 }
 
-function normalize(value) {
-  let n = clean(value);
-  if (aliases[n]) return aliases[n];
+// Every alias maps to a specific school.
+// "St" is NOT globally changed to Saint or State.
+const aliases = {
+  'albany': 'albany',
+  'ualbany': 'albany',
+  'arizona st': 'arizona state',
+  'app st': 'appalachian state',
+  'app state': 'appalachian state',
+  'arkansas st': 'arkansas state',
+  'ball st': 'ball state',
+  'bethune': 'bethune cookman',
+  'bethune cookman': 'bethune cookman',
+  'boise st': 'boise state',
+  'c connecticut': 'central connecticut',
+  'cal baptist': 'california baptist',
+  'ca baptist': 'california baptist',
+  'cal st northridge': 'cal state northridge',
+  'csu northridge': 'cal state northridge',
+  'central conn': 'central connecticut',
+  'chicago st': 'chicago state',
+  'coastal': 'coastal carolina',
+  'coastal carolina': 'coastal carolina',
+  'detroit': 'detroit mercy',
+  'detroit mercy': 'detroit mercy',
+  'e illinois': 'eastern illinois',
+  'e michigan': 'eastern michigan',
+  'e washington': 'eastern washington',
+  'east tennessee st': 'east tennessee state',
+  'etsu': 'east tennessee state',
+  'fau': 'florida atlantic',
+  'fgcu': 'florida gulf coast',
+  'florida st': 'florida state',
+  'ga southern': 'georgia southern',
+  'g washington': 'george washington',
+  'gw': 'george washington',
+  'georgia st': 'georgia state',
+  'idaho st': 'idaho state',
+  'indiana st': 'indiana state',
+  'jackson st': 'jackson state',
+  'jacksonville st': 'jacksonville state',
+  'jax state': 'jacksonville state',
+  'kansas st': 'kansas state',
+  'kent st': 'kent state',
+  'liu': 'long island',
+  'long island': 'long island',
+  'loyola chi': 'loyola chicago',
+  'loyola chicago': 'loyola chicago',
+  'loyola md': 'loyola maryland',
+  'mcneese': 'mcneese state',
+  'mcneese state': 'mcneese state',
+  'miami fl': 'miami florida',
+  'miami fla': 'miami florida',
+  'miami florida': 'miami florida',
+  'miami oh': 'miami ohio',
+  'mississippi st': 'mississippi state',
+  'michigan st': 'michigan state',
+  'mtsu': 'middle tennessee',
+  'middle tennessee st': 'middle tennessee',
+  'n colorado': 'northern colorado',
+  'n dakota': 'north dakota',
+  'n dakota st': 'north dakota state',
+  'n illinois': 'northern illinois',
+  'n iowa': 'northern iowa',
+  'n kentucky': 'northern kentucky',
+  'n texas': 'north texas',
+  'nc st': 'north carolina state',
+  'north carolina st': 'north carolina state',
+  'northwestern st': 'northwestern state',
+  'n western st': 'northwestern state',
+  'nwestern st': 'northwestern state',
+  'ole miss': 'mississippi',
+  'oregon st': 'oregon state',
+  'penn': 'pennsylvania',
+  'pennsylvania': 'pennsylvania',
+  'pitt': 'pittsburgh',
+  'pittsburgh': 'pittsburgh',
+  'purdue fort wayne': 'fort wayne',
+  'robert morris': 'robert morris',
+  's dakota': 'south dakota',
+  's dakota st': 'south dakota state',
+  's florida': 'south florida',
+  's illinois': 'southern illinois',
+  'se missouri st': 'southeast missouri state',
+  'southern miss': 'southern mississippi',
+  'southern mississippi': 'southern mississippi',
+  'st bonaventure': 'saint bonaventure',
+  'st johns': 'saint johns',
+  'st josephs': 'saint josephs',
+  'st marys': 'saint marys',
+  'st peters': 'saint peters',
+  'st thomas': 'saint thomas',
+  'st thomas mn': 'saint thomas',
+  'saint thomas mn': 'saint thomas',
+  'tarleton st': 'tarleton state',
+  'tennessee st': 'tennessee state',
+  'texas st': 'texas state',
+  'ucf': 'central florida',
+  'uconn': 'connecticut',
+  'unc': 'north carolina',
+  'uncw': 'unc wilmington',
+  'umass': 'massachusetts',
+  'umkc': 'kansas city',
+  'ut martin': 'tennessee martin',
+  'usc upstate': 'south carolina upstate',
+  'w michigan': 'western michigan',
+  'wright st': 'wright state',
+  'youngstown st': 'youngstown state'
+};
 
-  // Convert abbreviated "St" to State, not Saint.
-  n = n.replace(/\bst\b/g, 'state');
+// Known mascot-containing or unusual sportsbook labels.
+const specialAliases = {
+  'mcneese cowboys': 'mcneese state',
+  'liu sharks': 'long island',
+  'albany great danes': 'albany',
+  'buffalo bulls': 'buffalo',
+  'northwestern st demons': 'northwestern state',
+  'coastal carolina chanticleers': 'coastal carolina',
+  'jacksonville st gamecocks': 'jacksonville state',
+  'west georgia wolves': 'west georgia',
+  'loyola chi ramblers': 'loyola chicago',
+  'bethune cookman wildcats': 'bethune cookman',
+  'eastern washington eagles': 'eastern washington',
+  'georgia southern eagles': 'georgia southern',
+  'ucf knights': 'central florida',
+  'detroit mercy titans': 'detroit mercy',
+  'southern miss golden eagles': 'southern mississippi',
+  'uconn huskies': 'connecticut',
+  'st thomas mn tommies': 'saint thomas',
+  'saint thomas mn tommies': 'saint thomas',
+  'central arkansas bears': 'central arkansas',
+  'ole miss rebels': 'mississippi',
+  'southern illinois salukis': 'southern illinois',
+  'umkc kangaroos': 'kansas city',
+  'n colorado bears': 'northern colorado',
+  'csu northridge matadors': 'cal state northridge',
+  'middle tennessee blue raiders': 'middle tennessee',
+  'cal baptist lancers': 'california baptist',
+  'tarleton state texans': 'tarleton state',
+  'north dakota st bison': 'north dakota state',
+  'vmi keydets': 'vmi',
+  'smu mustangs': 'smu',
+  'byu cougars': 'byu',
+  'uic flames': 'uic',
+  'wright st raiders': 'wright state'
+};
 
-  return aliases[n] || n;
+function directName(raw) {
+  const n = clean(raw);
+  return specialAliases[n] || aliases[n] || n;
 }
 
-const rated = new Map(
-  ratings.map(r => [normalize(r.team), r])
+// Additional DI programs that may not yet be in ratings.
+// This list is intentionally small; verify it when ratings update.
+const additionalDI = [
+  'west georgia',
+  'mercyhurst',
+  'le moyne'
+];
+
+// The ratings roster is the main DI authority.
+const diNames = new Set([
+  ...ratings.map(r => directName(r.team)),
+  ...additionalDI.map(directName)
+]);
+
+// School-name dictionary for stripping mascot suffixes.
+// Longest names first so "Kansas State" is never "Kansas".
+const schoolAliases = new Map();
+
+for (const name of diNames) {
+  schoolAliases.set(name, name);
+}
+
+for (const [alias, canonical] of Object.entries(aliases)) {
+  schoolAliases.set(clean(alias), directName(canonical));
+}
+
+for (const [alias, canonical] of Object.entries(specialAliases)) {
+  schoolAliases.set(clean(alias), directName(canonical));
+}
+
+const prefixes = [...schoolAliases.entries()].sort(
+  (a, b) => b[0].length - a[0].length
 );
 
-function rating(...names) {
-  for (const name of names) {
-    const found = rated.get(normalize(name));
-    if (found) return found;
-  }
-  return null;
-}
-
-// Recognize sportsbook names with mascot suffixes.
-// Prefer the longest school name to avoid Michigan/Michigan State.
-const schoolNames = [...new Set([
-  ...ratings.map(r => normalize(r.team)),
-  ...games.flatMap(g => [
-    normalize(g.away),
-    normalize(g.home)
-  ]),
-  ...Object.values(aliases).map(normalize)
-].filter(Boolean))].sort((a, b) => b.length - a.length);
-
-const schoolSet = new Set(schoolNames);
-
 function schoolName(raw) {
-  const n = normalize(raw);
-  if (schoolSet.has(n)) return n;
+  const n = clean(raw);
 
-  const matches = schoolNames.filter(
-    school => n.startsWith(school + ' ')
-  );
+  if (!n) return '';
 
-  return matches[0] || n;
+  if (schoolAliases.has(n)) {
+    return schoolAliases.get(n);
+  }
+
+  // Strip a mascot only after a recognized school name.
+  // This does not perform arbitrary fuzzy matching.
+  for (const [prefix, canonical] of prefixes) {
+    if (n.startsWith(prefix + ' ')) {
+      return canonical;
+    }
+  }
+
+  return directName(n);
 }
 
 function sameSchool(a, b) {
   const x = schoolName(a);
   const y = schoolName(b);
-
-  if (x === y) return true;
-
-  const ra = rating(a, x);
-  const rb = rating(b, y);
-
-  return Boolean(ra && rb && ra === rb);
+  return Boolean(x && y && x === y);
 }
 
-function centralDate(date) {
+function isDI(name) {
+  return diNames.has(schoolName(name));
+}
+
+function isDIGame(g) {
+  return isDI(g.away) && isDI(g.home);
+}
+
+// Ratings lookup using the same canonical school identity.
+const rated = new Map();
+
+for (const r of ratings) {
+  rated.set(schoolName(r.team), r);
+}
+
+function rating(...names) {
+  for (const n of names) {
+    const result = rated.get(schoolName(n));
+    if (result) return result;
+  }
+  return null;
+}
+
+const efficiency = ratings
+  .map(r => r.bqNet)
+  .sort((a, b) => b - a);
+
+function centralDate(value) {
   const parts = new Intl.DateTimeFormat('en-US', {
     timeZone: 'America/Chicago',
     year: 'numeric',
     month: '2-digit',
     day: '2-digit'
-  }).formatToParts(date);
+  }).formatToParts(value);
 
   const p = Object.fromEntries(
     parts.map(item => [item.type, item.value])
@@ -187,8 +333,10 @@ function centralDate(date) {
 
 function isFinal(g) {
   return g.status === 'final' ||
-    (Number.isFinite(g.awayScore) &&
-     Number.isFinite(g.homeScore));
+    (
+      Number.isFinite(g.awayScore) &&
+      Number.isFinite(g.homeScore)
+    );
 }
 
 function competitorNames(c) {
@@ -206,9 +354,13 @@ function competitorMatches(name, competitor) {
   );
 }
 
+function competitorDI(c) {
+  return competitorNames(c).some(isDI);
+}
+
 function setModel(g, awayNames = [], homeNames = []) {
   if (g.modelSpread != null || g.modelFavorite) return false;
-  if (isFinal(g)) return false;
+  if (isFinal(g) || !isDIGame(g)) return false;
   if (!g.date || g.date < centralDate(now)) return false;
 
   const away = rating(g.away, ...awayNames);
@@ -223,11 +375,14 @@ function setModel(g, awayNames = [], homeNames = []) {
     return false;
   }
 
-  const margin = 0.7 * (hv - av) +
+  const margin =
+    0.7 * (hv - av) +
     (g.site === 'Neutral' ? 0 : 3);
 
   g.modelFavorite = margin >= 0 ? g.home : g.away;
-  g.modelSpread = -Math.round(Math.abs(margin) * 10) / 10;
+  g.modelSpread =
+    -Math.round(Math.abs(margin) * 10) / 10;
+
   g.modelGeneratedAt = now.toISOString();
 
   return true;
@@ -241,11 +396,19 @@ function computeEdge(g) {
     !g.marketFavorite
   ) return;
 
-  const modelHome = sameSchool(g.modelFavorite, g.home)
+  const mf = schoolName(g.modelFavorite);
+  const sf = schoolName(g.marketFavorite);
+  const home = schoolName(g.home);
+  const away = schoolName(g.away);
+
+  if (![home, away].includes(mf)) return;
+  if (![home, away].includes(sf)) return;
+
+  const modelHome = mf === home
     ? -Math.abs(g.modelSpread)
     : Math.abs(g.modelSpread);
 
-  const marketHome = sameSchool(g.marketFavorite, g.home)
+  const marketHome = sf === home
     ? -Math.abs(g.marketSpread)
     : Math.abs(g.marketSpread);
 
@@ -256,15 +419,17 @@ function computeEdge(g) {
   g.confidence = Math.min(
     5,
     1 + [3, 6, 10, 15].filter(
-      threshold => g.edge >= threshold
+      t => g.edge >= t
     ).length
   );
 }
 
-// ESPN SCORE AND SCHEDULE SYNC
+// ---------------- ESPN ----------------
+
 const lookback = Math.max(
   0, Number(process.env.SYNC_LOOKBACK_DAYS ?? 14)
 );
+
 const forward = Math.max(
   0, Number(process.env.SYNC_FORWARD_DAYS ?? 7)
 );
@@ -281,6 +446,7 @@ let linked = 0;
 let finals = 0;
 let models = 0;
 let ambiguous = 0;
+let skippedNonDI = 0;
 
 const seen = new Set();
 
@@ -307,11 +473,13 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
 
       const payload = await response.json();
 
-      for (const event of payload.events || []) {
-        events.set(String(event.id), event);
+      for (const e of payload.events || []) {
+        events.set(String(e.id), e);
       }
     } catch (error) {
-      console.warn(`ESPN ${date}: ${error.message}`);
+      console.warn(
+        `ESPN ${date}: ${error.message}`
+      );
     }
   }
 
@@ -319,13 +487,13 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
     if (seen.has(String(event.id))) continue;
     seen.add(String(event.id));
 
-    const competition = event.competitions?.[0];
-    if (!competition) continue;
+    const comp = event.competitions?.[0];
+    if (!comp) continue;
 
-    const away = competition.competitors?.find(
+    const away = comp.competitors?.find(
       c => c.homeAway === 'away'
     );
-    const home = competition.competitors?.find(
+    const home = comp.competitors?.find(
       c => c.homeAway === 'home'
     );
 
@@ -333,91 +501,96 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
 
     eventsSeen++;
 
+    // Don't import new non-DI games.
+    if (!competitorDI(away) || !competitorDI(home)) {
+      skippedNonDI++;
+      continue;
+    }
+
     const when = new Date(
-      event.date || competition.date ||
-      date + 'T12:00:00Z'
+      event.date || comp.date || date + 'T12:00:00Z'
     );
+
     const gameDate = Number.isFinite(when.getTime())
       ? centralDate(when)
       : date;
 
-    let game = games.find(
-      g => String(g.espnId || '') === String(event.id)
+    let g = games.find(
+      x => String(x.espnId || '') === String(event.id)
     );
 
-    if (!game) {
+    if (!g) {
       const candidates = games.filter(
-        g => !g.espnId &&
-          g.date === gameDate &&
+        x =>
+          !x.espnId &&
+          x.date === gameDate &&
           (
             (
-              competitorMatches(g.away, away) &&
-              competitorMatches(g.home, home)
+              competitorMatches(x.away, away) &&
+              competitorMatches(x.home, home)
             ) ||
             (
-              competitorMatches(g.away, home) &&
-              competitorMatches(g.home, away)
+              competitorMatches(x.away, home) &&
+              competitorMatches(x.home, away)
             )
           )
       );
 
       if (candidates.length > 1) {
         ambiguous++;
-        console.warn(`ESPN AMBIGUOUS: ${event.id}`);
+        console.warn(
+          `ESPN AMBIGUOUS: ${event.id}`
+        );
         continue;
       }
 
       if (candidates.length === 1) {
-        game = candidates[0];
+        g = candidates[0];
         linked++;
 
-        const reversed =
-          competitorMatches(game.away, home) &&
-          competitorMatches(game.home, away);
+        const oldAway = g.away;
+        const oldHome = g.home;
 
-        const oldAway = game.away;
-        const oldHome = game.home;
+        const reversed =
+          competitorMatches(oldAway, home) &&
+          competitorMatches(oldHome, away);
 
         if (reversed) {
-          game.originalAway = oldAway;
-          game.originalHome = oldHome;
-          game.pregameOrientationMismatch = true;
+          g.originalAway = oldAway;
+          g.originalHome = oldHome;
+          g.pregameOrientationMismatch = true;
 
-          [game.awayML, game.homeML] =
-            [game.homeML, game.awayML];
+          [g.awayML, g.homeML] =
+            [g.homeML, g.awayML];
         }
 
-        for (const field of ['modelFavorite', 'marketFavorite']) {
-          if (sameSchool(game[field], oldAway)) {
-            game[field] = competitorNames(away)[0] &&
-              (reversed
-                ? competitorNames(home)[0]
-                : competitorNames(away)[0]);
-          } else if (sameSchool(game[field], oldHome)) {
-            game[field] = reversed
-              ? competitorNames(away)[0]
-              : competitorNames(home)[0];
+        const newAway = competitorNames(away)[0];
+        const newHome = competitorNames(home)[0];
+
+        for (const field of [
+          'modelFavorite',
+          'marketFavorite'
+        ]) {
+          if (sameSchool(g[field], newAway)) {
+            g[field] = newAway;
+          } else if (sameSchool(g[field], newHome)) {
+            g[field] = newHome;
           }
         }
 
-        game.away = competitorNames(away)[0];
-        game.home = competitorNames(home)[0];
-        game.site = competition.neutralSite ? 'Neutral' : 'Home';
+        g.away = newAway;
+        g.home = newHome;
+        g.site = comp.neutralSite ? 'Neutral' : 'Home';
       }
     }
 
-    if (!game) {
-      if (
-        !rating(...competitorNames(away)) ||
-        !rating(...competitorNames(home))
-      ) continue;
-
-      game = {
+    if (!g) {
+      g = {
         id: `espn-${event.id}`,
         date: gameDate,
         away: competitorNames(away)[0],
         home: competitorNames(home)[0],
-        site: competition.neutralSite ? 'Neutral' : 'Home',
+        site: comp.neutralSite ? 'Neutral' : 'Home',
         source: 'ESPN / The Odds API',
         modelFavorite: null,
         modelSpread: null,
@@ -430,16 +603,21 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
         status: 'scheduled'
       };
 
-      games.push(game);
+      games.push(g);
       added++;
     }
 
-    game.espnId = String(event.id);
-    game.espnAwayTeamId = String(away.team?.id || '');
-    game.espnHomeTeamId = String(home.team?.id || '');
+    g.espnId = String(event.id);
 
-    if (!game.time && Number.isFinite(when.getTime())) {
-      game.time = new Intl.DateTimeFormat('en-US', {
+    if (away.team?.id) {
+      g.espnAwayTeamId = String(away.team.id);
+    }
+    if (home.team?.id) {
+      g.espnHomeTeamId = String(home.team.id);
+    }
+
+    if (!g.time && Number.isFinite(when.getTime())) {
+      g.time = new Intl.DateTimeFormat('en-US', {
         timeZone: 'America/Chicago',
         hour: '2-digit',
         minute: '2-digit',
@@ -448,7 +626,7 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
     }
 
     const complete = Boolean(
-      competition.status?.type?.completed ||
+      comp.status?.type?.completed ||
       event.status?.type?.completed
     );
 
@@ -456,11 +634,13 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
       !complete &&
       when > now &&
       setModel(
-        game,
+        g,
         competitorNames(away),
         competitorNames(home)
       )
-    ) models++;
+    ) {
+      models++;
+    }
 
     if (complete) {
       const as = away.score;
@@ -472,25 +652,26 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
         Number.isFinite(Number(as)) &&
         Number.isFinite(Number(hs))
       ) {
-        game.awayScore = Number(as);
-        game.homeScore = Number(hs);
-        game.status = 'final';
+        g.awayScore = Number(as);
+        g.homeScore = Number(hs);
+        g.status = 'final';
         finals++;
       }
-    } else if (!isFinal(game)) {
-      game.status = 'scheduled';
+    } else if (!isFinal(g)) {
+      g.status = 'scheduled';
     }
 
-    computeEdge(game);
+    computeEdge(g);
   }
 }
 
-for (const game of games) {
-  if (setModel(game)) models++;
-  computeEdge(game);
+for (const g of games) {
+  if (setModel(g)) models++;
+  computeEdge(g);
 }
 
-// THE ODDS API
+// ---------------- SPORTSBOOK ODDS ----------------
+
 if (process.env.ODDS_API_KEY) {
   try {
     const url =
@@ -514,17 +695,30 @@ if (process.env.ODDS_API_KEY) {
     let ambiguousOdds = 0;
     let noSpread = 0;
     let completed = 0;
+    let nonDI = 0;
 
     for (const event of odds) {
       const startTime = new Date(event.commence_time);
 
-      if (!Number.isFinite(startTime.getTime())) continue;
+      if (!Number.isFinite(startTime.getTime())) {
+        continue;
+      }
+
+      // Skip sportsbook games containing non-DI teams.
+      if (
+        !isDI(event.away_team) ||
+        !isDI(event.home_team)
+      ) {
+        nonDI++;
+        continue;
+      }
 
       const date = centralDate(startTime);
 
-      // Require the exact game date and both school identities.
       const candidates = games.filter(
-        g => g.date === date &&
+        g =>
+          isDIGame(g) &&
+          g.date === date &&
           (
             (
               sameSchool(g.away, event.away_team) &&
@@ -540,15 +734,6 @@ if (process.env.ODDS_API_KEY) {
       if (candidates.length === 0) {
         unmatched++;
 
-        const sameDate = games.filter(g => g.date === date);
-        const closest = sameDate.filter(
-          g =>
-            sameSchool(g.away, event.away_team) ||
-            sameSchool(g.home, event.home_team) ||
-            sameSchool(g.away, event.home_team) ||
-            sameSchool(g.home, event.away_team)
-        ).slice(0, 3);
-
         console.log(
           `ODDS UNMATCHED: ${date} ` +
           `${event.away_team} @ ${event.home_team}` +
@@ -556,9 +741,20 @@ if (process.env.ODDS_API_KEY) {
           `${schoolName(event.home_team)}]`
         );
 
+        const closest = games.filter(
+          g =>
+            g.date === date &&
+            (
+              sameSchool(g.away, event.away_team) ||
+              sameSchool(g.home, event.home_team) ||
+              sameSchool(g.away, event.home_team) ||
+              sameSchool(g.home, event.away_team)
+            )
+        ).slice(0, 3);
+
         for (const g of closest) {
           console.log(
-            `  CLOSEST: ${g.away} @ ${g.home} (${g.date})`
+            `  CLOSEST: ${g.away} @ ${g.home}`
           );
         }
 
@@ -569,20 +765,20 @@ if (process.env.ODDS_API_KEY) {
         ambiguousOdds++;
         console.log(
           `ODDS AMBIGUOUS: ${date} ` +
-          `${event.away_team} @ ${event.home_team}` +
-          ` (${candidates.length} candidates)`
+          `${event.away_team} @ ${event.home_team}`
         );
         continue;
       }
 
-      const game = candidates[0];
+      const g = candidates[0];
 
-      if (isFinal(game)) {
+      if (isFinal(g)) {
         completed++;
         continue;
       }
 
-      if (game.marketSpread != null) {
+      // Never overwrite a previously captured market line.
+      if (g.marketSpread != null) {
         already++;
         continue;
       }
@@ -593,24 +789,25 @@ if (process.env.ODDS_API_KEY) {
           Number(a.key === 'draftkings')
       );
 
-      let chosen = null;
+      let selected = null;
       let homeLine = null;
 
       for (const book of books) {
-        const outcomes = book.markets?.find(
+        const spread = book.markets?.find(
           m => m.key === 'spreads'
         )?.outcomes || [];
 
-        const home = outcomes.find(
-          o => sameSchool(o.name, game.home)
+        const home = spread.find(
+          o => sameSchool(o.name, g.home)
         );
-        const away = outcomes.find(
-          o => sameSchool(o.name, game.away)
+        const away = spread.find(
+          o => sameSchool(o.name, g.away)
         );
 
         if (
           !home || !away ||
-          home.point == null || away.point == null
+          home.point == null ||
+          away.point == null
         ) continue;
 
         const hp = Number(home.point);
@@ -622,48 +819,43 @@ if (process.env.ODDS_API_KEY) {
           Math.abs(hp + ap) > 0.01
         ) continue;
 
-        chosen = book;
+        selected = book;
         homeLine = hp;
         break;
       }
 
-      if (!chosen) {
+      if (!selected) {
         noSpread++;
-        console.log(
-          `ODDS NO SPREAD: ${date} ` +
-          `${event.away_team} @ ${event.home_team}`
-        );
         continue;
       }
 
-      game.marketFavorite =
-        homeLine < 0 ? game.home :
-        homeLine > 0 ? game.away : null;
+      g.marketFavorite =
+        homeLine < 0 ? g.home :
+        homeLine > 0 ? g.away : null;
 
-      game.marketSpread = -Math.abs(homeLine);
+      g.marketSpread = -Math.abs(homeLine);
 
-      const money = chosen.markets?.find(
+      const money = selected.markets?.find(
         m => m.key === 'h2h'
       )?.outcomes || [];
 
-      game.homeML = money.find(
-        m => sameSchool(m.name, game.home)
-      )?.price ?? game.homeML ?? null;
+      g.homeML = money.find(
+        m => sameSchool(m.name, g.home)
+      )?.price ?? g.homeML ?? null;
 
-      game.awayML = money.find(
-        m => sameSchool(m.name, game.away)
-      )?.price ?? game.awayML ?? null;
+      g.awayML = money.find(
+        m => sameSchool(m.name, g.away)
+      )?.price ?? g.awayML ?? null;
 
-      game.oddsBook = chosen.title;
-      game.oddsCapturedAt = now.toISOString();
+      g.oddsBook = selected.title;
+      g.oddsCapturedAt = now.toISOString();
 
-      computeEdge(game);
+      computeEdge(g);
       saved++;
 
       console.log(
-        `ODDS SAVED: ${date} ` +
-        `${game.away} @ ${game.home}: ` +
-        `${game.marketFavorite || 'PK'} ${game.marketSpread}`
+        `ODDS SAVED: ${date} ${g.away} @ ${g.home}: ` +
+        `${g.marketFavorite || 'PK'} ${g.marketSpread}`
       );
     }
 
@@ -671,43 +863,65 @@ if (process.env.ODDS_API_KEY) {
       `ODDS: ${odds.length} events; ` +
       `saved ${saved}; already had lines ${already}; ` +
       `unmatched ${unmatched}; ambiguous ${ambiguousOdds}; ` +
-      `no spread offered ${noSpread}; final games ${completed}.`
+      `no spread offered ${noSpread}; ` +
+      `final games ${completed}; ` +
+      `non-DI excluded ${nonDI}.`
     );
   } catch (error) {
-    console.warn(`Odds unavailable: ${error.message}`);
+    console.warn(
+      `Odds unavailable: ${error.message}`
+    );
   }
 } else {
   console.log('ODDS_API_KEY not set.');
 }
 
-// VALIDATION AND SAVE
-const ids = games.filter(g => g.espnId).map(
-  g => String(g.espnId)
-);
+// ---------------- VALIDATION ----------------
+
+const ids = games
+  .filter(g => g.espnId)
+  .map(g => String(g.espnId));
 
 if (new Set(ids).size !== ids.length) {
-  throw Error('Duplicate ESPN IDs. Refusing to publish.');
+  throw Error(
+    'Duplicate ESPN IDs detected. Refusing to publish.'
+  );
 }
 
-write('games.json', games);
+// The archive preserves everything.
+// The website receives only DI vs DI games.
+const diGames = games.filter(isDIGame);
+const excluded = games.filter(g => !isDIGame(g));
+
+// Write archive first so excluded games are recoverable.
+write('games_archive.json', games);
+write('games.json', diGames);
 
 console.log(
-  `SYNC: ESPN events ${eventsSeen}; added ${added}; ` +
-  `linked ${linked}; finals seen ${finals}; ` +
-  `new pregame models ${models}; ambiguous ${ambiguous}; ` +
-  `saved ${games.length}.`
+  `SYNC: ESPN events ${eventsSeen}; ` +
+  `added ${added}; linked ${linked}; ` +
+  `finals seen ${finals}; ` +
+  `new pregame models ${models}; ` +
+  `ambiguous ${ambiguous}; ` +
+  `ESPN non-DI skipped ${skippedNonDI}.`
 );
 
 console.log(
-  `COVERAGE: ${games.filter(g => !g.espnId).length} ` +
-  `without ESPN IDs; ` +
-  `${games.filter(g => g.modelSpread == null).length} ` +
-  `without model predictions; ` +
-  `${games.filter(isFinal).length} final games.`
+  `DI FILTER: ${games.length} total archived; ` +
+  `${diGames.length} published DI games; ` +
+  `${excluded.length} excluded from website.`
 );
 
-for (const g of games.filter(g => !g.espnId).slice(0, 20)) {
+console.log(
+  `COVERAGE: ` +
+  `${diGames.filter(g => !g.espnId).length} without ESPN IDs; ` +
+  `${diGames.filter(g => g.modelSpread == null).length} without models; ` +
+  `${diGames.filter(isFinal).length} final DI games.`
+);
+
+for (const g of excluded.slice(0, 30)) {
   console.log(
-    `NO ESPN ID: ${g.date} ${g.away} @ ${g.home}`
+    `EXCLUDED: ${g.date} ${g.away} @ ${g.home} ` +
+    `[away DI=${isDI(g.away)}, home DI=${isDI(g.home)}]`
   );
 }
