@@ -8585,5 +8585,27 @@
     "espnHomeTeamId": "2244",
     "time": "14:00",
     "modelGeneratedAt": "2026-11-05T19:37:16.731Z"
+  },
+  {
+    "id": "espn-401909707",
+    "date": "2026-11-08",
+    "away": "Pitt",
+    "home": "Penn State",
+    "site": "Neutral",
+    "source": "ESPN / The Odds API",
+    "modelFavorite": "Pitt",
+    "modelSpread": -1.8,
+    "marketFavorite": null,
+    "marketSpread": null,
+    "awayML": null,
+    "homeML": null,
+    "awayScore": null,
+    "homeScore": null,
+    "status": "scheduled",
+    "espnId": "401909707",
+    "espnAwayTeamId": "221",
+    "espnHomeTeamId": "213",
+    "time": "19:00",
+    "modelGeneratedAt": "2026-11-05T22:59:07.040Z"
   }
 ]
