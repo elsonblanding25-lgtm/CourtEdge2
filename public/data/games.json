@@ -6641,13 +6641,15 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": "N Kentucky",
     "modelSpread": -0.8,
     "espnAwayTeamId": "94",
-    "espnHomeTeamId": "233"
+    "espnHomeTeamId": "233",
+    "awayScore": 102,
+    "homeScore": 94
   },
   {
     "id": "espn-401925893",
@@ -6660,13 +6662,15 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": null,
     "modelSpread": null,
     "espnAwayTeamId": "3153",
-    "espnHomeTeamId": "2450"
+    "espnHomeTeamId": "2450",
+    "awayScore": 71,
+    "homeScore": 78
   },
   {
     "id": "espn-401923391",
@@ -6700,13 +6704,15 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": null,
     "modelSpread": null,
     "espnAwayTeamId": "2545",
-    "espnHomeTeamId": "2"
+    "espnHomeTeamId": "2",
+    "awayScore": 59,
+    "homeScore": 92
   },
   {
     "id": "espn-401929171",
@@ -6738,13 +6744,15 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "20:00",
     "site": "Home",
     "modelFavorite": null,
     "modelSpread": null,
     "espnAwayTeamId": "134743",
-    "espnHomeTeamId": "3101"
+    "espnHomeTeamId": "3101",
+    "awayScore": 52,
+    "homeScore": 103
   },
   {
     "id": "espn-401922030",
@@ -6757,13 +6765,15 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "20:00",
     "site": "Home",
     "modelFavorite": null,
     "modelSpread": null,
     "espnAwayTeamId": "131858",
-    "espnHomeTeamId": "149"
+    "espnHomeTeamId": "149",
+    "awayScore": 40,
+    "homeScore": 105
   },
   {
     "id": "espn-401918052",
@@ -6776,13 +6786,15 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "20:00",
     "site": "Home",
     "modelFavorite": "California",
     "modelSpread": -13.6,
     "espnAwayTeamId": "2515",
-    "espnHomeTeamId": "25"
+    "espnHomeTeamId": "25",
+    "awayScore": 70,
+    "homeScore": 84
   },
   {
     "id": "espn-401917514",
