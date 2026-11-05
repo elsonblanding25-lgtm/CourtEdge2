@@ -395,38 +395,97 @@ for (const g of games) {
   computeEdge(g);
 }
 
-// Match sportsbook names containing mascots to school names.
-const schoolKeys = [
-  ...new Set(ratings.map(r => key(r.team)))
-].sort((a, b) => b.length - a.length);
+// Resolve sportsbook team names, including mascot suffixes and common
+// abbreviations. Exact/alias matches take priority over prefix matches.
+// No fuzzy similarity matching: an uncertain matchup stays unmatched.
+const oddsAliases = {
+  'mcneese': 'mcneese state',
+  'mcneese cowboys': 'mcneese state',
+  'chicago saint': 'chicago state',
+  'chicago saint cougars': 'chicago state',
+  'liu sharks': 'long island',
+  'albany great danes': 'albany',
+  'howard bison': 'howard',
+  'buffalo bulls': 'buffalo',
+  'jackson saint': 'jackson state',
+  'jackson saint tigers': 'jackson state',
+  'northwestern saint': 'northwestern state',
+  'northwestern saint demons': 'northwestern state',
+  'jacksonville saint': 'jacksonville state',
+  'jacksonville saint gamecocks': 'jacksonville state',
+  'pennsylvania quakers': 'pennsylvania',
+  'bethune cookman wildcats': 'bethune cookman',
+  'eastern washington eagles': 'eastern washington',
+  'youngstown saint': 'youngstown state',
+  'youngstown saint penguins': 'youngstown state',
+  'austin peay governors': 'austin peay',
+  'east tennessee saint': 'east tennessee state',
+  'east tennessee saint buccaneers': 'east tennessee state',
+  'georgia southern eagles': 'georgia southern',
+  'florida atlantic owls': 'florida atlantic',
+  'detroit mercy titans': 'detroit mercy',
+  'southern miss golden eagles': 'southern mississippi',
+  'uconn huskies': 'connecticut',
+  'saint thomas mn': 'saint thomas',
+  'saint thomas mn tommies': 'saint thomas',
+  'robert morris colonials': 'robert morris',
+  'central arkansas bears': 'central arkansas',
+  'idaho state bengals': 'idaho state',
+  'idaho saint bengals': 'idaho state',
+  'southern illinois salukis': 'southern illinois',
+  'n colorado': 'northern colorado',
+  'n colorado bears': 'northern colorado',
+  'csu northridge': 'cal state northridge',
+  'csu northridge matadors': 'cal state northridge',
+  'middle tennessee blue raiders': 'middle tennessee',
+  'cal baptist': 'california baptist',
+  'cal baptist lancers': 'california baptist',
+  'tarleton state texans': 'tarleton state',
+  'north dakota saint': 'north dakota state',
+  'north dakota saint bison': 'north dakota state',
+  'west georgia wolves': 'west georgia',
+  'loyola chi': 'loyola chicago',
+  'loyola chi ramblers': 'loyola chicago',
+  'umkc kangaroos': 'kansas city',
+  'ole miss rebels': 'mississippi',
+  'kansas saint': 'kansas state',
+  'arizona saint': 'arizona state',
+  'oregon saint': 'oregon state',
+  'wright saint': 'wright state',
+  'seton hall pirates': 'seton hall',
+  'north texas mean green': 'north texas',
+  'incarnate word cardinals': 'incarnate word',
+  'coastal carolina chanticleers': 'coastal carolina'
+};
+
+function normalizedSchool(raw) {
+  const n = key(raw);
+  return oddsAliases[n] || n;
+}
+
+// Include names actually present in the games file. Ratings alone can
+// omit teams or use alternate names, so they aren't a sufficient dictionary.
+const schoolKeys = [...new Set([
+  ...ratings.map(r => normalizedSchool(r.team)),
+  ...games.flatMap(g => [normalizedSchool(g.away), normalizedSchool(g.home)]),
+  ...Object.values(oddsAliases).map(normalizedSchool)
+].filter(Boolean))].sort((a, b) => b.length - a.length);
 
 function schoolName(raw) {
-  const normalized = key(raw);
+  const n = normalizedSchool(raw);
+  if (schoolKeys.includes(n)) return n;
 
-  if (rated.has(normalized)) return normalized;
-
-  const hits = schoolKeys.filter(
-    k => normalized.startsWith(k + ' ')
-  );
-
-  if (hits.length === 1) return hits[0];
-
-  if (
-    hits.length > 1 &&
-    hits[0].length > hits[1].length
-  ) {
-    return hits[0];
-  }
-
-  return normalized;
+  // Prefix match only at a word boundary (school + mascot). Longest
+  // matching school wins, avoiding e.g. 'Michigan' vs 'Michigan State'.
+  const found = schoolKeys.find(k => k.length >= 4 && n.startsWith(k + ' '));
+  return found || n;
 }
 
 function sameSchool(a, b) {
   const ka = schoolName(a);
   const kb = schoolName(b);
-
   return ka === kb ||
-    (rating(a) && rating(b) && rating(a) === rating(b));
+    Boolean(rating(a) && rating(b) && rating(a) === rating(b));
 }
 
 // Fetch and attach available sportsbook odds.
@@ -483,7 +542,8 @@ if (process.env.ODDS_API_KEY) {
         unmatched++;
         console.log(
           `ODDS UNMATCHED: ${date} ` +
-          `${o.away_team} @ ${o.home_team}`
+          `${o.away_team} @ ${o.home_team}` +
+          ` [normalized: ${schoolName(o.away_team)} @ ${schoolName(o.home_team)}]`
         );
         continue;
       }
