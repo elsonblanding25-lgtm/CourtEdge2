@@ -4358,7 +4358,7 @@
     "marketSpread": -30.5,
     "awayML": 5000,
     "homeML": -100000,
-    "status": "scheduled",
+    "status": "final",
     "time": "21:30",
     "site": "Home",
     "modelFavorite": "Arizona",
@@ -4368,7 +4368,9 @@
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-05T19:13:50.500Z",
     "edge": 5.2,
-    "confidence": 2
+    "confidence": 2,
+    "awayScore": 84,
+    "homeScore": 104
   },
   {
     "id": "espn-401909552",
@@ -4514,10 +4516,10 @@
     "away": "New Haven",
     "home": "Rutgers",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
-    "awayML": null,
-    "homeML": null,
+    "marketFavorite": "Rutgers",
+    "marketSpread": -24.5,
+    "awayML": 2500,
+    "homeML": -9000,
     "espnId": "401926135",
     "espnAwayTeamId": "2441",
     "espnHomeTeamId": "164",
@@ -4525,7 +4527,11 @@
     "time": "18:00",
     "modelFavorite": "Rutgers",
     "modelSpread": -24.3,
-    "status": "scheduled"
+    "status": "scheduled",
+    "oddsBook": "DraftKings",
+    "oddsCapturedAt": "2026-11-06T06:16:29.516Z",
+    "edge": 0.2,
+    "confidence": 1
   },
   {
     "id": "espn-401921767",
@@ -4947,10 +4953,10 @@
     "away": "Texas Southern",
     "home": "LSU",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
-    "awayML": null,
-    "homeML": null,
+    "marketFavorite": "LSU",
+    "marketSpread": -30.5,
+    "awayML": 5000,
+    "homeML": -100000,
     "espnId": "401921809",
     "espnAwayTeamId": "2640",
     "espnHomeTeamId": "99",
@@ -4958,7 +4964,11 @@
     "time": "19:00",
     "modelFavorite": "LSU",
     "modelSpread": -18.1,
-    "status": "scheduled"
+    "status": "scheduled",
+    "oddsBook": "DraftKings",
+    "oddsCapturedAt": "2026-11-06T06:16:29.516Z",
+    "edge": 12.4,
+    "confidence": 4
   },
   {
     "id": "espn-401920807",
@@ -5012,10 +5022,10 @@
     "away": "Southern",
     "home": "TCU",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
-    "awayML": null,
-    "homeML": null,
+    "marketFavorite": "TCU",
+    "marketSpread": -23.5,
+    "awayML": 2000,
+    "homeML": -6500,
     "espnId": "401919048",
     "espnAwayTeamId": "2582",
     "espnHomeTeamId": "2628",
@@ -5023,7 +5033,11 @@
     "time": "19:00",
     "modelFavorite": "TCU",
     "modelSpread": -19.5,
-    "status": "scheduled"
+    "status": "scheduled",
+    "oddsBook": "DraftKings",
+    "oddsCapturedAt": "2026-11-06T06:16:29.516Z",
+    "edge": 4,
+    "confidence": 2
   },
   {
     "id": "espn-401922021",
