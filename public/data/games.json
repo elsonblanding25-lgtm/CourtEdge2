@@ -4033,7 +4033,7 @@
     "marketSpread": -41.5,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": "Duke",
@@ -4043,7 +4043,9 @@
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-05T19:37:16.731Z",
     "edge": 12.5,
-    "confidence": 4
+    "confidence": 4,
+    "awayScore": 52,
+    "homeScore": 113
   },
   {
     "id": "espn-401925754",
@@ -4056,7 +4058,7 @@
     "marketSpread": -26.5,
     "awayML": 2500,
     "homeML": -9000,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": "Michigan St",
@@ -4066,7 +4068,9 @@
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-05T19:13:50.500Z",
     "edge": 7.3,
-    "confidence": 3
+    "confidence": 3,
+    "awayScore": 61,
+    "homeScore": 91
   },
   {
     "id": "espn-401906864",
@@ -4079,7 +4083,7 @@
     "marketSpread": -41.5,
     "awayML": null,
     "homeML": null,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": "Texas",
@@ -4089,7 +4093,9 @@
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-05T19:13:50.500Z",
     "edge": 13.2,
-    "confidence": 4
+    "confidence": 4,
+    "awayScore": 50,
+    "homeScore": 98
   },
   {
     "id": "espn-401926780",
@@ -4102,7 +4108,7 @@
     "marketSpread": -5.5,
     "awayML": 170,
     "homeML": -205,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": "South Alabama",
@@ -4112,7 +4118,9 @@
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-05T19:37:16.731Z",
     "edge": 3,
-    "confidence": 2
+    "confidence": 2,
+    "awayScore": 80,
+    "homeScore": 83
   },
   {
     "id": "espn-401921094",
@@ -4125,7 +4133,7 @@
     "marketSpread": -3.5,
     "awayML": 142,
     "homeML": -170,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": "Rice",
@@ -4135,7 +4143,9 @@
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-05T19:13:50.500Z",
     "edge": 5.9,
-    "confidence": 2
+    "confidence": 2,
+    "awayScore": 72,
+    "homeScore": 71
   },
   {
     "id": "espn-401920913",
@@ -4148,7 +4158,7 @@
     "marketSpread": -14.5,
     "awayML": 850,
     "homeML": -1450,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": "Tulsa",
@@ -4158,7 +4168,9 @@
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-05T19:13:50.500Z",
     "edge": 2.8,
-    "confidence": 1
+    "confidence": 1,
+    "awayScore": 75,
+    "homeScore": 94
   },
   {
     "id": "espn-401918968",
@@ -4171,7 +4183,7 @@
     "marketSpread": -24.5,
     "awayML": 2200,
     "homeML": -8000,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:00",
     "site": "Home",
     "modelFavorite": "SMU",
@@ -4181,7 +4193,9 @@
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-05T19:13:50.500Z",
     "edge": 1.9,
-    "confidence": 1
+    "confidence": 1,
+    "awayScore": 70,
+    "homeScore": 95
   },
   {
     "id": "espn-401911229",
@@ -4244,7 +4258,7 @@
     "marketSpread": -30.5,
     "awayML": 4000,
     "homeML": -50000,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:30",
     "site": "Home",
     "modelFavorite": "Illinois",
@@ -4254,7 +4268,9 @@
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-05T19:27:14.727Z",
     "edge": 10.4,
-    "confidence": 4
+    "confidence": 4,
+    "awayScore": 70,
+    "homeScore": 112
   },
   {
     "id": "espn-401909501",
@@ -4267,7 +4283,7 @@
     "marketSpread": -6.5,
     "awayML": 225,
     "homeML": -278,
-    "status": "scheduled",
+    "status": "final",
     "time": "19:30",
     "site": "Home",
     "modelFavorite": "DePaul",
@@ -4277,7 +4293,9 @@
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-05T19:13:50.500Z",
     "edge": 1.6,
-    "confidence": 1
+    "confidence": 1,
+    "awayScore": 80,
+    "homeScore": 82
   },
   {
     "id": "espn-401921133",
@@ -4511,10 +4529,10 @@
     "away": "Stetson",
     "home": "West Virginia",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
-    "awayML": null,
-    "homeML": null,
+    "marketFavorite": "West Virginia",
+    "marketSpread": -24.5,
+    "awayML": 3000,
+    "homeML": -10000,
     "espnId": "401921767",
     "espnAwayTeamId": "56",
     "espnHomeTeamId": "277",
@@ -4522,7 +4540,11 @@
     "time": "18:00",
     "modelFavorite": "West Virginia",
     "modelSpread": -18,
-    "status": "scheduled"
+    "status": "scheduled",
+    "oddsBook": "FanDuel",
+    "oddsCapturedAt": "2026-11-06T04:07:10.582Z",
+    "edge": 6.5,
+    "confidence": 3
   },
   {
     "id": "espn-401921754",
@@ -4553,8 +4575,8 @@
     "away": "Holy Cross",
     "home": "Villanova",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
+    "marketFavorite": "Villanova",
+    "marketSpread": -31.5,
     "awayML": null,
     "homeML": null,
     "espnId": "401921285",
@@ -4564,7 +4586,11 @@
     "time": "18:00",
     "modelFavorite": "Villanova",
     "modelSpread": -31.1,
-    "status": "scheduled"
+    "status": "scheduled",
+    "oddsBook": "FanDuel",
+    "oddsCapturedAt": "2026-11-06T04:07:10.582Z",
+    "edge": 0.4,
+    "confidence": 1
   },
   {
     "id": "espn-401921140",
@@ -4779,10 +4805,10 @@
     "away": "Presbyterian",
     "home": "Georgia",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
-    "awayML": null,
-    "homeML": null,
+    "marketFavorite": "Georgia",
+    "marketSpread": -20.5,
+    "awayML": 2000,
+    "homeML": -4500,
     "espnId": "401906780",
     "espnAwayTeamId": "2506",
     "espnHomeTeamId": "61",
@@ -4790,7 +4816,11 @@
     "time": "18:00",
     "modelFavorite": "Georgia",
     "modelSpread": -20,
-    "status": "scheduled"
+    "status": "scheduled",
+    "oddsBook": "FanDuel",
+    "oddsCapturedAt": "2026-11-06T04:07:10.582Z",
+    "edge": 0.5,
+    "confidence": 1
   },
   {
     "id": "espn-401906758",
@@ -5135,10 +5165,10 @@
     "away": "Queens",
     "home": "Oklahoma St",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
-    "awayML": null,
-    "homeML": null,
+    "marketFavorite": "Oklahoma St",
+    "marketSpread": -18.5,
+    "awayML": 1600,
+    "homeML": -4500,
     "espnId": "401919040",
     "espnAwayTeamId": "2511",
     "espnHomeTeamId": "197",
@@ -5146,7 +5176,11 @@
     "time": "20:00",
     "modelFavorite": "Oklahoma St",
     "modelSpread": -17.4,
-    "status": "scheduled"
+    "status": "scheduled",
+    "oddsBook": "FanDuel",
+    "oddsCapturedAt": "2026-11-06T04:07:10.582Z",
+    "edge": 1.1,
+    "confidence": 1
   },
   {
     "id": "espn-401909797",
@@ -5269,8 +5303,8 @@
     "away": "North Florida",
     "home": "UCLA",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
+    "marketFavorite": "UCLA",
+    "marketSpread": -31.5,
     "awayML": null,
     "homeML": null,
     "espnId": "401922219",
@@ -5280,7 +5314,11 @@
     "time": "21:30",
     "modelFavorite": "UCLA",
     "modelSpread": -25.6,
-    "status": "scheduled"
+    "status": "scheduled",
+    "oddsBook": "FanDuel",
+    "oddsCapturedAt": "2026-11-06T04:07:10.582Z",
+    "edge": 5.9,
+    "confidence": 2
   },
   {
     "id": "espn-401929356",
