@@ -6843,10 +6843,10 @@
     "away": "Michigan St",
     "home": "Duke",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
-    "awayML": null,
-    "homeML": null,
+    "marketFavorite": "Duke",
+    "marketSpread": -6.5,
+    "awayML": 220,
+    "homeML": -270,
     "espnId": "401909564",
     "espnAwayTeamId": "127",
     "espnHomeTeamId": "150",
@@ -6854,7 +6854,11 @@
     "time": "18:00",
     "modelFavorite": "Duke",
     "modelSpread": -4.7,
-    "status": "scheduled"
+    "status": "scheduled",
+    "oddsBook": "DraftKings",
+    "oddsCapturedAt": "2026-11-06T19:59:46.026Z",
+    "edge": 1.8,
+    "confidence": 1
   },
   {
     "id": "espn-401928828",
