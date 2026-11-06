@@ -4308,7 +4308,7 @@
     "marketSpread": -29.5,
     "awayML": 2500,
     "homeML": -9000,
-    "status": "scheduled",
+    "status": "final",
     "time": "20:00",
     "site": "Home",
     "modelFavorite": "Texas Tech",
@@ -4318,7 +4318,9 @@
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-05T19:37:16.731Z",
     "edge": 0.2,
-    "confidence": 1
+    "confidence": 1,
+    "awayScore": 58,
+    "homeScore": 76
   },
   {
     "id": "espn-401921698",
@@ -4331,7 +4333,7 @@
     "marketSpread": -8.5,
     "awayML": 350,
     "homeML": -455,
-    "status": "scheduled",
+    "status": "final",
     "time": "20:00",
     "site": "Home",
     "modelFavorite": "Utah",
@@ -4341,7 +4343,9 @@
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-05T19:13:50.500Z",
     "edge": 1,
-    "confidence": 1
+    "confidence": 1,
+    "awayScore": 57,
+    "homeScore": 67
   },
   {
     "id": "espn-401909739",
