@@ -5339,11 +5339,13 @@
     "time": "20:30",
     "modelFavorite": "San Diego",
     "modelSpread": -4.3,
-    "status": "scheduled",
+    "status": "final",
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-05T19:27:14.727Z",
     "edge": 1.7,
-    "confidence": 1
+    "confidence": 1,
+    "awayScore": 90,
+    "homeScore": 96
   },
   {
     "id": "espn-401921727",
@@ -5412,11 +5414,13 @@
     "time": "21:30",
     "modelFavorite": "UCLA",
     "modelSpread": -25.6,
-    "status": "scheduled",
+    "status": "final",
     "oddsBook": "FanDuel",
     "oddsCapturedAt": "2026-11-06T04:07:10.582Z",
     "edge": 5.9,
-    "confidence": 2
+    "confidence": 2,
+    "awayScore": 63,
+    "homeScore": 114
   },
   {
     "id": "espn-401929356",
