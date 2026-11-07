@@ -804,15 +804,21 @@ function computeEdge(g) {
 // Development mode:
 // Only fetch today's games and future games.
 // Completed games from earlier dates are not needed.
+const today = centralDate(now);
 
-const lookback = 0;
+const lookback = Math.max(
+  0,
+  Math.ceil(
+    (new Date(`${today}T12:00:00Z`) -
+      new Date('2026-11-05T12:00:00Z')) /
+      86400000
+  )
+);
 
 const forward = Math.max(
   0,
   Number(process.env.SYNC_FORWARD_DAYS ?? 7)
 );
-
-const today = centralDate(now);
 
 const start = new Date(
   `${today}T12:00:00Z`
@@ -829,8 +835,12 @@ let skippedNonDI = 0;
 const seen = new Set();
 
 // Process today's schedule plus future dates.
-for (let offset = 0; offset <= forward; offset++) {
-  const day = new Date(start);
+for (
+  let offset = -lookback;
+  offset <= forward;
+  offset++
+) {
+const day = new Date(start);
 
   day.setUTCDate(
     start.getUTCDate() + offset
@@ -920,9 +930,9 @@ for (let offset = 0; offset <= forward; offset++) {
       : date;
 
     // Do not import games from previous dates.
-    if (gameDate < today) {
-      continue;
-    }
+    if (gameDate < '2026-11-05') {
+  continue;
+}
 
     // Find the game by its ESPN event ID.
     let g = games.find(
@@ -1469,7 +1479,7 @@ if (process.env.ODDS_API_KEY) {
 
 const diGames = games.filter(
   g =>
-    g.date >= today &&
+    g.date >= '2026-11-05' &&
     isDIGame(g)
 );
 
@@ -1559,6 +1569,90 @@ const upcomingMissingMarkets = upcoming.filter(
 
 // Save the website-visible games.
 // No games_archive.json is required.
+
+ // ============================================================
+ // COURTEDGE — HISTORICAL MODEL ACCURACY
+ // ============================================================
+
+const completedGames = diGames.filter(
+  g =>
+    g.status === 'final' &&
+    Number.isFinite(Number(g.awayScore)) &&
+    Number.isFinite(Number(g.homeScore))
+);
+
+let evaluated = 0;
+let correctWinners = 0;
+let totalMarginError = 0;
+
+for (const g of completedGames) {
+  const actualMargin =
+    Number(g.homeScore) -
+    Number(g.awayScore);
+
+  g.actualMargin = actualMargin;
+
+  // Historical games without saved pregame
+  // predictions cannot be scored fairly.
+  if (
+    g.modelSpread == null ||
+    !g.modelFavorite ||
+    !g.modelGeneratedAt ||
+    !g.startTime ||
+    new Date(g.modelGeneratedAt) >=
+      new Date(g.startTime)
+  ) {
+    g.evaluationStatus = 'no-pregame-prediction';
+    continue;
+  }
+
+  const modelHomeMargin =
+    sameSchool(g.modelFavorite, g.home)
+      ? Math.abs(Number(g.modelSpread))
+      : -Math.abs(Number(g.modelSpread));
+
+  const actualWinner =
+    actualMargin > 0
+      ? g.home
+      : actualMargin < 0
+        ? g.away
+        : null;
+
+  const winnerCorrect =
+    actualWinner != null &&
+    sameSchool(g.modelFavorite, actualWinner);
+
+  const marginError =
+    Math.abs(modelHomeMargin - actualMargin);
+
+  g.evaluationStatus = 'evaluated';
+  g.modelWinnerCorrect = winnerCorrect;
+  g.modelMarginError =
+    Math.round(marginError * 10) / 10;
+
+  evaluated++;
+  if (winnerCorrect) correctWinners++;
+
+  totalMarginError += marginError;
+}
+
+console.log(
+  `HISTORICAL RESULTS: ${completedGames.length} finals; ` +
+  `${evaluated} evaluated against saved pregame predictions.`
+);
+
+if (evaluated > 0) {
+  console.log(
+    `MODEL WINNER ACCURACY: ` +
+    `${(100 * correctWinners / evaluated).toFixed(1)}%`
+  );
+
+  console.log(
+    `MODEL MARGIN MAE: ` +
+    `${(totalMarginError / evaluated).toFixed(2)} points`
+  );
+}
+
 write('games.json', diGames);
 
 // ============================================================
