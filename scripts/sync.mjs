@@ -18,14 +18,13 @@ function write(name, data) {
 }
 
 const published = read('games.json', []);
-const archive = read('games_archive.json', []);
+const statsInput = read('team_stats.json', []); // Optional matchup statistics
 const ratings = read('ratings.json', []).filter(
   r => Number.isInteger(r.rank) &&
        Number.isFinite(r.bqNet)
 );
 
 if (!Array.isArray(published) ||
-    !Array.isArray(archive) ||
     ratings.length < 300) {
   throw Error('Missing or invalid CourtEdge data.');
 }
@@ -147,6 +146,27 @@ const aliases = {
   'uncw': 'unc wilmington',
   'umass': 'massachusetts',
   'umkc': 'kansas city',
+  'kansas city': 'kansas city',
+  'texas a and m cc': 'texas a and m corpus christi',
+  'texas a m cc': 'texas a and m corpus christi',
+  'texas a and m corpus christi': 'texas a and m corpus christi',
+  'texas a m corpus christi': 'texas a and m corpus christi',
+  'abilene chrstn': 'abilene christian',
+  'nc central': 'north carolina central',
+  'n carolina central': 'north carolina central',
+  'purdue fw': 'fort wayne',
+  'fort wayne': 'fort wayne',
+  'montana st': 'montana state',
+  'colorado st': 'colorado state',
+  'washington st': 'washington state',
+  'oklahoma st': 'oklahoma state',
+  'illinois st': 'illinois state',
+  'alabama st': 'alabama state',
+  'delaware st': 'delaware state',
+  'san diego st': 'san diego state',
+  'new mexico st': 'new mexico state',
+  'portland st': 'portland state',
+  'texas a m cc islanders': 'texas a and m corpus christi',
   'ut martin': 'tennessee martin',
   'usc upstate': 'south carolina upstate',
   'w carolina': 'western carolina',
@@ -188,7 +208,11 @@ const specialAliases = {
   'smu mustangs': 'smu',
   'byu cougars': 'byu',
   'uic flames': 'uic',
-  'wright st raiders': 'wright state'
+  'wright st raiders': 'wright state',
+  'lamar cardinals': 'lamar',
+  'abilene christian wildcats': 'abilene christian',
+  'north carolina central eagles': 'north carolina central',
+  'longwood lancers': 'longwood'
 };
 
 function canonical(value) {
@@ -196,8 +220,8 @@ function canonical(value) {
   return specialAliases[n] || aliases[n] || n;
 }
 
-// Explicitly recognized DI programs that may be absent
-// from the ratings roster or represented differently.
+ // Explicitly recognized DI programs that may be absent
+ // from the ratings roster or represented differently.
 const additionalDI = [
   'little rock',
   'western carolina',
@@ -207,7 +231,24 @@ const additionalDI = [
   'central arkansas',
   'west georgia',
   'mercyhurst',
-  'le moyne'
+  'le moyne',
+  'kansas city',
+  'texas a and m corpus christi',
+  'washington state',
+  'oklahoma state',
+  'montana state',
+  'colorado state',
+  'illinois state',
+  'fort wayne',
+  'alabama state',
+  'delaware state',
+  'san diego state',
+  'new mexico state',
+  'portland state',
+  'abilene christian',
+  'north carolina central',
+  'lamar',
+  'longwood'
 ];
 
 const diNames = new Set([
@@ -215,8 +256,9 @@ const diNames = new Set([
   ...additionalDI.map(canonical)
 ]);
 
-// Mascot removal is permitted only for known mascot
-// suffixes, rather than arbitrary extra words.
+// Only remove known mascot suffixes.
+// This prevents non-DI schools such as Southern Wesleyan
+// from being mistaken for Southern University.
 const mascotSuffixes = [
   'great danes',
   'mean green',
@@ -293,12 +335,12 @@ function schoolName(raw) {
   const original = clean(raw);
   if (!original) return '';
 
-  let n = canonical(original);
+  const n = canonical(original);
 
   if (diNames.has(n)) return n;
 
-  // A known mascot can be removed only when the
-  // remaining name resolves to a recognized DI school.
+  // Strip a mascot only if the resulting school
+  // is already recognized as Division I.
   for (const mascot of mascotSuffixes) {
     if (!original.endsWith(' ' + mascot)) continue;
 
@@ -306,7 +348,9 @@ function schoolName(raw) {
       original.slice(0, -mascot.length - 1)
     );
 
-    if (diNames.has(candidate)) return candidate;
+    if (diNames.has(candidate)) {
+      return candidate;
+    }
   }
 
   return n;
@@ -315,6 +359,7 @@ function schoolName(raw) {
 function sameSchool(a, b) {
   const x = schoolName(a);
   const y = schoolName(b);
+
   return Boolean(x && y && x === y);
 }
 
@@ -326,42 +371,48 @@ function isDIGame(g) {
   return isDI(g.away) && isDI(g.home);
 }
 
-// Merge the published games into the archive without
-// replacing records containing historical information.
-const games = [...archive];
+// Development mode: no games_archive.json required.
+const games = [];
 
 function gameIdentity(g) {
   if (g.espnId) return `espn:${g.espnId}`;
   if (g.id) return `id:${g.id}`;
-  return `${g.date}|${schoolName(g.away)}|${schoolName(g.home)}`;
+
+  return (
+    `${g.date}|${schoolName(g.away)}|` +
+    `${schoolName(g.home)}`
+  );
 }
 
 const known = new Set(games.map(gameIdentity));
 
 for (const g of published) {
   const id = gameIdentity(g);
+
   if (!known.has(id)) {
     games.push(g);
     known.add(id);
   }
 }
 
+// Map each team to its actual power rating.
 const rated = new Map(
   ratings.map(r => [schoolName(r.team), r])
 );
 
-const efficiency = ratings
-  .map(r => r.bqNet)
-  .sort((a, b) => b - a);
-
+// Never index a sorted ratings array using rank.
+// Use the actual bqNet value assigned to the team.
 function rating(...names) {
   for (const name of names) {
     const r = rated.get(schoolName(name));
+
     if (r) return r;
   }
+
   return null;
 }
 
+// All game dates use Central Time.
 function centralDate(date) {
   const parts = new Intl.DateTimeFormat('en-US', {
     timeZone: 'America/Chicago',
@@ -377,6 +428,7 @@ function centralDate(date) {
   return `${p.year}-${p.month}-${p.day}`;
 }
 
+// Identify completed games.
 function isFinal(g) {
   return g.status === 'final' ||
     (
@@ -404,50 +456,317 @@ function competitorDI(c) {
   return competitorNames(c).some(isDI);
 }
 
-function setModel(g, awayNames = [], homeNames = []) {
-  if (g.modelSpread != null || g.modelFavorite) return false;
-  if (isFinal(g) || !isDIGame(g)) return false;
-  if (!g.date || g.date < centralDate(now)) return false;
+// Optional team_stats.json format:
+// [
+//   {
+//     team: "Duke",
+//     gamesPlayed: 10,
+//     offTO: 15.2,
+//     defTOForced: 19.4,
+//     offEFG: 54.1,
+//     defEFGAllowed: 45.8,
+//     offORB: 31.2,
+//     defORBAllowed: 25.1,
+//     offFTR: 34.5,
+//     defFTRAllowed: 28.3,
+//     pace: 70.5
+//   }
+// ]
+//
+// All rates are percentages, e.g. 18.2,
+// rather than decimals such as 0.182.
+//
+// Statistics should be opponent-adjusted when possible
+// and must represent information available before tipoff.
+
+const stats = new Map();
+
+if (Array.isArray(statsInput)) {
+  for (const r of statsInput) {
+    if (r && isDI(r.team)) {
+      stats.set(schoolName(r.team), r);
+    }
+  }
+} else {
+  console.warn(
+    'STATS: team_stats.json must be an array; baseline only.'
+  );
+}
+
+// Approximate national baselines.
+// These are starting assumptions, not verified
+// 2026-27 national averages.
+const average = {
+  offTO: 17,
+  defTOForced: 17,
+  offEFG: 50,
+  defEFGAllowed: 50,
+  offORB: 28,
+  defORBAllowed: 28,
+  offFTR: 32,
+  defFTRAllowed: 32,
+  pace: 69
+};
+
+const clamp = (x, lo, hi) =>
+  Math.max(lo, Math.min(hi, x));
+
+const num = v =>
+  v == null || v === '' ? NaN : Number(v);
+
+// Require a complete statistical profile
+// and at least three games of sample data.
+function hasStats(r) {
+  return r &&
+    [
+      'offTO',
+      'defTOForced',
+      'offEFG',
+      'defEFGAllowed',
+      'offORB',
+      'defORBAllowed',
+      'offFTR',
+      'defFTRAllowed',
+      'pace'
+    ].every(k => Number.isFinite(num(r[k]))) &&
+    num(r.gamesPlayed) >= 3;
+}
+
+// Estimate the offensive matchup adjustment.
+//
+// The coefficients are provisional and must
+// be calibrated against completed games.
+function matchupAdjustment(off, def) {
+  const diff = (a, b, baselineKey) =>
+    (
+      (num(off[a]) - average[baselineKey]) +
+      (num(def[b]) - average[baselineKey])
+    ) / 2;
+
+  // More offensive turnovers and more defensive
+  // pressure lower the offense's expected output.
+  const turnover =
+    -0.85 * diff(
+      'offTO',
+      'defTOForced',
+      'offTO'
+    );
+
+  // Better shooting and weaker opposing
+  // shooting defense raise expected output.
+  const shooting =
+    0.65 * diff(
+      'offEFG',
+      'defEFGAllowed',
+      'offEFG'
+    );
+
+  // Offensive rebounding creates
+  // second-chance scoring opportunities.
+  const rebound =
+    0.22 * diff(
+      'offORB',
+      'defORBAllowed',
+      'offORB'
+    );
+
+  // Free-throw opportunities can increase
+  // expected scoring efficiency.
+  const freeThrows =
+    0.12 * diff(
+      'offFTR',
+      'defFTRAllowed',
+      'offFTR'
+    );
+
+  return (
+    turnover +
+    shooting +
+    rebound +
+    freeThrows
+  );
+}
+
+// Determine whether a game has not started.
+//
+// If a reliable start time is unavailable,
+// only future-date games are eligible.
+// This avoids retroactively creating predictions
+// for games that may already be underway.
+function kickoff(g) {
+  const d = new Date(
+    g.startTime || g.commenceTime || ''
+  );
+
+  if (Number.isFinite(d.getTime())) {
+    return d;
+  }
+
+  return g.date > centralDate(now)
+    ? new Date(g.date + 'T23:59:59Z')
+    : null;
+}
+
+// CourtEdge Model V2
+function setModel(
+  g,
+  awayNames = [],
+  homeNames = []
+) {
+  if (isFinal(g) || !isDIGame(g)) {
+    return false;
+  }
+
+  const start = kickoff(g);
+
+  if (!start || start <= now) {
+    return false;
+  }
 
   const away = rating(g.away, ...awayNames);
   const home = rating(g.home, ...homeNames);
 
-  if (!away || !home) return false;
-
-  const av = efficiency[away.rank - 1];
-  const hv = efficiency[home.rank - 1];
-
-  if (!Number.isFinite(av) || !Number.isFinite(hv)) {
+  if (!away || !home) {
     return false;
   }
 
-  const margin = 0.7 * (hv - av) +
+  const awayNet = num(away.bqNet);
+  const homeNet = num(home.bqNet);
+
+  if (
+    !Number.isFinite(awayNet) ||
+    !Number.isFinite(homeNet)
+  ) {
+    return false;
+  }
+
+  const a = stats.get(schoolName(g.away));
+  const h = stats.get(schoolName(g.home));
+
+  const detailed =
+    hasStats(a) && hasStats(h);
+
+  const version = detailed
+    ? 'v2-matchup-1'
+    : 'v2-baseline-1';
+
+  // Don't regenerate an existing prediction
+  // when it already uses the current model version.
+  if (
+    g.modelVersion === version &&
+    g.modelSpread != null
+  ) {
+    return false;
+  }
+
+  // Preserve the previous prediction
+  // before upgrading an upcoming game.
+  if (
+    g.modelSpread != null &&
+    !g.preUpgradeModel
+  ) {
+    g.preUpgradeModel = {
+      favorite: g.modelFavorite,
+      spread: g.modelSpread,
+      generatedAt: g.modelGeneratedAt || null
+    };
+  }
+
+  // Baseline power-rating projection.
+  // Positive margin favors the home team.
+  const base =
+    0.7 * (homeNet - awayNet) +
     (g.site === 'Neutral' ? 0 : 3);
 
-  g.modelFavorite = margin >= 0 ? g.home : g.away;
+  let adjustment = 0;
+
+  if (detailed) {
+    // Estimate game pace from both teams.
+    const pace = clamp(
+      (num(a.pace) + num(h.pace)) / 2,
+      58,
+      82
+    );
+
+    // Home offensive matchup advantage
+    // minus away offensive matchup advantage.
+    const raw =
+      (
+        matchupAdjustment(h, a) -
+        matchupAdjustment(a, h)
+      ) * pace / 69;
+
+    // Small samples receive less weight.
+    const reliability = clamp(
+      Math.min(
+        num(a.gamesPlayed),
+        num(h.gamesPlayed)
+      ) / 15,
+      0,
+      1
+    );
+
+    // Cap the total matchup adjustment
+    // at five points in either direction.
+    adjustment = clamp(
+      raw * reliability,
+      -5,
+      5
+    );
+  }
+
+  const margin = base + adjustment;
+
+  g.modelFavorite =
+    margin >= 0 ? g.home : g.away;
+
   g.modelSpread =
     -Math.round(Math.abs(margin) * 10) / 10;
+
+  g.modelVersion = version;
+
+  g.modelBaseMargin =
+    Math.round(base * 10) / 10;
+
+  g.modelMatchupAdjustment =
+    Math.round(adjustment * 10) / 10;
+
   g.modelGeneratedAt = now.toISOString();
+
+  // Recalculate the market edge when
+  // a pregame prediction is updated.
+  g.edge = null;
+  g.confidence = null;
 
   return true;
 }
 
+// Compare the model's spread against
+// the sportsbook's market spread.
 function computeEdge(g) {
   if (
     g.modelSpread == null ||
     g.marketSpread == null ||
     !g.modelFavorite ||
     !g.marketFavorite
-  ) return;
+  ) {
+    return;
+  }
 
   const home = schoolName(g.home);
   const away = schoolName(g.away);
   const mf = schoolName(g.modelFavorite);
   const sf = schoolName(g.marketFavorite);
 
-  if (![home, away].includes(mf)) return;
-  if (![home, away].includes(sf)) return;
+  if (
+    ![home, away].includes(mf) ||
+    ![home, away].includes(sf)
+  ) {
+    return;
+  }
 
+  // Convert both spreads into a consistent
+  // home-team point-spread representation.
   const modelHome = mf === home
     ? -Math.abs(g.modelSpread)
     : Math.abs(g.modelSpread);
@@ -456,34 +775,48 @@ function computeEdge(g) {
     ? -Math.abs(g.marketSpread)
     : Math.abs(g.marketSpread);
 
-  // Preserve historical recorded edges.
-  if (g.edge != null && g.confidence != null) return;
+  // Preserve already-recorded edges.
+  if (
+    g.edge != null &&
+    g.confidence != null
+  ) {
+    return;
+  }
 
   g.edge = Math.round(
     Math.abs(modelHome - marketHome) * 10
   ) / 10;
 
+  // Preliminary confidence score based
+  // on the size of the model-market difference.
   g.confidence = Math.min(
     5,
     1 + [3, 6, 10, 15].filter(
-      t => g.edge >= t
+      threshold => g.edge >= threshold
     ).length
   );
 }
 
-// ESPN sync
-const lookback = Math.max(
-  0, Number(process.env.SYNC_LOOKBACK_DAYS ?? 14)
-);
+// ============================================================
+// COURTEDGE MODEL V2 — ESPN SCHEDULE SYNCHRONIZATION
+// ============================================================
+
+// Development mode:
+// Only fetch today's games and future games.
+// Completed games from earlier dates are not needed.
+
+const lookback = 0;
+
 const forward = Math.max(
-  0, Number(process.env.SYNC_FORWARD_DAYS ?? 7)
+  0,
+  Number(process.env.SYNC_FORWARD_DAYS ?? 7)
 );
 
-const start = new Date(Date.UTC(
-  now.getUTCFullYear(),
-  now.getUTCMonth(),
-  now.getUTCDate() - lookback
-));
+const today = centralDate(now);
+
+const start = new Date(
+  `${today}T12:00:00Z`
+);
 
 let eventsSeen = 0;
 let added = 0;
@@ -495,14 +828,22 @@ let skippedNonDI = 0;
 
 const seen = new Set();
 
-for (let offset = 0; offset <= lookback + forward; offset++) {
+// Process today's schedule plus future dates.
+for (let offset = 0; offset <= forward; offset++) {
   const day = new Date(start);
-  day.setUTCDate(start.getUTCDate() + offset);
+
+  day.setUTCDate(
+    start.getUTCDate() + offset
+  );
 
   const date = day.toISOString().slice(0, 10);
   const stamp = date.replaceAll('-', '');
+
   const events = new Map();
 
+  // ESPN's grouped and ungrouped scoreboards
+  // can return different sets of games.
+  // Combining both improves coverage.
   for (const suffix of ['&groups=50', '']) {
     try {
       const url =
@@ -511,8 +852,11 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
         `?dates=${stamp}&limit=500${suffix}`;
 
       const response = await fetch(url);
+
       if (!response.ok) {
-        throw Error(`HTTP ${response.status}`);
+        throw Error(
+          `HTTP ${response.status}`
+        );
       }
 
       const payload = await response.json();
@@ -521,43 +865,74 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
         events.set(String(e.id), e);
       }
     } catch (error) {
-      console.warn(`ESPN ${date}: ${error.message}`);
+      console.warn(
+        `ESPN ${date}: ${error.message}`
+      );
     }
   }
 
+  // Process each ESPN event only once.
   for (const event of events.values()) {
-    if (seen.has(String(event.id))) continue;
+    if (seen.has(String(event.id))) {
+      continue;
+    }
+
     seen.add(String(event.id));
 
     const comp = event.competitions?.[0];
+
     if (!comp) continue;
 
     const away = comp.competitors?.find(
       c => c.homeAway === 'away'
     );
+
     const home = comp.competitors?.find(
       c => c.homeAway === 'home'
     );
 
-    if (!away || !home) continue;
+    if (!away || !home) {
+      continue;
+    }
+
     eventsSeen++;
 
-    if (!competitorDI(away) || !competitorDI(home)) {
+    // Only include Division I vs Division I games.
+    if (
+      !competitorDI(away) ||
+      !competitorDI(home)
+    ) {
       skippedNonDI++;
       continue;
     }
 
     const when = new Date(
-      event.date || comp.date || date + 'T12:00:00Z'
+      event.date ||
+      comp.date ||
+      date + 'T12:00:00Z'
     );
-    const gameDate = Number.isFinite(when.getTime())
+
+    const validTime =
+      Number.isFinite(when.getTime());
+
+    const gameDate = validTime
       ? centralDate(when)
       : date;
 
+    // Do not import games from previous dates.
+    if (gameDate < today) {
+      continue;
+    }
+
+    // Find the game by its ESPN event ID.
     let g = games.find(
-      x => String(x.espnId || '') === String(event.id)
+      x =>
+        String(x.espnId || '') ===
+        String(event.id)
     );
 
+    // If no ESPN ID is attached, attempt to
+    // match by date and both participating teams.
     if (!g) {
       const candidates = games.filter(
         x =>
@@ -577,7 +952,11 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
 
       if (candidates.length > 1) {
         ambiguous++;
-        console.warn(`ESPN AMBIGUOUS: ${event.id}`);
+
+        console.warn(
+          `ESPN AMBIGUOUS: ${event.id}`
+        );
+
         continue;
       }
 
@@ -587,54 +966,88 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
 
         const oldAway = g.away;
         const oldHome = g.home;
-        const newAway = competitorNames(away)[0];
-        const newHome = competitorNames(home)[0];
+
+        const newAway =
+          competitorNames(away)[0];
+
+        const newHome =
+          competitorNames(home)[0];
 
         const reversed =
           competitorMatches(oldAway, home) &&
           competitorMatches(oldHome, away);
 
+        // If an existing record has reversed
+        // orientation, preserve its original names
+        // and swap team-specific moneylines.
         if (reversed) {
           g.originalAway = oldAway;
           g.originalHome = oldHome;
+
           g.pregameOrientationMismatch = true;
-          [g.awayML, g.homeML] =
-            [g.homeML, g.awayML];
+
+          [g.awayML, g.homeML] = [
+            g.homeML,
+            g.awayML
+          ];
         }
 
+        // Keep the recorded favorite attached
+        // to the correct school.
         for (const field of [
           'modelFavorite',
           'marketFavorite'
         ]) {
-          if (sameSchool(g[field], newAway)) {
+          if (
+            sameSchool(g[field], newAway)
+          ) {
             g[field] = newAway;
-          } else if (sameSchool(g[field], newHome)) {
+          } else if (
+            sameSchool(g[field], newHome)
+          ) {
             g[field] = newHome;
           }
         }
 
         g.away = newAway;
         g.home = newHome;
-        g.site = comp.neutralSite ? 'Neutral' : 'Home';
+
+        g.site = comp.neutralSite
+          ? 'Neutral'
+          : 'Home';
       }
     }
 
+    // Create a new game if ESPN has not
+    // previously been linked to it.
     if (!g) {
       g = {
         id: `espn-${event.id}`,
+        espnId: String(event.id),
         date: gameDate,
+
         away: competitorNames(away)[0],
         home: competitorNames(home)[0],
-        site: comp.neutralSite ? 'Neutral' : 'Home',
+
+        site: comp.neutralSite
+          ? 'Neutral'
+          : 'Home',
+
         source: 'ESPN / The Odds API',
+
         modelFavorite: null,
         modelSpread: null,
+        modelVersion: null,
+
         marketFavorite: null,
         marketSpread: null,
+
         awayML: null,
         homeML: null,
+
         awayScore: null,
         homeScore: null,
+
         status: 'scheduled'
       };
 
@@ -642,22 +1055,41 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
       added++;
     }
 
+    // Attach ESPN identifiers for future
+    // synchronization and team matching.
     g.espnId = String(event.id);
 
     if (away.team?.id) {
-      g.espnAwayTeamId = String(away.team.id);
-    }
-    if (home.team?.id) {
-      g.espnHomeTeamId = String(home.team.id);
+      g.espnAwayTeamId =
+        String(away.team.id);
     }
 
-    if (!g.time && Number.isFinite(when.getTime())) {
-      g.time = new Intl.DateTimeFormat('en-US', {
-        timeZone: 'America/Chicago',
-        hour: '2-digit',
-        minute: '2-digit',
-        hour12: false
-      }).format(when);
+    if (home.team?.id) {
+      g.espnHomeTeamId =
+        String(home.team.id);
+    }
+
+    g.date = gameDate;
+
+    g.site = comp.neutralSite
+      ? 'Neutral'
+      : 'Home';
+
+    // Save the exact scheduled start time.
+    // This prevents generating model
+    // predictions after a game has started.
+    if (validTime) {
+      g.startTime = when.toISOString();
+
+      g.time = new Intl.DateTimeFormat(
+        'en-US',
+        {
+          timeZone: 'America/Chicago',
+          hour: '2-digit',
+          minute: '2-digit',
+          hour12: false
+        }
+      ).format(when);
     }
 
     const complete = Boolean(
@@ -665,31 +1097,52 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
       event.status?.type?.completed
     );
 
+    const state =
+      comp.status?.type?.state ||
+      event.status?.type?.state ||
+      '';
+
+    // Only create new predictions when
+    // the game has not started.
     if (
       !complete &&
+      state !== 'in' &&
+      validTime &&
       when > now &&
       setModel(
         g,
         competitorNames(away),
         competitorNames(home)
       )
-    ) models++;
+    ) {
+      models++;
+    }
 
+    // Update completed games with final scores.
     if (complete) {
       const as = away.score;
       const hs = home.score;
 
       if (
-        as != null && hs != null &&
-        as !== '' && hs !== '' &&
+        as != null &&
+        hs != null &&
+        as !== '' &&
+        hs !== '' &&
         Number.isFinite(Number(as)) &&
         Number.isFinite(Number(hs))
       ) {
         g.awayScore = Number(as);
         g.homeScore = Number(hs);
+
         g.status = 'final';
+
         finals++;
       }
+    } else if (state === 'in') {
+      // Track live games without treating
+      // partial scores as final results.
+      g.status = 'live';
+
     } else if (!isFinal(g)) {
       g.status = 'scheduled';
     }
@@ -698,22 +1151,40 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
   }
 }
 
+// Attempt predictions for existing games
+// that were not newly imported from ESPN.
+//
+// setModel() checks kickoff times and
+// refuses to generate predictions after tipoff.
 for (const g of games) {
-  if (setModel(g)) models++;
+  if (g.date < today) {
+    continue;
+  }
+
+  if (setModel(g)) {
+    models++;
+  }
+
   computeEdge(g);
 }
 
-// Sportsbook odds
+// ============================================================
+// COURTEDGE MODEL V2 — SPORTSBOOK ODDS
+// ============================================================
+
 if (process.env.ODDS_API_KEY) {
   try {
     const url =
       'https://api.the-odds-api.com/v4/sports/' +
       'basketball_ncaab/odds/' +
-      `?apiKey=${encodeURIComponent(process.env.ODDS_API_KEY)}` +
+      `?apiKey=${encodeURIComponent(
+        process.env.ODDS_API_KEY
+      )}` +
       '&regions=us&markets=spreads,h2h' +
       '&oddsFormat=american&dateFormat=iso';
 
     const response = await fetch(url);
+
     if (!response.ok) {
       throw Error(`HTTP ${response.status}`);
     }
@@ -729,78 +1200,139 @@ if (process.env.ODDS_API_KEY) {
     let nonDI = 0;
 
     for (const event of odds) {
-      const startTime = new Date(event.commence_time);
-      if (!Number.isFinite(startTime.getTime())) continue;
+      const startTime = new Date(
+        event.commence_time
+      );
 
-      if (!isDI(event.away_team) || !isDI(event.home_team)) {
-        nonDI++;
+      if (
+        !Number.isFinite(startTime.getTime())
+      ) {
         continue;
       }
 
       const date = centralDate(startTime);
 
+      // Only process today's and future games.
+      if (date < today) {
+        continue;
+      }
+
+      // Reject non-DI matchups.
+      if (
+        !isDI(event.away_team) ||
+        !isDI(event.home_team)
+      ) {
+        nonDI++;
+        continue;
+      }
+
+      // Match both participating teams
+      // and the exact Central Time game date.
       const candidates = games.filter(
         g =>
           isDIGame(g) &&
           g.date === date &&
           (
             (
-              sameSchool(g.away, event.away_team) &&
-              sameSchool(g.home, event.home_team)
+              sameSchool(
+                g.away,
+                event.away_team
+              ) &&
+              sameSchool(
+                g.home,
+                event.home_team
+              )
             ) ||
             (
-              sameSchool(g.away, event.home_team) &&
-              sameSchool(g.home, event.away_team)
+              sameSchool(
+                g.away,
+                event.home_team
+              ) &&
+              sameSchool(
+                g.home,
+                event.away_team
+              )
             )
           )
       );
 
       if (candidates.length === 0) {
         unmatched++;
+
         console.log(
           `ODDS UNMATCHED: ${date} ` +
-          `${event.away_team} @ ${event.home_team}`
+          `${event.away_team} @ ` +
+          `${event.home_team}`
         );
 
         const closest = games.filter(
           g =>
             g.date === date &&
             (
-              sameSchool(g.away, event.away_team) ||
-              sameSchool(g.home, event.home_team) ||
-              sameSchool(g.away, event.home_team) ||
-              sameSchool(g.home, event.away_team)
+              sameSchool(
+                g.away,
+                event.away_team
+              ) ||
+              sameSchool(
+                g.home,
+                event.home_team
+              ) ||
+              sameSchool(
+                g.away,
+                event.home_team
+              ) ||
+              sameSchool(
+                g.home,
+                event.away_team
+              )
             )
         ).slice(0, 3);
 
         for (const g of closest) {
-          console.log(`  CLOSEST: ${g.away} @ ${g.home}`);
+          console.log(
+            `  CLOSEST: ${g.away} @ ${g.home}`
+          );
         }
+
         continue;
       }
 
       if (candidates.length !== 1) {
         ambiguousOdds++;
-        console.log(
+
+        console.warn(
           `ODDS AMBIGUOUS: ${date} ` +
-          `${event.away_team} @ ${event.home_team}`
+          `${event.away_team} @ ` +
+          `${event.home_team}`
         );
+
         continue;
       }
 
       const g = candidates[0];
 
-      if (isFinal(g)) {
+      // Never attach new market odds
+      // to completed or already-started games.
+      if (
+        isFinal(g) ||
+        g.status === 'live' ||
+        startTime <= now
+      ) {
         completed++;
         continue;
       }
 
+      // Preserve the first recorded pregame line.
       if (g.marketSpread != null) {
         already++;
         continue;
       }
 
-      const books = [...(event.bookmakers || [])].sort(
+      // Prefer DraftKings, then other
+      // available sportsbooks.
+      const books = [
+        ...(event.bookmakers || [])
+      ].sort(
         (a, b) =>
           Number(b.key === 'draftkings') -
           Number(a.key === 'draftkings')
@@ -810,34 +1342,44 @@ if (process.env.ODDS_API_KEY) {
       let homeLine = null;
 
       for (const book of books) {
-        const spread = book.markets?.find(
-          m => m.key === 'spreads'
-        )?.outcomes || [];
+        const spread =
+          book.markets?.find(
+            m => m.key === 'spreads'
+          )?.outcomes || [];
 
         const home = spread.find(
           o => sameSchool(o.name, g.home)
         );
+
         const away = spread.find(
           o => sameSchool(o.name, g.away)
         );
 
         if (
-          !home || !away ||
+          !home ||
+          !away ||
           home.point == null ||
           away.point == null
-        ) continue;
+        ) {
+          continue;
+        }
 
         const hp = Number(home.point);
         const ap = Number(away.point);
 
+        // Both sides must have valid
+        // opposite point spreads.
         if (
           !Number.isFinite(hp) ||
           !Number.isFinite(ap) ||
           Math.abs(hp + ap) > 0.01
-        ) continue;
+        ) {
+          continue;
+        }
 
         selected = book;
         homeLine = hp;
+
         break;
       }
 
@@ -846,88 +1388,244 @@ if (process.env.ODDS_API_KEY) {
         continue;
       }
 
+      // Convert the selected home spread
+      // into CourtEdge's market format.
       g.marketFavorite =
-        homeLine < 0 ? g.home :
-        homeLine > 0 ? g.away : null;
+        homeLine < 0
+          ? g.home
+          : homeLine > 0
+            ? g.away
+            : null;
 
-      g.marketSpread = -Math.abs(homeLine);
+      g.marketSpread =
+        -Math.abs(homeLine);
 
-      const money = selected.markets?.find(
-        m => m.key === 'h2h'
-      )?.outcomes || [];
+      // Retrieve moneyline odds from
+      // the same selected sportsbook.
+      const money =
+        selected.markets?.find(
+          m => m.key === 'h2h'
+        )?.outcomes || [];
 
-      g.homeML = money.find(
-        m => sameSchool(m.name, g.home)
-      )?.price ?? g.homeML ?? null;
+      g.homeML =
+        money.find(
+          m => sameSchool(m.name, g.home)
+        )?.price ??
+        g.homeML ??
+        null;
 
-      g.awayML = money.find(
-        m => sameSchool(m.name, g.away)
-      )?.price ?? g.awayML ?? null;
+      g.awayML =
+        money.find(
+          m => sameSchool(m.name, g.away)
+        )?.price ??
+        g.awayML ??
+        null;
 
       g.oddsBook = selected.title;
       g.oddsCapturedAt = now.toISOString();
 
       computeEdge(g);
+
       saved++;
 
       console.log(
-        `ODDS SAVED: ${date} ${g.away} @ ${g.home}: ` +
-        `${g.marketFavorite || 'PK'} ${g.marketSpread}`
+        `ODDS SAVED: ${date} ` +
+        `${g.away} @ ${g.home}: ` +
+        `${g.marketFavorite || 'PK'} ` +
+        `${g.marketSpread}`
       );
     }
 
     console.log(
       `ODDS: ${odds.length} events; ` +
-      `saved ${saved}; already had lines ${already}; ` +
-      `unmatched ${unmatched}; ambiguous ${ambiguousOdds}; ` +
+      `saved ${saved}; ` +
+      `already had lines ${already}; ` +
+      `unmatched ${unmatched}; ` +
+      `ambiguous ${ambiguousOdds}; ` +
       `no spread offered ${noSpread}; ` +
-      `final games ${completed}; non-DI excluded ${nonDI}.`
+      `started/final games ${completed}; ` +
+      `non-DI excluded ${nonDI}.`
     );
+
   } catch (error) {
-    console.warn(`Odds unavailable: ${error.message}`);
+    console.warn(
+      `Odds unavailable: ${error.message}`
+    );
   }
+
 } else {
-  console.log('ODDS_API_KEY not set.');
+  console.log(
+    'ODDS_API_KEY not set. Market odds unavailable.'
+  );
 }
 
-// Validate and publish
-const ids = games
+// ============================================================
+// COURTEDGE MODEL V2 — VALIDATION AND PUBLISHING
+// ============================================================
+
+// Only publish today's and future DI games.
+// Completed games from today remain visible,
+// but older games are removed.
+
+const diGames = games.filter(
+  g =>
+    g.date >= today &&
+    isDIGame(g)
+);
+
+// Prevent duplicate ESPN events.
+const espnIds = diGames
   .filter(g => g.espnId)
   .map(g => String(g.espnId));
 
-if (new Set(ids).size !== ids.length) {
-  throw Error('Duplicate ESPN IDs. Refusing to publish.');
+if (
+  new Set(espnIds).size !==
+  espnIds.length
+) {
+  throw Error(
+    'Duplicate ESPN IDs. Refusing to publish.'
+  );
 }
 
-const diGames = games.filter(isDIGame);
-const excluded = games.filter(g => !isDIGame(g));
+// Prevent duplicate matchups on the same date.
+const matchupIds = diGames.map(
+  g =>
+    `${g.date}|` +
+    `${schoolName(g.away)}|` +
+    `${schoolName(g.home)}`
+);
 
-write('games_archive.json', games);
+if (
+  new Set(matchupIds).size !==
+  matchupIds.length
+) {
+  throw Error(
+    'Duplicate game matchups. Refusing to publish.'
+  );
+}
+
+// Sort chronologically.
+diGames.sort((a, b) => {
+  const aTime =
+    a.startTime ||
+    `${a.date}T12:00:00Z`;
+
+  const bTime =
+    b.startTime ||
+    `${b.date}T12:00:00Z`;
+
+  return aTime.localeCompare(bTime);
+});
+
+// Final model and market coverage checks.
+const missingModels = diGames.filter(
+  g =>
+    g.modelSpread == null ||
+    !g.modelFavorite
+);
+
+const missingMarkets = diGames.filter(
+  g =>
+    g.marketSpread == null
+);
+
+const matchupModels = diGames.filter(
+  g =>
+    g.modelVersion === 'v2-matchup-1'
+);
+
+const baselineModels = diGames.filter(
+  g =>
+    g.modelVersion === 'v2-baseline-1'
+);
+
+const upcoming = diGames.filter(
+  g =>
+    !isFinal(g) &&
+    g.status !== 'live' &&
+    kickoff(g) > now
+);
+
+const upcomingMissingModels = upcoming.filter(
+  g =>
+    g.modelSpread == null ||
+    !g.modelFavorite
+);
+
+const upcomingMissingMarkets = upcoming.filter(
+  g =>
+    g.marketSpread == null
+);
+
+// Save the website-visible games.
+// No games_archive.json is required.
 write('games.json', diGames);
 
+// ============================================================
+// COURTEDGE MODEL V2 — LOGGING
+// ============================================================
+
 console.log(
-  `SYNC: ESPN events ${eventsSeen}; added ${added}; ` +
-  `linked ${linked}; finals seen ${finals}; ` +
-  `new pregame models ${models}; ambiguous ${ambiguous}; ` +
+  `SYNC: ESPN events ${eventsSeen}; ` +
+  `added ${added}; ` +
+  `linked ${linked}; ` +
+  `finals seen ${finals}; ` +
+  `new model predictions ${models}; ` +
+  `ambiguous ${ambiguous}; ` +
   `ESPN non-DI skipped ${skippedNonDI}.`
 );
 
 console.log(
-  `DI FILTER: ${games.length} total archived; ` +
-  `${diGames.length} published DI games; ` +
-  `${excluded.length} excluded from website.`
+  `DI FILTER: ${games.length} games processed; ` +
+  `${diGames.length} published; ` +
+  `${games.length - diGames.length} excluded ` +
+  `or outside the current date range.`
 );
 
 console.log(
-  `COVERAGE: ` +
-  `${diGames.filter(g => !g.espnId).length} without ESPN IDs; ` +
-  `${diGames.filter(g => g.modelSpread == null).length} without models; ` +
-  `${diGames.filter(isFinal).length} final DI games.`
+  `MODEL COVERAGE: ` +
+  `${matchupModels.length} matchup-adjusted; ` +
+  `${baselineModels.length} baseline; ` +
+  `${missingModels.length} total without models.`
 );
 
-for (const g of excluded.slice(0, 30)) {
-  console.log(
-    `EXCLUDED: ${g.date} ${g.away} @ ${g.home} ` +
-    `[away DI=${isDI(g.away)}, home DI=${isDI(g.home)}]`
+console.log(
+  `MARKET COVERAGE: ` +
+  `${diGames.length - missingMarkets.length} ` +
+  `games with sportsbook spreads; ` +
+  `${missingMarkets.length} without market spreads.`
+);
+
+console.log(
+  `UPCOMING COVERAGE: ` +
+  `${upcoming.length} upcoming games; ` +
+  `${upcomingMissingModels.length} missing models; ` +
+  `${upcomingMissingMarkets.length} missing markets.`
+);
+
+console.log(
+  `STATS: ${stats.size} DI team profiles loaded.`
+);
+
+// Identify upcoming games that are missing
+// predictions so they can be investigated.
+for (const g of upcomingMissingModels.slice(0, 30)) {
+  console.warn(
+    `MISSING MODEL: ${g.date} ` +
+    `${g.away} @ ${g.home}`
   );
 }
+
+// Identify upcoming games without market odds.
+for (const g of upcomingMissingMarkets.slice(0, 30)) {
+  console.log(
+    `MISSING MARKET: ${g.date} ` +
+    `${g.away} @ ${g.home}`
+  );
+}
+
+// Final confirmation.
+console.log(
+  `COURTEDGE V2 COMPLETE: ` +
+  `${diGames.length} games published to games.json.`
+);
