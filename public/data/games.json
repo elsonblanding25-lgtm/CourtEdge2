@@ -5164,11 +5164,13 @@
     "time": "20:00",
     "modelFavorite": "Kansas",
     "modelSpread": -21.2,
-    "status": "scheduled",
+    "status": "final",
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-05T19:37:16.731Z",
     "edge": 5.8,
-    "confidence": 2
+    "confidence": 2,
+    "awayScore": 45,
+    "homeScore": 89
   },
   {
     "id": "espn-401921739",
@@ -5287,11 +5289,13 @@
     "time": "20:00",
     "modelFavorite": "Kansas St",
     "modelSpread": -12.6,
-    "status": "scheduled",
+    "status": "final",
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-05T19:37:16.731Z",
     "edge": 2.6,
-    "confidence": 1
+    "confidence": 1,
+    "awayScore": 78,
+    "homeScore": 95
   },
   {
     "id": "espn-401920344",
@@ -5310,11 +5314,13 @@
     "time": "20:30",
     "modelFavorite": "Oregon St",
     "modelSpread": -10.3,
-    "status": "scheduled",
+    "status": "final",
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-05T19:37:16.731Z",
     "edge": 5.7,
-    "confidence": 2
+    "confidence": 2,
+    "awayScore": 68,
+    "homeScore": 96
   },
   {
     "id": "espn-401917515",
@@ -5356,11 +5362,13 @@
     "time": "21:00",
     "modelFavorite": "Stanford",
     "modelSpread": -13.1,
-    "status": "scheduled",
+    "status": "final",
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-05T19:13:50.500Z",
     "edge": 1.4,
-    "confidence": 1
+    "confidence": 1,
+    "awayScore": 63,
+    "homeScore": 81
   },
   {
     "id": "espn-401921061",
@@ -5379,11 +5387,13 @@
     "time": "21:00",
     "modelFavorite": "San Francisco",
     "modelSpread": -3.2,
-    "status": "scheduled",
+    "status": "final",
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-05T19:27:14.727Z",
     "edge": 3.8,
-    "confidence": 2
+    "confidence": 2,
+    "awayScore": 70,
+    "homeScore": 79
   },
   {
     "id": "espn-401922219",
@@ -5425,11 +5435,13 @@
     "time": "21:30",
     "modelFavorite": "Portland",
     "modelSpread": -3.7,
-    "status": "scheduled",
+    "status": "final",
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-05T19:13:50.500Z",
     "edge": 2.2,
-    "confidence": 1
+    "confidence": 1,
+    "awayScore": 89,
+    "homeScore": 85
   },
   {
     "id": "espn-401925707",
@@ -5759,10 +5771,10 @@
     "away": "Old Dominion",
     "home": "Bucknell",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
-    "awayML": null,
-    "homeML": null,
+    "marketFavorite": "Old Dominion",
+    "marketSpread": -4.5,
+    "awayML": -205,
+    "homeML": 170,
     "espnId": "401924940",
     "espnAwayTeamId": "295",
     "espnHomeTeamId": "2083",
@@ -5770,7 +5782,11 @@
     "time": "16:00",
     "modelFavorite": "Old Dominion",
     "modelSpread": -5.8,
-    "status": "scheduled"
+    "status": "scheduled",
+    "oddsBook": "DraftKings",
+    "oddsCapturedAt": "2026-11-07T05:02:24.884Z",
+    "edge": 1.3,
+    "confidence": 1
   },
   {
     "id": "espn-401921174",
@@ -5820,10 +5836,10 @@
     "away": "Bellarmine",
     "home": "Miami OH",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
-    "awayML": null,
-    "homeML": null,
+    "marketFavorite": "Miami OH",
+    "marketSpread": -20.5,
+    "awayML": 1500,
+    "homeML": -3600,
     "espnId": "401911007",
     "espnAwayTeamId": "91",
     "espnHomeTeamId": "193",
@@ -5831,7 +5847,11 @@
     "time": "16:00",
     "modelFavorite": "Miami OH",
     "modelSpread": -13.6,
-    "status": "scheduled"
+    "status": "scheduled",
+    "oddsBook": "DraftKings",
+    "oddsCapturedAt": "2026-11-07T05:02:24.884Z",
+    "edge": 6.9,
+    "confidence": 3
   },
   {
     "id": "espn-401926825",
@@ -8647,9 +8667,9 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
+    "awayScore": 93,
+    "homeScore": 100,
+    "status": "final",
     "espnId": "401920952",
     "espnAwayTeamId": "79",
     "espnHomeTeamId": "140",
