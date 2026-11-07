@@ -1,68 +1,33 @@
 
-/**
- * CourtEdge NCAA Division I basketball sync
- *
- * - ESPN schedules and final scores
- * - The Odds API sportsbook spreads and moneylines
- * - Safer school aliases and mascot matching
- * - Division I vs Division I games only on the website
- * - Full historical archive, including excluded games
- * - Preserves existing pregame predictions and lines
- *
- * Files:
- * public/data/ratings.json       DI ratings roster
- * public/data/games.json         Published DI-only games
- * public/data/games_archive.json Complete archive
- */
-
 import fs from 'node:fs';
 
 const base = new URL('../public/data/', import.meta.url);
 
 function read(name, fallback = null) {
-  const path = new URL(name, base);
-  if (!fs.existsSync(path)) return fallback;
-  return JSON.parse(fs.readFileSync(path, 'utf8'));
+  const file = new URL(name, base);
+  return fs.existsSync(file)
+    ? JSON.parse(fs.readFileSync(file, 'utf8'))
+    : fallback;
 }
 
-function write(name, value) {
+function write(name, data) {
   fs.writeFileSync(
     new URL(name, base),
-    JSON.stringify(value, null, 2) + '\n'
+    JSON.stringify(data, null, 2) + '\n'
   );
 }
 
 const published = read('games.json', []);
-const archive = read('games_archive.json', null);
+const archive = read('games_archive.json', []);
 const ratings = read('ratings.json', []).filter(
   r => Number.isInteger(r.rank) &&
        Number.isFinite(r.bqNet)
 );
 
-if (!Array.isArray(published) || ratings.length < 300) {
-  throw Error('Missing games or incomplete DI ratings.');
-}
-
-// Archive is authoritative after the first run.
-// Merge in any records that exist only in published games.
-const games = Array.isArray(archive) ? [...archive] : [...published];
-
-function recordKey(g) {
-  return g.espnId
-    ? `espn:${g.espnId}`
-    : g.id
-      ? `id:${g.id}`
-      : `game:${g.date}:${g.away}:${g.home}`;
-}
-
-const existingKeys = new Set(games.map(recordKey));
-
-for (const g of published) {
-  const id = recordKey(g);
-  if (!existingKeys.has(id)) {
-    games.push(g);
-    existingKeys.add(id);
-  }
+if (!Array.isArray(published) ||
+    !Array.isArray(archive) ||
+    ratings.length < 300) {
+  throw Error('Missing or invalid CourtEdge data.');
 }
 
 const now = new Date();
@@ -78,30 +43,35 @@ function clean(value) {
     .trim();
 }
 
-// Every alias maps to a specific school.
-// "St" is NOT globally changed to Saint or State.
+// Every abbreviation is mapped to an explicit school.
+// Do not globally replace "St" with "State" or "Saint".
 const aliases = {
-  'albany': 'albany',
   'ualbany': 'albany',
-  'arizona st': 'arizona state',
+  'albany': 'albany',
   'app st': 'appalachian state',
   'app state': 'appalachian state',
+  'arizona st': 'arizona state',
   'arkansas st': 'arkansas state',
+  'arkansas little rock': 'little rock',
+  'little rock': 'little rock',
+  'ualr': 'little rock',
   'ball st': 'ball state',
   'bethune': 'bethune cookman',
   'bethune cookman': 'bethune cookman',
   'boise st': 'boise state',
+  'c arkansas': 'central arkansas',
+  'central arkansas': 'central arkansas',
   'c connecticut': 'central connecticut',
-  'cal baptist': 'california baptist',
+  'central conn': 'central connecticut',
   'ca baptist': 'california baptist',
+  'cal baptist': 'california baptist',
   'cal st northridge': 'cal state northridge',
   'csu northridge': 'cal state northridge',
-  'central conn': 'central connecticut',
+  'charleston': 'college of charleston',
+  'college of charleston': 'college of charleston',
   'chicago st': 'chicago state',
   'coastal': 'coastal carolina',
-  'coastal carolina': 'coastal carolina',
   'detroit': 'detroit mercy',
-  'detroit mercy': 'detroit mercy',
   'e illinois': 'eastern illinois',
   'e michigan': 'eastern michigan',
   'e washington': 'eastern washington',
@@ -117,23 +87,23 @@ const aliases = {
   'idaho st': 'idaho state',
   'indiana st': 'indiana state',
   'jackson st': 'jackson state',
-  'jacksonville st': 'jacksonville state',
   'jax state': 'jacksonville state',
+  'jacksonville st': 'jacksonville state',
   'kansas st': 'kansas state',
   'kent st': 'kent state',
   'liu': 'long island',
-  'long island': 'long island',
+  'louisiana lafayette': 'louisiana',
+  'ul lafayette': 'louisiana',
+  'ul louisiana': 'louisiana',
+  'louisiana': 'louisiana',
   'loyola chi': 'loyola chicago',
-  'loyola chicago': 'loyola chicago',
   'loyola md': 'loyola maryland',
   'mcneese': 'mcneese state',
-  'mcneese state': 'mcneese state',
   'miami fl': 'miami florida',
   'miami fla': 'miami florida',
-  'miami florida': 'miami florida',
   'miami oh': 'miami ohio',
-  'mississippi st': 'mississippi state',
   'michigan st': 'michigan state',
+  'mississippi st': 'mississippi state',
   'mtsu': 'middle tennessee',
   'middle tennessee st': 'middle tennessee',
   'n colorado': 'northern colorado',
@@ -145,24 +115,21 @@ const aliases = {
   'n texas': 'north texas',
   'nc st': 'north carolina state',
   'north carolina st': 'north carolina state',
-  'northwestern st': 'northwestern state',
   'n western st': 'northwestern state',
   'nwestern st': 'northwestern state',
+  'northwestern st': 'northwestern state',
   'ole miss': 'mississippi',
   'oregon st': 'oregon state',
   'penn': 'pennsylvania',
-  'pennsylvania': 'pennsylvania',
   'pitt': 'pittsburgh',
-  'pittsburgh': 'pittsburgh',
   'purdue fort wayne': 'fort wayne',
-  'robert morris': 'robert morris',
   's dakota': 'south dakota',
   's dakota st': 'south dakota state',
   's florida': 'south florida',
   's illinois': 'southern illinois',
+  's indiana': 'southern indiana',
   'se missouri st': 'southeast missouri state',
   'southern miss': 'southern mississippi',
-  'southern mississippi': 'southern mississippi',
   'st bonaventure': 'saint bonaventure',
   'st johns': 'saint johns',
   'st josephs': 'saint josephs',
@@ -182,12 +149,12 @@ const aliases = {
   'umkc': 'kansas city',
   'ut martin': 'tennessee martin',
   'usc upstate': 'south carolina upstate',
+  'w carolina': 'western carolina',
   'w michigan': 'western michigan',
   'wright st': 'wright state',
   'youngstown st': 'youngstown state'
 };
 
-// Known mascot-containing or unusual sportsbook labels.
 const specialAliases = {
   'mcneese cowboys': 'mcneese state',
   'liu sharks': 'long island',
@@ -224,63 +191,125 @@ const specialAliases = {
   'wright st raiders': 'wright state'
 };
 
-function directName(raw) {
-  const n = clean(raw);
+function canonical(value) {
+  const n = clean(value);
   return specialAliases[n] || aliases[n] || n;
 }
 
-// Additional DI programs that may not yet be in ratings.
-// This list is intentionally small; verify it when ratings update.
+// Explicitly recognized DI programs that may be absent
+// from the ratings roster or represented differently.
 const additionalDI = [
+  'little rock',
+  'western carolina',
+  'southern indiana',
+  'louisiana',
+  'college of charleston',
+  'central arkansas',
   'west georgia',
   'mercyhurst',
   'le moyne'
 ];
 
-// The ratings roster is the main DI authority.
 const diNames = new Set([
-  ...ratings.map(r => directName(r.team)),
-  ...additionalDI.map(directName)
+  ...ratings.map(r => canonical(r.team)),
+  ...additionalDI.map(canonical)
 ]);
 
-// School-name dictionary for stripping mascot suffixes.
-// Longest names first so "Kansas State" is never "Kansas".
-const schoolAliases = new Map();
-
-for (const name of diNames) {
-  schoolAliases.set(name, name);
-}
-
-for (const [alias, canonical] of Object.entries(aliases)) {
-  schoolAliases.set(clean(alias), directName(canonical));
-}
-
-for (const [alias, canonical] of Object.entries(specialAliases)) {
-  schoolAliases.set(clean(alias), directName(canonical));
-}
-
-const prefixes = [...schoolAliases.entries()].sort(
-  (a, b) => b[0].length - a[0].length
-);
+// Mascot removal is permitted only for known mascot
+// suffixes, rather than arbitrary extra words.
+const mascotSuffixes = [
+  'great danes',
+  'mean green',
+  'blue devils',
+  'red raiders',
+  'golden eagles',
+  'fighting illini',
+  'chanticleers',
+  'musketeers',
+  'mountaineers',
+  'gamecocks',
+  'colonials',
+  'mavericks',
+  'panthers',
+  'wildcats',
+  'bulldogs',
+  'cardinals',
+  'cowboys',
+  'cougars',
+  'jaguars',
+  'mustangs',
+  'warriors',
+  'raiders',
+  'knights',
+  'eagles',
+  'falcons',
+  'demons',
+  'tommies',
+  'rebels',
+  'sharks',
+  'bears',
+  'bulls',
+  'ducks',
+  'dons',
+  'bison',
+  'owls',
+  'flames',
+  'titans',
+  'hawks',
+  'lancers',
+  'broncos',
+  'rams',
+  'wolves',
+  'zips',
+  'ragin cajuns',
+  'keydets',
+  'toreros',
+  'terriers',
+  'penguins',
+  'huskies',
+  'matadors',
+  'salukis',
+  'jaspers',
+  'quakers',
+  'aggies',
+  'texans',
+  'bengals',
+  'cyclones',
+  'hoosiers',
+  'trojans',
+  'beavers',
+  'yellow jackets',
+  'golden gophers',
+  'blue raiders',
+  'wolfpack',
+  'redhawks',
+  'thunderbirds',
+  'pirates',
+  'spartans',
+  'lions'
+].sort((a, b) => b.length - a.length);
 
 function schoolName(raw) {
-  const n = clean(raw);
+  const original = clean(raw);
+  if (!original) return '';
 
-  if (!n) return '';
+  let n = canonical(original);
 
-  if (schoolAliases.has(n)) {
-    return schoolAliases.get(n);
+  if (diNames.has(n)) return n;
+
+  // A known mascot can be removed only when the
+  // remaining name resolves to a recognized DI school.
+  for (const mascot of mascotSuffixes) {
+    if (!original.endsWith(' ' + mascot)) continue;
+
+    const candidate = canonical(
+      original.slice(0, -mascot.length - 1)
+    );
+
+    if (diNames.has(candidate)) return candidate;
   }
 
-  // Strip a mascot only after a recognized school name.
-  // This does not perform arbitrary fuzzy matching.
-  for (const [prefix, canonical] of prefixes) {
-    if (n.startsWith(prefix + ' ')) {
-      return canonical;
-    }
-  }
-
-  return directName(n);
+  return n;
 }
 
 function sameSchool(a, b) {
@@ -297,32 +326,49 @@ function isDIGame(g) {
   return isDI(g.away) && isDI(g.home);
 }
 
-// Ratings lookup using the same canonical school identity.
-const rated = new Map();
+// Merge the published games into the archive without
+// replacing records containing historical information.
+const games = [...archive];
 
-for (const r of ratings) {
-  rated.set(schoolName(r.team), r);
+function gameIdentity(g) {
+  if (g.espnId) return `espn:${g.espnId}`;
+  if (g.id) return `id:${g.id}`;
+  return `${g.date}|${schoolName(g.away)}|${schoolName(g.home)}`;
 }
 
-function rating(...names) {
-  for (const n of names) {
-    const result = rated.get(schoolName(n));
-    if (result) return result;
+const known = new Set(games.map(gameIdentity));
+
+for (const g of published) {
+  const id = gameIdentity(g);
+  if (!known.has(id)) {
+    games.push(g);
+    known.add(id);
   }
-  return null;
 }
+
+const rated = new Map(
+  ratings.map(r => [schoolName(r.team), r])
+);
 
 const efficiency = ratings
   .map(r => r.bqNet)
   .sort((a, b) => b - a);
 
-function centralDate(value) {
+function rating(...names) {
+  for (const name of names) {
+    const r = rated.get(schoolName(name));
+    if (r) return r;
+  }
+  return null;
+}
+
+function centralDate(date) {
   const parts = new Intl.DateTimeFormat('en-US', {
     timeZone: 'America/Chicago',
     year: 'numeric',
     month: '2-digit',
     day: '2-digit'
-  }).formatToParts(value);
+  }).formatToParts(date);
 
   const p = Object.fromEntries(
     parts.map(item => [item.type, item.value])
@@ -343,13 +389,13 @@ function competitorNames(c) {
   return [
     c.team?.shortDisplayName,
     c.team?.displayName,
-    c.team?.name,
-    c.team?.location
+    c.team?.location,
+    c.team?.name
   ].filter(Boolean);
 }
 
-function competitorMatches(name, competitor) {
-  return competitorNames(competitor).some(
+function competitorMatches(name, c) {
+  return competitorNames(c).some(
     n => sameSchool(name, n)
   );
 }
@@ -375,14 +421,12 @@ function setModel(g, awayNames = [], homeNames = []) {
     return false;
   }
 
-  const margin =
-    0.7 * (hv - av) +
+  const margin = 0.7 * (hv - av) +
     (g.site === 'Neutral' ? 0 : 3);
 
   g.modelFavorite = margin >= 0 ? g.home : g.away;
   g.modelSpread =
     -Math.round(Math.abs(margin) * 10) / 10;
-
   g.modelGeneratedAt = now.toISOString();
 
   return true;
@@ -396,10 +440,10 @@ function computeEdge(g) {
     !g.marketFavorite
   ) return;
 
-  const mf = schoolName(g.modelFavorite);
-  const sf = schoolName(g.marketFavorite);
   const home = schoolName(g.home);
   const away = schoolName(g.away);
+  const mf = schoolName(g.modelFavorite);
+  const sf = schoolName(g.marketFavorite);
 
   if (![home, away].includes(mf)) return;
   if (![home, away].includes(sf)) return;
@@ -411,6 +455,9 @@ function computeEdge(g) {
   const marketHome = sf === home
     ? -Math.abs(g.marketSpread)
     : Math.abs(g.marketSpread);
+
+  // Preserve historical recorded edges.
+  if (g.edge != null && g.confidence != null) return;
 
   g.edge = Math.round(
     Math.abs(modelHome - marketHome) * 10
@@ -424,12 +471,10 @@ function computeEdge(g) {
   );
 }
 
-// ---------------- ESPN ----------------
-
+// ESPN sync
 const lookback = Math.max(
   0, Number(process.env.SYNC_LOOKBACK_DAYS ?? 14)
 );
-
 const forward = Math.max(
   0, Number(process.env.SYNC_FORWARD_DAYS ?? 7)
 );
@@ -466,7 +511,6 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
         `?dates=${stamp}&limit=500${suffix}`;
 
       const response = await fetch(url);
-
       if (!response.ok) {
         throw Error(`HTTP ${response.status}`);
       }
@@ -477,9 +521,7 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
         events.set(String(e.id), e);
       }
     } catch (error) {
-      console.warn(
-        `ESPN ${date}: ${error.message}`
-      );
+      console.warn(`ESPN ${date}: ${error.message}`);
     }
   }
 
@@ -498,10 +540,8 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
     );
 
     if (!away || !home) continue;
-
     eventsSeen++;
 
-    // Don't import new non-DI games.
     if (!competitorDI(away) || !competitorDI(home)) {
       skippedNonDI++;
       continue;
@@ -510,7 +550,6 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
     const when = new Date(
       event.date || comp.date || date + 'T12:00:00Z'
     );
-
     const gameDate = Number.isFinite(when.getTime())
       ? centralDate(when)
       : date;
@@ -538,9 +577,7 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
 
       if (candidates.length > 1) {
         ambiguous++;
-        console.warn(
-          `ESPN AMBIGUOUS: ${event.id}`
-        );
+        console.warn(`ESPN AMBIGUOUS: ${event.id}`);
         continue;
       }
 
@@ -550,6 +587,8 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
 
         const oldAway = g.away;
         const oldHome = g.home;
+        const newAway = competitorNames(away)[0];
+        const newHome = competitorNames(home)[0];
 
         const reversed =
           competitorMatches(oldAway, home) &&
@@ -559,13 +598,9 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
           g.originalAway = oldAway;
           g.originalHome = oldHome;
           g.pregameOrientationMismatch = true;
-
           [g.awayML, g.homeML] =
             [g.homeML, g.awayML];
         }
-
-        const newAway = competitorNames(away)[0];
-        const newHome = competitorNames(home)[0];
 
         for (const field of [
           'modelFavorite',
@@ -638,9 +673,7 @@ for (let offset = 0; offset <= lookback + forward; offset++) {
         competitorNames(away),
         competitorNames(home)
       )
-    ) {
-      models++;
-    }
+    ) models++;
 
     if (complete) {
       const as = away.score;
@@ -670,8 +703,7 @@ for (const g of games) {
   computeEdge(g);
 }
 
-// ---------------- SPORTSBOOK ODDS ----------------
-
+// Sportsbook odds
 if (process.env.ODDS_API_KEY) {
   try {
     const url =
@@ -682,7 +714,6 @@ if (process.env.ODDS_API_KEY) {
       '&oddsFormat=american&dateFormat=iso';
 
     const response = await fetch(url);
-
     if (!response.ok) {
       throw Error(`HTTP ${response.status}`);
     }
@@ -699,16 +730,9 @@ if (process.env.ODDS_API_KEY) {
 
     for (const event of odds) {
       const startTime = new Date(event.commence_time);
+      if (!Number.isFinite(startTime.getTime())) continue;
 
-      if (!Number.isFinite(startTime.getTime())) {
-        continue;
-      }
-
-      // Skip sportsbook games containing non-DI teams.
-      if (
-        !isDI(event.away_team) ||
-        !isDI(event.home_team)
-      ) {
+      if (!isDI(event.away_team) || !isDI(event.home_team)) {
         nonDI++;
         continue;
       }
@@ -733,12 +757,9 @@ if (process.env.ODDS_API_KEY) {
 
       if (candidates.length === 0) {
         unmatched++;
-
         console.log(
           `ODDS UNMATCHED: ${date} ` +
-          `${event.away_team} @ ${event.home_team}` +
-          ` [${schoolName(event.away_team)} @ ` +
-          `${schoolName(event.home_team)}]`
+          `${event.away_team} @ ${event.home_team}`
         );
 
         const closest = games.filter(
@@ -753,11 +774,8 @@ if (process.env.ODDS_API_KEY) {
         ).slice(0, 3);
 
         for (const g of closest) {
-          console.log(
-            `  CLOSEST: ${g.away} @ ${g.home}`
-          );
+          console.log(`  CLOSEST: ${g.away} @ ${g.home}`);
         }
-
         continue;
       }
 
@@ -777,7 +795,6 @@ if (process.env.ODDS_API_KEY) {
         continue;
       }
 
-      // Never overwrite a previously captured market line.
       if (g.marketSpread != null) {
         already++;
         continue;
@@ -864,45 +881,34 @@ if (process.env.ODDS_API_KEY) {
       `saved ${saved}; already had lines ${already}; ` +
       `unmatched ${unmatched}; ambiguous ${ambiguousOdds}; ` +
       `no spread offered ${noSpread}; ` +
-      `final games ${completed}; ` +
-      `non-DI excluded ${nonDI}.`
+      `final games ${completed}; non-DI excluded ${nonDI}.`
     );
   } catch (error) {
-    console.warn(
-      `Odds unavailable: ${error.message}`
-    );
+    console.warn(`Odds unavailable: ${error.message}`);
   }
 } else {
   console.log('ODDS_API_KEY not set.');
 }
 
-// ---------------- VALIDATION ----------------
-
+// Validate and publish
 const ids = games
   .filter(g => g.espnId)
   .map(g => String(g.espnId));
 
 if (new Set(ids).size !== ids.length) {
-  throw Error(
-    'Duplicate ESPN IDs detected. Refusing to publish.'
-  );
+  throw Error('Duplicate ESPN IDs. Refusing to publish.');
 }
 
-// The archive preserves everything.
-// The website receives only DI vs DI games.
 const diGames = games.filter(isDIGame);
 const excluded = games.filter(g => !isDIGame(g));
 
-// Write archive first so excluded games are recoverable.
 write('games_archive.json', games);
 write('games.json', diGames);
 
 console.log(
-  `SYNC: ESPN events ${eventsSeen}; ` +
-  `added ${added}; linked ${linked}; ` +
-  `finals seen ${finals}; ` +
-  `new pregame models ${models}; ` +
-  `ambiguous ${ambiguous}; ` +
+  `SYNC: ESPN events ${eventsSeen}; added ${added}; ` +
+  `linked ${linked}; finals seen ${finals}; ` +
+  `new pregame models ${models}; ambiguous ${ambiguous}; ` +
   `ESPN non-DI skipped ${skippedNonDI}.`
 );
 
