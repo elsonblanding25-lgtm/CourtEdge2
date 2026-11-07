@@ -2266,7 +2266,7 @@
     "time": "11:00",
     "modelFavorite": "Winthrop",
     "modelSpread": -11.5,
-    "status": "scheduled",
+    "status": "live",
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-06T23:49:52.959Z",
     "edge": 2,
