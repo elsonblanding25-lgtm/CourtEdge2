@@ -15,10 +15,10 @@ jobs:
 
     steps:
       
-- name: Checkout repository
-  uses: actions/checkout@v4
-  with:
-    fetch-depth: 0
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
 
       - name: Set up Node.js
@@ -31,12 +31,15 @@ jobs:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           SYNC_DAYS: "3"
         run: node scripts/sync.mjs
+      - name: Run historical backtest
+        run: node scripts/backtest.mjs
+
 
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/games.json 
+          git add public/data/games.json public/data/backtest_2026-11-05_06.json
           if ! git diff --cached --quiet; then
             git commit -m "Update basketball games and results"
             git push
