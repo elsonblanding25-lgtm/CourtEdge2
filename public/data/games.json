@@ -4964,11 +4964,13 @@
     "time": "19:00",
     "modelFavorite": "UConn",
     "modelSpread": -8.6,
-    "status": "scheduled",
+    "status": "final",
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-05T19:23:22.399Z",
     "edge": 3.1,
-    "confidence": 2
+    "confidence": 2,
+    "awayScore": 85,
+    "homeScore": 77
   },
   {
     "id": "espn-401909772",
@@ -4987,11 +4989,13 @@
     "time": "19:00",
     "modelFavorite": "Iowa State",
     "modelSpread": -28.8,
-    "status": "scheduled",
+    "status": "final",
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-05T19:23:22.399Z",
     "edge": 1.2,
-    "confidence": 1
+    "confidence": 1,
+    "awayScore": 57,
+    "homeScore": 83
   },
   {
     "id": "espn-401921809",
@@ -5010,11 +5014,13 @@
     "time": "19:00",
     "modelFavorite": "LSU",
     "modelSpread": -18.1,
-    "status": "scheduled",
+    "status": "final",
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-06T06:16:29.516Z",
     "edge": 12.4,
-    "confidence": 4
+    "confidence": 4,
+    "awayScore": 51,
+    "homeScore": 92
   },
   {
     "id": "espn-401920807",
@@ -5033,11 +5039,13 @@
     "time": "19:00",
     "modelFavorite": "Texas A&M",
     "modelSpread": -16.9,
-    "status": "scheduled",
+    "status": "final",
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-05T19:13:50.500Z",
     "edge": 8.1,
-    "confidence": 3
+    "confidence": 3,
+    "awayScore": 67,
+    "homeScore": 104
   },
   {
     "id": "espn-401920733",
@@ -5081,11 +5089,13 @@
     "time": "19:00",
     "modelFavorite": "TCU",
     "modelSpread": -19.5,
-    "status": "scheduled",
+    "status": "final",
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-06T06:16:29.516Z",
     "edge": 4,
-    "confidence": 2
+    "confidence": 2,
+    "awayScore": 54,
+    "homeScore": 106
   },
   {
     "id": "espn-401922021",
@@ -5104,11 +5114,13 @@
     "time": "19:30",
     "modelFavorite": "Wyoming",
     "modelSpread": -18,
-    "status": "scheduled",
+    "status": "final",
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-05T19:27:14.727Z",
     "edge": 1,
-    "confidence": 1
+    "confidence": 1,
+    "awayScore": 62,
+    "homeScore": 93
   },
   {
     "id": "espn-401920726",
@@ -5127,11 +5139,13 @@
     "time": "19:30",
     "modelFavorite": "Iowa",
     "modelSpread": -31.5,
-    "status": "scheduled",
+    "status": "final",
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-05T19:13:50.500Z",
     "edge": 4,
-    "confidence": 2
+    "confidence": 2,
+    "awayScore": 47,
+    "homeScore": 91
   },
   {
     "id": "espn-401909785",
@@ -5173,11 +5187,13 @@
     "time": "20:00",
     "modelFavorite": "BYU",
     "modelSpread": -22.7,
-    "status": "scheduled",
+    "status": "final",
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-05T19:13:50.500Z",
     "edge": 6.3,
-    "confidence": 3
+    "confidence": 3,
+    "awayScore": 67,
+    "homeScore": 108
   },
   {
     "id": "espn-401922261",
@@ -5196,11 +5212,13 @@
     "time": "20:00",
     "modelFavorite": "Colorado St",
     "modelSpread": -16.1,
-    "status": "scheduled",
+    "status": "final",
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-05T19:13:50.500Z",
     "edge": 0.1,
-    "confidence": 1
+    "confidence": 1,
+    "awayScore": 67,
+    "homeScore": 78
   },
   {
     "id": "espn-401921732",
@@ -5219,11 +5237,13 @@
     "time": "20:00",
     "modelFavorite": "Arizona St",
     "modelSpread": -11.9,
-    "status": "scheduled",
+    "status": "final",
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-05T19:37:16.731Z",
     "edge": 3.1,
-    "confidence": 2
+    "confidence": 2,
+    "awayScore": 63,
+    "homeScore": 90
   },
   {
     "id": "espn-401919040",
@@ -5242,11 +5262,13 @@
     "time": "20:00",
     "modelFavorite": "Oklahoma St",
     "modelSpread": -17.4,
-    "status": "scheduled",
+    "status": "final",
     "oddsBook": "FanDuel",
     "oddsCapturedAt": "2026-11-06T04:07:10.582Z",
     "edge": 1.1,
-    "confidence": 1
+    "confidence": 1,
+    "awayScore": 68,
+    "homeScore": 118
   },
   {
     "id": "espn-401909797",
