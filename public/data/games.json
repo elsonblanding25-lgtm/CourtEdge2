@@ -3171,7 +3171,7 @@
     "time": "18:00",
     "modelFavorite": "Dayton",
     "modelSpread": -23.3,
-    "status": "live",
+    "status": "final",
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-06T19:08:20.638Z",
     "edge": 2.3,
@@ -3185,7 +3185,13 @@
     "modelVersion": "v2-baseline-1",
     "modelBaseMargin": 23.3,
     "modelMatchupAdjustment": 0,
-    "modelGeneratedAt": "2026-11-07T07:06:05.189Z"
+    "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+    "awayScore": 81,
+    "homeScore": 76,
+    "actualMargin": -5,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": false,
+    "modelMarginError": 28.3
   },
   {
     "id": "espn-401909532",
@@ -3204,7 +3210,7 @@
     "time": "18:00",
     "modelFavorite": "Nebraska",
     "modelSpread": -9.6,
-    "status": "live",
+    "status": "final",
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-06T19:08:20.638Z",
     "edge": 5.1,
@@ -3218,7 +3224,13 @@
     "modelVersion": "v2-baseline-1",
     "modelBaseMargin": 9.6,
     "modelMatchupAdjustment": 0,
-    "modelGeneratedAt": "2026-11-07T07:06:05.189Z"
+    "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+    "awayScore": 58,
+    "homeScore": 67,
+    "actualMargin": 9,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 0.6
   },
   {
     "id": "espn-401926227",
@@ -3237,7 +3249,7 @@
     "time": "18:30",
     "modelFavorite": "UC Riverside",
     "modelSpread": -1.9,
-    "status": "live",
+    "status": "final",
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-06T19:08:20.638Z",
     "edge": 0.4,
@@ -3251,7 +3263,13 @@
     "modelVersion": "v2-baseline-1",
     "modelBaseMargin": 1.9,
     "modelMatchupAdjustment": 0,
-    "modelGeneratedAt": "2026-11-07T07:06:05.189Z"
+    "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+    "awayScore": 60,
+    "homeScore": 64,
+    "actualMargin": 4,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 2.1
   },
   {
     "id": "espn-401909513",
@@ -3270,7 +3288,7 @@
     "time": "18:30",
     "modelFavorite": "Georgetown",
     "modelSpread": -5.7,
-    "status": "live",
+    "status": "final",
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-06T19:08:20.638Z",
     "edge": 9.2,
@@ -3284,7 +3302,13 @@
     "modelVersion": "v2-baseline-1",
     "modelBaseMargin": 5.7,
     "modelMatchupAdjustment": 0,
-    "modelGeneratedAt": "2026-11-07T07:06:05.189Z"
+    "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+    "awayScore": 74,
+    "homeScore": 86,
+    "actualMargin": 12,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 6.3
   },
   {
     "id": "espn-401917518",
