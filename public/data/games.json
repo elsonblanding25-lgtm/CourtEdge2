@@ -3841,8 +3841,8 @@
     "source": "ESPN / The Odds API",
     "modelFavorite": "Merrimack",
     "modelSpread": -6.2,
-    "marketFavorite": null,
-    "marketSpread": null,
+    "marketFavorite": "Merrimack",
+    "marketSpread": -1.5,
     "awayML": null,
     "homeML": null,
     "awayScore": null,
@@ -3862,8 +3862,10 @@
     "modelVersion": "v2-baseline-1",
     "modelBaseMargin": -6.2,
     "modelMatchupAdjustment": 0,
-    "edge": null,
-    "confidence": null
+    "edge": 4.7,
+    "confidence": 2,
+    "oddsBook": "BetOnline.ag",
+    "oddsCapturedAt": "2026-11-08T12:56:14.550Z"
   },
   {
     "id": "espn-401927362",
@@ -3871,8 +3873,8 @@
     "away": "Southern",
     "home": "Drake",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
+    "marketFavorite": "Drake",
+    "marketSpread": -13.5,
     "awayML": null,
     "homeML": null,
     "espnId": "401927362",
@@ -3893,8 +3895,10 @@
     "modelBaseMargin": 8.7,
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
-    "edge": null,
-    "confidence": null
+    "edge": 4.8,
+    "confidence": 2,
+    "oddsBook": "BetOnline.ag",
+    "oddsCapturedAt": "2026-11-08T12:56:14.550Z"
   },
   {
     "id": "espn-401911335",
