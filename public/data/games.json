@@ -3473,7 +3473,7 @@
     "time": "12:00",
     "modelFavorite": "Arkansas",
     "modelSpread": -0.8,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-08T18:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Virginia",
@@ -3504,7 +3504,7 @@
     "time": "12:00",
     "modelFavorite": "Siena",
     "modelSpread": -6.9,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-08T18:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Princeton",
@@ -3535,7 +3535,7 @@
     "time": "12:00",
     "modelFavorite": "Marist",
     "modelSpread": -4.4,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-08T18:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Marist",
@@ -3566,7 +3566,7 @@
     "time": "12:00",
     "modelFavorite": "Sacred Heart",
     "modelSpread": -3,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-08T18:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Sacred Heart",
@@ -3597,7 +3597,7 @@
     "time": "12:00",
     "modelFavorite": "Maine",
     "modelSpread": -1.3,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-08T18:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Manhattan",
@@ -3628,7 +3628,7 @@
     "time": "12:00",
     "modelFavorite": "Fairfield",
     "modelSpread": -4.5,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-08T18:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Fairfield",
@@ -4829,8 +4829,8 @@
     "away": "E Washington",
     "home": "Oregon St",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
+    "marketFavorite": "Oregon St",
+    "marketSpread": -15,
     "awayML": null,
     "homeML": null,
     "espnId": "401920718",
@@ -4851,8 +4851,10 @@
     "modelBaseMargin": 4.8,
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
-    "edge": null,
-    "confidence": null
+    "edge": 10.2,
+    "confidence": 4,
+    "oddsBook": "BetOnline.ag",
+    "oddsCapturedAt": "2026-11-08T18:49:36.037Z"
   },
   {
     "id": "espn-401921095",
