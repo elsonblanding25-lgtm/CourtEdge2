@@ -4042,7 +4042,7 @@
     "time": "15:00",
     "modelFavorite": "Saint Peter's",
     "modelSpread": -3.9,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-08T21:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Saint Peter's",
@@ -4054,7 +4054,13 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "awayScore": 52,
+    "homeScore": 54,
+    "actualMargin": 2,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": false,
+    "modelMarginError": 5.9
   },
   {
     "id": "espn-401911274",
@@ -4073,7 +4079,7 @@
     "time": "15:00",
     "modelFavorite": "Binghamton",
     "modelSpread": -1.7,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-08T21:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Binghamton",
@@ -4085,7 +4091,13 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "awayScore": 63,
+    "homeScore": 75,
+    "actualMargin": 12,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 10.3
   },
   {
     "id": "espn-401911453",
@@ -4224,8 +4236,8 @@
     "awayML": null,
     "homeML": null,
     "espnId": "401918053",
-    "espnAwayTeamId": "248",
-    "espnHomeTeamId": "25",
+    "espnAwayTeamId": "25",
+    "espnHomeTeamId": "248",
     "site": "Neutral",
     "time": "19:30",
     "modelFavorite": "Houston",
