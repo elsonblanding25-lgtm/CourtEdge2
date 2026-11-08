@@ -3479,7 +3479,7 @@
     "time": "12:00",
     "modelFavorite": "Arkansas",
     "modelSpread": -0.8,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-08T18:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Virginia",
@@ -3491,7 +3491,13 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "awayScore": 72,
+    "homeScore": 91,
+    "actualMargin": 19,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": false,
+    "modelMarginError": 19.8
   },
   {
     "id": "espn-401924734",
@@ -3510,7 +3516,7 @@
     "time": "12:00",
     "modelFavorite": "Siena",
     "modelSpread": -6.9,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-08T18:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Princeton",
@@ -3522,7 +3528,13 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "awayScore": 68,
+    "homeScore": 82,
+    "actualMargin": 14,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 7.1
   },
   {
     "id": "espn-401921687",
@@ -3541,7 +3553,7 @@
     "time": "12:00",
     "modelFavorite": "Marist",
     "modelSpread": -4.4,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-08T18:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Marist",
@@ -3553,7 +3565,13 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "awayScore": 61,
+    "homeScore": 63,
+    "actualMargin": 2,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": false,
+    "modelMarginError": 6.4
   },
   {
     "id": "espn-401921685",
@@ -3572,7 +3590,7 @@
     "time": "12:00",
     "modelFavorite": "Sacred Heart",
     "modelSpread": -3,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-08T18:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Sacred Heart",
@@ -3584,7 +3602,13 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "awayScore": 81,
+    "homeScore": 76,
+    "actualMargin": -5,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 2
   },
   {
     "id": "espn-401921684",
@@ -3603,7 +3627,7 @@
     "time": "12:00",
     "modelFavorite": "Maine",
     "modelSpread": -1.3,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-08T18:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Manhattan",
@@ -3615,7 +3639,13 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "awayScore": 68,
+    "homeScore": 62,
+    "actualMargin": -6,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": false,
+    "modelMarginError": 7.3
   },
   {
     "id": "espn-401921683",
@@ -3634,7 +3664,7 @@
     "time": "12:00",
     "modelFavorite": "Fairfield",
     "modelSpread": -4.5,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-08T18:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Fairfield",
@@ -3646,7 +3676,13 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "awayScore": 68,
+    "homeScore": 59,
+    "actualMargin": -9,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 4.5
   },
   {
     "id": "espn-401920739",
@@ -3890,7 +3926,7 @@
     "time": "14:00",
     "modelFavorite": "Drake",
     "modelSpread": -8.7,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-08T20:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Drake",
@@ -3923,7 +3959,7 @@
     "time": "14:00",
     "modelFavorite": "Idaho St",
     "modelSpread": -5,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-08T20:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Air Force",
