@@ -3701,7 +3701,7 @@
     "time": "13:00",
     "modelFavorite": "Campbell",
     "modelSpread": -1.9,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-08T19:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "W Michigan",
@@ -3713,7 +3713,13 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "awayScore": 71,
+    "homeScore": 87,
+    "actualMargin": 16,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": false,
+    "modelMarginError": 17.9
   },
   {
     "id": "espn-401920692",
@@ -3732,7 +3738,7 @@
     "time": "13:00",
     "modelFavorite": "Vermont",
     "modelSpread": -1.8,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-08T19:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Vermont",
@@ -3744,7 +3750,13 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "awayScore": 79,
+    "homeScore": 76,
+    "actualMargin": -3,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": false,
+    "modelMarginError": 4.8
   },
   {
     "id": "espn-401920233",
@@ -3763,7 +3775,7 @@
     "time": "13:00",
     "modelFavorite": "Dartmouth",
     "modelSpread": -4.5,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-08T19:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Dartmouth",
@@ -3775,7 +3787,13 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "awayScore": 78,
+    "homeScore": 71,
+    "actualMargin": -7,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": false,
+    "modelMarginError": 11.5
   },
   {
     "id": "espn-401911306",
@@ -3794,7 +3812,7 @@
     "time": "13:00",
     "modelFavorite": "Lehigh",
     "modelSpread": -2.7,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-08T19:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Lehigh",
@@ -3806,7 +3824,13 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "awayScore": 65,
+    "homeScore": 55,
+    "actualMargin": -10,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": false,
+    "modelMarginError": 12.7
   },
   {
     "id": "espn-401902277",
@@ -3825,7 +3849,7 @@
     "time": "13:00",
     "modelFavorite": "Boise St",
     "modelSpread": -6,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-08T19:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Boise St",
@@ -3839,7 +3863,13 @@
     "edge": 3.5,
     "confidence": 2,
     "oddsBook": "BetOnline.ag",
-    "oddsCapturedAt": "2026-11-07T19:46:35.833Z"
+    "oddsCapturedAt": "2026-11-07T19:46:35.833Z",
+    "awayScore": 81,
+    "homeScore": 100,
+    "actualMargin": 19,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 13
   },
   {
     "id": "espn-401920843",
@@ -3854,9 +3884,9 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 76,
+    "homeScore": 67,
+    "status": "final",
     "espnId": "401920843",
     "espnAwayTeamId": "2739",
     "espnHomeTeamId": "2900",
@@ -3872,7 +3902,11 @@
     "modelBaseMargin": 10.2,
     "modelMatchupAdjustment": 0,
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "actualMargin": -9,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": false,
+    "modelMarginError": 19.2
   },
   {
     "id": "espn-401921686",
@@ -3887,9 +3921,9 @@
     "marketSpread": -1.5,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 73,
+    "homeScore": 60,
+    "status": "final",
     "espnId": "401921686",
     "espnAwayTeamId": "2771",
     "espnHomeTeamId": "399",
@@ -3907,7 +3941,11 @@
     "edge": 4.7,
     "confidence": 2,
     "oddsBook": "BetOnline.ag",
-    "oddsCapturedAt": "2026-11-08T12:56:14.550Z"
+    "oddsCapturedAt": "2026-11-08T12:56:14.550Z",
+    "actualMargin": -13,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 6.8
   },
   {
     "id": "espn-401927362",
@@ -3992,7 +4030,7 @@
     "time": "15:00",
     "modelFavorite": "Saint Peter's",
     "modelSpread": -3.9,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-08T21:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Saint Peter's",
@@ -4023,7 +4061,7 @@
     "time": "15:00",
     "modelFavorite": "Binghamton",
     "modelSpread": -1.7,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-08T21:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Binghamton",
@@ -4054,7 +4092,7 @@
     "time": "15:30",
     "modelFavorite": "Saint Mary's",
     "modelSpread": -6.8,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-08T21:30:00.000Z",
     "preUpgradeModel": {
       "favorite": "Saint Mary's",
