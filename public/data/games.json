@@ -3327,7 +3327,7 @@
     "time": "19:00",
     "modelFavorite": "Bradley",
     "modelSpread": -4.3,
-    "status": "live",
+    "status": "final",
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-06T19:08:20.638Z",
     "startTime": "2026-11-08T01:00:00.000Z",
@@ -3341,7 +3341,13 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "awayScore": 63,
+    "homeScore": 52,
+    "actualMargin": -11,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": false,
+    "modelMarginError": 15.3
   },
   {
     "id": "espn-401911345",
@@ -3360,7 +3366,7 @@
     "time": "19:00",
     "modelFavorite": "Grand Canyon",
     "modelSpread": -16.7,
-    "status": "live",
+    "status": "final",
     "oddsBook": "FanDuel",
     "oddsCapturedAt": "2026-11-07T01:17:25.527Z",
     "edge": 4.8,
@@ -3374,7 +3380,13 @@
     "modelVersion": "v2-baseline-1",
     "modelBaseMargin": 16.7,
     "modelMatchupAdjustment": 0,
-    "modelGeneratedAt": "2026-11-07T07:06:05.189Z"
+    "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+    "awayScore": 81,
+    "homeScore": 99,
+    "actualMargin": 18,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 1.3
   },
   {
     "id": "espn-401923392",
@@ -3389,9 +3401,9 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 76,
+    "homeScore": 78,
+    "status": "final",
     "espnId": "401923392",
     "espnAwayTeamId": "88",
     "espnHomeTeamId": "339",
@@ -3407,7 +3419,11 @@
     "modelBaseMargin": 8,
     "modelMatchupAdjustment": 0,
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "actualMargin": 2,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 6
   },
   {
     "id": "espn-401924646",
