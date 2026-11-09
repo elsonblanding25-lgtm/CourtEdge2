@@ -171,8 +171,10 @@ const aliases = {
   'new mexico st': 'new mexico state',
   'portland st': 'portland state',
   'texas a m cc islanders': 'texas a and m corpus christi',
-  'ut martin': 'tennessee martin',
+  'ut martin': 'tennessee martin',  
   'usc upstate': 'south carolina upstate',
+  'sc upstate': 'south carolina upstate',
+  'south carolina upstate spartans': 'south carolina upstate'
   'w carolina': 'western carolina',
   'w michigan': 'western michigan',
   'wright st': 'wright state',
