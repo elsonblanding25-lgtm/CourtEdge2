@@ -174,7 +174,7 @@ const aliases = {
   'ut martin': 'tennessee martin',  
   'usc upstate': 'south carolina upstate',
   'sc upstate': 'south carolina upstate',
-  'south carolina upstate spartans': 'south carolina upstate'
+  'south carolina upstate spartans': 'south carolina upstate',
   'w carolina': 'western carolina',
   'w michigan': 'western michigan',
   'wright st': 'wright state',
