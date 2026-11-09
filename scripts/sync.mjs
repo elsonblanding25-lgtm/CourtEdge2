@@ -30,6 +30,10 @@ if (!Array.isArray(published) ||
 }
 
 const now = new Date();
+const isoNow = now.toISOString();
+const round1 = x => Math.round(x * 10) / 10;
+const validDate = x => x && Number.isFinite(new Date(x).getTime());
+
 
 function clean(value) {
   return String(value ?? '')
@@ -798,6 +802,153 @@ function computeEdge(g) {
 }
 
 // ============================================================
+// COURTEDGE — IMMUTABLE PREGAME ATS PICKS AND LINE HISTORY
+// ============================================================
+// All spreads are stored as the HOME team's handicap:
+// home -6.5 => -6.5; away -6.5 => +6.5.
+// ATS records use the FIRST verified pregame model/market pair.
+// Later odds updates are informational and never rewrite the pick.
+function homeHandicap(favorite, spread, g) {
+  const n = Number(spread);
+  if (!Number.isFinite(n)) return null;
+  if (Math.abs(n) < 0.0001) return 0;
+  if (sameSchool(favorite, g.home)) return -Math.abs(n);
+  if (sameSchool(favorite, g.away)) return Math.abs(n);
+  return null;
+}
+
+function pregame(g) {
+  return !isFinal(g) && g.status !== 'live' &&
+    validDate(g.startTime) && new Date(g.startTime) > now;
+}
+
+function verifiedModel(g) {
+  return g.modelSpread != null &&
+    validDate(g.modelGeneratedAt) &&
+    validDate(g.startTime) &&
+    new Date(g.modelGeneratedAt) < new Date(g.startTime) &&
+    homeHandicap(g.modelFavorite, g.modelSpread, g) != null;
+}
+
+function verifiedMarket(g) {
+  return g.marketSpread != null &&
+    validDate(g.oddsCapturedAt) &&
+    validDate(g.startTime) &&
+    new Date(g.oddsCapturedAt) < new Date(g.startTime) &&
+    homeHandicap(g.marketFavorite, g.marketSpread, g) != null;
+}
+
+function recordPick(g) {
+  if (g.atsPick || !pregame(g) ||
+      !verifiedModel(g) || !verifiedMarket(g)) return false;
+  const modelHome = homeHandicap(g.modelFavorite, g.modelSpread, g);
+  const marketHome = homeHandicap(g.marketFavorite, g.marketSpread, g);
+  const modelMargin = -modelHome;
+  const marketMargin = -marketHome;
+  const advantageHome = modelMargin - marketMargin;
+  // A zero edge is not a recommendation.
+  const side = Math.abs(advantageHome) < 0.00001
+    ? null : advantageHome > 0 ? 'home' : 'away';
+  g.atsPick = {
+    capturedAt: isoNow,
+    gameId: String(g.espnId || g.id || ''),
+    startTimeAtPick: g.startTime,
+    home: g.home,
+    away: g.away,
+    modelGeneratedAt: g.modelGeneratedAt,
+    modelVersion: g.modelVersion,
+    modelHomeHandicap: modelHome,
+    marketHomeHandicap: marketHome,
+    marketCapturedAt: g.oddsCapturedAt,
+    sportsbook: g.oddsBook || null,
+    side,
+    pickTeam: side === 'home' ? g.home : side === 'away' ? g.away : null,
+    edge: round1(Math.abs(advantageHome)),
+    status: side ? 'pending' : 'no-edge',
+    result: null
+  };
+  return true;
+}
+
+function recordMarket(g, homeLine, book, homePrice, awayPrice) {
+  if (!pregame(g)) return false;
+  const snapshot = {
+    capturedAt: isoNow,
+    homeHandicap: homeLine,
+    book: book.title || book.key || null,
+    homePrice: homePrice == null ? null : Number(homePrice),
+    awayPrice: awayPrice == null ? null : Number(awayPrice)
+  };
+  if (!Array.isArray(g.marketHistory)) g.marketHistory = [];
+  const last = g.marketHistory.at(-1);
+  // Store changes only, not identical lines on every hourly run.
+  if (!last || last.homeHandicap !== snapshot.homeHandicap ||
+      last.book !== snapshot.book ||
+      last.homePrice !== snapshot.homePrice ||
+      last.awayPrice !== snapshot.awayPrice) {
+    g.marketHistory.push(snapshot);
+  }
+  g.latestMarket = snapshot;
+  // Keep original market fields as the FIRST line for compatibility.
+  if (g.marketSpread == null) {
+    g.marketFavorite = homeLine < 0 ? g.home : homeLine > 0 ? g.away : null;
+    g.marketSpread = -Math.abs(homeLine);
+    g.oddsBook = snapshot.book;
+    g.oddsCapturedAt = isoNow;
+  }
+  return true;
+}
+
+function gradePick(g) {
+  const p = g.atsPick;
+  if (!p || p.status !== 'pending' || !isFinal(g)) return;
+  if (!Number.isFinite(Number(g.homeScore)) ||
+      !Number.isFinite(Number(g.awayScore))) return;
+  // Do not grade picks whose original teams no longer match the event.
+  if (!sameSchool(p.home, g.home) || !sameSchool(p.away, g.away)) {
+    p.status = 'void-matchup-changed';
+    return;
+  }
+  const homeMargin = Number(g.homeScore) - Number(g.awayScore);
+  const homeCover = homeMargin + p.marketHomeHandicap;
+  const pickCover = p.side === 'home' ? homeCover : -homeCover;
+  p.status = Math.abs(pickCover) < 0.00001 ? 'push' :
+    pickCover > 0 ? 'win' : 'loss';
+  p.result = {
+    homeScore: Number(g.homeScore),
+    awayScore: Number(g.awayScore),
+    homeMargin,
+    coverMargin: round1(pickCover),
+    gradedAt: isoNow
+  };
+}
+
+function resetForConfirmedMatchupChange(g, awayName, homeName) {
+  if (sameSchool(g.away, awayName) && sameSchool(g.home, homeName)) return;
+  if (g.atsPick) {
+    if (['pending', 'no-edge'].includes(g.atsPick.status)) {
+      g.atsPick.status = 'void-matchup-changed';
+    }
+    if (!Array.isArray(g.voidedAtsPicks)) g.voidedAtsPicks = [];
+    g.voidedAtsPicks.push(g.atsPick);
+    g.atsPick = null;
+  }
+  // Archive invalidated picks for audit; never reuse old market/model.
+  g.modelFavorite = null;
+  g.modelSpread = null;
+  g.modelVersion = null;
+  g.modelGeneratedAt = null;
+  g.marketFavorite = null;
+  g.marketSpread = null;
+  g.oddsCapturedAt = null;
+  g.oddsBook = null;
+  g.latestMarket = null;
+  g.marketHistory = [];
+  g.edge = null;
+  g.confidence = null;
+}
+
+// ============================================================
 // COURTEDGE MODEL V2 — ESPN SCHEDULE SYNCHRONIZATION
 // ============================================================
 
@@ -806,14 +957,7 @@ function computeEdge(g) {
 // Completed games from earlier dates are not needed.
 const today = centralDate(now);
 
-const lookback = Math.max(
-  0,
-  Math.ceil(
-    (new Date(`${today}T12:00:00Z`) -
-      new Date('2026-11-05T12:00:00Z')) /
-      86400000
-  )
-);
+const lookback = Math.max(2, Number(process.env.SYNC_LOOKBACK_DAYS ?? 7));
 
 const forward = Math.max(
   0,
@@ -1019,6 +1163,7 @@ const day = new Date(start);
           }
         }
 
+        resetForConfirmedMatchupChange(g, newAway, newHome);
         g.away = newAway;
         g.home = newHome;
 
@@ -1079,11 +1224,20 @@ const day = new Date(start);
         String(home.team.id);
     }
 
+    const espnAway = competitorNames(away)[0];
+    const espnHome = competitorNames(home)[0];
+    // ESPN event ID is stable even if tournament opponents change.
+    resetForConfirmedMatchupChange(g, espnAway, espnHome);
+    g.away = espnAway;
+    g.home = espnHome;
     g.date = gameDate;
 
-    g.site = comp.neutralSite
-      ? 'Neutral'
-      : 'Home';
+    const confirmedSite = comp.neutralSite ? 'Neutral' : 'Home';
+    if (g.site !== confirmedSite && !g.atsPick && pregame(g)) {
+      g.modelSpread = null;
+      g.modelVersion = null;
+    }
+    g.site = confirmedSite;
 
     // Save the exact scheduled start time.
     // This prevents generating model
@@ -1158,6 +1312,8 @@ const day = new Date(start);
     }
 
     computeEdge(g);
+    recordPick(g);
+    gradePick(g);
   }
 }
 
@@ -1176,6 +1332,8 @@ for (const g of games) {
   }
 
   computeEdge(g);
+  recordPick(g);
+  gradePick(g);
 }
 
 // ============================================================
@@ -1332,11 +1490,8 @@ if (process.env.ODDS_API_KEY) {
         continue;
       }
 
-      // Preserve the first recorded pregame line.
-      if (g.marketSpread != null) {
-        already++;
-        continue;
-      }
+      // Keep checking for line changes; the original spread stays immutable.
+      if (g.marketSpread != null) already++;
 
       // Prefer DraftKings, then other
       // available sportsbooks.
@@ -1398,43 +1553,18 @@ if (process.env.ODDS_API_KEY) {
         continue;
       }
 
-      // Convert the selected home spread
-      // into CourtEdge's market format.
-      g.marketFavorite =
-        homeLine < 0
-          ? g.home
-          : homeLine > 0
-            ? g.away
-            : null;
-
-      g.marketSpread =
-        -Math.abs(homeLine);
-
-      // Retrieve moneyline odds from
-      // the same selected sportsbook.
-      const money =
-        selected.markets?.find(
-          m => m.key === 'h2h'
-        )?.outcomes || [];
-
-      g.homeML =
-        money.find(
-          m => sameSchool(m.name, g.home)
-        )?.price ??
-        g.homeML ??
-        null;
-
-      g.awayML =
-        money.find(
-          m => sameSchool(m.name, g.away)
-        )?.price ??
-        g.awayML ??
-        null;
-
-      g.oddsBook = selected.title;
-      g.oddsCapturedAt = now.toISOString();
-
+      // Save both first and latest observed lines; never rewrite the ATS pick.
+      const money = selected.markets?.find(m => m.key === 'h2h')?.outcomes || [];
+      const homeMoney = money.find(m => sameSchool(m.name, g.home))?.price;
+      const awayMoney = money.find(m => sameSchool(m.name, g.away))?.price;
+      const spreadOutcomes = selected.markets?.find(m => m.key === 'spreads')?.outcomes || [];
+      const homeSpreadPrice = spreadOutcomes.find(o => sameSchool(o.name, g.home))?.price;
+      const awaySpreadPrice = spreadOutcomes.find(o => sameSchool(o.name, g.away))?.price;
+      recordMarket(g, homeLine, selected, homeSpreadPrice, awaySpreadPrice);
+      if (g.homeML == null) g.homeML = homeMoney ?? null;
+      if (g.awayML == null) g.awayML = awayMoney ?? null;
       computeEdge(g);
+      recordPick(g);
 
       saved++;
 
@@ -1653,6 +1783,33 @@ if (evaluated > 0) {
   );
 }
 
+// Grade only picks captured before tipoff, never backfill historic ATS picks.
+for (const g of diGames) gradePick(g);
+const atsPicks = diGames.map(g => g.atsPick).filter(Boolean);
+const ats = {
+  generatedAt: isoNow,
+  methodology: 'First observed pregame model/market pair, fixed side and line; final score grading. No retrospective ATS picks.',
+  wins: atsPicks.filter(p => p.status === 'win').length,
+  losses: atsPicks.filter(p => p.status === 'loss').length,
+  pushes: atsPicks.filter(p => p.status === 'push').length,
+  pending: atsPicks.filter(p => p.status === 'pending').length,
+  noEdge: atsPicks.filter(p => p.status === 'no-edge').length,
+  void: atsPicks.filter(p => p.status.startsWith('void-')).length,
+  gamesWithMarket: diGames.filter(g => g.marketSpread != null).length,
+  gamesWithModel: diGames.filter(g => g.modelSpread != null).length,
+  picks: diGames.filter(g => g.atsPick).map(g => ({
+    espnId: g.espnId || null,
+    date: g.date,
+    home: g.home,
+    away: g.away,
+    ...g.atsPick
+  }))
+};
+ats.graded = ats.wins + ats.losses + ats.pushes;
+ats.winPct = ats.wins + ats.losses > 0
+  ? round1(100 * ats.wins / (ats.wins + ats.losses)) : null;
+write('ats_results.json', ats);
+console.log(`ATS: ${ats.wins}-${ats.losses}-${ats.pushes}; ${ats.pending} pending; ${ats.void} void; ${ats.noEdge} no edge.`);
 write('games.json', diGames);
 
 // ============================================================
