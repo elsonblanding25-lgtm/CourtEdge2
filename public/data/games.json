@@ -4116,7 +4116,7 @@
     "time": "15:30",
     "modelFavorite": "Saint Mary's",
     "modelSpread": -6.8,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-08T21:30:00.000Z",
     "preUpgradeModel": {
       "favorite": "Saint Mary's",
@@ -4128,7 +4128,13 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "awayScore": 95,
+    "homeScore": 96,
+    "actualMargin": 1,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": false,
+    "modelMarginError": 7.8
   },
   {
     "id": "espn-401911238",
@@ -4147,7 +4153,7 @@
     "time": "16:00",
     "modelFavorite": "Richmond",
     "modelSpread": -0.4,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-08T22:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Temple",
@@ -4159,7 +4165,13 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "awayScore": 79,
+    "homeScore": 53,
+    "actualMargin": -26,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 25.6
   },
   {
     "id": "espn-401929352",
@@ -4178,7 +4190,7 @@
     "time": "18:00",
     "modelFavorite": "UTEP",
     "modelSpread": -3.8,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-09T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "UTEP",
@@ -4207,7 +4219,7 @@
     "homeML": null,
     "awayScore": null,
     "homeScore": null,
-    "status": "scheduled",
+    "status": "live",
     "espnId": "401909707",
     "espnAwayTeamId": "221",
     "espnHomeTeamId": "213",
