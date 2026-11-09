@@ -4390,14 +4390,21 @@
         "book": "DraftKings",
         "homePrice": -108,
         "awayPrice": -112
+      },
+      {
+        "capturedAt": "2026-11-09T16:11:38.091Z",
+        "homeHandicap": -5.5,
+        "book": "DraftKings",
+        "homePrice": -118,
+        "awayPrice": -102
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-09T15:04:17.674Z",
-      "homeHandicap": -6.5,
+      "capturedAt": "2026-11-09T16:11:38.091Z",
+      "homeHandicap": -5.5,
       "book": "DraftKings",
-      "homePrice": -108,
-      "awayPrice": -112
+      "homePrice": -118,
+      "awayPrice": -102
     }
   },
   {
@@ -4750,14 +4757,21 @@
         "book": "DraftKings",
         "homePrice": -110,
         "awayPrice": -110
+      },
+      {
+        "capturedAt": "2026-11-09T16:11:38.091Z",
+        "homeHandicap": -23.5,
+        "book": "DraftKings",
+        "homePrice": -105,
+        "awayPrice": -115
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-09T15:04:17.674Z",
+      "capturedAt": "2026-11-09T16:11:38.091Z",
       "homeHandicap": -23.5,
       "book": "DraftKings",
-      "homePrice": -110,
-      "awayPrice": -110
+      "homePrice": -105,
+      "awayPrice": -115
     }
   },
   {
@@ -4841,7 +4855,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-09T15:04:17.674Z",
+      "capturedAt": "2026-11-09T16:11:38.091Z",
       "homeHandicap": -10.5,
       "book": "DraftKings",
       "homePrice": -115,
@@ -5211,7 +5225,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-09T15:04:17.674Z",
+      "capturedAt": "2026-11-09T16:11:38.091Z",
       "homeHandicap": -17.5,
       "book": "DraftKings",
       "homePrice": -102,
@@ -5399,7 +5413,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-09T15:04:17.674Z",
+      "capturedAt": "2026-11-09T16:11:38.091Z",
       "homeHandicap": -6.5,
       "book": "DraftKings",
       "homePrice": -112,
@@ -6054,7 +6068,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-09T15:04:17.674Z",
+      "capturedAt": "2026-11-09T16:11:38.091Z",
       "homeHandicap": 1.5,
       "book": "DraftKings",
       "homePrice": -108,
