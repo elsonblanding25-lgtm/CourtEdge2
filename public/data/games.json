@@ -4223,9 +4223,9 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 82,
+    "homeScore": 76,
+    "status": "final",
     "espnId": "401909707",
     "espnAwayTeamId": "221",
     "espnHomeTeamId": "213",
@@ -4241,7 +4241,11 @@
     "modelBaseMargin": -2.3,
     "modelMatchupAdjustment": 0,
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "actualMargin": -6,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 3.7
   },
   {
     "id": "espn-401918053",
@@ -4260,7 +4264,7 @@
     "time": "19:30",
     "modelFavorite": "Houston",
     "modelSpread": -14.6,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-09T01:30:00.000Z",
     "preUpgradeModel": {
       "favorite": "Houston",
@@ -4272,7 +4276,13 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "awayScore": 68,
+    "homeScore": 86,
+    "actualMargin": 18,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": false,
+    "modelMarginError": 32.6
   },
   {
     "id": "espn-401916315",
