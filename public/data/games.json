@@ -4407,7 +4407,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-09T18:30:15.124Z",
+      "capturedAt": "2026-11-09T19:40:12.644Z",
       "homeHandicap": -5.5,
       "book": "DraftKings",
       "homePrice": -112,
@@ -4781,7 +4781,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-09T18:30:15.124Z",
+      "capturedAt": "2026-11-09T19:40:12.644Z",
       "homeHandicap": -22.5,
       "book": "DraftKings",
       "homePrice": -115,
@@ -4876,7 +4876,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-09T18:30:15.124Z",
+      "capturedAt": "2026-11-09T19:40:12.644Z",
       "homeHandicap": -10.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -5246,7 +5246,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-09T18:30:15.124Z",
+      "capturedAt": "2026-11-09T19:40:12.644Z",
       "homeHandicap": -17.5,
       "book": "DraftKings",
       "homePrice": -102,
@@ -5441,7 +5441,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-09T18:30:15.124Z",
+      "capturedAt": "2026-11-09T19:40:12.644Z",
       "homeHandicap": -6.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -5547,8 +5547,8 @@
     "away": "South Alabama",
     "home": "UCF",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
+    "marketFavorite": "UCF",
+    "marketSpread": -17,
     "awayML": null,
     "homeML": null,
     "espnId": "401921755",
@@ -5569,8 +5569,44 @@
     "modelBaseMargin": 14.2,
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
-    "edge": null,
-    "confidence": null
+    "edge": 2.8,
+    "confidence": 1,
+    "marketHistory": [
+      {
+        "capturedAt": "2026-11-09T19:40:12.644Z",
+        "homeHandicap": -17,
+        "book": "BetOnline.ag",
+        "homePrice": -110,
+        "awayPrice": -110
+      }
+    ],
+    "latestMarket": {
+      "capturedAt": "2026-11-09T19:40:12.644Z",
+      "homeHandicap": -17,
+      "book": "BetOnline.ag",
+      "homePrice": -110,
+      "awayPrice": -110
+    },
+    "oddsBook": "BetOnline.ag",
+    "oddsCapturedAt": "2026-11-09T19:40:12.644Z",
+    "atsPick": {
+      "capturedAt": "2026-11-09T19:40:12.644Z",
+      "gameId": "401921755",
+      "startTimeAtPick": "2026-11-11T00:00:00.000Z",
+      "home": "UCF",
+      "away": "South Alabama",
+      "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+      "modelVersion": "v2-baseline-1",
+      "modelHomeHandicap": -14.2,
+      "marketHomeHandicap": -17,
+      "marketCapturedAt": "2026-11-09T19:40:12.644Z",
+      "sportsbook": "BetOnline.ag",
+      "side": "away",
+      "pickTeam": "South Alabama",
+      "edge": 2.8,
+      "status": "pending",
+      "result": null
+    }
   },
   {
     "id": "espn-401921025",
@@ -5578,8 +5614,8 @@
     "away": "Mercer",
     "home": "GA Southern",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
+    "marketFavorite": "GA Southern",
+    "marketSpread": -1,
     "awayML": null,
     "homeML": null,
     "espnId": "401921025",
@@ -5600,8 +5636,44 @@
     "modelBaseMargin": -0.6,
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
-    "edge": null,
-    "confidence": null
+    "edge": 1.6,
+    "confidence": 1,
+    "marketHistory": [
+      {
+        "capturedAt": "2026-11-09T19:40:12.644Z",
+        "homeHandicap": -1,
+        "book": "BetOnline.ag",
+        "homePrice": -110,
+        "awayPrice": -110
+      }
+    ],
+    "latestMarket": {
+      "capturedAt": "2026-11-09T19:40:12.644Z",
+      "homeHandicap": -1,
+      "book": "BetOnline.ag",
+      "homePrice": -110,
+      "awayPrice": -110
+    },
+    "oddsBook": "BetOnline.ag",
+    "oddsCapturedAt": "2026-11-09T19:40:12.644Z",
+    "atsPick": {
+      "capturedAt": "2026-11-09T19:40:12.644Z",
+      "gameId": "401921025",
+      "startTimeAtPick": "2026-11-11T00:00:00.000Z",
+      "home": "GA Southern",
+      "away": "Mercer",
+      "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+      "modelVersion": "v2-baseline-1",
+      "modelHomeHandicap": 0.6,
+      "marketHomeHandicap": -1,
+      "marketCapturedAt": "2026-11-09T19:40:12.644Z",
+      "sportsbook": "BetOnline.ag",
+      "side": "away",
+      "pickTeam": "Mercer",
+      "edge": 1.6,
+      "status": "pending",
+      "result": null
+    }
   },
   {
     "id": "espn-401920378",
@@ -5922,8 +5994,8 @@
     "source": "ESPN / The Odds API",
     "modelFavorite": "Xavier",
     "modelSpread": -13.4,
-    "marketFavorite": null,
-    "marketSpread": null,
+    "marketFavorite": "Xavier",
+    "marketSpread": -30,
     "awayML": null,
     "homeML": null,
     "awayScore": null,
@@ -5943,8 +6015,44 @@
     "modelVersion": "v2-baseline-1",
     "modelBaseMargin": 13.4,
     "modelMatchupAdjustment": 0,
-    "edge": null,
-    "confidence": null
+    "edge": 16.6,
+    "confidence": 5,
+    "marketHistory": [
+      {
+        "capturedAt": "2026-11-09T19:40:12.644Z",
+        "homeHandicap": -30,
+        "book": "BetOnline.ag",
+        "homePrice": -116,
+        "awayPrice": -104
+      }
+    ],
+    "latestMarket": {
+      "capturedAt": "2026-11-09T19:40:12.644Z",
+      "homeHandicap": -30,
+      "book": "BetOnline.ag",
+      "homePrice": -116,
+      "awayPrice": -104
+    },
+    "oddsBook": "BetOnline.ag",
+    "oddsCapturedAt": "2026-11-09T19:40:12.644Z",
+    "atsPick": {
+      "capturedAt": "2026-11-09T19:40:12.644Z",
+      "gameId": "401909543",
+      "startTimeAtPick": "2026-11-11T00:00:00.000Z",
+      "home": "Xavier",
+      "away": "Detroit Mercy",
+      "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+      "modelVersion": "v2-baseline-1",
+      "modelHomeHandicap": -13.4,
+      "marketHomeHandicap": -30,
+      "marketCapturedAt": "2026-11-09T19:40:12.644Z",
+      "sportsbook": "BetOnline.ag",
+      "side": "away",
+      "pickTeam": "Detroit Mercy",
+      "edge": 16.6,
+      "status": "pending",
+      "result": null
+    }
   },
   {
     "id": "espn-401925781",
@@ -6096,7 +6204,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-09T18:30:15.124Z",
+      "capturedAt": "2026-11-09T19:40:12.644Z",
       "homeHandicap": 1.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -6295,8 +6403,8 @@
     "away": "Yale",
     "home": "Baylor",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
+    "marketFavorite": "Baylor",
+    "marketSpread": -22,
     "awayML": null,
     "homeML": null,
     "espnId": "401909752",
@@ -6317,8 +6425,44 @@
     "modelBaseMargin": 6.6,
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
-    "edge": null,
-    "confidence": null
+    "edge": 15.4,
+    "confidence": 5,
+    "marketHistory": [
+      {
+        "capturedAt": "2026-11-09T19:40:12.644Z",
+        "homeHandicap": -22,
+        "book": "BetOnline.ag",
+        "homePrice": -115,
+        "awayPrice": -105
+      }
+    ],
+    "latestMarket": {
+      "capturedAt": "2026-11-09T19:40:12.644Z",
+      "homeHandicap": -22,
+      "book": "BetOnline.ag",
+      "homePrice": -115,
+      "awayPrice": -105
+    },
+    "oddsBook": "BetOnline.ag",
+    "oddsCapturedAt": "2026-11-09T19:40:12.644Z",
+    "atsPick": {
+      "capturedAt": "2026-11-09T19:40:12.644Z",
+      "gameId": "401909752",
+      "startTimeAtPick": "2026-11-11T01:00:00.000Z",
+      "home": "Baylor",
+      "away": "Yale",
+      "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+      "modelVersion": "v2-baseline-1",
+      "modelHomeHandicap": -6.6,
+      "marketHomeHandicap": -22,
+      "marketCapturedAt": "2026-11-09T19:40:12.644Z",
+      "sportsbook": "BetOnline.ag",
+      "side": "away",
+      "pickTeam": "Yale",
+      "edge": 15.4,
+      "status": "pending",
+      "result": null
+    }
   },
   {
     "id": "espn-401920895",
