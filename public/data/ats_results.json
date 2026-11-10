@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-10T01:45:59.201Z",
+  "generatedAt": "2026-11-10T02:58:22.556Z",
   "methodology": "First observed pregame model/market pair, fixed side and line; final score grading. No retrospective ATS picks.",
-  "wins": 0,
+  "wins": 2,
   "losses": 1,
   "pushes": 0,
-  "pending": 11,
+  "pending": 9,
   "noEdge": 0,
   "void": 0,
   "gamesWithMarket": 43,
@@ -53,8 +53,14 @@
       "side": "away",
       "pickTeam": "FGCU",
       "edge": 1.3,
-      "status": "pending",
-      "result": null
+      "status": "win",
+      "result": {
+        "homeScore": 80,
+        "awayScore": 72,
+        "homeMargin": 8,
+        "coverMargin": 13.5,
+        "gradedAt": "2026-11-10T02:58:22.556Z"
+      }
     },
     {
       "espnId": "401922060",
@@ -73,8 +79,14 @@
       "side": "away",
       "pickTeam": "SC Upstate",
       "edge": 3.3,
-      "status": "pending",
-      "result": null
+      "status": "win",
+      "result": {
+        "homeScore": 65,
+        "awayScore": 56,
+        "homeMargin": 9,
+        "coverMargin": 0.5,
+        "gradedAt": "2026-11-10T02:58:22.556Z"
+      }
     },
     {
       "espnId": "401920718",
@@ -257,6 +269,6 @@
       "result": null
     }
   ],
-  "graded": 1,
-  "winPct": 0
+  "graded": 3,
+  "winPct": 66.7
 }
