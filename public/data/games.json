@@ -4305,7 +4305,7 @@
     "time": "17:00",
     "modelFavorite": "Ohio State",
     "modelSpread": -19.1,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-09T23:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Ohio State",
@@ -4317,7 +4317,13 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "awayScore": 74,
+    "homeScore": 84,
+    "actualMargin": 10,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 9.1
   },
   {
     "id": "espn-401921180",
@@ -4336,7 +4342,7 @@
     "time": "17:30",
     "modelFavorite": "Penn",
     "modelSpread": -4.6,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-09T23:30:00.000Z",
     "preUpgradeModel": {
       "favorite": "Penn",
@@ -4366,8 +4372,14 @@
       "side": "away",
       "pickTeam": "Howard",
       "edge": 0.9,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 78,
+        "awayScore": 65,
+        "homeMargin": 13,
+        "coverMargin": -7.5,
+        "gradedAt": "2026-11-10T01:45:59.201Z"
+      }
     },
     "marketHistory": [
       {
@@ -4412,7 +4424,13 @@
       "book": "DraftKings",
       "homePrice": -112,
       "awayPrice": -108
-    }
+    },
+    "awayScore": 65,
+    "homeScore": 78,
+    "actualMargin": 13,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 8.4
   },
   {
     "id": "espn-401909718",
@@ -4431,7 +4449,7 @@
     "time": "17:30",
     "modelFavorite": "Indiana",
     "modelSpread": -6.3,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-09T23:30:00.000Z",
     "preUpgradeModel": {
       "favorite": "Indiana",
@@ -4443,7 +4461,13 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "awayScore": 80,
+    "homeScore": 83,
+    "actualMargin": 3,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 3.3
   },
   {
     "id": "espn-401920686",
@@ -4934,7 +4958,7 @@
     "time": "18:30",
     "modelFavorite": "Alabama",
     "modelSpread": -21.5,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-10T00:30:00.000Z",
     "preUpgradeModel": {
       "favorite": "Alabama",
@@ -4965,7 +4989,7 @@
     "time": "18:30",
     "modelFavorite": "UAB",
     "modelSpread": -15.6,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-10T00:30:00.000Z",
     "preUpgradeModel": {
       "favorite": "UAB",
@@ -4996,7 +5020,7 @@
     "time": "18:30",
     "modelFavorite": "Mississippi St",
     "modelSpread": -20.6,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-10T00:30:00.000Z",
     "preUpgradeModel": {
       "favorite": "Mississippi St",
@@ -5027,7 +5051,7 @@
     "time": "19:00",
     "modelFavorite": "LSU",
     "modelSpread": -12.9,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-10T01:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "LSU",
@@ -5058,7 +5082,7 @@
     "time": "19:00",
     "modelFavorite": "Oklahoma",
     "modelSpread": -26.3,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-10T01:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Oklahoma",
@@ -5089,7 +5113,7 @@
     "homeML": null,
     "awayScore": null,
     "homeScore": null,
-    "status": "scheduled",
+    "status": "live",
     "espnAwayTeamId": "2287",
     "espnHomeTeamId": "2509",
     "startTime": "2026-11-10T01:30:00.000Z",
@@ -5260,7 +5284,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-10T00:16:14.122Z",
+      "capturedAt": "2026-11-10T01:45:59.201Z",
       "homeHandicap": -17.5,
       "book": "DraftKings",
       "homePrice": -102,
@@ -5455,7 +5479,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-10T00:16:14.122Z",
+      "capturedAt": "2026-11-10T01:45:59.201Z",
       "homeHandicap": -6.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -5609,7 +5633,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-10T00:16:14.122Z",
+      "capturedAt": "2026-11-10T01:45:59.201Z",
       "homeHandicap": -16.5,
       "book": "DraftKings",
       "homePrice": -112,
@@ -5690,7 +5714,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-10T00:16:14.122Z",
+      "capturedAt": "2026-11-10T01:45:59.201Z",
       "homeHandicap": -1.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -6083,7 +6107,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-10T00:16:14.122Z",
+      "capturedAt": "2026-11-10T01:45:59.201Z",
       "homeHandicap": -32.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -6264,14 +6288,21 @@
         "book": "DraftKings",
         "homePrice": -102,
         "awayPrice": -118
+      },
+      {
+        "capturedAt": "2026-11-10T01:45:59.201Z",
+        "homeHandicap": 1.5,
+        "book": "DraftKings",
+        "homePrice": -105,
+        "awayPrice": -115
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-10T00:16:14.122Z",
+      "capturedAt": "2026-11-10T01:45:59.201Z",
       "homeHandicap": 1.5,
       "book": "DraftKings",
-      "homePrice": -102,
-      "awayPrice": -118
+      "homePrice": -105,
+      "awayPrice": -115
     }
   },
   {
@@ -6280,8 +6311,8 @@
     "away": "Southern",
     "home": "Iowa State",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
+    "marketFavorite": "Iowa State",
+    "marketSpread": -32.5,
     "awayML": null,
     "homeML": null,
     "espnId": "401909773",
@@ -6302,8 +6333,44 @@
     "modelBaseMargin": 30.1,
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
-    "edge": null,
-    "confidence": null
+    "edge": 2.4,
+    "confidence": 1,
+    "marketHistory": [
+      {
+        "capturedAt": "2026-11-10T01:45:59.201Z",
+        "homeHandicap": -32.5,
+        "book": "FanDuel",
+        "homePrice": -114,
+        "awayPrice": -106
+      }
+    ],
+    "latestMarket": {
+      "capturedAt": "2026-11-10T01:45:59.201Z",
+      "homeHandicap": -32.5,
+      "book": "FanDuel",
+      "homePrice": -114,
+      "awayPrice": -106
+    },
+    "oddsBook": "FanDuel",
+    "oddsCapturedAt": "2026-11-10T01:45:59.201Z",
+    "atsPick": {
+      "capturedAt": "2026-11-10T01:45:59.201Z",
+      "gameId": "401909773",
+      "startTimeAtPick": "2026-11-11T01:00:00.000Z",
+      "home": "Iowa State",
+      "away": "Southern",
+      "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+      "modelVersion": "v2-baseline-1",
+      "modelHomeHandicap": -30.1,
+      "marketHomeHandicap": -32.5,
+      "marketCapturedAt": "2026-11-10T01:45:59.201Z",
+      "sportsbook": "FanDuel",
+      "side": "away",
+      "pickTeam": "Southern",
+      "edge": 2.4,
+      "status": "pending",
+      "result": null
+    }
   },
   {
     "id": "espn-401927386",
@@ -6404,10 +6471,10 @@
     "away": "Prairie View",
     "home": "SMU",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
-    "awayML": null,
-    "homeML": null,
+    "marketFavorite": "SMU",
+    "marketSpread": -23.5,
+    "awayML": 2800,
+    "homeML": -10000,
     "espnId": "401918969",
     "espnAwayTeamId": "2504",
     "espnHomeTeamId": "2567",
@@ -6426,8 +6493,44 @@
     "modelBaseMargin": 23.2,
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
-    "edge": null,
-    "confidence": null
+    "edge": 0.3,
+    "confidence": 1,
+    "marketHistory": [
+      {
+        "capturedAt": "2026-11-10T01:45:59.201Z",
+        "homeHandicap": -23.5,
+        "book": "FanDuel",
+        "homePrice": -114,
+        "awayPrice": -106
+      }
+    ],
+    "latestMarket": {
+      "capturedAt": "2026-11-10T01:45:59.201Z",
+      "homeHandicap": -23.5,
+      "book": "FanDuel",
+      "homePrice": -114,
+      "awayPrice": -106
+    },
+    "oddsBook": "FanDuel",
+    "oddsCapturedAt": "2026-11-10T01:45:59.201Z",
+    "atsPick": {
+      "capturedAt": "2026-11-10T01:45:59.201Z",
+      "gameId": "401918969",
+      "startTimeAtPick": "2026-11-11T01:00:00.000Z",
+      "home": "SMU",
+      "away": "Prairie View",
+      "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+      "modelVersion": "v2-baseline-1",
+      "modelHomeHandicap": -23.2,
+      "marketHomeHandicap": -23.5,
+      "marketCapturedAt": "2026-11-10T01:45:59.201Z",
+      "sportsbook": "FanDuel",
+      "side": "away",
+      "pickTeam": "Prairie View",
+      "edge": 0.3,
+      "status": "pending",
+      "result": null
+    }
   },
   {
     "id": "espn-401911250",
@@ -6511,14 +6614,21 @@
         "book": "DraftKings",
         "homePrice": -102,
         "awayPrice": -118
+      },
+      {
+        "capturedAt": "2026-11-10T01:45:59.201Z",
+        "homeHandicap": -21.5,
+        "book": "DraftKings",
+        "homePrice": -115,
+        "awayPrice": -105
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-10T00:16:14.122Z",
-      "homeHandicap": -22.5,
+      "capturedAt": "2026-11-10T01:45:59.201Z",
+      "homeHandicap": -21.5,
       "book": "DraftKings",
-      "homePrice": -102,
-      "awayPrice": -118
+      "homePrice": -115,
+      "awayPrice": -105
     },
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-09T19:40:12.644Z",

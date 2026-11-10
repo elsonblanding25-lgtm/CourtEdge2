@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-10T00:16:14.122Z",
+  "generatedAt": "2026-11-10T01:45:59.201Z",
   "methodology": "First observed pregame model/market pair, fixed side and line; final score grading. No retrospective ATS picks.",
   "wins": 0,
-  "losses": 0,
+  "losses": 1,
   "pushes": 0,
-  "pending": 10,
+  "pending": 11,
   "noEdge": 0,
   "void": 0,
-  "gamesWithMarket": 41,
+  "gamesWithMarket": 43,
   "gamesWithModel": 299,
   "picks": [
     {
@@ -27,8 +27,14 @@
       "side": "away",
       "pickTeam": "Howard",
       "edge": 0.9,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 78,
+        "awayScore": 65,
+        "homeMargin": 13,
+        "coverMargin": -7.5,
+        "gradedAt": "2026-11-10T01:45:59.201Z"
+      }
     },
     {
       "espnId": "401906781",
@@ -191,6 +197,46 @@
       "result": null
     },
     {
+      "espnId": "401909773",
+      "date": "2026-11-10",
+      "home": "Iowa State",
+      "away": "Southern",
+      "capturedAt": "2026-11-10T01:45:59.201Z",
+      "gameId": "401909773",
+      "startTimeAtPick": "2026-11-11T01:00:00.000Z",
+      "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+      "modelVersion": "v2-baseline-1",
+      "modelHomeHandicap": -30.1,
+      "marketHomeHandicap": -32.5,
+      "marketCapturedAt": "2026-11-10T01:45:59.201Z",
+      "sportsbook": "FanDuel",
+      "side": "away",
+      "pickTeam": "Southern",
+      "edge": 2.4,
+      "status": "pending",
+      "result": null
+    },
+    {
+      "espnId": "401918969",
+      "date": "2026-11-10",
+      "home": "SMU",
+      "away": "Prairie View",
+      "capturedAt": "2026-11-10T01:45:59.201Z",
+      "gameId": "401918969",
+      "startTimeAtPick": "2026-11-11T01:00:00.000Z",
+      "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+      "modelVersion": "v2-baseline-1",
+      "modelHomeHandicap": -23.2,
+      "marketHomeHandicap": -23.5,
+      "marketCapturedAt": "2026-11-10T01:45:59.201Z",
+      "sportsbook": "FanDuel",
+      "side": "away",
+      "pickTeam": "Prairie View",
+      "edge": 0.3,
+      "status": "pending",
+      "result": null
+    },
+    {
       "espnId": "401909752",
       "date": "2026-11-10",
       "home": "Baylor",
@@ -211,6 +257,6 @@
       "result": null
     }
   ],
-  "graded": 0,
-  "winPct": null
+  "graded": 1,
+  "winPct": 0
 }
