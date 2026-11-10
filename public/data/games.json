@@ -4336,7 +4336,7 @@
     "time": "17:30",
     "modelFavorite": "Penn",
     "modelSpread": -4.6,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-09T23:30:00.000Z",
     "preUpgradeModel": {
       "favorite": "Penn",
@@ -4431,7 +4431,7 @@
     "time": "17:30",
     "modelFavorite": "Indiana",
     "modelSpread": -6.3,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-09T23:30:00.000Z",
     "preUpgradeModel": {
       "favorite": "Indiana",
@@ -4462,7 +4462,7 @@
     "time": "18:00",
     "modelFavorite": "UConn",
     "modelSpread": -31.3,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-10T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "UConn",
@@ -4493,7 +4493,7 @@
     "time": "18:00",
     "modelFavorite": "Texas",
     "modelSpread": -23.7,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-10T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Texas",
@@ -4524,7 +4524,7 @@
     "time": "18:00",
     "modelFavorite": "Tennessee",
     "modelSpread": -25.7,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-10T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Tennessee",
@@ -4555,7 +4555,7 @@
     "time": "18:00",
     "modelFavorite": "Notre Dame",
     "modelSpread": -18.6,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-10T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Notre Dame",
@@ -4586,7 +4586,7 @@
     "time": "18:00",
     "modelFavorite": "Columbia",
     "modelSpread": -12.9,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-10T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Columbia",
@@ -4617,7 +4617,7 @@
     "time": "18:00",
     "modelFavorite": "Towson",
     "modelSpread": -5.9,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-10T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Towson",
@@ -4648,7 +4648,7 @@
     "time": "18:00",
     "modelFavorite": "Clemson",
     "modelSpread": -23.1,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-10T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Clemson",
@@ -4679,7 +4679,7 @@
     "time": "18:00",
     "modelFavorite": "Cincinnati",
     "modelSpread": -7.9,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-10T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Cincinnati",
@@ -4710,7 +4710,7 @@
     "time": "18:00",
     "modelFavorite": "Georgia",
     "modelSpread": -20.2,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-10T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Georgia",
@@ -4812,7 +4812,7 @@
     "homeML": null,
     "awayScore": null,
     "homeScore": null,
-    "status": "scheduled",
+    "status": "live",
     "espnAwayTeamId": "140",
     "espnHomeTeamId": "294",
     "startTime": "2026-11-10T00:00:00.000Z",
@@ -4835,7 +4835,7 @@
     "homeML": -470,
     "awayScore": null,
     "homeScore": null,
-    "status": "scheduled",
+    "status": "live",
     "espnAwayTeamId": "2908",
     "espnHomeTeamId": "324",
     "startTime": "2026-11-10T00:00:00.000Z",
@@ -5260,7 +5260,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-09T23:22:08.048Z",
+      "capturedAt": "2026-11-10T00:16:14.122Z",
       "homeHandicap": -17.5,
       "book": "DraftKings",
       "homePrice": -102,
@@ -5455,7 +5455,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-09T23:22:08.048Z",
+      "capturedAt": "2026-11-10T00:16:14.122Z",
       "homeHandicap": -6.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -5609,7 +5609,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-09T23:22:08.048Z",
+      "capturedAt": "2026-11-10T00:16:14.122Z",
       "homeHandicap": -16.5,
       "book": "DraftKings",
       "homePrice": -112,
@@ -5690,7 +5690,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-09T23:22:08.048Z",
+      "capturedAt": "2026-11-10T00:16:14.122Z",
       "homeHandicap": -1.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -6073,14 +6073,21 @@
         "book": "BetOnline.ag",
         "homePrice": -115,
         "awayPrice": -105
+      },
+      {
+        "capturedAt": "2026-11-10T00:16:14.122Z",
+        "homeHandicap": -32.5,
+        "book": "DraftKings",
+        "homePrice": -108,
+        "awayPrice": -112
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-09T23:22:08.048Z",
-      "homeHandicap": -32,
-      "book": "BetOnline.ag",
-      "homePrice": -115,
-      "awayPrice": -105
+      "capturedAt": "2026-11-10T00:16:14.122Z",
+      "homeHandicap": -32.5,
+      "book": "DraftKings",
+      "homePrice": -108,
+      "awayPrice": -112
     },
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-09T19:40:12.644Z",
@@ -6260,7 +6267,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-09T23:22:08.048Z",
+      "capturedAt": "2026-11-10T00:16:14.122Z",
       "homeHandicap": 1.5,
       "book": "DraftKings",
       "homePrice": -102,
@@ -6461,8 +6468,8 @@
     "source": "ESPN / The Odds API",
     "marketFavorite": "Baylor",
     "marketSpread": -22,
-    "awayML": null,
-    "homeML": null,
+    "awayML": 1800,
+    "homeML": -5000,
     "espnId": "401909752",
     "espnAwayTeamId": "43",
     "espnHomeTeamId": "239",
@@ -6497,14 +6504,21 @@
         "book": "BetOnline.ag",
         "homePrice": -110,
         "awayPrice": -110
+      },
+      {
+        "capturedAt": "2026-11-10T00:16:14.122Z",
+        "homeHandicap": -22.5,
+        "book": "DraftKings",
+        "homePrice": -102,
+        "awayPrice": -118
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-09T23:22:08.048Z",
-      "homeHandicap": -22,
-      "book": "BetOnline.ag",
-      "homePrice": -110,
-      "awayPrice": -110
+      "capturedAt": "2026-11-10T00:16:14.122Z",
+      "homeHandicap": -22.5,
+      "book": "DraftKings",
+      "homePrice": -102,
+      "awayPrice": -118
     },
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-09T19:40:12.644Z",
