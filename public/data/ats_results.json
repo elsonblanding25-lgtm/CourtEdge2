@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-10T03:58:26.302Z",
+  "generatedAt": "2026-11-10T05:00:30.855Z",
   "methodology": "First observed pregame model/market pair, fixed side and line; final score grading. No retrospective ATS picks.",
-  "wins": 2,
+  "wins": 3,
   "losses": 1,
   "pushes": 0,
-  "pending": 9,
+  "pending": 8,
   "noEdge": 0,
   "void": 0,
   "gamesWithMarket": 43,
@@ -105,8 +105,14 @@
       "side": "away",
       "pickTeam": "E Washington",
       "edge": 10.2,
-      "status": "pending",
-      "result": null
+      "status": "win",
+      "result": {
+        "homeScore": 94,
+        "awayScore": 84,
+        "homeMargin": 10,
+        "coverMargin": 5,
+        "gradedAt": "2026-11-10T05:00:30.855Z"
+      }
     },
     {
       "espnId": "401909564",
@@ -269,6 +275,6 @@
       "result": null
     }
   ],
-  "graded": 3,
-  "winPct": 66.7
+  "graded": 4,
+  "winPct": 75
 }
