@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T05:09:48.699Z",
+  "generatedAt": "2026-11-11T06:08:43.263Z",
   "methodology": "First observed pregame model/market pair, fixed side and line; final score grading. No retrospective ATS picks.",
   "wins": 7,
   "losses": 5,
@@ -8,7 +8,7 @@
   "noEdge": 0,
   "void": 0,
   "gamesWithMarket": 52,
-  "gamesWithModel": 340,
+  "gamesWithModel": 381,
   "picks": [
     {
       "espnId": "401921180",
