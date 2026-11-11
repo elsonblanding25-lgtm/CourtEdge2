@@ -5571,7 +5571,7 @@
     "time": "18:00",
     "modelFavorite": "Duke",
     "modelSpread": -5.5,
-    "status": "scheduled",
+    "status": "live",
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-06T19:59:46.026Z",
     "edge": 1,
@@ -5673,7 +5673,7 @@
     "time": "18:00",
     "modelFavorite": "Toledo",
     "modelSpread": -3.3,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Toledo",
@@ -5704,7 +5704,7 @@
     "time": "18:00",
     "modelFavorite": "Davidson",
     "modelSpread": -3,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Davidson",
@@ -5735,7 +5735,7 @@
     "time": "18:00",
     "modelFavorite": "Villanova",
     "modelSpread": -20.4,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Villanova",
@@ -5766,7 +5766,7 @@
     "time": "18:00",
     "modelFavorite": "UCF",
     "modelSpread": -14.2,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "UCF",
@@ -5889,7 +5889,7 @@
     "time": "18:00",
     "modelFavorite": "Mercer",
     "modelSpread": -0.6,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Mercer",
@@ -5991,7 +5991,7 @@
     "time": "18:00",
     "modelFavorite": "Iowa",
     "modelSpread": -6.4,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Iowa",
@@ -6022,7 +6022,7 @@
     "time": "18:00",
     "modelFavorite": "Harvard",
     "modelSpread": -3.8,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Harvard",
@@ -6053,7 +6053,7 @@
     "time": "18:00",
     "modelFavorite": "Rhode Island",
     "modelSpread": -17.3,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Rhode Island",
@@ -6084,7 +6084,7 @@
     "time": "18:00",
     "modelFavorite": "NC State",
     "modelSpread": -21.6,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "NC State",
@@ -6115,7 +6115,7 @@
     "time": "18:00",
     "modelFavorite": "North Carolina",
     "modelSpread": -12.5,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "North Carolina",
@@ -6146,7 +6146,7 @@
     "time": "18:00",
     "modelFavorite": "New Haven",
     "modelSpread": -6,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Army",
@@ -6177,7 +6177,7 @@
     "time": "18:00",
     "modelFavorite": "G Washington",
     "modelSpread": -14.2,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "G Washington",
@@ -6208,7 +6208,7 @@
     "time": "18:00",
     "modelFavorite": "Fordham",
     "modelSpread": -6.9,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Fordham",
@@ -6239,7 +6239,7 @@
     "time": "18:00",
     "modelFavorite": "Dayton",
     "modelSpread": -12,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Dayton",
@@ -6270,7 +6270,7 @@
     "time": "18:00",
     "modelFavorite": "Providence",
     "modelSpread": -23.8,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T00:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Providence",
@@ -6299,7 +6299,7 @@
     "homeML": null,
     "awayScore": null,
     "homeScore": null,
-    "status": "scheduled",
+    "status": "live",
     "espnId": "401909543",
     "espnAwayTeamId": "2174",
     "espnHomeTeamId": "2752",
@@ -6412,7 +6412,7 @@
     "homeML": null,
     "awayScore": null,
     "homeScore": null,
-    "status": "scheduled",
+    "status": "live",
     "espnAwayTeamId": "265",
     "espnHomeTeamId": "2184",
     "startTime": "2026-11-11T00:00:00.000Z",
@@ -6580,7 +6580,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-10T23:44:30.939Z",
+      "capturedAt": "2026-11-11T00:21:31.606Z",
       "homeHandicap": 2.5,
       "book": "DraftKings",
       "homePrice": -115,
@@ -6690,7 +6690,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-10T23:44:30.939Z",
+      "capturedAt": "2026-11-11T00:21:31.606Z",
       "homeHandicap": -35.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -6913,7 +6913,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-10T23:44:30.939Z",
+      "capturedAt": "2026-11-11T00:21:31.606Z",
       "homeHandicap": -27.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -7046,7 +7046,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-10T23:44:30.939Z",
+      "capturedAt": "2026-11-11T00:21:31.606Z",
       "homeHandicap": -19.5,
       "book": "DraftKings",
       "homePrice": -112,
@@ -7523,14 +7523,21 @@
         "book": "DraftKings",
         "homePrice": -102,
         "awayPrice": -118
+      },
+      {
+        "capturedAt": "2026-11-11T00:21:31.606Z",
+        "homeHandicap": -12.5,
+        "book": "DraftKings",
+        "homePrice": -115,
+        "awayPrice": -105
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-10T23:44:30.939Z",
-      "homeHandicap": -7.5,
+      "capturedAt": "2026-11-11T00:21:31.606Z",
+      "homeHandicap": -12.5,
       "book": "DraftKings",
-      "homePrice": -102,
-      "awayPrice": -118
+      "homePrice": -115,
+      "awayPrice": -105
     },
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-10T19:03:46.073Z",
@@ -7600,7 +7607,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-10T23:44:30.939Z",
+      "capturedAt": "2026-11-11T00:21:31.606Z",
       "homeHandicap": 8.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -7763,7 +7770,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-10T23:44:30.939Z",
+      "capturedAt": "2026-11-11T00:21:31.606Z",
       "homeHandicap": -1.5,
       "book": "DraftKings",
       "homePrice": 105,
@@ -8332,14 +8339,21 @@
         "book": "DraftKings",
         "homePrice": -105,
         "awayPrice": -115
+      },
+      {
+        "capturedAt": "2026-11-11T00:21:31.606Z",
+        "homeHandicap": -34.5,
+        "book": "DraftKings",
+        "homePrice": -112,
+        "awayPrice": -108
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-10T23:44:30.939Z",
-      "homeHandicap": -35.5,
+      "capturedAt": "2026-11-11T00:21:31.606Z",
+      "homeHandicap": -34.5,
       "book": "DraftKings",
-      "homePrice": -105,
-      "awayPrice": -115
+      "homePrice": -112,
+      "awayPrice": -108
     },
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-10T19:03:46.073Z",
@@ -8540,7 +8554,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-10T23:44:30.939Z",
+      "capturedAt": "2026-11-11T00:21:31.606Z",
       "homeHandicap": 1.5,
       "book": "DraftKings",
       "homePrice": -125,
