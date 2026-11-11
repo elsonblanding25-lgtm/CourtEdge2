@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-11T19:07:21.182Z",
+  "generatedAt": "2026-11-11T20:08:26.405Z",
   "methodology": "First observed pregame model/market pair, fixed side and line; final score grading. No retrospective ATS picks.",
   "wins": 8,
-  "losses": 6,
+  "losses": 7,
   "pushes": 0,
-  "pending": 34,
+  "pending": 32,
   "noEdge": 0,
   "void": 0,
-  "gamesWithMarket": 79,
-  "gamesWithModel": 395,
+  "gamesWithMarket": 78,
+  "gamesWithModel": 394,
   "picks": [
     {
       "espnId": "401921180",
@@ -391,8 +391,14 @@
       "side": "home",
       "pickTeam": "UAlbany",
       "edge": 0.7,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 76,
+        "awayScore": 85,
+        "homeMargin": -9,
+        "coverMargin": -7.5,
+        "gradedAt": "2026-11-11T20:08:26.405Z"
+      }
     },
     {
       "espnId": "401911519",
@@ -411,26 +417,6 @@
       "side": "away",
       "pickTeam": "Incarnate Word",
       "edge": 3.7,
-      "status": "pending",
-      "result": null
-    },
-    {
-      "espnId": "401918992",
-      "date": "2026-11-11",
-      "home": "South Florida",
-      "away": "Saint Joseph's",
-      "capturedAt": "2026-11-10T19:03:46.073Z",
-      "gameId": "401918992",
-      "startTimeAtPick": "2026-11-11T20:00:00.000Z",
-      "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
-      "modelVersion": "v2-baseline-1",
-      "modelHomeHandicap": -7.2,
-      "marketHomeHandicap": -8,
-      "marketCapturedAt": "2026-11-10T19:03:46.073Z",
-      "sportsbook": "BetOnline.ag",
-      "side": "away",
-      "pickTeam": "Saint Joseph's",
-      "edge": 0.8,
       "status": "pending",
       "result": null
     },
@@ -1055,6 +1041,6 @@
       "result": null
     }
   ],
-  "graded": 14,
-  "winPct": 57.1
+  "graded": 15,
+  "winPct": 53.3
 }
