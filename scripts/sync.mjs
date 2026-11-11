@@ -178,7 +178,10 @@ const aliases = {
   'w carolina': 'western carolina',
   'w michigan': 'western michigan',
   'wright st': 'wright state',
-  'youngstown st': 'youngstown state'
+  'youngstown st': 'youngstown state',
+  'fairleigh dickinson knights': 'fdu',
+  'north carolina a&t aggies': 'nc a&t',
+
 };
 
 const specialAliases = {
