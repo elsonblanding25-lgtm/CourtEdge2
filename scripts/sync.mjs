@@ -218,7 +218,10 @@ const specialAliases = {
   'lamar cardinals': 'lamar',
   'abilene christian wildcats': 'abilene christian',
   'north carolina central eagles': 'north carolina central',
-  'longwood lancers': 'longwood'
+  'longwood lancers': 'longwood',
+  'fairleigh dickinson knights': 'fdu',
+  'north carolina a&t aggies': 'nc a&t',
+
 };
 
 function canonical(value) {
