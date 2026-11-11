@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-11T00:21:31.606Z",
+  "generatedAt": "2026-11-11T01:45:31.519Z",
   "methodology": "First observed pregame model/market pair, fixed side and line; final score grading. No retrospective ATS picks.",
   "wins": 3,
   "losses": 1,
   "pushes": 0,
-  "pending": 13,
+  "pending": 14,
   "noEdge": 0,
   "void": 0,
-  "gamesWithMarket": 48,
+  "gamesWithMarket": 49,
   "gamesWithModel": 340,
   "picks": [
     {
@@ -311,6 +311,26 @@
       "side": "home",
       "pickTeam": "Air Force",
       "edge": 4.6,
+      "status": "pending",
+      "result": null
+    },
+    {
+      "espnId": "401926202",
+      "date": "2026-11-11",
+      "home": "VMI",
+      "away": "NC Central",
+      "capturedAt": "2026-11-11T01:45:31.519Z",
+      "gameId": "401926202",
+      "startTimeAtPick": "2026-11-11T23:00:00.000Z",
+      "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+      "modelVersion": "v2-baseline-1",
+      "modelHomeHandicap": 0.4,
+      "marketHomeHandicap": -5.5,
+      "marketCapturedAt": "2026-11-11T01:45:31.519Z",
+      "sportsbook": "FanDuel",
+      "side": "away",
+      "pickTeam": "NC Central",
+      "edge": 5.9,
       "status": "pending",
       "result": null
     },

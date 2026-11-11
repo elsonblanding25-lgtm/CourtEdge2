@@ -5481,7 +5481,7 @@
     "time": "17:00",
     "modelFavorite": "Florida",
     "modelSpread": -11.6,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-10T23:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Florida",
@@ -5493,7 +5493,13 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "awayScore": 81,
+    "homeScore": 72,
+    "actualMargin": -9,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 2.6
   },
   {
     "id": "espn-401920866",
@@ -5512,7 +5518,7 @@
     "time": "17:30",
     "modelFavorite": "Rutgers",
     "modelSpread": -17.7,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-10T23:30:00.000Z",
     "preUpgradeModel": {
       "favorite": "Rutgers",
@@ -5524,7 +5530,13 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "awayScore": 64,
+    "homeScore": 101,
+    "actualMargin": 37,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 19.3
   },
   {
     "id": "espn-401909514",
@@ -5541,9 +5553,9 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 78,
+    "homeScore": 83,
+    "status": "final",
     "espnAwayTeamId": "2169",
     "espnHomeTeamId": "46",
     "startTime": "2026-11-10T23:30:00.000Z",
@@ -5552,7 +5564,11 @@
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "actualMargin": 5,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 21.3
   },
   {
     "id": "espn-401909564",
@@ -6440,7 +6456,7 @@
     "time": "18:15",
     "modelFavorite": "Vanderbilt",
     "modelSpread": -17.3,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T00:15:00.000Z",
     "preUpgradeModel": {
       "favorite": "Vanderbilt",
@@ -6471,7 +6487,7 @@
     "time": "18:30",
     "modelFavorite": "MTSU",
     "modelSpread": -11.4,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T00:30:00.000Z",
     "preUpgradeModel": {
       "favorite": "MTSU",
@@ -6502,7 +6518,7 @@
     "time": "19:00",
     "modelFavorite": "Illinois",
     "modelSpread": -1.4,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T01:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Texas Tech",
@@ -6604,7 +6620,7 @@
     "time": "19:00",
     "modelFavorite": "Iowa State",
     "modelSpread": -30.1,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T01:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Iowa State",
@@ -6734,7 +6750,7 @@
     "time": "19:00",
     "modelFavorite": "Northern Iowa",
     "modelSpread": -14.3,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T01:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Northern Iowa",
@@ -6765,7 +6781,7 @@
     "time": "19:00",
     "modelFavorite": "Arkansas St",
     "modelSpread": -7.6,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T01:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Arkansas St",
@@ -6796,7 +6812,7 @@
     "time": "19:00",
     "modelFavorite": "Belmont",
     "modelSpread": -5.8,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T01:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Belmont",
@@ -6827,7 +6843,7 @@
     "time": "19:00",
     "modelFavorite": "SMU",
     "modelSpread": -23.2,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T01:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "SMU",
@@ -6957,7 +6973,7 @@
     "time": "19:00",
     "modelFavorite": "Saint Louis",
     "modelSpread": -17.4,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T01:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Saint Louis",
@@ -6988,7 +7004,7 @@
     "time": "19:00",
     "modelFavorite": "Baylor",
     "modelSpread": -6.6,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T01:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Baylor",
@@ -7090,7 +7106,7 @@
     "time": "19:30",
     "modelFavorite": "Wisconsin",
     "modelSpread": -24,
-    "status": "scheduled",
+    "status": "live",
     "startTime": "2026-11-11T01:30:00.000Z",
     "preUpgradeModel": {
       "favorite": "Wisconsin",
@@ -7530,11 +7546,18 @@
         "book": "DraftKings",
         "homePrice": -115,
         "awayPrice": -105
+      },
+      {
+        "capturedAt": "2026-11-11T01:45:31.519Z",
+        "homeHandicap": -7.5,
+        "book": "DraftKings",
+        "homePrice": -115,
+        "awayPrice": -105
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-11T00:21:31.606Z",
-      "homeHandicap": -12.5,
+      "capturedAt": "2026-11-11T01:45:31.519Z",
+      "homeHandicap": -7.5,
       "book": "DraftKings",
       "homePrice": -115,
       "awayPrice": -105
@@ -7604,14 +7627,21 @@
         "book": "DraftKings",
         "homePrice": -105,
         "awayPrice": -115
+      },
+      {
+        "capturedAt": "2026-11-11T01:45:31.519Z",
+        "homeHandicap": 8.5,
+        "book": "DraftKings",
+        "homePrice": -110,
+        "awayPrice": -110
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-11T00:21:31.606Z",
+      "capturedAt": "2026-11-11T01:45:31.519Z",
       "homeHandicap": 8.5,
       "book": "DraftKings",
-      "homePrice": -105,
-      "awayPrice": -115
+      "homePrice": -110,
+      "awayPrice": -110
     },
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-10T19:03:46.073Z",
@@ -7704,10 +7734,10 @@
     "modelFavorite": "NC Central",
     "modelSpread": -0.4,
     "modelVersion": "v2-baseline-1",
-    "marketFavorite": null,
-    "marketSpread": null,
-    "awayML": null,
-    "homeML": null,
+    "marketFavorite": "VMI",
+    "marketSpread": -5.5,
+    "awayML": 205,
+    "homeML": -255,
     "awayScore": null,
     "homeScore": null,
     "status": "scheduled",
@@ -7718,8 +7748,44 @@
     "modelBaseMargin": -0.4,
     "modelMatchupAdjustment": 0,
     "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
-    "edge": null,
-    "confidence": null
+    "edge": 5.9,
+    "confidence": 2,
+    "marketHistory": [
+      {
+        "capturedAt": "2026-11-11T01:45:31.519Z",
+        "homeHandicap": -5.5,
+        "book": "FanDuel",
+        "homePrice": -120,
+        "awayPrice": -102
+      }
+    ],
+    "latestMarket": {
+      "capturedAt": "2026-11-11T01:45:31.519Z",
+      "homeHandicap": -5.5,
+      "book": "FanDuel",
+      "homePrice": -120,
+      "awayPrice": -102
+    },
+    "oddsBook": "FanDuel",
+    "oddsCapturedAt": "2026-11-11T01:45:31.519Z",
+    "atsPick": {
+      "capturedAt": "2026-11-11T01:45:31.519Z",
+      "gameId": "401926202",
+      "startTimeAtPick": "2026-11-11T23:00:00.000Z",
+      "home": "VMI",
+      "away": "NC Central",
+      "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+      "modelVersion": "v2-baseline-1",
+      "modelHomeHandicap": 0.4,
+      "marketHomeHandicap": -5.5,
+      "marketCapturedAt": "2026-11-11T01:45:31.519Z",
+      "sportsbook": "FanDuel",
+      "side": "away",
+      "pickTeam": "NC Central",
+      "edge": 5.9,
+      "status": "pending",
+      "result": null
+    }
   },
   {
     "id": "espn-401925858",
@@ -7767,14 +7833,21 @@
         "book": "DraftKings",
         "homePrice": 105,
         "awayPrice": -125
+      },
+      {
+        "capturedAt": "2026-11-11T01:45:31.519Z",
+        "homeHandicap": -1.5,
+        "book": "DraftKings",
+        "homePrice": -105,
+        "awayPrice": -115
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-11T00:21:31.606Z",
+      "capturedAt": "2026-11-11T01:45:31.519Z",
       "homeHandicap": -1.5,
       "book": "DraftKings",
-      "homePrice": 105,
-      "awayPrice": -125
+      "homePrice": -105,
+      "awayPrice": -115
     },
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-10T19:03:46.073Z",
@@ -8349,7 +8422,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-11T00:21:31.606Z",
+      "capturedAt": "2026-11-11T01:45:31.519Z",
       "homeHandicap": -34.5,
       "book": "DraftKings",
       "homePrice": -112,
@@ -8554,7 +8627,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-11T00:21:31.606Z",
+      "capturedAt": "2026-11-11T01:45:31.519Z",
       "homeHandicap": 1.5,
       "book": "DraftKings",
       "homePrice": -125,
