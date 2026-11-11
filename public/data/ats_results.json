@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-11T18:00:29.450Z",
+  "generatedAt": "2026-11-11T19:07:21.182Z",
   "methodology": "First observed pregame model/market pair, fixed side and line; final score grading. No retrospective ATS picks.",
-  "wins": 7,
-  "losses": 5,
+  "wins": 8,
+  "losses": 6,
   "pushes": 0,
-  "pending": 36,
+  "pending": 34,
   "noEdge": 0,
   "void": 0,
   "gamesWithMarket": 79,
@@ -339,8 +339,14 @@
       "side": "away",
       "pickTeam": "FDU",
       "edge": 4.6,
-      "status": "pending",
-      "result": null
+      "status": "win",
+      "result": {
+        "homeScore": 76,
+        "awayScore": 80,
+        "homeMargin": -4,
+        "coverMargin": 14.5,
+        "gradedAt": "2026-11-11T19:07:21.182Z"
+      }
     },
     {
       "espnId": "401921005",
@@ -359,8 +365,14 @@
       "side": "home",
       "pickTeam": "Florida A&M",
       "edge": 13.1,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 65,
+        "awayScore": 87,
+        "homeMargin": -22,
+        "coverMargin": -15.5,
+        "gradedAt": "2026-11-11T19:07:21.182Z"
+      }
     },
     {
       "espnId": "401920234",
@@ -1043,6 +1055,6 @@
       "result": null
     }
   ],
-  "graded": 12,
-  "winPct": 58.3
+  "graded": 14,
+  "winPct": 57.1
 }
