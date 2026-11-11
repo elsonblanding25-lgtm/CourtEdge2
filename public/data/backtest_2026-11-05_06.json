@@ -4,10 +4,10 @@
       "2026-11-05",
       "2026-11-06"
     ],
-    "completedGames": 90,
+    "completedGames": 91,
     "historicalSnapshotEvaluated": 58,
     "retrospectiveEstimatesExcluded": 0,
-    "missingRatings": 32,
+    "missingRatings": 33,
     "historicalWinnerAccuracyPct": 77.6,
     "historicalMarginMAE": 11.54,
     "methodology": "Git ratings.json commit timestamp strictly before ESPN tipoff; baseline formula 0.7*(home bqNet-away bqNet)+3 home points (0 neutral). Retrospective current ratings excluded from accuracy. Git commit timestamp is evidence of repository availability, not proof the rating source itself was point-in-time."
@@ -1129,6 +1129,17 @@
       "awayScore": 32,
       "homeScore": 93,
       "actualHomeMargin": 61,
+      "category": "missing-ratings",
+      "eligibleForAccuracy": false,
+      "note": "No matching ratings for both teams."
+    },
+    {
+      "date": "2026-11-06",
+      "away": "Miss Valley St",
+      "home": "Oklahoma",
+      "awayScore": 57,
+      "homeScore": 84,
+      "actualHomeMargin": 27,
       "category": "missing-ratings",
       "eligibleForAccuracy": false,
       "note": "No matching ratings for both teams."
