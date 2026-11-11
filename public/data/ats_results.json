@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-11T02:58:49.347Z",
+  "generatedAt": "2026-11-11T04:04:12.729Z",
   "methodology": "First observed pregame model/market pair, fixed side and line; final score grading. No retrospective ATS picks.",
-  "wins": 6,
-  "losses": 3,
+  "wins": 7,
+  "losses": 5,
   "pushes": 0,
-  "pending": 12,
+  "pending": 9,
   "noEdge": 0,
   "void": 0,
   "gamesWithMarket": 52,
@@ -235,8 +235,14 @@
       "side": "home",
       "pickTeam": "Texas Tech",
       "edge": 0.1,
-      "status": "pending",
-      "result": null
+      "status": "win",
+      "result": {
+        "homeScore": 84,
+        "awayScore": 78,
+        "homeMargin": 6,
+        "coverMargin": 7.5,
+        "gradedAt": "2026-11-11T04:04:12.729Z"
+      }
     },
     {
       "espnId": "401909773",
@@ -281,8 +287,14 @@
       "side": "away",
       "pickTeam": "Prairie View",
       "edge": 0.3,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 98,
+        "awayScore": 63,
+        "homeMargin": 35,
+        "coverMargin": -11.5,
+        "gradedAt": "2026-11-11T04:04:12.729Z"
+      }
     },
     {
       "espnId": "401909752",
@@ -301,8 +313,14 @@
       "side": "away",
       "pickTeam": "Yale",
       "edge": 15.4,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 90,
+        "awayScore": 61,
+        "homeMargin": 29,
+        "coverMargin": -7,
+        "gradedAt": "2026-11-11T04:04:12.729Z"
+      }
     },
     {
       "espnId": "401911519",
@@ -485,6 +503,6 @@
       "result": null
     }
   ],
-  "graded": 9,
-  "winPct": 66.7
+  "graded": 12,
+  "winPct": 58.3
 }
