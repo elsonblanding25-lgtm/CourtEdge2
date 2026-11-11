@@ -1346,10 +1346,16 @@ if (process.env.ODDS_API_KEY) {
   try {
 
 const oddsNow = new Date();
+
+// Round down to the current minute
+oddsNow.setUTCSeconds(0, 0);
+
+// Exactly 24 hours ahead, to the minute
 const odds24Hours = new Date(
   oddsNow.getTime() + 24 * 60 * 60 * 1000
 );
 
+// API requires seconds, so use :00Z
 const apiTime = (date) =>
   date.toISOString().replace(/\.\d{3}Z$/, 'Z');
 
@@ -1365,11 +1371,11 @@ const url =
   `&commenceTimeTo=${encodeURIComponent(apiTime(odds24Hours))}`;
 
 console.log(
-  'ODDS: Requesting games for the next 24 hours:',
+  'ODDS: Checking next 24 hours:',
   apiTime(oddsNow),
   'through',
   apiTime(odds24Hours)
-);    
+);
 
     const response = await fetch(url);
 
