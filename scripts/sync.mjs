@@ -1344,7 +1344,7 @@ for (const g of games) {
 
 if (process.env.ODDS_API_KEY) {
   try {
-    
+
 const oddsNow = new Date();
 const odds24Hours = new Date(
   oddsNow.getTime() + 24 * 60 * 60 * 1000
@@ -1369,7 +1369,7 @@ console.log(
   apiTime(oddsNow),
   'through',
   apiTime(odds24Hours)
-);
+);    
 
     const response = await fetch(url);
 
