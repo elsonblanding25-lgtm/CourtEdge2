@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-11T22:37:21.810Z",
+  "generatedAt": "2026-11-11T23:32:13.267Z",
   "methodology": "First observed pregame model/market pair, fixed side and line; final score grading. No retrospective ATS picks.",
   "wins": 9,
   "losses": 7,
   "pushes": 1,
-  "pending": 30,
+  "pending": 31,
   "noEdge": 0,
   "void": 0,
-  "gamesWithMarket": 78,
+  "gamesWithMarket": 79,
   "gamesWithModel": 394,
   "picks": [
     {
@@ -1049,6 +1049,26 @@
       "side": "home",
       "pickTeam": "California",
       "edge": 11.3,
+      "status": "pending",
+      "result": null
+    },
+    {
+      "espnId": "401916288",
+      "date": "2026-11-12",
+      "home": "Indiana",
+      "away": "Tennessee Tech",
+      "capturedAt": "2026-11-11T23:32:13.267Z",
+      "gameId": "401916288",
+      "startTimeAtPick": "2026-11-12T23:30:00.000Z",
+      "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+      "modelVersion": "v2-baseline-1",
+      "modelHomeHandicap": -24.6,
+      "marketHomeHandicap": -25.5,
+      "marketCapturedAt": "2026-11-11T23:32:13.267Z",
+      "sportsbook": "BetOnline.ag",
+      "side": "away",
+      "pickTeam": "Tennessee Tech",
+      "edge": 0.9,
       "status": "pending",
       "result": null
     }
