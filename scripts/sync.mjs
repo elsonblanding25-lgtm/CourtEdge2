@@ -1418,24 +1418,23 @@ console.log(
       }
     
 // Diagnose games excluded by DI filtering.
-const awayIsDI = isDI(event.away_team);
-const homeIsDI = isDI(event.home_team);
-
-if (!awayIsDI || !homeIsDI) {
-  nonDI++;
-
-  console.log(
-    `ODDS DI EXCLUDED: ${date} ` +
-    `${event.away_team} @ ${event.home_team}`
-  );
-
-  console.log(
-    `  AWAY DI: ${awayIsDI} | ` +
-    `HOME DI: ${homeIsDI}`
-  );
-
-  continue;
-}
+// Match both participating teams
+// and the exact Central Time game date.
+const candidates = games.filter(
+  g =>
+    isDIGame(g) &&
+    g.date === date &&
+    (
+      (
+        sameSchool(g.away, event.away_team) &&
+        sameSchool(g.home, event.home_team)
+      ) ||
+      (
+        sameSchool(g.away, event.home_team) &&
+        sameSchool(g.home, event.away_team)
+      )
+    )
+);
 
       // Match both participating teams
       // and the exact Central Time game date.
