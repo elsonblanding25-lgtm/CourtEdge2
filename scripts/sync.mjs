@@ -1344,14 +1344,30 @@ for (const g of games) {
 
 if (process.env.ODDS_API_KEY) {
   try {
-    const url =
-      'https://api.the-odds-api.com/v4/sports/' +
-      'basketball_ncaab/odds/' +
-      `?apiKey=${encodeURIComponent(
-        process.env.ODDS_API_KEY
-      )}` +
-      '&regions=us&markets=spreads,h2h' +
-      '&oddsFormat=american&dateFormat=iso';
+    
+const oddsNow = new Date();
+const odds48Hours = new Date(
+  oddsNow.getTime() + 48 * 60 * 60 * 1000
+);
+
+const url =
+  'https://api.the-odds-api.com/v4/sports/' +
+  'basketball_ncaab/odds/' +
+  `?apiKey=${encodeURIComponent(process.env.ODDS_API_KEY)}` +
+  '&regions=us' +
+  '&markets=spreads,h2h' +
+  '&oddsFormat=american' +
+  '&dateFormat=iso' +
+  `&commenceTimeFrom=${encodeURIComponent(oddsNow.toISOString())}` +
+  `&commenceTimeTo=${encodeURIComponent(odds48Hours.toISOString())}`;
+
+console.log(
+  'ODDS: Requesting games for the next 48 hours:',
+  oddsNow.toISOString(),
+  'through',
+  odds48Hours.toISOString()
+);
+
 
     const response = await fetch(url);
 
