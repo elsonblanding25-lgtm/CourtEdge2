@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-11T01:45:31.519Z",
+  "generatedAt": "2026-11-11T02:58:49.347Z",
   "methodology": "First observed pregame model/market pair, fixed side and line; final score grading. No retrospective ATS picks.",
-  "wins": 3,
-  "losses": 1,
+  "wins": 6,
+  "losses": 3,
   "pushes": 0,
-  "pending": 14,
+  "pending": 12,
   "noEdge": 0,
   "void": 0,
-  "gamesWithMarket": 49,
+  "gamesWithMarket": 52,
   "gamesWithModel": 340,
   "picks": [
     {
@@ -131,8 +131,14 @@
       "side": "away",
       "pickTeam": "Michigan St",
       "edge": 1,
-      "status": "pending",
-      "result": null
+      "status": "win",
+      "result": {
+        "homeScore": 73,
+        "awayScore": 79,
+        "homeMargin": -6,
+        "coverMargin": 12.5,
+        "gradedAt": "2026-11-11T02:58:49.347Z"
+      }
     },
     {
       "espnId": "401921755",
@@ -151,8 +157,14 @@
       "side": "away",
       "pickTeam": "South Alabama",
       "edge": 2.8,
-      "status": "pending",
-      "result": null
+      "status": "win",
+      "result": {
+        "homeScore": 76,
+        "awayScore": 69,
+        "homeMargin": 7,
+        "coverMargin": 10,
+        "gradedAt": "2026-11-11T02:58:49.347Z"
+      }
     },
     {
       "espnId": "401921025",
@@ -171,8 +183,14 @@
       "side": "away",
       "pickTeam": "Mercer",
       "edge": 1.6,
-      "status": "pending",
-      "result": null
+      "status": "win",
+      "result": {
+        "homeScore": 91,
+        "awayScore": 97,
+        "homeMargin": -6,
+        "coverMargin": 7,
+        "gradedAt": "2026-11-11T02:58:49.347Z"
+      }
     },
     {
       "espnId": "401909543",
@@ -191,8 +209,14 @@
       "side": "away",
       "pickTeam": "Detroit Mercy",
       "edge": 16.6,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 100,
+        "awayScore": 55,
+        "homeMargin": 45,
+        "coverMargin": -15,
+        "gradedAt": "2026-11-11T02:58:49.347Z"
+      }
     },
     {
       "espnId": "401913527",
@@ -231,8 +255,14 @@
       "side": "away",
       "pickTeam": "Southern",
       "edge": 2.4,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 84,
+        "awayScore": 47,
+        "homeMargin": 37,
+        "coverMargin": -4.5,
+        "gradedAt": "2026-11-11T02:58:49.347Z"
+      }
     },
     {
       "espnId": "401918969",
@@ -271,6 +301,26 @@
       "side": "away",
       "pickTeam": "Yale",
       "edge": 15.4,
+      "status": "pending",
+      "result": null
+    },
+    {
+      "espnId": "401911519",
+      "date": "2026-11-11",
+      "home": "UC Davis",
+      "away": "Incarnate Word",
+      "capturedAt": "2026-11-11T02:58:49.347Z",
+      "gameId": "401911519",
+      "startTimeAtPick": "2026-11-11T19:00:00.000Z",
+      "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+      "modelVersion": "v2-baseline-1",
+      "modelHomeHandicap": -8.3,
+      "marketHomeHandicap": -12,
+      "marketCapturedAt": "2026-11-11T02:58:49.347Z",
+      "sportsbook": "BetOnline.ag",
+      "side": "away",
+      "pickTeam": "Incarnate Word",
+      "edge": 3.7,
       "status": "pending",
       "result": null
     },
@@ -355,6 +405,26 @@
       "result": null
     },
     {
+      "espnId": "401917901",
+      "date": "2026-11-11",
+      "home": "West Georgia",
+      "away": "UNC Asheville",
+      "capturedAt": "2026-11-11T02:58:49.347Z",
+      "gameId": "401917901",
+      "startTimeAtPick": "2026-11-12T00:00:00.000Z",
+      "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+      "modelVersion": "v2-baseline-1",
+      "modelHomeHandicap": 1.7,
+      "marketHomeHandicap": -1.5,
+      "marketCapturedAt": "2026-11-11T02:58:49.347Z",
+      "sportsbook": "BetOnline.ag",
+      "side": "away",
+      "pickTeam": "UNC Asheville",
+      "edge": 3.2,
+      "status": "pending",
+      "result": null
+    },
+    {
       "espnId": "401925702",
       "date": "2026-11-11",
       "home": "Houston",
@@ -393,8 +463,28 @@
       "edge": 4.4,
       "status": "pending",
       "result": null
+    },
+    {
+      "espnId": "401919734",
+      "date": "2026-11-11",
+      "home": "CA Baptist",
+      "away": "Chicago St",
+      "capturedAt": "2026-11-11T02:58:49.347Z",
+      "gameId": "401919734",
+      "startTimeAtPick": "2026-11-12T03:00:00.000Z",
+      "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+      "modelVersion": "v2-baseline-1",
+      "modelHomeHandicap": -19.9,
+      "marketHomeHandicap": -9.5,
+      "marketCapturedAt": "2026-11-11T02:58:49.347Z",
+      "sportsbook": "BetOnline.ag",
+      "side": "home",
+      "pickTeam": "CA Baptist",
+      "edge": 10.4,
+      "status": "pending",
+      "result": null
     }
   ],
-  "graded": 4,
-  "winPct": 75
+  "graded": 9,
+  "winPct": 66.7
 }
