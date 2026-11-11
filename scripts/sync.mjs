@@ -1346,9 +1346,12 @@ if (process.env.ODDS_API_KEY) {
   try {
     
 const oddsNow = new Date();
-const odds48Hours = new Date(
-  oddsNow.getTime() + 48 * 60 * 60 * 1000
+const odds24Hours = new Date(
+  oddsNow.getTime() + 24 * 60 * 60 * 1000
 );
+
+const apiTime = (date) =>
+  date.toISOString().replace(/\.\d{3}Z$/, 'Z');
 
 const url =
   'https://api.the-odds-api.com/v4/sports/' +
@@ -1358,16 +1361,15 @@ const url =
   '&markets=spreads,h2h' +
   '&oddsFormat=american' +
   '&dateFormat=iso' +
-  `&commenceTimeFrom=${encodeURIComponent(oddsNow.toISOString())}` +
-  `&commenceTimeTo=${encodeURIComponent(odds48Hours.toISOString())}`;
+  `&commenceTimeFrom=${encodeURIComponent(apiTime(oddsNow))}` +
+  `&commenceTimeTo=${encodeURIComponent(apiTime(odds24Hours))}`;
 
 console.log(
-  'ODDS: Requesting games for the next 48 hours:',
-  oddsNow.toISOString(),
+  'ODDS: Requesting games for the next 24 hours:',
+  apiTime(oddsNow),
   'through',
-  odds48Hours.toISOString()
+  apiTime(odds24Hours)
 );
-
 
     const response = await fetch(url);
 
