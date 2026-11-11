@@ -1416,15 +1416,26 @@ console.log(
       if (date < today) {
         continue;
       }
+    
+// Diagnose games excluded by DI filtering.
+const awayIsDI = isDI(event.away_team);
+const homeIsDI = isDI(event.home_team);
 
-      // Reject non-DI matchups.
-      if (
-        !isDI(event.away_team) ||
-        !isDI(event.home_team)
-      ) {
-        nonDI++;
-        continue;
-      }
+if (!awayIsDI || !homeIsDI) {
+  nonDI++;
+
+  console.log(
+    `ODDS DI EXCLUDED: ${date} ` +
+    `${event.away_team} @ ${event.home_team}`
+  );
+
+  console.log(
+    `  AWAY DI: ${awayIsDI} | ` +
+    `HOME DI: ${homeIsDI}`
+  );
+
+  continue;
+}
 
       // Match both participating teams
       // and the exact Central Time game date.
