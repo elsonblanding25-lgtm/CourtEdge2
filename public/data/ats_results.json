@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-11T20:08:26.405Z",
+  "generatedAt": "2026-11-11T21:44:18.306Z",
   "methodology": "First observed pregame model/market pair, fixed side and line; final score grading. No retrospective ATS picks.",
   "wins": 8,
   "losses": 7,
-  "pushes": 0,
-  "pending": 32,
+  "pushes": 1,
+  "pending": 31,
   "noEdge": 0,
   "void": 0,
   "gamesWithMarket": 78,
@@ -417,8 +417,14 @@
       "side": "away",
       "pickTeam": "Incarnate Word",
       "edge": 3.7,
-      "status": "pending",
-      "result": null
+      "status": "push",
+      "result": {
+        "homeScore": 81,
+        "awayScore": 69,
+        "homeMargin": 12,
+        "coverMargin": 0,
+        "gradedAt": "2026-11-11T21:44:18.306Z"
+      }
     },
     {
       "espnId": "401911230",
@@ -1041,6 +1047,6 @@
       "result": null
     }
   ],
-  "graded": 15,
+  "graded": 16,
   "winPct": 53.3
 }
