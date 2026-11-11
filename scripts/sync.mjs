@@ -49,6 +49,34 @@ function clean(value) {
 // Every abbreviation is mapped to an explicit school.
 // Do not globally replace "St" with "State" or "Saint".
 const aliases = {
+  
+  // ESPN shorthand and sportsbook naming variants.
+  'missouri kansas city': 'kansas city',
+  'fdu': 'fairleigh dickinson',
+  'fairleigh dickinson': 'fairleigh dickinson',
+  'nc a t': 'north carolina a and t',
+  'north carolina a t': 'north carolina a and t',
+  'north carolina a and t': 'north carolina a and t',
+  'iu indy': 'iupui',
+  'indiana university indianapolis': 'iupui',
+  's indiana': 'southern indiana',
+  'sf austin': 'stephen f austin',
+  'stephen f austin': 'stephen f austin',
+  'st john s': 'saint johns',
+  'st bonaventure': 'saint bonaventure',
+  'saint peter s': 'saint peters',
+  'st peter s': 'saint peters',
+  'florida a m': 'florida a and m',
+  'florida a and m': 'florida a and m',
+  'miss valley st': 'mississippi valley state',
+  'mississippi valley st': 'mississippi valley state',
+  'long beach st': 'long beach state',
+  'norfolk st': 'norfolk state',
+  'south carolina st': 'south carolina state',
+  'sam houston st': 'sam houston state',
+  's dakota st': 'south dakota state',
+  'stony brook': 'stony brook',
+
   'ualbany': 'albany',
   'albany': 'albany',
   'app st': 'appalachian state',
@@ -179,8 +207,9 @@ const aliases = {
   'w michigan': 'western michigan',
   'wright st': 'wright state',
   'youngstown st': 'youngstown state',
-  'fairleigh dickinson knights': 'fdu',
-  'north carolina a&t aggies': 'nc a&t',
+  'fairleigh dickinson knights': 'fairleigh dickinson',
+  'north carolina a t aggies': 'north carolina a and t',
+
 
 };
 
@@ -222,8 +251,9 @@ const specialAliases = {
   'abilene christian wildcats': 'abilene christian',
   'north carolina central eagles': 'north carolina central',
   'longwood lancers': 'longwood',
-  'fairleigh dickinson knights': 'fdu',
-  'north carolina a&t aggies': 'nc a&t',
+  'fairleigh dickinson knights': 'fairleigh dickinson',
+  'north carolina a t aggies': 'north carolina a and t',
+
 
 };
 
@@ -272,6 +302,47 @@ const diNames = new Set([
 // This prevents non-DI schools such as Southern Wesleyan
 // from being mistaken for Southern University.
 const mascotSuffixes = [
+  'screaming eagles',
+  'fighting camels',
+  'red storm',
+  'big red',
+  'big green',
+  'blue hens',
+  'tribe',
+  'crusaders',
+  'sycamores',
+  'golden flashes',
+  'seahawks',
+  'wolverines',
+  'river hawks',
+  'minutemen',
+  'highlanders',
+  'monarchs',
+  'fighting irish',
+  'seawolves',
+  'peacocks',
+  'waves',
+  'bearkats',
+  'lumberjacks',
+  'razorbacks',
+  'golden hurricane',
+  'beacons',
+  'golden lions',
+  'bruins',
+  'golden grizzlies',
+  'antelopes',
+  'vikings',
+  'cornhuskers',
+  'wolf pack',
+  'gauchos',
+  'tigers',
+  'delta devils',
+  'roadrunners',
+  'golden bears',
+  'rattlers',
+  'aztecs',
+  'midshipmen',
+  '49ers',
   'great danes',
   'mean green',
   'blue devils',
