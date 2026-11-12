@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-12T04:02:37.741Z",
+  "generatedAt": "2026-11-12T05:10:11.909Z",
   "methodology": "First observed pregame model/market pair, fixed side and line; final score grading. No retrospective ATS picks.",
-  "wins": 18,
-  "losses": 21,
+  "wins": 21,
+  "losses": 24,
   "pushes": 1,
-  "pending": 12,
+  "pending": 6,
   "noEdge": 0,
   "void": 0,
   "gamesWithMarket": 83,
@@ -1041,8 +1041,14 @@
       "side": "away",
       "pickTeam": "Oakland",
       "edge": 3.7,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 111,
+        "awayScore": 79,
+        "homeMargin": 32,
+        "coverMargin": -15.5,
+        "gradedAt": "2026-11-12T05:10:11.909Z"
+      }
     },
     {
       "espnId": "401926062",
@@ -1061,8 +1067,14 @@
       "side": "away",
       "pickTeam": "Lindenwood",
       "edge": 8,
-      "status": "pending",
-      "result": null
+      "status": "win",
+      "result": {
+        "homeScore": 94,
+        "awayScore": 60,
+        "homeMargin": 34,
+        "coverMargin": 0.5,
+        "gradedAt": "2026-11-12T05:10:11.909Z"
+      }
     },
     {
       "espnId": "401911346",
@@ -1081,8 +1093,14 @@
       "side": "away",
       "pickTeam": "Cal Poly",
       "edge": 3.6,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 99,
+        "awayScore": 71,
+        "homeMargin": 28,
+        "coverMargin": -9.5,
+        "gradedAt": "2026-11-12T05:10:11.909Z"
+      }
     },
     {
       "espnId": "401925915",
@@ -1127,8 +1145,14 @@
       "side": "home",
       "pickTeam": "CA Baptist",
       "edge": 10.4,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 62,
+        "awayScore": 81,
+        "homeMargin": -19,
+        "coverMargin": -28.5,
+        "gradedAt": "2026-11-12T05:10:11.909Z"
+      }
     },
     {
       "espnId": "401925738",
@@ -1147,8 +1171,14 @@
       "side": "away",
       "pickTeam": "Miss Valley St",
       "edge": 6.4,
-      "status": "pending",
-      "result": null
+      "status": "win",
+      "result": {
+        "homeScore": 100,
+        "awayScore": 66,
+        "homeMargin": 34,
+        "coverMargin": 3.5,
+        "gradedAt": "2026-11-12T05:10:11.909Z"
+      }
     },
     {
       "espnId": "401917523",
@@ -1167,8 +1197,14 @@
       "side": "home",
       "pickTeam": "Long Beach St",
       "edge": 2.1,
-      "status": "pending",
-      "result": null
+      "status": "win",
+      "result": {
+        "homeScore": 62,
+        "awayScore": 59,
+        "homeMargin": 3,
+        "coverMargin": 9.5,
+        "gradedAt": "2026-11-12T05:10:11.909Z"
+      }
     },
     {
       "espnId": "401918054",
@@ -1291,6 +1327,6 @@
       "result": null
     }
   ],
-  "graded": 40,
-  "winPct": 46.2
+  "graded": 46,
+  "winPct": 46.7
 }

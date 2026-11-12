@@ -10936,7 +10936,7 @@
     "time": "20:00",
     "modelFavorite": "Boise St",
     "modelSpread": -12.8,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-12T02:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Boise St",
@@ -10982,9 +10982,21 @@
       "side": "away",
       "pickTeam": "Oakland",
       "edge": 3.7,
-      "status": "pending",
-      "result": null
-    }
+      "status": "loss",
+      "result": {
+        "homeScore": 111,
+        "awayScore": 79,
+        "homeMargin": 32,
+        "coverMargin": -15.5,
+        "gradedAt": "2026-11-12T05:10:11.909Z"
+      }
+    },
+    "awayScore": 79,
+    "homeScore": 111,
+    "actualMargin": 32,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 19.2
   },
   {
     "id": "espn-401926062",
@@ -11003,7 +11015,7 @@
     "time": "20:00",
     "modelFavorite": "Nebraska",
     "modelSpread": -26.5,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-12T02:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Nebraska",
@@ -11056,9 +11068,21 @@
       "side": "away",
       "pickTeam": "Lindenwood",
       "edge": 8,
-      "status": "pending",
-      "result": null
-    }
+      "status": "win",
+      "result": {
+        "homeScore": 94,
+        "awayScore": 60,
+        "homeMargin": 34,
+        "coverMargin": 0.5,
+        "gradedAt": "2026-11-12T05:10:11.909Z"
+      }
+    },
+    "awayScore": 60,
+    "homeScore": 94,
+    "actualMargin": 34,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 7.5
   },
   {
     "id": "espn-401911346",
@@ -11077,7 +11101,7 @@
     "time": "20:00",
     "modelFavorite": "Grand Canyon",
     "modelSpread": -14.9,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-12T02:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "Grand Canyon",
@@ -11130,9 +11154,21 @@
       "side": "away",
       "pickTeam": "Cal Poly",
       "edge": 3.6,
-      "status": "pending",
-      "result": null
-    }
+      "status": "loss",
+      "result": {
+        "homeScore": 99,
+        "awayScore": 71,
+        "homeMargin": 28,
+        "coverMargin": -9.5,
+        "gradedAt": "2026-11-12T05:10:11.909Z"
+      }
+    },
+    "awayScore": 71,
+    "homeScore": 99,
+    "actualMargin": 28,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 13.1
   },
   {
     "id": "espn-401925915",
@@ -11232,7 +11268,7 @@
     "time": "21:00",
     "modelFavorite": "CA Baptist",
     "modelSpread": -19.9,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-12T03:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "CA Baptist",
@@ -11320,9 +11356,21 @@
       "side": "home",
       "pickTeam": "CA Baptist",
       "edge": 10.4,
-      "status": "pending",
-      "result": null
-    }
+      "status": "loss",
+      "result": {
+        "homeScore": 62,
+        "awayScore": 81,
+        "homeMargin": -19,
+        "coverMargin": -28.5,
+        "gradedAt": "2026-11-12T05:10:11.909Z"
+      }
+    },
+    "awayScore": 81,
+    "homeScore": 62,
+    "actualMargin": -19,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": false,
+    "modelMarginError": 38.9
   },
   {
     "id": "espn-401925738",
@@ -11339,9 +11387,9 @@
     "marketSpread": -37.5,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 66,
+    "homeScore": 100,
+    "status": "final",
     "espnAwayTeamId": "2400",
     "espnHomeTeamId": "2483",
     "startTime": "2026-11-12T03:00:00.000Z",
@@ -11426,9 +11474,19 @@
       "side": "away",
       "pickTeam": "Miss Valley St",
       "edge": 6.4,
-      "status": "pending",
-      "result": null
-    }
+      "status": "win",
+      "result": {
+        "homeScore": 100,
+        "awayScore": 66,
+        "homeMargin": 34,
+        "coverMargin": 3.5,
+        "gradedAt": "2026-11-12T05:10:11.909Z"
+      }
+    },
+    "actualMargin": 34,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": true,
+    "modelMarginError": 2.9
   },
   {
     "id": "espn-401917523",
@@ -11445,9 +11503,9 @@
     "marketSpread": -6.5,
     "awayML": -265,
     "homeML": 215,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 59,
+    "homeScore": 62,
+    "status": "final",
     "espnAwayTeamId": "279",
     "espnHomeTeamId": "299",
     "startTime": "2026-11-12T03:00:00.000Z",
@@ -11504,9 +11562,19 @@
       "side": "home",
       "pickTeam": "Long Beach St",
       "edge": 2.1,
-      "status": "pending",
-      "result": null
-    }
+      "status": "win",
+      "result": {
+        "homeScore": 62,
+        "awayScore": 59,
+        "homeMargin": 3,
+        "coverMargin": 9.5,
+        "gradedAt": "2026-11-12T05:10:11.909Z"
+      }
+    },
+    "actualMargin": 3,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": false,
+    "modelMarginError": 7.4
   },
   {
     "id": "espn-401918054",
@@ -11696,14 +11764,21 @@
         "book": "DraftKings",
         "homePrice": -110,
         "awayPrice": -110
+      },
+      {
+        "capturedAt": "2026-11-12T05:10:11.909Z",
+        "homeHandicap": -25.5,
+        "book": "DraftKings",
+        "homePrice": -105,
+        "awayPrice": -115
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-12T04:02:37.741Z",
+      "capturedAt": "2026-11-12T05:10:11.909Z",
       "homeHandicap": -25.5,
       "book": "DraftKings",
-      "homePrice": -110,
-      "awayPrice": -110
+      "homePrice": -105,
+      "awayPrice": -115
     },
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-11T23:32:13.267Z",
@@ -11874,7 +11949,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-12T04:02:37.741Z",
+      "capturedAt": "2026-11-12T05:10:11.909Z",
       "homeHandicap": -26.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -11987,14 +12062,21 @@
         "book": "DraftKings",
         "homePrice": -110,
         "awayPrice": -110
+      },
+      {
+        "capturedAt": "2026-11-12T05:10:11.909Z",
+        "homeHandicap": -21.5,
+        "book": "DraftKings",
+        "homePrice": -115,
+        "awayPrice": -105
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-12T04:02:37.741Z",
+      "capturedAt": "2026-11-12T05:10:11.909Z",
       "homeHandicap": -21.5,
       "book": "DraftKings",
-      "homePrice": -110,
-      "awayPrice": -110
+      "homePrice": -115,
+      "awayPrice": -105
     },
     "oddsBook": "FanDuel",
     "oddsCapturedAt": "2026-11-12T00:33:36.501Z",
@@ -12157,14 +12239,21 @@
         "book": "DraftKings",
         "homePrice": -115,
         "awayPrice": -105
+      },
+      {
+        "capturedAt": "2026-11-12T05:10:11.909Z",
+        "homeHandicap": -25.5,
+        "book": "DraftKings",
+        "homePrice": -105,
+        "awayPrice": -115
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-12T04:02:37.741Z",
-      "homeHandicap": -24.5,
+      "capturedAt": "2026-11-12T05:10:11.909Z",
+      "homeHandicap": -25.5,
       "book": "DraftKings",
-      "homePrice": -115,
-      "awayPrice": -105
+      "homePrice": -105,
+      "awayPrice": -115
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-12T01:57:55.871Z",
@@ -12261,14 +12350,21 @@
         "book": "DraftKings",
         "homePrice": -105,
         "awayPrice": -115
+      },
+      {
+        "capturedAt": "2026-11-12T05:10:11.909Z",
+        "homeHandicap": -7.5,
+        "book": "DraftKings",
+        "homePrice": -112,
+        "awayPrice": -108
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-12T04:02:37.741Z",
+      "capturedAt": "2026-11-12T05:10:11.909Z",
       "homeHandicap": -7.5,
       "book": "DraftKings",
-      "homePrice": -105,
-      "awayPrice": -115
+      "homePrice": -112,
+      "awayPrice": -108
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-12T01:57:55.871Z",
