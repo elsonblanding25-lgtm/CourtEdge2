@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-11T23:32:13.267Z",
+  "generatedAt": "2026-11-12T00:33:36.501Z",
   "methodology": "First observed pregame model/market pair, fixed side and line; final score grading. No retrospective ATS picks.",
   "wins": 9,
-  "losses": 7,
+  "losses": 8,
   "pushes": 1,
-  "pending": 31,
+  "pending": 32,
   "noEdge": 0,
   "void": 0,
-  "gamesWithMarket": 79,
+  "gamesWithMarket": 81,
   "gamesWithModel": 394,
   "picks": [
     {
@@ -469,8 +469,14 @@
       "side": "home",
       "pickTeam": "San Diego St",
       "edge": 0.7,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 88,
+        "awayScore": 75,
+        "homeMargin": 13,
+        "coverMargin": -5.5,
+        "gradedAt": "2026-11-12T00:33:36.501Z"
+      }
     },
     {
       "espnId": "401921181",
@@ -1071,8 +1077,48 @@
       "edge": 0.9,
       "status": "pending",
       "result": null
+    },
+    {
+      "espnId": "401921768",
+      "date": "2026-11-12",
+      "home": "West Virginia",
+      "away": "Mercer",
+      "capturedAt": "2026-11-12T00:33:36.501Z",
+      "gameId": "401921768",
+      "startTimeAtPick": "2026-11-13T00:00:00.000Z",
+      "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+      "modelVersion": "v2-baseline-1",
+      "modelHomeHandicap": -14.2,
+      "marketHomeHandicap": -27.5,
+      "marketCapturedAt": "2026-11-12T00:33:36.501Z",
+      "sportsbook": "DraftKings",
+      "side": "away",
+      "pickTeam": "Mercer",
+      "edge": 13.3,
+      "status": "pending",
+      "result": null
+    },
+    {
+      "espnId": "401920412",
+      "date": "2026-11-12",
+      "home": "High Point",
+      "away": "Southern Utah",
+      "capturedAt": "2026-11-12T00:33:36.501Z",
+      "gameId": "401920412",
+      "startTimeAtPick": "2026-11-13T00:00:00.000Z",
+      "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+      "modelVersion": "v2-baseline-1",
+      "modelHomeHandicap": -17.3,
+      "marketHomeHandicap": -20.5,
+      "marketCapturedAt": "2026-11-12T00:33:36.501Z",
+      "sportsbook": "FanDuel",
+      "side": "away",
+      "pickTeam": "Southern Utah",
+      "edge": 3.2,
+      "status": "pending",
+      "result": null
     }
   ],
-  "graded": 17,
-  "winPct": 56.3
+  "graded": 18,
+  "winPct": 52.9
 }
