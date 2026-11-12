@@ -11716,7 +11716,7 @@
     "homeML": null,
     "awayScore": null,
     "homeScore": null,
-    "status": "scheduled",
+    "status": "live",
     "espnId": "401917176",
     "espnAwayTeamId": "2385",
     "espnHomeTeamId": "213",
@@ -11749,7 +11749,7 @@
     "homeML": -9000,
     "awayScore": null,
     "homeScore": null,
-    "status": "scheduled",
+    "status": "live",
     "espnId": "401916288",
     "espnAwayTeamId": "2635",
     "espnHomeTeamId": "84",
@@ -12007,7 +12007,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-12T22:55:23.999Z",
+      "capturedAt": "2026-11-12T23:52:25.828Z",
       "homeHandicap": -24.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -12179,7 +12179,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-12T22:55:23.999Z",
+      "capturedAt": "2026-11-12T23:52:25.828Z",
       "homeHandicap": -22.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -12384,7 +12384,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-12T22:55:23.999Z",
+      "capturedAt": "2026-11-12T23:52:25.828Z",
       "homeHandicap": -26.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -12537,7 +12537,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-12T22:55:23.999Z",
+      "capturedAt": "2026-11-12T23:52:25.828Z",
       "homeHandicap": -8.5,
       "book": "DraftKings",
       "homePrice": -102,
@@ -12723,10 +12723,10 @@
     "source": "ESPN / The Odds API",
     "modelFavorite": "Butler",
     "modelSpread": -4.9,
-    "marketFavorite": null,
-    "marketSpread": null,
-    "awayML": null,
-    "homeML": null,
+    "marketFavorite": "Butler",
+    "marketSpread": -3.5,
+    "awayML": 130,
+    "homeML": -155,
     "awayScore": null,
     "homeScore": null,
     "status": "scheduled",
@@ -12744,8 +12744,44 @@
     "modelVersion": "v2-baseline-1",
     "modelBaseMargin": 4.9,
     "modelMatchupAdjustment": 0,
-    "edge": null,
-    "confidence": null
+    "edge": 1.4,
+    "confidence": 1,
+    "marketHistory": [
+      {
+        "capturedAt": "2026-11-12T23:52:25.828Z",
+        "homeHandicap": -3.5,
+        "book": "DraftKings",
+        "homePrice": -108,
+        "awayPrice": -112
+      }
+    ],
+    "latestMarket": {
+      "capturedAt": "2026-11-12T23:52:25.828Z",
+      "homeHandicap": -3.5,
+      "book": "DraftKings",
+      "homePrice": -108,
+      "awayPrice": -112
+    },
+    "oddsBook": "DraftKings",
+    "oddsCapturedAt": "2026-11-12T23:52:25.828Z",
+    "atsPick": {
+      "capturedAt": "2026-11-12T23:52:25.828Z",
+      "gameId": "401902278",
+      "startTimeAtPick": "2026-11-13T23:30:00.000Z",
+      "home": "Butler",
+      "away": "Pitt",
+      "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+      "modelVersion": "v2-baseline-1",
+      "modelHomeHandicap": -4.9,
+      "marketHomeHandicap": -3.5,
+      "marketCapturedAt": "2026-11-12T23:52:25.828Z",
+      "sportsbook": "DraftKings",
+      "side": "home",
+      "pickTeam": "Butler",
+      "edge": 1.4,
+      "status": "pending",
+      "result": null
+    }
   },
   {
     "id": "espn-401906772",

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-12T22:55:23.999Z",
+  "generatedAt": "2026-11-12T23:52:25.828Z",
   "methodology": "First observed pregame model/market pair, fixed side and line; final score grading. No retrospective ATS picks.",
   "wins": 21,
   "losses": 25,
   "pushes": 1,
-  "pending": 5,
+  "pending": 6,
   "noEdge": 0,
   "void": 0,
-  "gamesWithMarket": 83,
+  "gamesWithMarket": 84,
   "gamesWithModel": 414,
   "picks": [
     {
@@ -1329,6 +1329,26 @@
       "side": "home",
       "pickTeam": "Texas A&M",
       "edge": 0.3,
+      "status": "pending",
+      "result": null
+    },
+    {
+      "espnId": "401902278",
+      "date": "2026-11-13",
+      "home": "Butler",
+      "away": "Pitt",
+      "capturedAt": "2026-11-12T23:52:25.828Z",
+      "gameId": "401902278",
+      "startTimeAtPick": "2026-11-13T23:30:00.000Z",
+      "modelGeneratedAt": "2026-11-07T07:06:05.189Z",
+      "modelVersion": "v2-baseline-1",
+      "modelHomeHandicap": -4.9,
+      "marketHomeHandicap": -3.5,
+      "marketCapturedAt": "2026-11-12T23:52:25.828Z",
+      "sportsbook": "DraftKings",
+      "side": "home",
+      "pickTeam": "Butler",
+      "edge": 1.4,
       "status": "pending",
       "result": null
     }
