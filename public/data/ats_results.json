@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-12T01:57:55.871Z",
+  "generatedAt": "2026-11-12T02:59:02.111Z",
   "methodology": "First observed pregame model/market pair, fixed side and line; final score grading. No retrospective ATS picks.",
-  "wins": 11,
-  "losses": 10,
+  "wins": 16,
+  "losses": 17,
   "pushes": 1,
-  "pending": 30,
+  "pending": 18,
   "noEdge": 0,
   "void": 0,
   "gamesWithMarket": 83,
@@ -599,8 +599,14 @@
       "side": "away",
       "pickTeam": "Colgate",
       "edge": 3.3,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 90,
+        "awayScore": 59,
+        "homeMargin": 31,
+        "coverMargin": -2.5,
+        "gradedAt": "2026-11-12T02:59:02.111Z"
+      }
     },
     {
       "espnId": "401909524",
@@ -619,8 +625,14 @@
       "side": "home",
       "pickTeam": "Michigan",
       "edge": 18.7,
-      "status": "pending",
-      "result": null
+      "status": "win",
+      "result": {
+        "homeScore": 84,
+        "awayScore": 70,
+        "homeMargin": 14,
+        "coverMargin": 10.5,
+        "gradedAt": "2026-11-12T02:59:02.111Z"
+      }
     },
     {
       "espnId": "401926868",
@@ -639,8 +651,14 @@
       "side": "home",
       "pickTeam": "Indiana St",
       "edge": 1.9,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 73,
+        "awayScore": 82,
+        "homeMargin": -9,
+        "coverMargin": -13.5,
+        "gradedAt": "2026-11-12T02:59:02.111Z"
+      }
     },
     {
       "espnId": "401926863",
@@ -659,8 +677,14 @@
       "side": "away",
       "pickTeam": "Kent State",
       "edge": 1.5,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 91,
+        "awayScore": 73,
+        "homeMargin": 18,
+        "coverMargin": -10.5,
+        "gradedAt": "2026-11-12T02:59:02.111Z"
+      }
     },
     {
       "espnId": "401924735",
@@ -679,8 +703,14 @@
       "side": "away",
       "pickTeam": "Stony Brook",
       "edge": 1.4,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 69,
+        "awayScore": 59,
+        "homeMargin": 10,
+        "coverMargin": -5.5,
+        "gradedAt": "2026-11-12T02:59:02.111Z"
+      }
     },
     {
       "espnId": "401921821",
@@ -699,8 +729,14 @@
       "side": "away",
       "pickTeam": "Saint Peter's",
       "edge": 9.9,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 77,
+        "awayScore": 41,
+        "homeMargin": 36,
+        "coverMargin": -13.5,
+        "gradedAt": "2026-11-12T02:59:02.111Z"
+      }
     },
     {
       "espnId": "401920202",
@@ -719,8 +755,14 @@
       "side": "away",
       "pickTeam": "NJIT",
       "edge": 4,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 87,
+        "awayScore": 49,
+        "homeMargin": 38,
+        "coverMargin": -7.5,
+        "gradedAt": "2026-11-12T02:59:02.111Z"
+      }
     },
     {
       "espnId": "401918452",
@@ -739,8 +781,14 @@
       "side": "home",
       "pickTeam": "FAU",
       "edge": 1,
-      "status": "pending",
-      "result": null
+      "status": "win",
+      "result": {
+        "homeScore": 95,
+        "awayScore": 90,
+        "homeMargin": 5,
+        "coverMargin": 0.5,
+        "gradedAt": "2026-11-12T02:59:02.111Z"
+      }
     },
     {
       "espnId": "401917901",
@@ -759,8 +807,14 @@
       "side": "away",
       "pickTeam": "UNC Asheville",
       "edge": 3.2,
-      "status": "pending",
-      "result": null
+      "status": "win",
+      "result": {
+        "homeScore": 70,
+        "awayScore": 73,
+        "homeMargin": -3,
+        "coverMargin": 4.5,
+        "gradedAt": "2026-11-12T02:59:02.111Z"
+      }
     },
     {
       "espnId": "401911012",
@@ -779,8 +833,14 @@
       "side": "away",
       "pickTeam": "UMass Lowell",
       "edge": 1.2,
-      "status": "pending",
-      "result": null
+      "status": "win",
+      "result": {
+        "homeScore": 72,
+        "awayScore": 62,
+        "homeMargin": 10,
+        "coverMargin": 1.5,
+        "gradedAt": "2026-11-12T02:59:02.111Z"
+      }
     },
     {
       "espnId": "401925895",
@@ -799,8 +859,14 @@
       "side": "home",
       "pickTeam": "Norfolk St",
       "edge": 4.2,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 60,
+        "awayScore": 71,
+        "homeMargin": -11,
+        "coverMargin": -6.5,
+        "gradedAt": "2026-11-12T02:59:02.111Z"
+      }
     },
     {
       "espnId": "401925702",
@@ -839,8 +905,14 @@
       "side": "away",
       "pickTeam": "Robert Morris",
       "edge": 12.4,
-      "status": "pending",
-      "result": null
+      "status": "win",
+      "result": {
+        "homeScore": 76,
+        "awayScore": 53,
+        "homeMargin": 23,
+        "coverMargin": 8.5,
+        "gradedAt": "2026-11-12T02:59:02.111Z"
+      }
     },
     {
       "espnId": "401925863",
@@ -1183,6 +1255,6 @@
       "result": null
     }
   ],
-  "graded": 22,
-  "winPct": 52.4
+  "graded": 34,
+  "winPct": 48.5
 }
