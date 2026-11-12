@@ -11593,7 +11593,7 @@
     "time": "22:00",
     "modelFavorite": "California",
     "modelSpread": -2.8,
-    "status": "live",
+    "status": "final",
     "startTime": "2026-11-12T04:00:00.000Z",
     "preUpgradeModel": {
       "favorite": "USC",
@@ -11653,9 +11653,21 @@
       "side": "home",
       "pickTeam": "California",
       "edge": 11.3,
-      "status": "pending",
-      "result": null
-    }
+      "status": "loss",
+      "result": {
+        "homeScore": 65,
+        "awayScore": 77,
+        "homeMargin": -12,
+        "coverMargin": -3.5,
+        "gradedAt": "2026-11-12T07:35:43.596Z"
+      }
+    },
+    "awayScore": 77,
+    "homeScore": 65,
+    "actualMargin": -12,
+    "evaluationStatus": "evaluated",
+    "modelWinnerCorrect": false,
+    "modelMarginError": 14.8
   },
   {
     "id": "espn-401920073",
@@ -11774,7 +11786,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-12T06:12:56.069Z",
+      "capturedAt": "2026-11-12T07:35:43.596Z",
       "homeHandicap": -25.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -11949,7 +11961,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-12T06:12:56.069Z",
+      "capturedAt": "2026-11-12T07:35:43.596Z",
       "homeHandicap": -26.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -12079,7 +12091,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-12T06:12:56.069Z",
+      "capturedAt": "2026-11-12T07:35:43.596Z",
       "homeHandicap": -22.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -12256,7 +12268,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-12T06:12:56.069Z",
+      "capturedAt": "2026-11-12T07:35:43.596Z",
       "homeHandicap": -25.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -12367,7 +12379,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-12T06:12:56.069Z",
+      "capturedAt": "2026-11-12T07:35:43.596Z",
       "homeHandicap": -7.5,
       "book": "DraftKings",
       "homePrice": -112,

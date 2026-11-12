@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-12T06:12:56.069Z",
+  "generatedAt": "2026-11-12T07:35:43.596Z",
   "methodology": "First observed pregame model/market pair, fixed side and line; final score grading. No retrospective ATS picks.",
   "wins": 21,
-  "losses": 24,
+  "losses": 25,
   "pushes": 1,
-  "pending": 6,
+  "pending": 5,
   "noEdge": 0,
   "void": 0,
   "gamesWithMarket": 83,
@@ -1223,8 +1223,14 @@
       "side": "home",
       "pickTeam": "California",
       "edge": 11.3,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 65,
+        "awayScore": 77,
+        "homeMargin": -12,
+        "coverMargin": -3.5,
+        "gradedAt": "2026-11-12T07:35:43.596Z"
+      }
     },
     {
       "espnId": "401916288",
@@ -1327,6 +1333,6 @@
       "result": null
     }
   ],
-  "graded": 46,
-  "winPct": 46.7
+  "graded": 47,
+  "winPct": 45.7
 }
