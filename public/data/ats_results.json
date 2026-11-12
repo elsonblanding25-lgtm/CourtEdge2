@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-12T02:59:02.111Z",
+  "generatedAt": "2026-11-12T04:02:37.741Z",
   "methodology": "First observed pregame model/market pair, fixed side and line; final score grading. No retrospective ATS picks.",
-  "wins": 16,
-  "losses": 17,
+  "wins": 18,
+  "losses": 21,
   "pushes": 1,
-  "pending": 18,
+  "pending": 12,
   "noEdge": 0,
   "void": 0,
   "gamesWithMarket": 83,
@@ -885,8 +885,14 @@
       "side": "away",
       "pickTeam": "Jax State",
       "edge": 8.2,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 92,
+        "awayScore": 46,
+        "homeMargin": 46,
+        "coverMargin": -11,
+        "gradedAt": "2026-11-12T04:02:37.741Z"
+      }
     },
     {
       "espnId": "401928824",
@@ -931,8 +937,14 @@
       "side": "home",
       "pickTeam": "Tulsa",
       "edge": 2.4,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 80,
+        "awayScore": 71,
+        "homeMargin": 9,
+        "coverMargin": -9.5,
+        "gradedAt": "2026-11-12T04:02:37.741Z"
+      }
     },
     {
       "espnId": "401921037",
@@ -951,8 +963,14 @@
       "side": "home",
       "pickTeam": "Southern Miss",
       "edge": 3.6,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 84,
+        "awayScore": 80,
+        "homeMargin": 4,
+        "coverMargin": -4.5,
+        "gradedAt": "2026-11-12T04:02:37.741Z"
+      }
     },
     {
       "espnId": "401917522",
@@ -971,8 +989,14 @@
       "side": "away",
       "pickTeam": "Santa Clara",
       "edge": 4.4,
-      "status": "pending",
-      "result": null
+      "status": "win",
+      "result": {
+        "homeScore": 71,
+        "awayScore": 76,
+        "homeMargin": -5,
+        "coverMargin": 2,
+        "gradedAt": "2026-11-12T04:02:37.741Z"
+      }
     },
     {
       "espnId": "401917963",
@@ -991,8 +1015,14 @@
       "side": "away",
       "pickTeam": "SF Austin",
       "edge": 2.2,
-      "status": "pending",
-      "result": null
+      "status": "win",
+      "result": {
+        "homeScore": 71,
+        "awayScore": 76,
+        "homeMargin": -5,
+        "coverMargin": 0.5,
+        "gradedAt": "2026-11-12T04:02:37.741Z"
+      }
     },
     {
       "espnId": "401928814",
@@ -1071,8 +1101,14 @@
       "side": "away",
       "pickTeam": "Portland St",
       "edge": 5.6,
-      "status": "pending",
-      "result": null
+      "status": "loss",
+      "result": {
+        "homeScore": 87,
+        "awayScore": 71,
+        "homeMargin": 16,
+        "coverMargin": -0.5,
+        "gradedAt": "2026-11-12T04:02:37.741Z"
+      }
     },
     {
       "espnId": "401919734",
@@ -1255,6 +1291,6 @@
       "result": null
     }
   ],
-  "graded": 34,
-  "winPct": 48.5
+  "graded": 40,
+  "winPct": 46.2
 }
