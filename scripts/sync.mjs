@@ -696,8 +696,11 @@ function setModel(
   awayNames = [],
   homeNames = []
 ) {
-  if (isFinal(g) || !isDIGame(g)) {
-    return false;
+
+if (isFinal(g) || !isDIGame(g) || g.atsPick) {
+  return false;
+}
+
   }
 
   const start = kickoff(g);
