@@ -701,8 +701,6 @@ if (isFinal(g) || !isDIGame(g) || g.atsPick) {
   return false;
 }
 
-  }
-
   const start = kickoff(g);
 
   if (!start || start <= now) {
