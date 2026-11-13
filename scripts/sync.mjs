@@ -523,6 +523,7 @@ const mascotSuffixes = [
   'seminoles',
   'hurricanes',
   'vikings',
+  'islanders',
 
 ].sort((a, b) => b.length - a.length);
 
