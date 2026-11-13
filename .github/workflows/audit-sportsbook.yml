@@ -1,0 +1,30 @@
+
+name: Audit CourtEdge sportsbook matching
+
+on:
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          package-manager-cache: false
+
+      - name: Audit sportsbook names and matchups
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: node scripts/audit-sportsbook.mjs
+
+      - name: Upload sportsbook audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: courtedge-sportsbook-audit
+          path: audit-output/sportsbook-audit.json
+          if-no-files-found: ignore
