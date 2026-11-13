@@ -18,7 +18,8 @@
     "espnHomeTeamId": "249",
     "startTime": "2026-11-05T22:00:00.000Z",
     "time": "16:00",
-    "actualMargin": 10
+    "actualMargin": 10,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909726",
@@ -39,7 +40,8 @@
     "espnHomeTeamId": "238",
     "startTime": "2026-11-05T23:00:00.000Z",
     "time": "17:00",
-    "actualMargin": 23
+    "actualMargin": 23,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401917177",
@@ -60,7 +62,8 @@
     "espnHomeTeamId": "213",
     "startTime": "2026-11-05T23:00:00.000Z",
     "time": "17:00",
-    "actualMargin": 4
+    "actualMargin": 4,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401916287",
@@ -81,7 +84,8 @@
     "espnHomeTeamId": "84",
     "startTime": "2026-11-05T23:00:00.000Z",
     "time": "17:00",
-    "actualMargin": 23
+    "actualMargin": 23,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401919804",
@@ -102,7 +106,8 @@
     "espnHomeTeamId": "2550",
     "startTime": "2026-11-05T23:30:00.000Z",
     "time": "17:30",
-    "actualMargin": 7
+    "actualMargin": 7,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925819",
@@ -123,7 +128,8 @@
     "espnHomeTeamId": "2429",
     "startTime": "2026-11-06T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 10
+    "actualMargin": 10,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401924733",
@@ -144,7 +150,8 @@
     "espnHomeTeamId": "163",
     "startTime": "2026-11-06T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 2
+    "actualMargin": 2,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401924718",
@@ -165,7 +172,8 @@
     "espnHomeTeamId": "2329",
     "startTime": "2026-11-06T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 7
+    "actualMargin": 7,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921747",
@@ -186,7 +194,8 @@
     "espnHomeTeamId": "2132",
     "startTime": "2026-11-06T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 17
+    "actualMargin": 17,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921682",
@@ -207,7 +216,8 @@
     "espnHomeTeamId": "2529",
     "startTime": "2026-11-06T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": -2
+    "actualMargin": -2,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921681",
@@ -228,7 +238,8 @@
     "espnHomeTeamId": "2520",
     "startTime": "2026-11-06T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": -11
+    "actualMargin": -11,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921680",
@@ -249,7 +260,8 @@
     "espnHomeTeamId": "2514",
     "startTime": "2026-11-06T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 10
+    "actualMargin": 10,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921679",
@@ -270,7 +282,8 @@
     "espnHomeTeamId": "2771",
     "startTime": "2026-11-06T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": -10
+    "actualMargin": -10,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921678",
@@ -291,7 +304,8 @@
     "espnHomeTeamId": "2363",
     "startTime": "2026-11-06T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": -4
+    "actualMargin": -4,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921219",
@@ -312,7 +326,8 @@
     "espnHomeTeamId": "2426",
     "startTime": "2026-11-06T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 6
+    "actualMargin": 6,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921084",
@@ -333,7 +348,8 @@
     "espnHomeTeamId": "2368",
     "startTime": "2026-11-06T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 8
+    "actualMargin": 8,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920864",
@@ -354,7 +370,8 @@
     "espnHomeTeamId": "314",
     "startTime": "2026-11-06T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 23
+    "actualMargin": 23,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920691",
@@ -375,7 +392,8 @@
     "espnHomeTeamId": "2217",
     "startTime": "2026-11-06T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": -12
+    "actualMargin": -12,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920377",
@@ -396,7 +414,8 @@
     "espnHomeTeamId": "259",
     "startTime": "2026-11-06T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 29
+    "actualMargin": 29,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401919823",
@@ -417,7 +436,8 @@
     "espnHomeTeamId": "87",
     "startTime": "2026-11-06T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 27
+    "actualMargin": 27,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401919732",
@@ -438,7 +458,8 @@
     "espnHomeTeamId": "2916",
     "startTime": "2026-11-06T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": -12
+    "actualMargin": -12,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911273",
@@ -459,7 +480,8 @@
     "espnHomeTeamId": "2612",
     "startTime": "2026-11-06T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": -3
+    "actualMargin": -3,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909717",
@@ -480,7 +502,8 @@
     "espnHomeTeamId": "183",
     "startTime": "2026-11-06T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 53
+    "actualMargin": 53,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909706",
@@ -501,7 +524,8 @@
     "espnHomeTeamId": "221",
     "startTime": "2026-11-06T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 19
+    "actualMargin": 19,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401919002",
@@ -522,7 +546,8 @@
     "espnHomeTeamId": "2655",
     "startTime": "2026-11-06T00:30:00.000Z",
     "time": "18:30",
-    "actualMargin": -2
+    "actualMargin": -2,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911195",
@@ -543,7 +568,8 @@
     "espnHomeTeamId": "2230",
     "startTime": "2026-11-06T00:30:00.000Z",
     "time": "18:30",
-    "actualMargin": 20
+    "actualMargin": 20,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401906792",
@@ -564,7 +590,8 @@
     "espnHomeTeamId": "344",
     "startTime": "2026-11-06T00:30:00.000Z",
     "time": "18:30",
-    "actualMargin": 38
+    "actualMargin": 38,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401906770",
@@ -585,7 +612,8 @@
     "espnHomeTeamId": "57",
     "startTime": "2026-11-06T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 31
+    "actualMargin": 31,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909563",
@@ -606,7 +634,8 @@
     "espnHomeTeamId": "150",
     "startTime": "2026-11-06T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 61
+    "actualMargin": 61,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925754",
@@ -627,7 +656,8 @@
     "espnHomeTeamId": "127",
     "startTime": "2026-11-06T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 30
+    "actualMargin": 30,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401906864",
@@ -648,7 +678,8 @@
     "espnHomeTeamId": "251",
     "startTime": "2026-11-06T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 48
+    "actualMargin": 48,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401926780",
@@ -669,7 +700,8 @@
     "espnHomeTeamId": "6",
     "startTime": "2026-11-06T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 3
+    "actualMargin": 3,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921094",
@@ -690,7 +722,8 @@
     "espnHomeTeamId": "242",
     "startTime": "2026-11-06T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": -1
+    "actualMargin": -1,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920913",
@@ -711,7 +744,8 @@
     "espnHomeTeamId": "202",
     "startTime": "2026-11-06T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 19
+    "actualMargin": 19,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401918968",
@@ -732,7 +766,8 @@
     "espnHomeTeamId": "2567",
     "startTime": "2026-11-06T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 25
+    "actualMargin": 25,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911229",
@@ -753,7 +788,8 @@
     "espnHomeTeamId": "2350",
     "startTime": "2026-11-06T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 23
+    "actualMargin": 23,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909491",
@@ -774,7 +810,8 @@
     "espnHomeTeamId": "156",
     "startTime": "2026-11-06T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 28
+    "actualMargin": 28,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401913526",
@@ -795,7 +832,8 @@
     "espnHomeTeamId": "356",
     "startTime": "2026-11-06T01:30:00.000Z",
     "time": "19:30",
-    "actualMargin": 42
+    "actualMargin": 42,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909501",
@@ -816,7 +854,8 @@
     "espnHomeTeamId": "305",
     "startTime": "2026-11-06T01:30:00.000Z",
     "time": "19:30",
-    "actualMargin": 2
+    "actualMargin": 2,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921133",
@@ -837,7 +876,8 @@
     "espnHomeTeamId": "2641",
     "startTime": "2026-11-06T02:00:00.000Z",
     "time": "20:00",
-    "actualMargin": 18
+    "actualMargin": 18,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921698",
@@ -858,7 +898,8 @@
     "espnHomeTeamId": "254",
     "startTime": "2026-11-06T02:00:00.000Z",
     "time": "20:00",
-    "actualMargin": 10
+    "actualMargin": 10,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909739",
@@ -879,7 +920,8 @@
     "espnHomeTeamId": "12",
     "startTime": "2026-11-06T03:30:00.000Z",
     "time": "21:30",
-    "actualMargin": 20
+    "actualMargin": 20,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909552",
@@ -900,7 +942,8 @@
     "espnHomeTeamId": "103",
     "startTime": "2026-11-06T21:00:00.000Z",
     "time": "15:00",
-    "actualMargin": 16
+    "actualMargin": 16,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920423",
@@ -921,7 +964,8 @@
     "espnHomeTeamId": "258",
     "startTime": "2026-11-06T22:00:00.000Z",
     "time": "16:00",
-    "actualMargin": 25
+    "actualMargin": 25,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909751",
@@ -942,7 +986,8 @@
     "espnHomeTeamId": "239",
     "startTime": "2026-11-06T22:00:00.000Z",
     "time": "16:00",
-    "actualMargin": 56
+    "actualMargin": 56,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920717",
@@ -963,7 +1008,8 @@
     "espnHomeTeamId": "2483",
     "startTime": "2026-11-06T23:00:00.000Z",
     "time": "17:00",
-    "actualMargin": 27
+    "actualMargin": 27,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401926131",
@@ -984,7 +1030,8 @@
     "espnHomeTeamId": "2509",
     "startTime": "2026-11-06T23:30:00.000Z",
     "time": "17:30",
-    "actualMargin": -3
+    "actualMargin": -3,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401916314",
@@ -1005,7 +1052,8 @@
     "espnHomeTeamId": "194",
     "startTime": "2026-11-06T23:30:00.000Z",
     "time": "17:30",
-    "actualMargin": 24
+    "actualMargin": 24,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921802",
@@ -1026,7 +1074,8 @@
     "espnHomeTeamId": "96",
     "startTime": "2026-11-07T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 9
+    "actualMargin": 9,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401926135",
@@ -1047,7 +1096,8 @@
     "espnHomeTeamId": "164",
     "startTime": "2026-11-07T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 27
+    "actualMargin": 27,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921767",
@@ -1068,7 +1118,8 @@
     "espnHomeTeamId": "277",
     "startTime": "2026-11-07T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 38
+    "actualMargin": 38,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921754",
@@ -1089,7 +1140,8 @@
     "espnHomeTeamId": "2116",
     "startTime": "2026-11-07T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 12
+    "actualMargin": 12,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921285",
@@ -1110,7 +1162,8 @@
     "espnHomeTeamId": "222",
     "startTime": "2026-11-07T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 29
+    "actualMargin": 29,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921140",
@@ -1131,7 +1184,8 @@
     "espnHomeTeamId": "2210",
     "startTime": "2026-11-07T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 9
+    "actualMargin": 9,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920305",
@@ -1152,7 +1206,8 @@
     "espnHomeTeamId": "59",
     "startTime": "2026-11-07T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 12
+    "actualMargin": 12,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401918956",
@@ -1173,7 +1228,8 @@
     "espnHomeTeamId": "152",
     "startTime": "2026-11-07T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 14
+    "actualMargin": 14,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401913100",
@@ -1194,7 +1250,8 @@
     "espnHomeTeamId": "153",
     "startTime": "2026-11-07T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 39
+    "actualMargin": 39,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401912208",
@@ -1215,7 +1272,8 @@
     "espnHomeTeamId": "228",
     "startTime": "2026-11-07T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 9
+    "actualMargin": 9,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911249",
@@ -1236,7 +1294,8 @@
     "espnHomeTeamId": "142",
     "startTime": "2026-11-07T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": -6
+    "actualMargin": -6,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911005",
@@ -1257,7 +1316,8 @@
     "espnHomeTeamId": "2050",
     "startTime": "2026-11-07T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": -3
+    "actualMargin": -3,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909695",
@@ -1278,7 +1338,8 @@
     "espnHomeTeamId": "52",
     "startTime": "2026-11-07T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 23
+    "actualMargin": 23,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909542",
@@ -1299,7 +1360,8 @@
     "espnHomeTeamId": "2752",
     "startTime": "2026-11-07T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 23
+    "actualMargin": 23,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401906780",
@@ -1320,7 +1382,8 @@
     "espnHomeTeamId": "61",
     "startTime": "2026-11-07T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 14
+    "actualMargin": 14,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920072",
@@ -1341,7 +1404,8 @@
     "espnHomeTeamId": "2244",
     "startTime": "2026-11-07T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 17
+    "actualMargin": 17,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920920",
@@ -1362,7 +1426,8 @@
     "espnHomeTeamId": "116",
     "startTime": "2026-11-07T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 11
+    "actualMargin": 11,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401906758",
@@ -1383,7 +1448,8 @@
     "espnHomeTeamId": "333",
     "startTime": "2026-11-07T00:30:00.000Z",
     "time": "18:30",
-    "actualMargin": 15
+    "actualMargin": 15,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401923260",
@@ -1404,7 +1470,8 @@
     "espnHomeTeamId": "2750",
     "startTime": "2026-11-07T00:30:00.000Z",
     "time": "18:30",
-    "actualMargin": 26
+    "actualMargin": 26,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920894",
@@ -1425,7 +1492,8 @@
     "espnHomeTeamId": "275",
     "startTime": "2026-11-07T00:30:00.000Z",
     "time": "18:30",
-    "actualMargin": 9
+    "actualMargin": 9,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401919015",
@@ -1446,7 +1514,8 @@
     "espnHomeTeamId": "5",
     "startTime": "2026-11-07T00:30:00.000Z",
     "time": "18:30",
-    "actualMargin": 7
+    "actualMargin": 7,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920685",
@@ -1467,7 +1536,8 @@
     "espnHomeTeamId": "130",
     "startTime": "2026-11-07T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": -8
+    "actualMargin": -8,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909772",
@@ -1488,7 +1558,8 @@
     "espnHomeTeamId": "66",
     "startTime": "2026-11-07T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 26
+    "actualMargin": 26,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925097",
@@ -1509,7 +1580,8 @@
     "espnHomeTeamId": "309",
     "startTime": "2026-11-07T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": -7
+    "actualMargin": -7,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921809",
@@ -1530,7 +1602,8 @@
     "espnHomeTeamId": "99",
     "startTime": "2026-11-07T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 41
+    "actualMargin": 41,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920807",
@@ -1551,7 +1624,8 @@
     "espnHomeTeamId": "245",
     "startTime": "2026-11-07T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 37
+    "actualMargin": 37,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920733",
@@ -1572,7 +1646,8 @@
     "espnHomeTeamId": "77",
     "startTime": "2026-11-07T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 13
+    "actualMargin": 13,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401919048",
@@ -1593,7 +1668,8 @@
     "espnHomeTeamId": "2628",
     "startTime": "2026-11-07T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 52
+    "actualMargin": 52,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401916304",
@@ -1614,7 +1690,8 @@
     "espnHomeTeamId": "135",
     "startTime": "2026-11-07T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 14
+    "actualMargin": 14,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909523",
@@ -1635,7 +1712,8 @@
     "espnHomeTeamId": "269",
     "startTime": "2026-11-07T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 61
+    "actualMargin": 61,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401906802",
@@ -1656,7 +1734,8 @@
     "espnHomeTeamId": "201",
     "startTime": "2026-11-07T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 27
+    "actualMargin": 27,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401928823",
@@ -1677,7 +1756,8 @@
     "espnHomeTeamId": "82",
     "startTime": "2026-11-07T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 23
+    "actualMargin": 23,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401922021",
@@ -1698,7 +1778,8 @@
     "espnHomeTeamId": "2751",
     "startTime": "2026-11-07T01:30:00.000Z",
     "time": "19:30",
-    "actualMargin": 31
+    "actualMargin": 31,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920726",
@@ -1719,7 +1800,8 @@
     "espnHomeTeamId": "2294",
     "startTime": "2026-11-07T01:30:00.000Z",
     "time": "19:30",
-    "actualMargin": 44
+    "actualMargin": 44,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401917914",
@@ -1740,7 +1822,8 @@
     "espnHomeTeamId": "145",
     "startTime": "2026-11-07T01:30:00.000Z",
     "time": "19:30",
-    "actualMargin": 32
+    "actualMargin": 32,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909785",
@@ -1761,7 +1844,8 @@
     "espnHomeTeamId": "2305",
     "startTime": "2026-11-07T02:00:00.000Z",
     "time": "20:00",
-    "actualMargin": 44
+    "actualMargin": 44,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921739",
@@ -1782,7 +1866,8 @@
     "espnHomeTeamId": "252",
     "startTime": "2026-11-07T02:00:00.000Z",
     "time": "20:00",
-    "actualMargin": 41
+    "actualMargin": 41,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401922261",
@@ -1803,7 +1888,8 @@
     "espnHomeTeamId": "36",
     "startTime": "2026-11-07T02:00:00.000Z",
     "time": "20:00",
-    "actualMargin": 11
+    "actualMargin": 11,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921732",
@@ -1824,7 +1910,8 @@
     "espnHomeTeamId": "9",
     "startTime": "2026-11-07T02:00:00.000Z",
     "time": "20:00",
-    "actualMargin": 27
+    "actualMargin": 27,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401919040",
@@ -1845,7 +1932,8 @@
     "espnHomeTeamId": "197",
     "startTime": "2026-11-07T02:00:00.000Z",
     "time": "20:00",
-    "actualMargin": 50
+    "actualMargin": 50,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909797",
@@ -1866,7 +1954,8 @@
     "espnHomeTeamId": "2306",
     "startTime": "2026-11-07T02:00:00.000Z",
     "time": "20:00",
-    "actualMargin": 17
+    "actualMargin": 17,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921719",
@@ -1887,7 +1976,8 @@
     "espnHomeTeamId": "2390",
     "startTime": "2026-11-07T02:00:00.000Z",
     "time": "20:00",
-    "actualMargin": 26
+    "actualMargin": 26,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920952",
@@ -1908,7 +1998,8 @@
     "espnHomeTeamId": "140",
     "startTime": "2026-11-07T02:15:00.000Z",
     "time": "20:15",
-    "actualMargin": 7
+    "actualMargin": 7,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401929356",
@@ -1929,7 +2020,8 @@
     "espnHomeTeamId": "2501",
     "startTime": "2026-11-07T02:30:00.000Z",
     "time": "20:30",
-    "actualMargin": -4
+    "actualMargin": -4,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920344",
@@ -1950,7 +2042,8 @@
     "espnHomeTeamId": "204",
     "startTime": "2026-11-07T02:30:00.000Z",
     "time": "20:30",
-    "actualMargin": 28
+    "actualMargin": 28,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401917515",
@@ -1971,7 +2064,8 @@
     "espnHomeTeamId": "301",
     "startTime": "2026-11-07T02:30:00.000Z",
     "time": "20:30",
-    "actualMargin": 6
+    "actualMargin": 6,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921727",
@@ -1992,7 +2086,8 @@
     "espnHomeTeamId": "24",
     "startTime": "2026-11-07T03:00:00.000Z",
     "time": "21:00",
-    "actualMargin": 18
+    "actualMargin": 18,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921061",
@@ -2013,7 +2108,8 @@
     "espnHomeTeamId": "2539",
     "startTime": "2026-11-07T03:00:00.000Z",
     "time": "21:00",
-    "actualMargin": 9
+    "actualMargin": 9,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401922219",
@@ -2034,7 +2130,8 @@
     "espnHomeTeamId": "26",
     "startTime": "2026-11-07T03:30:00.000Z",
     "time": "21:30",
-    "actualMargin": 51
+    "actualMargin": 51,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925707",
@@ -2057,7 +2154,8 @@
     "startTime": "2026-11-07T17:00:00.000Z",
     "awayScore": 93,
     "homeScore": 90,
-    "actualMargin": -3
+    "actualMargin": -3,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920856",
@@ -2080,7 +2178,8 @@
     "startTime": "2026-11-07T19:00:00.000Z",
     "awayScore": 81,
     "homeScore": 76,
-    "actualMargin": -5
+    "actualMargin": -5,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920770",
@@ -2103,7 +2202,8 @@
     "startTime": "2026-11-07T19:00:00.000Z",
     "awayScore": 74,
     "homeScore": 77,
-    "actualMargin": 3
+    "actualMargin": 3,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401918977",
@@ -2126,7 +2226,8 @@
     "startTime": "2026-11-07T19:00:00.000Z",
     "awayScore": 78,
     "homeScore": 75,
-    "actualMargin": -3
+    "actualMargin": -3,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401917962",
@@ -2149,7 +2250,8 @@
     "time": "13:00",
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-07T07:06:05.189Z",
-    "actualMargin": 2
+    "actualMargin": 2,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401918986",
@@ -2172,7 +2274,8 @@
     "startTime": "2026-11-07T20:00:00.000Z",
     "awayScore": 88,
     "homeScore": 89,
-    "actualMargin": 1
+    "actualMargin": 1,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401922044",
@@ -2195,7 +2298,8 @@
     "time": "14:00",
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-07T07:06:05.189Z",
-    "actualMargin": 5
+    "actualMargin": 5,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401924264",
@@ -2216,7 +2320,8 @@
     "espnHomeTeamId": "147",
     "startTime": "2026-11-07T20:00:00.000Z",
     "time": "14:00",
-    "actualMargin": 13
+    "actualMargin": 13,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401919805",
@@ -2239,7 +2344,8 @@
     "startTime": "2026-11-07T20:30:00.000Z",
     "awayScore": 80,
     "homeScore": 88,
-    "actualMargin": 8
+    "actualMargin": 8,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909760",
@@ -2260,7 +2366,8 @@
     "espnHomeTeamId": "38",
     "startTime": "2026-11-07T20:30:00.000Z",
     "time": "14:30",
-    "actualMargin": -11
+    "actualMargin": -11,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401929293",
@@ -2283,7 +2390,8 @@
     "startTime": "2026-11-07T21:00:00.000Z",
     "awayScore": 56,
     "homeScore": 90,
-    "actualMargin": 34
+    "actualMargin": 34,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401924912",
@@ -2306,7 +2414,8 @@
     "startTime": "2026-11-07T21:00:00.000Z",
     "awayScore": 79,
     "homeScore": 88,
-    "actualMargin": 9
+    "actualMargin": 9,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920192",
@@ -2329,7 +2438,8 @@
     "startTime": "2026-11-07T21:00:00.000Z",
     "awayScore": 57,
     "homeScore": 67,
-    "actualMargin": 10
+    "actualMargin": 10,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920062",
@@ -2352,7 +2462,8 @@
     "startTime": "2026-11-07T21:00:00.000Z",
     "awayScore": 66,
     "homeScore": 84,
-    "actualMargin": 18
+    "actualMargin": 18,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401928352",
@@ -2373,7 +2484,8 @@
     "espnHomeTeamId": "2540",
     "startTime": "2026-11-07T21:00:00.000Z",
     "time": "15:00",
-    "actualMargin": 23
+    "actualMargin": 23,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401926201",
@@ -2396,7 +2508,8 @@
     "startTime": "2026-11-07T22:00:00.000Z",
     "awayScore": 68,
     "homeScore": 70,
-    "actualMargin": 2
+    "actualMargin": 2,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401926112",
@@ -2419,7 +2532,8 @@
     "startTime": "2026-11-07T22:00:00.000Z",
     "awayScore": 83,
     "homeScore": 98,
-    "actualMargin": 15
+    "actualMargin": 15,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401924940",
@@ -2442,7 +2556,8 @@
     "startTime": "2026-11-07T22:00:00.000Z",
     "awayScore": 82,
     "homeScore": 62,
-    "actualMargin": -20
+    "actualMargin": -20,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921174",
@@ -2463,7 +2578,8 @@
     "startTime": "2026-11-07T22:00:00.000Z",
     "awayScore": 74,
     "homeScore": 75,
-    "actualMargin": 1
+    "actualMargin": 1,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911007",
@@ -2486,7 +2602,8 @@
     "startTime": "2026-11-07T22:00:00.000Z",
     "awayScore": 73,
     "homeScore": 80,
-    "actualMargin": 7
+    "actualMargin": 7,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401928788",
@@ -2509,7 +2626,8 @@
     "time": "16:00",
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-07T07:06:05.189Z",
-    "actualMargin": 41
+    "actualMargin": 41,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920411",
@@ -2532,7 +2650,8 @@
     "time": "16:00",
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-07T07:06:05.189Z",
-    "actualMargin": 12
+    "actualMargin": 12,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920703",
@@ -2553,7 +2672,8 @@
     "espnHomeTeamId": "288",
     "startTime": "2026-11-07T22:00:00.000Z",
     "time": "16:00",
-    "actualMargin": 1
+    "actualMargin": 1,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401922291",
@@ -2574,7 +2694,8 @@
     "espnHomeTeamId": "2427",
     "time": "16:30",
     "startTime": "2026-11-07T22:30:00.000Z",
-    "actualMargin": -8
+    "actualMargin": -8,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925106",
@@ -2595,7 +2716,8 @@
     "espnHomeTeamId": "292",
     "startTime": "2026-11-07T22:30:00.000Z",
     "time": "16:30",
-    "actualMargin": 5
+    "actualMargin": 5,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401926825",
@@ -2618,7 +2740,8 @@
     "startTime": "2026-11-07T23:00:00.000Z",
     "awayScore": 61,
     "homeScore": 75,
-    "actualMargin": 14
+    "actualMargin": 14,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401924895",
@@ -2639,7 +2762,8 @@
     "espnHomeTeamId": "167",
     "startTime": "2026-11-07T23:00:00.000Z",
     "time": "17:00",
-    "actualMargin": 29
+    "actualMargin": 29,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401924843",
@@ -2660,7 +2784,8 @@
     "espnHomeTeamId": "315",
     "startTime": "2026-11-07T23:30:00.000Z",
     "time": "17:30",
-    "actualMargin": -6
+    "actualMargin": -6,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925772",
@@ -2683,7 +2808,8 @@
     "startTime": "2026-11-08T00:00:00.000Z",
     "awayScore": 76,
     "homeScore": 88,
-    "actualMargin": 12
+    "actualMargin": 12,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911262",
@@ -2706,7 +2832,8 @@
     "startTime": "2026-11-08T00:00:00.000Z",
     "awayScore": 88,
     "homeScore": 49,
-    "actualMargin": -39
+    "actualMargin": -39,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911186",
@@ -2729,7 +2856,8 @@
     "startTime": "2026-11-08T00:00:00.000Z",
     "awayScore": 81,
     "homeScore": 76,
-    "actualMargin": -5
+    "actualMargin": -5,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909532",
@@ -2752,7 +2880,8 @@
     "startTime": "2026-11-08T00:00:00.000Z",
     "awayScore": 58,
     "homeScore": 67,
-    "actualMargin": 9
+    "actualMargin": 9,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401926227",
@@ -2775,7 +2904,8 @@
     "startTime": "2026-11-08T00:30:00.000Z",
     "awayScore": 60,
     "homeScore": 64,
-    "actualMargin": 4
+    "actualMargin": 4,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909513",
@@ -2798,7 +2928,8 @@
     "startTime": "2026-11-08T00:30:00.000Z",
     "awayScore": 74,
     "homeScore": 86,
-    "actualMargin": 12
+    "actualMargin": 12,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401917518",
@@ -2821,7 +2952,8 @@
     "startTime": "2026-11-08T01:00:00.000Z",
     "awayScore": 63,
     "homeScore": 52,
-    "actualMargin": -11
+    "actualMargin": -11,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911345",
@@ -2844,7 +2976,8 @@
     "startTime": "2026-11-08T01:00:00.000Z",
     "awayScore": 81,
     "homeScore": 99,
-    "actualMargin": 18
+    "actualMargin": 18,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401923392",
@@ -2865,7 +2998,8 @@
     "espnHomeTeamId": "339",
     "time": "19:00",
     "startTime": "2026-11-08T01:00:00.000Z",
-    "actualMargin": 2
+    "actualMargin": 2,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925077",
@@ -2886,7 +3020,8 @@
     "espnHomeTeamId": "93",
     "startTime": "2026-11-08T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 22
+    "actualMargin": 22,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920816",
@@ -2907,7 +3042,8 @@
     "espnHomeTeamId": "2031",
     "startTime": "2026-11-08T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": -4
+    "actualMargin": -4,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401917517",
@@ -2928,7 +3064,8 @@
     "espnHomeTeamId": "2547",
     "startTime": "2026-11-08T03:00:00.000Z",
     "time": "21:00",
-    "actualMargin": 19
+    "actualMargin": 19,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911470",
@@ -2949,7 +3086,8 @@
     "espnHomeTeamId": "300",
     "startTime": "2026-11-08T03:00:00.000Z",
     "time": "21:00",
-    "actualMargin": 12
+    "actualMargin": 12,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401924646",
@@ -2970,7 +3108,8 @@
     "startTime": "2026-11-08T17:00:00.000Z",
     "awayScore": 65,
     "homeScore": 104,
-    "actualMargin": 39
+    "actualMargin": 39,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920424",
@@ -2991,7 +3130,8 @@
     "startTime": "2026-11-08T18:00:00.000Z",
     "awayScore": 72,
     "homeScore": 91,
-    "actualMargin": 19
+    "actualMargin": 19,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401924734",
@@ -3012,7 +3152,8 @@
     "startTime": "2026-11-08T18:00:00.000Z",
     "awayScore": 68,
     "homeScore": 82,
-    "actualMargin": 14
+    "actualMargin": 14,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921687",
@@ -3033,7 +3174,8 @@
     "startTime": "2026-11-08T18:00:00.000Z",
     "awayScore": 61,
     "homeScore": 63,
-    "actualMargin": 2
+    "actualMargin": 2,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921685",
@@ -3054,7 +3196,8 @@
     "startTime": "2026-11-08T18:00:00.000Z",
     "awayScore": 81,
     "homeScore": 76,
-    "actualMargin": -5
+    "actualMargin": -5,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921684",
@@ -3075,7 +3218,8 @@
     "startTime": "2026-11-08T18:00:00.000Z",
     "awayScore": 68,
     "homeScore": 62,
-    "actualMargin": -6
+    "actualMargin": -6,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921683",
@@ -3096,7 +3240,8 @@
     "startTime": "2026-11-08T18:00:00.000Z",
     "awayScore": 68,
     "homeScore": 59,
-    "actualMargin": -9
+    "actualMargin": -9,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921820",
@@ -3117,7 +3262,8 @@
     "espnHomeTeamId": "2579",
     "startTime": "2026-11-08T18:00:00.000Z",
     "time": "12:00",
-    "actualMargin": 10
+    "actualMargin": 10,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920739",
@@ -3138,7 +3284,8 @@
     "startTime": "2026-11-08T19:00:00.000Z",
     "awayScore": 71,
     "homeScore": 87,
-    "actualMargin": 16
+    "actualMargin": 16,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920692",
@@ -3159,7 +3306,8 @@
     "startTime": "2026-11-08T19:00:00.000Z",
     "awayScore": 79,
     "homeScore": 76,
-    "actualMargin": -3
+    "actualMargin": -3,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920233",
@@ -3180,7 +3328,8 @@
     "startTime": "2026-11-08T19:00:00.000Z",
     "awayScore": 78,
     "homeScore": 71,
-    "actualMargin": -7
+    "actualMargin": -7,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911306",
@@ -3201,7 +3350,8 @@
     "startTime": "2026-11-08T19:00:00.000Z",
     "awayScore": 65,
     "homeScore": 55,
-    "actualMargin": -10
+    "actualMargin": -10,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401902277",
@@ -3224,7 +3374,8 @@
     "oddsCapturedAt": "2026-11-07T19:46:35.833Z",
     "awayScore": 81,
     "homeScore": 100,
-    "actualMargin": 19
+    "actualMargin": 19,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920843",
@@ -3245,7 +3396,8 @@
     "espnHomeTeamId": "2900",
     "time": "13:00",
     "startTime": "2026-11-08T19:00:00.000Z",
-    "actualMargin": -9
+    "actualMargin": -9,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921686",
@@ -3268,7 +3420,8 @@
     "startTime": "2026-11-08T19:00:00.000Z",
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-08T12:56:14.550Z",
-    "actualMargin": -13
+    "actualMargin": -13,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401927362",
@@ -3291,7 +3444,8 @@
     "oddsCapturedAt": "2026-11-08T12:56:14.550Z",
     "awayScore": 68,
     "homeScore": 75,
-    "actualMargin": 7
+    "actualMargin": 7,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911335",
@@ -3314,7 +3468,8 @@
     "oddsCapturedAt": "2026-11-07T19:46:35.833Z",
     "awayScore": 82,
     "homeScore": 89,
-    "actualMargin": 7
+    "actualMargin": 7,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920865",
@@ -3335,7 +3490,8 @@
     "startTime": "2026-11-08T21:00:00.000Z",
     "awayScore": 52,
     "homeScore": 54,
-    "actualMargin": 2
+    "actualMargin": 2,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911274",
@@ -3356,7 +3512,8 @@
     "startTime": "2026-11-08T21:00:00.000Z",
     "awayScore": 63,
     "homeScore": 75,
-    "actualMargin": 12
+    "actualMargin": 12,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911453",
@@ -3377,7 +3534,8 @@
     "startTime": "2026-11-08T21:30:00.000Z",
     "awayScore": 95,
     "homeScore": 96,
-    "actualMargin": 1
+    "actualMargin": 1,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911238",
@@ -3398,7 +3556,8 @@
     "startTime": "2026-11-08T22:00:00.000Z",
     "awayScore": 79,
     "homeScore": 53,
-    "actualMargin": -26
+    "actualMargin": -26,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925894",
@@ -3419,7 +3578,8 @@
     "espnHomeTeamId": "2729",
     "startTime": "2026-11-08T23:00:00.000Z",
     "time": "17:00",
-    "actualMargin": 31
+    "actualMargin": 31,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401929352",
@@ -3440,7 +3600,8 @@
     "startTime": "2026-11-09T00:00:00.000Z",
     "awayScore": 60,
     "homeScore": 79,
-    "actualMargin": 19
+    "actualMargin": 19,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909707",
@@ -3461,7 +3622,8 @@
     "espnHomeTeamId": "213",
     "time": "19:00",
     "startTime": "2026-11-09T01:00:00.000Z",
-    "actualMargin": -6
+    "actualMargin": -6,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401918053",
@@ -3486,7 +3648,8 @@
     "oddsCapturedAt": null,
     "oddsBook": null,
     "latestMarket": null,
-    "marketHistory": []
+    "marketHistory": [],
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401929002",
@@ -3507,7 +3670,8 @@
     "espnHomeTeamId": "62",
     "startTime": "2026-11-09T03:00:00.000Z",
     "time": "21:00",
-    "actualMargin": 9
+    "actualMargin": 9,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401916315",
@@ -3528,7 +3692,8 @@
     "startTime": "2026-11-09T23:00:00.000Z",
     "awayScore": 74,
     "homeScore": 84,
-    "actualMargin": 10
+    "actualMargin": 10,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921180",
@@ -3595,7 +3760,8 @@
     },
     "awayScore": 65,
     "homeScore": 78,
-    "actualMargin": 13
+    "actualMargin": 13,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909718",
@@ -3616,7 +3782,8 @@
     "startTime": "2026-11-09T23:30:00.000Z",
     "awayScore": 80,
     "homeScore": 83,
-    "actualMargin": 3
+    "actualMargin": 3,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920686",
@@ -3637,7 +3804,8 @@
     "startTime": "2026-11-10T00:00:00.000Z",
     "awayScore": 41,
     "homeScore": 83,
-    "actualMargin": 42
+    "actualMargin": 42,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401906865",
@@ -3658,7 +3826,8 @@
     "startTime": "2026-11-10T00:00:00.000Z",
     "awayScore": 62,
     "homeScore": 93,
-    "actualMargin": 31
+    "actualMargin": 31,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401906849",
@@ -3679,7 +3848,8 @@
     "startTime": "2026-11-10T00:00:00.000Z",
     "awayScore": 47,
     "homeScore": 70,
-    "actualMargin": 23
+    "actualMargin": 23,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925681",
@@ -3700,7 +3870,8 @@
     "startTime": "2026-11-10T00:00:00.000Z",
     "awayScore": 70,
     "homeScore": 94,
-    "actualMargin": 24
+    "actualMargin": 24,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401919846",
@@ -3721,7 +3892,8 @@
     "startTime": "2026-11-10T00:00:00.000Z",
     "awayScore": 55,
     "homeScore": 75,
-    "actualMargin": 20
+    "actualMargin": 20,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401919806",
@@ -3742,7 +3914,8 @@
     "startTime": "2026-11-10T00:00:00.000Z",
     "awayScore": 46,
     "homeScore": 66,
-    "actualMargin": 20
+    "actualMargin": 20,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401918074",
@@ -3763,7 +3936,8 @@
     "startTime": "2026-11-10T00:00:00.000Z",
     "awayScore": 77,
     "homeScore": 92,
-    "actualMargin": 15
+    "actualMargin": 15,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401916305",
@@ -3784,7 +3958,8 @@
     "startTime": "2026-11-10T00:00:00.000Z",
     "awayScore": 63,
     "homeScore": 61,
-    "actualMargin": -2
+    "actualMargin": -2,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401906781",
@@ -3858,7 +4033,8 @@
     },
     "awayScore": 72,
     "homeScore": 80,
-    "actualMargin": 8
+    "actualMargin": 8,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920877",
@@ -3879,7 +4055,8 @@
     "espnHomeTeamId": "294",
     "startTime": "2026-11-10T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 18
+    "actualMargin": 18,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401922060",
@@ -3953,7 +4130,8 @@
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-09T04:56:20.046Z",
-    "actualMargin": 9
+    "actualMargin": 9,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921720",
@@ -3974,7 +4152,8 @@
     "espnHomeTeamId": "2390",
     "startTime": "2026-11-10T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 38
+    "actualMargin": 38,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401926181",
@@ -3995,7 +4174,8 @@
     "espnHomeTeamId": "82",
     "startTime": "2026-11-10T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 10
+    "actualMargin": 10,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911010",
@@ -4016,7 +4196,8 @@
     "espnHomeTeamId": "189",
     "startTime": "2026-11-10T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 16
+    "actualMargin": 16,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401906759",
@@ -4037,7 +4218,8 @@
     "startTime": "2026-11-10T00:30:00.000Z",
     "awayScore": 68,
     "homeScore": 109,
-    "actualMargin": 41
+    "actualMargin": 41,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401919016",
@@ -4058,7 +4240,8 @@
     "startTime": "2026-11-10T00:30:00.000Z",
     "awayScore": 64,
     "homeScore": 92,
-    "actualMargin": 28
+    "actualMargin": 28,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401906793",
@@ -4079,7 +4262,8 @@
     "startTime": "2026-11-10T00:30:00.000Z",
     "awayScore": 57,
     "homeScore": 98,
-    "actualMargin": 41
+    "actualMargin": 41,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921810",
@@ -4100,7 +4284,8 @@
     "startTime": "2026-11-10T01:00:00.000Z",
     "awayScore": 50,
     "homeScore": 90,
-    "actualMargin": 40
+    "actualMargin": 40,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401906803",
@@ -4121,7 +4306,8 @@
     "startTime": "2026-11-10T01:00:00.000Z",
     "awayScore": 72,
     "homeScore": 81,
-    "actualMargin": 9
+    "actualMargin": 9,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921815",
@@ -4142,7 +4328,8 @@
     "espnHomeTeamId": "142",
     "startTime": "2026-11-10T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 38
+    "actualMargin": 38,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401917978",
@@ -4163,7 +4350,8 @@
     "espnHomeTeamId": "245",
     "startTime": "2026-11-10T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 41
+    "actualMargin": 41,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401926132",
@@ -4184,7 +4372,8 @@
     "espnHomeTeamId": "2509",
     "startTime": "2026-11-10T01:30:00.000Z",
     "time": "19:30",
-    "actualMargin": 17
+    "actualMargin": 17,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920799",
@@ -4205,7 +4394,8 @@
     "startTime": "2026-11-10T02:00:00.000Z",
     "awayScore": 53,
     "homeScore": 75,
-    "actualMargin": 22
+    "actualMargin": 22,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909502",
@@ -4226,7 +4416,8 @@
     "startTime": "2026-11-10T02:00:00.000Z",
     "awayScore": 47,
     "homeScore": 84,
-    "actualMargin": 37
+    "actualMargin": 37,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920887",
@@ -4247,7 +4438,8 @@
     "startTime": "2026-11-10T02:00:00.000Z",
     "awayScore": 68,
     "homeScore": 62,
-    "actualMargin": -6
+    "actualMargin": -6,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920718",
@@ -4293,7 +4485,8 @@
     },
     "awayScore": 84,
     "homeScore": 94,
-    "actualMargin": 10
+    "actualMargin": 10,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921095",
@@ -4314,7 +4507,8 @@
     "startTime": "2026-11-10T03:00:00.000Z",
     "awayScore": 73,
     "homeScore": 91,
-    "actualMargin": 18
+    "actualMargin": 18,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925737",
@@ -4335,7 +4529,8 @@
     "espnHomeTeamId": "264",
     "startTime": "2026-11-10T03:00:00.000Z",
     "time": "21:00",
-    "actualMargin": 13
+    "actualMargin": 13,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401929003",
@@ -4356,7 +4551,8 @@
     "espnHomeTeamId": "62",
     "startTime": "2026-11-10T04:59:00.000Z",
     "time": "22:59",
-    "actualMargin": -7
+    "actualMargin": -7,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401906771",
@@ -4377,7 +4573,8 @@
     "startTime": "2026-11-10T23:00:00.000Z",
     "awayScore": 81,
     "homeScore": 72,
-    "actualMargin": -9
+    "actualMargin": -9,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920866",
@@ -4398,7 +4595,8 @@
     "startTime": "2026-11-10T23:30:00.000Z",
     "awayScore": 64,
     "homeScore": 101,
-    "actualMargin": 37
+    "actualMargin": 37,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909514",
@@ -4419,7 +4617,8 @@
     "espnHomeTeamId": "46",
     "startTime": "2026-11-10T23:30:00.000Z",
     "time": "17:30",
-    "actualMargin": 5
+    "actualMargin": 5,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909564",
@@ -4493,7 +4692,8 @@
     },
     "awayScore": 79,
     "homeScore": 73,
-    "actualMargin": -6
+    "actualMargin": -6,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401928828",
@@ -4514,7 +4714,8 @@
     "startTime": "2026-11-11T00:00:00.000Z",
     "awayScore": 76,
     "homeScore": 68,
-    "actualMargin": -8
+    "actualMargin": -8,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925773",
@@ -4535,7 +4736,8 @@
     "startTime": "2026-11-11T00:00:00.000Z",
     "awayScore": 45,
     "homeScore": 62,
-    "actualMargin": 17
+    "actualMargin": 17,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921774",
@@ -4556,7 +4758,8 @@
     "startTime": "2026-11-11T00:00:00.000Z",
     "awayScore": 59,
     "homeScore": 80,
-    "actualMargin": 21
+    "actualMargin": 21,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921755",
@@ -4651,7 +4854,8 @@
     "oddsCapturedAt": "2026-11-09T19:40:12.644Z",
     "awayScore": 69,
     "homeScore": 76,
-    "actualMargin": 7
+    "actualMargin": 7,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921025",
@@ -4725,7 +4929,8 @@
     "oddsCapturedAt": "2026-11-09T19:40:12.644Z",
     "awayScore": 97,
     "homeScore": 91,
-    "actualMargin": -6
+    "actualMargin": -6,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920378",
@@ -4746,7 +4951,8 @@
     "startTime": "2026-11-11T00:00:00.000Z",
     "awayScore": 93,
     "homeScore": 88,
-    "actualMargin": -5
+    "actualMargin": -5,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920356",
@@ -4767,7 +4973,8 @@
     "startTime": "2026-11-11T00:00:00.000Z",
     "awayScore": 70,
     "homeScore": 74,
-    "actualMargin": 4
+    "actualMargin": 4,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920063",
@@ -4788,7 +4995,8 @@
     "startTime": "2026-11-11T00:00:00.000Z",
     "awayScore": 65,
     "homeScore": 71,
-    "actualMargin": 6
+    "actualMargin": 6,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401918957",
@@ -4809,7 +5017,8 @@
     "startTime": "2026-11-11T00:00:00.000Z",
     "awayScore": 60,
     "homeScore": 94,
-    "actualMargin": 34
+    "actualMargin": 34,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401913101",
@@ -4830,7 +5039,8 @@
     "startTime": "2026-11-11T00:00:00.000Z",
     "awayScore": 63,
     "homeScore": 76,
-    "actualMargin": 13
+    "actualMargin": 13,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401912228",
@@ -4851,7 +5061,8 @@
     "startTime": "2026-11-11T00:00:00.000Z",
     "awayScore": 55,
     "homeScore": 63,
-    "actualMargin": 8
+    "actualMargin": 8,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911209",
@@ -4872,7 +5083,8 @@
     "startTime": "2026-11-11T00:00:00.000Z",
     "awayScore": 50,
     "homeScore": 69,
-    "actualMargin": 19
+    "actualMargin": 19,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911196",
@@ -4893,7 +5105,8 @@
     "startTime": "2026-11-11T00:00:00.000Z",
     "awayScore": 72,
     "homeScore": 78,
-    "actualMargin": 6
+    "actualMargin": 6,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911187",
@@ -4914,7 +5127,8 @@
     "startTime": "2026-11-11T00:00:00.000Z",
     "awayScore": 99,
     "homeScore": 89,
-    "actualMargin": -10
+    "actualMargin": -10,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909533",
@@ -4935,7 +5149,8 @@
     "startTime": "2026-11-11T00:00:00.000Z",
     "awayScore": 55,
     "homeScore": 78,
-    "actualMargin": 23
+    "actualMargin": 23,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909543",
@@ -5016,7 +5231,8 @@
     },
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-09T19:40:12.644Z",
-    "actualMargin": 45
+    "actualMargin": 45,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925781",
@@ -5037,7 +5253,8 @@
     "espnHomeTeamId": "2184",
     "startTime": "2026-11-11T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 1
+    "actualMargin": 1,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401917520",
@@ -5058,7 +5275,8 @@
     "espnHomeTeamId": "2653",
     "startTime": "2026-11-11T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 5
+    "actualMargin": 5,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909553",
@@ -5079,7 +5297,8 @@
     "espnHomeTeamId": "103",
     "startTime": "2026-11-11T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 28
+    "actualMargin": 28,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401918987",
@@ -5100,7 +5319,8 @@
     "startTime": "2026-11-11T00:15:00.000Z",
     "awayScore": 81,
     "homeScore": 105,
-    "actualMargin": 24
+    "actualMargin": 24,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401927369",
@@ -5121,7 +5341,8 @@
     "startTime": "2026-11-11T00:30:00.000Z",
     "awayScore": 68,
     "homeScore": 73,
-    "actualMargin": 5
+    "actualMargin": 5,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925107",
@@ -5142,7 +5363,8 @@
     "espnHomeTeamId": "292",
     "startTime": "2026-11-11T00:30:00.000Z",
     "time": "18:30",
-    "actualMargin": -7
+    "actualMargin": -7,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401919003",
@@ -5163,7 +5385,8 @@
     "espnHomeTeamId": "2655",
     "startTime": "2026-11-11T00:30:00.000Z",
     "time": "18:30",
-    "actualMargin": 14
+    "actualMargin": 14,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401913527",
@@ -5237,7 +5460,8 @@
     },
     "awayScore": 78,
     "homeScore": 84,
-    "actualMargin": 6
+    "actualMargin": 6,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909773",
@@ -5339,7 +5563,8 @@
     "oddsCapturedAt": "2026-11-10T01:45:59.201Z",
     "awayScore": 47,
     "homeScore": 84,
-    "actualMargin": 37
+    "actualMargin": 37,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401927386",
@@ -5360,7 +5585,8 @@
     "startTime": "2026-11-11T01:00:00.000Z",
     "awayScore": 76,
     "homeScore": 89,
-    "actualMargin": 13
+    "actualMargin": 13,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401926731",
@@ -5381,7 +5607,8 @@
     "startTime": "2026-11-11T01:00:00.000Z",
     "awayScore": 82,
     "homeScore": 65,
-    "actualMargin": -17
+    "actualMargin": -17,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920704",
@@ -5402,7 +5629,8 @@
     "startTime": "2026-11-11T01:00:00.000Z",
     "awayScore": 75,
     "homeScore": 88,
-    "actualMargin": 13
+    "actualMargin": 13,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401918969",
@@ -5504,7 +5732,8 @@
     "oddsCapturedAt": "2026-11-10T01:45:59.201Z",
     "awayScore": 63,
     "homeScore": 98,
-    "actualMargin": 35
+    "actualMargin": 35,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911250",
@@ -5525,7 +5754,8 @@
     "startTime": "2026-11-11T01:00:00.000Z",
     "awayScore": 63,
     "homeScore": 125,
-    "actualMargin": 62
+    "actualMargin": 62,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909752",
@@ -5599,7 +5829,8 @@
     "oddsCapturedAt": "2026-11-09T19:40:12.644Z",
     "awayScore": 61,
     "homeScore": 90,
-    "actualMargin": 29
+    "actualMargin": 29,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925685",
@@ -5620,7 +5851,8 @@
     "espnHomeTeamId": "93",
     "startTime": "2026-11-11T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 37
+    "actualMargin": 37,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920895",
@@ -5641,7 +5873,8 @@
     "startTime": "2026-11-11T01:30:00.000Z",
     "awayScore": 42,
     "homeScore": 89,
-    "actualMargin": 47
+    "actualMargin": 47,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920817",
@@ -5662,7 +5895,8 @@
     "espnHomeTeamId": "145",
     "startTime": "2026-11-11T01:30:00.000Z",
     "time": "19:30",
-    "actualMargin": 40
+    "actualMargin": 40,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920425",
@@ -5683,7 +5917,8 @@
     "startTime": "2026-11-11T02:00:00.000Z",
     "awayScore": 61,
     "homeScore": 95,
-    "actualMargin": 34
+    "actualMargin": 34,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921740",
@@ -5704,7 +5939,8 @@
     "startTime": "2026-11-11T02:00:00.000Z",
     "awayScore": 82,
     "homeScore": 98,
-    "actualMargin": 16
+    "actualMargin": 16,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925940",
@@ -5725,7 +5961,8 @@
     "startTime": "2026-11-11T02:00:00.000Z",
     "awayScore": 86,
     "homeScore": 118,
-    "actualMargin": 32
+    "actualMargin": 32,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921733",
@@ -5746,7 +5983,8 @@
     "startTime": "2026-11-11T02:00:00.000Z",
     "awayScore": 63,
     "homeScore": 85,
-    "actualMargin": 22
+    "actualMargin": 22,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909761",
@@ -5767,7 +6005,8 @@
     "startTime": "2026-11-11T02:00:00.000Z",
     "awayScore": 75,
     "homeScore": 83,
-    "actualMargin": 8
+    "actualMargin": 8,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909492",
@@ -5788,7 +6027,8 @@
     "startTime": "2026-11-11T02:00:00.000Z",
     "awayScore": 82,
     "homeScore": 89,
-    "actualMargin": 7
+    "actualMargin": 7,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401924896",
@@ -5809,7 +6049,8 @@
     "espnHomeTeamId": "167",
     "time": "20:00",
     "startTime": "2026-11-11T02:00:00.000Z",
-    "actualMargin": 25
+    "actualMargin": 25,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909740",
@@ -5830,7 +6071,8 @@
     "espnHomeTeamId": "12",
     "startTime": "2026-11-11T02:00:00.000Z",
     "time": "20:00",
-    "actualMargin": 31
+    "actualMargin": 31,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401917979",
@@ -5851,7 +6093,8 @@
     "espnHomeTeamId": "2628",
     "startTime": "2026-11-11T02:00:00.000Z",
     "time": "20:00",
-    "actualMargin": 8
+    "actualMargin": 8,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909786",
@@ -5872,7 +6115,8 @@
     "startTime": "2026-11-11T02:58:00.000Z",
     "awayScore": 89,
     "homeScore": 69,
-    "actualMargin": -20
+    "actualMargin": -20,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921062",
@@ -5893,7 +6137,8 @@
     "startTime": "2026-11-11T03:00:00.000Z",
     "awayScore": 58,
     "homeScore": 63,
-    "actualMargin": 5
+    "actualMargin": 5,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401919759",
@@ -5953,7 +6198,8 @@
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
-    "actualMargin": -4
+    "actualMargin": -4,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921005",
@@ -6006,7 +6252,8 @@
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
-    "actualMargin": -22
+    "actualMargin": -22,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920234",
@@ -6080,7 +6327,8 @@
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
-    "actualMargin": -9
+    "actualMargin": -9,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911519",
@@ -6133,7 +6381,8 @@
     "oddsCapturedAt": "2026-11-11T02:58:49.347Z",
     "awayScore": 69,
     "homeScore": 81,
-    "actualMargin": 12
+    "actualMargin": 12,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401918992",
@@ -6158,7 +6407,8 @@
     "oddsCapturedAt": null,
     "awayScore": 80,
     "homeScore": 83,
-    "actualMargin": 3
+    "actualMargin": 3,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911230",
@@ -6246,7 +6496,8 @@
     "oddsCapturedAt": "2026-11-10T19:03:46.073Z",
     "awayScore": 93,
     "homeScore": 107,
-    "actualMargin": 14
+    "actualMargin": 14,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925717",
@@ -6299,7 +6550,8 @@
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
-    "actualMargin": 13
+    "actualMargin": 13,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921181",
@@ -6380,7 +6632,8 @@
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
     "awayScore": 76,
     "homeScore": 81,
-    "actualMargin": 5
+    "actualMargin": 5,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401926202",
@@ -6454,7 +6707,8 @@
     },
     "oddsBook": "FanDuel",
     "oddsCapturedAt": "2026-11-11T01:45:31.519Z",
-    "actualMargin": 14
+    "actualMargin": 14,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925858",
@@ -6542,7 +6796,8 @@
     },
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-10T19:03:46.073Z",
-    "actualMargin": -10
+    "actualMargin": -10,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921175",
@@ -6588,7 +6843,8 @@
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
-    "actualMargin": 4
+    "actualMargin": 4,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920680",
@@ -6662,7 +6918,8 @@
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
     "awayScore": 59,
     "homeScore": 90,
-    "actualMargin": 31
+    "actualMargin": 31,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909524",
@@ -6722,7 +6979,8 @@
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
     "awayScore": 70,
     "homeScore": 84,
-    "actualMargin": 14
+    "actualMargin": 14,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401926868",
@@ -6782,7 +7040,8 @@
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
     "awayScore": 82,
     "homeScore": 73,
-    "actualMargin": -9
+    "actualMargin": -9,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401926863",
@@ -6835,7 +7094,8 @@
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
     "awayScore": 73,
     "homeScore": 91,
-    "actualMargin": 18
+    "actualMargin": 18,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401924735",
@@ -6881,7 +7141,8 @@
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
     "awayScore": 59,
     "homeScore": 69,
-    "actualMargin": 10
+    "actualMargin": 10,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921821",
@@ -6934,7 +7195,8 @@
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
     "awayScore": 41,
     "homeScore": 77,
-    "actualMargin": 36
+    "actualMargin": 36,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921286",
@@ -6955,7 +7217,8 @@
     "startTime": "2026-11-12T00:00:00.000Z",
     "awayScore": 80,
     "homeScore": 67,
-    "actualMargin": -13
+    "actualMargin": -13,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920903",
@@ -6976,7 +7239,8 @@
     "startTime": "2026-11-12T00:00:00.000Z",
     "awayScore": 71,
     "homeScore": 61,
-    "actualMargin": -10
+    "actualMargin": -10,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920740",
@@ -6997,7 +7261,8 @@
     "startTime": "2026-11-12T00:00:00.000Z",
     "awayScore": 53,
     "homeScore": 68,
-    "actualMargin": 15
+    "actualMargin": 15,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920202",
@@ -7064,7 +7329,8 @@
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
     "awayScore": 49,
     "homeScore": 87,
-    "actualMargin": 38
+    "actualMargin": 38,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401918452",
@@ -7145,7 +7411,8 @@
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
     "awayScore": 90,
     "homeScore": 95,
-    "actualMargin": 5
+    "actualMargin": 5,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401917901",
@@ -7198,7 +7465,8 @@
     "oddsCapturedAt": "2026-11-11T02:58:49.347Z",
     "awayScore": 73,
     "homeScore": 70,
-    "actualMargin": -3
+    "actualMargin": -3,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401912209",
@@ -7219,7 +7487,8 @@
     "startTime": "2026-11-12T00:00:00.000Z",
     "awayScore": 66,
     "homeScore": 64,
-    "actualMargin": -2
+    "actualMargin": -2,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911263",
@@ -7240,7 +7509,8 @@
     "startTime": "2026-11-12T00:00:00.000Z",
     "awayScore": 64,
     "homeScore": 88,
-    "actualMargin": 24
+    "actualMargin": 24,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911012",
@@ -7321,7 +7591,8 @@
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
     "awayScore": 62,
     "homeScore": 72,
-    "actualMargin": 10
+    "actualMargin": 10,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925895",
@@ -7381,7 +7652,8 @@
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
-    "actualMargin": -11
+    "actualMargin": -11,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401928794",
@@ -7402,7 +7674,8 @@
     "espnHomeTeamId": "2534",
     "startTime": "2026-11-12T00:30:00.000Z",
     "time": "18:30",
-    "actualMargin": 8
+    "actualMargin": 8,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925702",
@@ -7504,7 +7777,8 @@
     "oddsCapturedAt": "2026-11-10T19:03:46.073Z",
     "awayScore": 46,
     "homeScore": 92,
-    "actualMargin": 46
+    "actualMargin": 46,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401928824",
@@ -7571,7 +7845,8 @@
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
     "awayScore": 53,
     "homeScore": 76,
-    "actualMargin": 23
+    "actualMargin": 23,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401928996",
@@ -7592,7 +7867,8 @@
     "startTime": "2026-11-12T01:00:00.000Z",
     "awayScore": 69,
     "homeScore": 81,
-    "actualMargin": 12
+    "actualMargin": 12,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925863",
@@ -7652,7 +7928,8 @@
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
     "awayScore": 71,
     "homeScore": 80,
-    "actualMargin": 9
+    "actualMargin": 9,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921037",
@@ -7712,7 +7989,8 @@
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
     "awayScore": 80,
     "homeScore": 84,
-    "actualMargin": 4
+    "actualMargin": 4,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401917522",
@@ -7814,7 +8092,8 @@
     "oddsCapturedAt": "2026-11-10T19:03:46.073Z",
     "awayScore": 76,
     "homeScore": 71,
-    "actualMargin": -5
+    "actualMargin": -5,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401917963",
@@ -7881,7 +8160,8 @@
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
-    "actualMargin": -5
+    "actualMargin": -5,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401928814",
@@ -7920,7 +8200,8 @@
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
     "awayScore": 79,
     "homeScore": 111,
-    "actualMargin": 32
+    "actualMargin": 32,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401926062",
@@ -7966,7 +8247,8 @@
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
     "awayScore": 60,
     "homeScore": 94,
-    "actualMargin": 34
+    "actualMargin": 34,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911346",
@@ -8012,7 +8294,8 @@
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
     "awayScore": 71,
     "homeScore": 99,
-    "actualMargin": 28
+    "actualMargin": 28,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925915",
@@ -8058,7 +8341,8 @@
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
-    "actualMargin": 16
+    "actualMargin": 16,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401930177",
@@ -8079,7 +8363,8 @@
     "espnHomeTeamId": "26",
     "startTime": "2026-11-12T02:00:00.000Z",
     "time": "20:00",
-    "actualMargin": 69
+    "actualMargin": 69,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911454",
@@ -8100,7 +8385,8 @@
     "espnHomeTeamId": "2540",
     "startTime": "2026-11-12T02:00:00.000Z",
     "time": "20:00",
-    "actualMargin": 13
+    "actualMargin": 13,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401919734",
@@ -8181,7 +8467,8 @@
     "oddsCapturedAt": "2026-11-11T02:58:49.347Z",
     "awayScore": 81,
     "homeScore": 62,
-    "actualMargin": -19
+    "actualMargin": -19,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925738",
@@ -8262,7 +8549,8 @@
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
-    "actualMargin": 34
+    "actualMargin": 34,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401917523",
@@ -8315,7 +8603,8 @@
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
-    "actualMargin": 3
+    "actualMargin": 3,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401917521",
@@ -8336,7 +8625,8 @@
     "espnHomeTeamId": "2547",
     "startTime": "2026-11-12T03:00:00.000Z",
     "time": "21:00",
-    "actualMargin": -27
+    "actualMargin": -27,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401918054",
@@ -8389,7 +8679,8 @@
     "oddsCapturedAt": "2026-11-11T08:49:29.331Z",
     "awayScore": 77,
     "homeScore": 65,
-    "actualMargin": -12
+    "actualMargin": -12,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920073",
@@ -8410,7 +8701,8 @@
     "espnHomeTeamId": "2244",
     "startTime": "2026-11-12T20:00:00.000Z",
     "time": "14:00",
-    "actualMargin": 8
+    "actualMargin": 8,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925631",
@@ -8431,7 +8723,8 @@
     "espnHomeTeamId": "2154",
     "startTime": "2026-11-12T23:00:00.000Z",
     "time": "17:00",
-    "actualMargin": -2
+    "actualMargin": -2,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921086",
@@ -8452,7 +8745,8 @@
     "espnHomeTeamId": "2378",
     "startTime": "2026-11-12T23:00:00.000Z",
     "time": "17:00",
-    "actualMargin": 15
+    "actualMargin": 15,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401917176",
@@ -8473,7 +8767,8 @@
     "espnHomeTeamId": "213",
     "time": "17:30",
     "startTime": "2026-11-12T23:30:00.000Z",
-    "actualMargin": 15
+    "actualMargin": 15,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401916288",
@@ -8547,7 +8842,8 @@
     },
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-11T23:32:13.267Z",
-    "actualMargin": 24
+    "actualMargin": 24,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401922239",
@@ -8568,7 +8864,8 @@
     "espnHomeTeamId": "47",
     "time": "18:00",
     "startTime": "2026-11-13T00:00:00.000Z",
-    "actualMargin": 13
+    "actualMargin": 13,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401924876",
@@ -8589,7 +8886,8 @@
     "espnHomeTeamId": "2529",
     "time": "18:00",
     "startTime": "2026-11-13T00:00:00.000Z",
-    "actualMargin": -4
+    "actualMargin": -4,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401924857",
@@ -8610,7 +8908,8 @@
     "espnHomeTeamId": "2514",
     "time": "18:00",
     "startTime": "2026-11-13T00:00:00.000Z",
-    "actualMargin": -4
+    "actualMargin": -4,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921768",
@@ -8677,7 +8976,8 @@
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-12T00:33:36.501Z",
-    "actualMargin": 14
+    "actualMargin": 14,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920566",
@@ -8698,7 +8998,8 @@
     "espnHomeTeamId": "119",
     "time": "18:00",
     "startTime": "2026-11-13T00:00:00.000Z",
-    "actualMargin": 30
+    "actualMargin": 30,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920412",
@@ -8807,7 +9108,8 @@
     },
     "oddsBook": "FanDuel",
     "oddsCapturedAt": "2026-11-12T00:33:36.501Z",
-    "actualMargin": 29
+    "actualMargin": 29,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911307",
@@ -8828,7 +9130,8 @@
     "espnHomeTeamId": "225",
     "time": "18:00",
     "startTime": "2026-11-13T00:00:00.000Z",
-    "actualMargin": -5
+    "actualMargin": -5,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911013",
@@ -8849,7 +9152,8 @@
     "espnHomeTeamId": "189",
     "time": "18:00",
     "startTime": "2026-11-13T00:00:00.000Z",
-    "actualMargin": 12
+    "actualMargin": 12,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401928818",
@@ -8870,7 +9174,8 @@
     "espnHomeTeamId": "2870",
     "startTime": "2026-11-13T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": -22
+    "actualMargin": -22,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920064",
@@ -8891,7 +9196,8 @@
     "espnHomeTeamId": "227",
     "startTime": "2026-11-13T00:00:00.000Z",
     "time": "18:00",
-    "actualMargin": 20
+    "actualMargin": 20,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401916306",
@@ -8972,7 +9278,8 @@
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-12T01:57:55.871Z",
-    "actualMargin": 30
+    "actualMargin": 30,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911239",
@@ -8993,7 +9300,8 @@
     "espnHomeTeamId": "79",
     "time": "19:00",
     "startTime": "2026-11-13T01:00:00.000Z",
-    "actualMargin": 10
+    "actualMargin": 10,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401919041",
@@ -9088,7 +9396,8 @@
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-12T01:57:55.871Z",
-    "actualMargin": 19
+    "actualMargin": 19,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401917524",
@@ -9109,7 +9418,8 @@
     "espnHomeTeamId": "6",
     "startTime": "2026-11-13T01:00:00.000Z",
     "time": "19:00",
-    "actualMargin": 7
+    "actualMargin": 7,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921741",
@@ -9130,7 +9440,8 @@
     "espnHomeTeamId": "252",
     "startTime": "2026-11-13T02:00:00.000Z",
     "time": "20:00",
-    "actualMargin": 15
+    "actualMargin": 15,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911533",
@@ -9151,7 +9462,8 @@
     "espnHomeTeamId": "2638",
     "startTime": "2026-11-13T02:00:00.000Z",
     "time": "20:00",
-    "actualMargin": 2
+    "actualMargin": 2,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911471",
@@ -9172,7 +9484,8 @@
     "espnHomeTeamId": "23",
     "startTime": "2026-11-13T03:00:00.000Z",
     "time": "21:00",
-    "actualMargin": -5
+    "actualMargin": -5,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909696",
@@ -9203,7 +9516,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -22.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -9241,7 +9554,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -34.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -9279,7 +9592,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -22.5,
       "book": "DraftKings",
       "homePrice": -115,
@@ -9317,7 +9630,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -4.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -9362,7 +9675,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -3.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -9400,7 +9713,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -37.5,
       "book": "DraftKings",
       "homePrice": -112,
@@ -9452,7 +9765,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -28.5,
       "book": "DraftKings",
       "homePrice": -115,
@@ -9490,7 +9803,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -29.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -9528,7 +9841,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -40.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -9566,7 +9879,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -19.5,
       "book": "DraftKings",
       "homePrice": -112,
@@ -9604,7 +9917,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -7.5,
       "book": "DraftKings",
       "homePrice": -112,
@@ -9642,7 +9955,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -1.5,
       "book": "DraftKings",
       "homePrice": -118,
@@ -9701,7 +10014,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": 4.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -9739,7 +10052,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -7.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -9777,7 +10090,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -2.5,
       "book": "DraftKings",
       "homePrice": -112,
@@ -9829,7 +10142,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": 2.5,
       "book": "DraftKings",
       "homePrice": -115,
@@ -9867,7 +10180,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -22.5,
       "book": "DraftKings",
       "homePrice": -112,
@@ -9905,7 +10218,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -12.5,
       "book": "DraftKings",
       "homePrice": -112,
@@ -9957,7 +10270,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -12.5,
       "book": "DraftKings",
       "homePrice": -118,
@@ -9995,7 +10308,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -4.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -10033,7 +10346,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -36.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -10071,7 +10384,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -35.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -10109,7 +10422,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -3.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -10147,7 +10460,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -28.5,
       "book": "DraftKings",
       "homePrice": -115,
@@ -10185,7 +10498,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -11.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -10223,7 +10536,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -13.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -10282,7 +10595,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -17.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -10320,7 +10633,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -5.5,
       "book": "DraftKings",
       "homePrice": -112,
@@ -10379,7 +10692,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": 1.5,
       "book": "DraftKings",
       "homePrice": -115,
@@ -10417,7 +10730,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": 5.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -10455,7 +10768,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -11.5,
       "book": "DraftKings",
       "homePrice": 100,
@@ -10500,7 +10813,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -23.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -10538,7 +10851,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -23.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -10583,7 +10896,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -25.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -10621,7 +10934,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": 2.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -10659,7 +10972,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -32.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -10697,7 +11010,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -1.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -10735,7 +11048,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -44.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -10773,7 +11086,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -27.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -10811,7 +11124,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -14.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -10849,7 +11162,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -4.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -10887,7 +11200,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": 1.5,
       "book": "DraftKings",
       "homePrice": -120,
@@ -10939,7 +11252,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": 3.5,
       "book": "DraftKings",
       "homePrice": -118,
@@ -10977,7 +11290,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -17.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -11015,7 +11328,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": 1.5,
       "book": "DraftKings",
       "homePrice": -120,
@@ -11060,7 +11373,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -23.5,
       "book": "DraftKings",
       "homePrice": -112,
@@ -11105,7 +11418,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": 3.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -11143,7 +11456,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -32.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -11202,7 +11515,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -13.5,
       "book": "DraftKings",
       "homePrice": -112,
@@ -11247,7 +11560,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -33.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -11285,7 +11598,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -13.5,
       "book": "DraftKings",
       "homePrice": -102,
@@ -11323,7 +11636,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -7,
       "book": "BetOnline.ag",
       "homePrice": -110,
@@ -11361,7 +11674,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -5.5,
       "book": "DraftKings",
       "homePrice": -118,
@@ -11399,7 +11712,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-13T07:07:59.920Z",
+      "capturedAt": "2026-11-13T07:21:23.786Z",
       "homeHandicap": -15.5,
       "book": "DraftKings",
       "homePrice": -105,
