@@ -1,0 +1,26 @@
+
+name: Audit CourtEdge DI team directory
+
+on:
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          package-manager-cache: false
+
+      - name: Compare ESPN directory with CourtEdge ratings and aliases
+        run: node scripts/audit-teams.mjs
+
+      - name: Upload full matching report
+        uses: actions/upload-artifact@v4
+        with:
+          name: courtedge-team-directory-audit
+          path: audit-output/team-directory-audit.json
