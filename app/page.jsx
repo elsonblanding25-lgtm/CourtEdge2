@@ -119,6 +119,9 @@ export default function Home() {
   const [tab, setTab] = useState('Picks');
   const [query, setQuery] = useState('');
   const [filter, setFilter] = useState('All games');
+  const [historyDate, setHistoryDate] = useState('');
+  const [historyOdds, setHistoryOdds] = useState('All games');
+  const [historyLimit, setHistoryLimit] = useState(100);
 
   const [now, setNow] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -228,6 +231,28 @@ export default function Home() {
     });
   }, [upcomingGames, query, filter]);
 
+  // Completed games stay visible even after model predictions are reset.
+  const historicalGames = useMemo(() => {
+    return games
+      .filter((g) => g.awayScore != null && g.homeScore != null)
+      .filter((g) => !historyDate || g.date === historyDate)
+      .filter((g) =>
+        `${g.away} ${g.home}`.toLowerCase().includes(query.toLowerCase())
+      )
+      .filter((g) =>
+        historyOdds === 'All games' ||
+        (historyOdds === 'With saved spread' && hasMarketSpread(g)) ||
+        (historyOdds === 'No saved spread' && !hasMarketSpread(g))
+      )
+      .sort((a, b) => (getGameStart(b) || 0) - (getGameStart(a) || 0));
+  }, [games, historyDate, historyOdds, query]);
+
+  const historicalDates = useMemo(() =>
+    [...new Set(games
+      .filter((g) => g.awayScore != null && g.homeScore != null)
+      .map((g) => g.date)
+      .filter(Boolean))].sort().reverse(), [games]);
+
   // ------------------------------------
   // 24-HOUR MARKET COVERAGE
   // ------------------------------------
@@ -300,6 +325,7 @@ export default function Home() {
 
         {[
           ['Picks', CalendarDays],
+          ['Historical Games', CalendarDays],
           ['Power Rankings', Trophy],
           ['ATS Performance', BarChart3]
         ].map(([name, Icon]) => (
@@ -311,6 +337,7 @@ export default function Home() {
             onClick={() => {
               setTab(name);
               setQuery('');
+              setHistoryLimit(100);
             }}
           >
             <Icon size={18} />
@@ -346,8 +373,10 @@ export default function Home() {
             <h1>
               {tab === 'Picks'
                 ? 'Daily Predictions'
-                : tab === 'Power Rankings'
-                  ? 'Power Rankings'
+                : tab === 'Historical Games'
+                  ? 'Historical Games'
+                  : tab === 'Power Rankings'
+                    ? 'Power Rankings'
                   : 'ATS Performance'}
             </h1>
 
@@ -583,6 +612,104 @@ export default function Home() {
               Missing lines remain visible.
             </div>
 
+          </section>
+
+        ) : tab === 'Historical Games' ? (
+
+          <section className="panel">
+            <div className="sectionhead">
+              <div>
+                <h2>Historical Games</h2>
+                <p>Completed Division I games, final scores, and previously saved sportsbook spreads.</p>
+              </div>
+              <div className="tools">
+                <select
+                  aria-label="Filter historical games by date"
+                  value={historyDate}
+                  onChange={(e) => { setHistoryDate(e.target.value); setHistoryLimit(100); }}
+                >
+                  <option value="">All dates</option>
+                  {historicalDates.map((date) => (
+                    <option key={date} value={date}>{date}</option>
+                  ))}
+                </select>
+                <select
+                  aria-label="Filter historical games by sportsbook spread"
+                  value={historyOdds}
+                  onChange={(e) => { setHistoryOdds(e.target.value); setHistoryLimit(100); }}
+                >
+                  {['All games', 'With saved spread', 'No saved spread'].map((option) => (
+                    <option key={option} value={option}>{option}</option>
+                  ))}
+                </select>
+                <div className="search">
+                  <Search size={15} />
+                  <input
+                    aria-label="Search historical matchups"
+                    value={query}
+                    onChange={(e) => { setQuery(e.target.value); setHistoryLimit(100); }}
+                    placeholder="Search teams"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="stats" style={{ padding: '16px', gridTemplateColumns: 'repeat(auto-fit, minmax(145px, 1fr))' }}>
+              {[
+                ['COMPLETED GAMES', historicalGames.length],
+                ['SAVED SPREADS', historicalGames.filter(hasMarketSpread).length],
+                ['WITHOUT SPREADS', historicalGames.filter((g) => !hasMarketSpread(g)).length]
+              ].map(([label, value]) => (
+                <div className="stat" key={label}>
+                  <div className="stathead">{label}</div>
+                  <div className="statval">{value}</div>
+                </div>
+              ))}
+            </div>
+            <div className="tablewrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>DATE</th>
+                    <th>MATCHUP</th>
+                    <th>FINAL SCORE</th>
+                    <th>SAVED MARKET SPREAD</th>
+                    <th>SPREAD STATUS</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {historicalGames.slice(0, historyLimit).map((g) => (
+                    <tr key={g.id}>
+                      <td className="muted">{g.date || '—'}</td>
+                      <td><b>{g.away}</b><span className="at"> at </span><b>{g.home}</b></td>
+                      <td className="pick">{g.awayScore} – {g.homeScore}</td>
+                      <td>{hasMarketSpread(g)
+                        ? (Number(g.marketSpread) === 0
+                          ? 'PK 0'
+                          : `${g.marketFavorite} ${format(g.marketSpread)}`)
+                        : 'Not recorded'}</td>
+                      <td><span className={'result ' + (hasMarketSpread(g) ? 'Win' : '')}>
+                        {hasMarketSpread(g) ? 'Spread saved' : 'No saved spread'}
+                      </span></td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+              {!loading && historicalGames.length === 0 && (
+                <div className="empty">No completed games match these filters.</div>
+              )}
+              {loading && <div className="empty">Loading games...</div>}
+            </div>
+            {historicalGames.length > historyLimit && (
+              <div style={{ padding: '16px', textAlign: 'center' }}>
+                <button className="nav" onClick={() => setHistoryLimit((n) => n + 100)}>
+                  Show 100 more games ({historicalGames.length - historyLimit} remaining)
+                </button>
+              </div>
+            )}
+            <div className="footnote">
+              Only saved sportsbook spreads are shown. Missing historical lines are never estimated.
+              Completed games remain visible even when model predictions are cleared.
+            </div>
           </section>
 
         ) : tab === 'Power Rankings' ? (
