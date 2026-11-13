@@ -1819,6 +1819,43 @@ console.log(
 // Completed games from today remain visible,
 // but older games are removed.
 
+const auditIds = [
+  '401921167',
+  '401909696',
+  '401921721',
+  '401922211',
+  '401913528',
+  '401921803',
+  '401920379',
+  '401926152',
+  '401925686',
+  '401909565',
+  '401927380',
+  '401917980',
+  '401917525'
+];
+
+for (const id of auditIds) {
+  const g = games.find(
+    x => String(x.espnId) === id
+  );
+
+  console.log('SYNC GAME TRACE:', JSON.stringify({
+    espnId: id,
+    found: Boolean(g),
+    away: g?.away ?? null,
+    home: g?.home ?? null,
+    date: g?.date ?? null,
+    awayCanonical: g ? schoolName(g.away) : null,
+    homeCanonical: g ? schoolName(g.home) : null,
+    awayDI: g ? isDI(g.away) : null,
+    homeDI: g ? isDI(g.home) : null,
+    publishEligible: g
+      ? g.date >= '2026-11-05' && isDIGame(g)
+      : false
+  }));
+}
+
 const diGames = games.filter(
   g =>
     g.date >= '2026-11-05' &&
