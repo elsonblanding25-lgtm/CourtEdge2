@@ -482,7 +482,7 @@ const mascotSuffixes = [
   'bonnies',
   'hatters',
   'greyhounds',
-  'jackrabbits'
+  'jackrabbits',
 
   // Sportsbook audit: mascot suffixes
   'scarlet knights',
