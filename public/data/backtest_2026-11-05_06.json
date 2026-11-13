@@ -4,10 +4,10 @@
       "2026-11-05",
       "2026-11-06"
     ],
-    "completedGames": 93,
+    "completedGames": 97,
     "historicalSnapshotEvaluated": 58,
     "retrospectiveEstimatesExcluded": 0,
-    "missingRatings": 35,
+    "missingRatings": 39,
     "historicalWinnerAccuracyPct": 77.6,
     "historicalMarginMAE": 11.54,
     "methodology": "Git ratings.json commit timestamp strictly before ESPN tipoff; baseline formula 0.7*(home bqNet-away bqNet)+3 home points (0 neutral). Retrospective current ratings excluded from accuracy. Git commit timestamp is evidence of repository availability, not proof the rating source itself was point-in-time."
@@ -989,6 +989,17 @@
     },
     {
       "date": "2026-11-06",
+      "away": "Loyola MD",
+      "home": "Mount St Marys",
+      "awayScore": 57,
+      "homeScore": 68,
+      "actualHomeMargin": 11,
+      "category": "missing-ratings",
+      "eligibleForAccuracy": false,
+      "note": "No matching ratings for both teams."
+    },
+    {
+      "date": "2026-11-06",
       "away": "Arkansas St",
       "home": "Alabama",
       "awayScore": 86,
@@ -1025,6 +1036,17 @@
       "winnerCorrect": true,
       "ratingSnapshotCommit": "2c179d37762a49a53803f4cfb0ceb7638c44ac22",
       "ratingSnapshotCommittedAt": "2026-11-01T16:55:09-06:00"
+    },
+    {
+      "date": "2026-11-06",
+      "away": "Nicholls",
+      "home": "UAB",
+      "awayScore": 63,
+      "homeScore": 70,
+      "actualHomeMargin": 7,
+      "category": "missing-ratings",
+      "eligibleForAccuracy": false,
+      "note": "No matching ratings for both teams."
     },
     {
       "date": "2026-11-06",
@@ -1168,6 +1190,17 @@
     },
     {
       "date": "2026-11-06",
+      "away": "Robert Morris",
+      "home": "UIC",
+      "awayScore": 56,
+      "homeScore": 79,
+      "actualHomeMargin": 23,
+      "category": "missing-ratings",
+      "eligibleForAccuracy": false,
+      "note": "No matching ratings for both teams."
+    },
+    {
+      "date": "2026-11-06",
       "away": "Idaho St",
       "home": "Wyoming",
       "awayScore": 62,
@@ -1285,6 +1318,17 @@
       "awayScore": 78,
       "homeScore": 95,
       "actualHomeMargin": 17,
+      "category": "missing-ratings",
+      "eligibleForAccuracy": false,
+      "note": "No matching ratings for both teams."
+    },
+    {
+      "date": "2026-11-06",
+      "away": "Wagner",
+      "home": "Miami",
+      "awayScore": 57,
+      "homeScore": 83,
+      "actualHomeMargin": 26,
       "category": "missing-ratings",
       "eligibleForAccuracy": false,
       "note": "No matching ratings for both teams."
