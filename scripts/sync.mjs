@@ -269,6 +269,10 @@ const aliases = {
   'gw': 'george washington',
   'texas a and m cc': 'texas a and m corpus christi',
 
+  // ESPN short-name fixes found by missing-games audit
+  'n arizona': 'northern arizona',
+  'se missouri': 'southeast missouri state',
+  'siue': 'siu edwardsville',
 };
 
 const specialAliases = {
