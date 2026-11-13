@@ -1,0 +1,20 @@
+
+name: Audit CourtEdge missing games
+
+on:
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          package-manager-cache: false
+
+      - name: Diagnose missing ESPN games
+        run: node scripts/audit-missing-games.mjs
