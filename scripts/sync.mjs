@@ -31,6 +31,8 @@ if (!Array.isArray(published) ||
 
 const now = new Date();
 const isoNow = now.toISOString();
+// Phase 2 preparation: keep model predictions paused until explicitly enabled.
+const ENABLE_MODEL_PREDICTIONS = process.env.COURTEDGE_ENABLE_MODEL === 'true';
 const round1 = x => Math.round(x * 10) / 10;
 const validDate = x => x && Number.isFinite(new Date(x).getTime());
 
@@ -814,7 +816,7 @@ function setModel(
   homeNames = []
 ) {
 
-if (isFinal(g) || !isDIGame(g) || g.atsPick) {
+if (!ENABLE_MODEL_PREDICTIONS || isFinal(g) || !isDIGame(g) || g.atsPick) {
   return false;
 }
 
@@ -1036,7 +1038,7 @@ function verifiedMarket(g) {
 }
 
 function recordPick(g) {
-  if (g.atsPick || !pregame(g) ||
+  if (!ENABLE_MODEL_PREDICTIONS || g.atsPick || !pregame(g) ||
       !verifiedModel(g) || !verifiedMarket(g)) return false;
   const modelHome = homeHandicap(g.modelFavorite, g.modelSpread, g);
   const marketHome = homeHandicap(g.marketFavorite, g.marketSpread, g);
