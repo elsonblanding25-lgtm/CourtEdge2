@@ -210,7 +210,24 @@ const aliases = {
   'fairleigh dickinson knights': 'fairleigh dickinson',
   'north carolina a t aggies': 'north carolina a and t',
 
-
+  // Additional sportsbook and ESPN team-name matching
+  'coppin st': 'coppin state',
+  'morgan st': 'morgan state',
+  'central connecticut st': 'central connecticut',
+  'central connecticut state': 'central connecticut',
+  'csu bakersfield': 'cal state bakersfield',
+  'cal st bakersfield': 'cal state bakersfield',
+  'md eastern': 'maryland eastern shore',
+  'md eastern shore': 'maryland eastern shore',
+  'lmu': 'loyola marymount',
+  'purdue fw': 'fort wayne',
+  'san jose st': 'san jose state',
+  's jose st': 'san jose state',
+  'ar pine bluff': 'arkansas pine bluff',
+  'santa barbara': 'uc santa barbara',
+  'utsa': 'texas san antonio',
+  'seattle u': 'seattle',
+  'south dakota st': 'south dakota state',
 };
 
 const specialAliases = {
@@ -411,7 +428,21 @@ const mascotSuffixes = [
   'thunderbirds',
   'pirates',
   'spartans',
-  'lions'
+  'lions',
+  'kangaroos',
+  'purple eagles',
+  'golden griffins',
+  'retrievers',
+  'nittany lions',
+  'mastodons',
+  'pioneers',
+  'leathernecks',
+  'argonauts',
+  'bonnies',
+  'hatters',
+  'greyhounds',
+  'jackrabbits'
+
 ].sort((a, b) => b.length - a.length);
 
 function schoolName(raw) {
@@ -1791,6 +1822,37 @@ const upcomingMissingMarkets = upcoming.filter(
   g =>
     g.marketSpread == null
 );
+
+const next24End = new Date(now.getTime() + 24 * 60 * 60 * 1000);
+
+const next24Games = upcoming.filter(g => {
+  const t = new Date(g.startTime || g.commenceTime || '');
+  return Number.isFinite(t.getTime()) &&
+    t >= now &&
+    t < next24End;
+});
+
+const next24WithMarkets = next24Games.filter(
+  g => g.marketSpread != null
+);
+
+const next24MissingMarkets = next24Games.filter(
+  g => g.marketSpread == null
+);
+
+console.log(
+  `NEXT 24H MARKET COVERAGE: ${next24WithMarkets.length}/${next24Games.length} ` +
+  `(${next24Games.length
+    ? (100 * next24WithMarkets.length / next24Games.length).toFixed(1)
+    : 'n/a'}%); ` +
+  `${next24MissingMarkets.length} missing markets.`
+);
+
+for (const g of next24MissingMarkets.slice(0, 40)) {
+  console.log(
+    `NEXT 24H MISSING MARKET: ${g.date} ${g.away} @ ${g.home}`
+  );
+}
 
 // Save the website-visible games.
 // No games_archive.json is required.
