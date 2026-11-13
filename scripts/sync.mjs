@@ -228,6 +228,28 @@ const aliases = {
   'utsa': 'texas san antonio',
   'seattle u': 'seattle',
   'south dakota st': 'south dakota state',
+  
+  // ESPN directory audit: nine unmatched schools
+  'hawai i': 'hawaii',
+  'lsu n orleans': 'new orleans',
+  'lsu new orleans': 'new orleans',
+  'miami': 'miami florida',
+  'nicholls': 'nicholls state',
+  'se louisiana': 'southeastern louisiana',
+  'sam houston': 'sam houston state',
+  'uic flames': 'illinois chicago',
+  'ul monroe': 'louisiana monroe',
+  'ut rio grande': 'texas rio grande valley',
+  'ut rio grande valley': 'texas rio grande valley',
+
+  // Correct previously unresolved alias targets
+  'nc st': 'nc state',
+  'north carolina st': 'nc state',
+  'north carolina state': 'nc state',
+  'st josephs': 'saint joseph s',
+  'st marys': 'saint mary s',
+  'uic flames': 'illinois chicago',
+
 };
 
 const specialAliases = {
