@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-13T05:40:32.983Z",
+  "generatedAt": "2026-11-13T06:41:15.155Z",
   "methodology": "First observed pregame model/market pair, fixed side and line; final score grading. No retrospective ATS picks.",
   "wins": 24,
   "losses": 27,
   "pushes": 1,
-  "pending": 16,
+  "pending": 17,
   "noEdge": 0,
   "void": 0,
-  "gamesWithMarket": 99,
-  "gamesWithModel": 415,
+  "gamesWithMarket": 100,
+  "gamesWithModel": 465,
   "picks": [
     {
       "espnId": "401921180",
@@ -1679,6 +1679,26 @@
       "side": "away",
       "pickTeam": "Miss Valley St",
       "edge": 6.3,
+      "status": "pending",
+      "result": null
+    },
+    {
+      "espnId": "401920345",
+      "date": "2026-11-13",
+      "home": "CA Baptist",
+      "away": "AR-Pine Bluff",
+      "capturedAt": "2026-11-13T06:41:15.155Z",
+      "gameId": "401920345",
+      "startTimeAtPick": "2026-11-14T03:30:00.000Z",
+      "modelGeneratedAt": "2026-11-13T06:41:15.155Z",
+      "modelVersion": "v2-baseline-1",
+      "modelHomeHandicap": -16.9,
+      "marketHomeHandicap": -15.5,
+      "marketCapturedAt": "2026-11-13T06:41:15.155Z",
+      "sportsbook": "DraftKings",
+      "side": "home",
+      "pickTeam": "CA Baptist",
+      "edge": 1.4,
       "status": "pending",
       "result": null
     }

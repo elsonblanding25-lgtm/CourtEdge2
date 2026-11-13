@@ -4,10 +4,10 @@
       "2026-11-05",
       "2026-11-06"
     ],
-    "completedGames": 91,
+    "completedGames": 93,
     "historicalSnapshotEvaluated": 58,
     "retrospectiveEstimatesExcluded": 0,
-    "missingRatings": 33,
+    "missingRatings": 35,
     "historicalWinnerAccuracyPct": 77.6,
     "historicalMarginMAE": 11.54,
     "methodology": "Git ratings.json commit timestamp strictly before ESPN tipoff; baseline formula 0.7*(home bqNet-away bqNet)+3 home points (0 neutral). Retrospective current ratings excluded from accuracy. Git commit timestamp is evidence of repository availability, not proof the rating source itself was point-in-time."
@@ -703,6 +703,17 @@
     },
     {
       "date": "2026-11-06",
+      "away": "AR-Pine Bluff",
+      "home": "Baylor",
+      "awayScore": 53,
+      "homeScore": 109,
+      "actualHomeMargin": 56,
+      "category": "missing-ratings",
+      "eligibleForAccuracy": false,
+      "note": "No matching ratings for both teams."
+    },
+    {
+      "date": "2026-11-06",
       "away": "E Washington",
       "home": "Oregon",
       "awayScore": 71,
@@ -964,6 +975,17 @@
       "winnerCorrect": true,
       "ratingSnapshotCommit": "2c179d37762a49a53803f4cfb0ceb7638c44ac22",
       "ratingSnapshotCommittedAt": "2026-11-01T16:55:09-06:00"
+    },
+    {
+      "date": "2026-11-06",
+      "away": "Coppin St",
+      "home": "George Mason",
+      "awayScore": 51,
+      "homeScore": 68,
+      "actualHomeMargin": 17,
+      "category": "missing-ratings",
+      "eligibleForAccuracy": false,
+      "note": "No matching ratings for both teams."
     },
     {
       "date": "2026-11-06",
