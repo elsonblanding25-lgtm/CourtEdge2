@@ -250,6 +250,25 @@ const aliases = {
   'st marys': 'saint mary s',
   'uic flames': 'illinois chicago',
 
+  // Sportsbook audit: additional school abbreviations
+  'cleveland st': 'cleveland state',
+  'florida int l': 'florida international',
+  'florida intl': 'florida international',
+  'fiu': 'florida international',
+  'mt st mary s': 'mount st marys',
+  'mt st marys': 'mount st marys',
+  'mount st mary s': 'mount st marys',
+  'alcorn st': 'alcorn state',
+  'murray st': 'murray state',
+  'sam houston st': 'sam houston state',
+  'illinois st': 'illinois state',
+  'ul monroe': 'louisiana monroe',
+  'arizona st': 'arizona state',
+  'appalachian st': 'appalachian state',
+  'florida st': 'florida state',
+  'gw': 'george washington',
+  'texas a and m cc': 'texas a and m corpus christi',
+
 };
 
 const specialAliases = {
@@ -464,6 +483,46 @@ const mascotSuffixes = [
   'hatters',
   'greyhounds',
   'jackrabbits'
+
+  // Sportsbook audit: mascot suffixes
+  'scarlet knights',
+  'hoyas',
+  'mocs',
+  'phoenix',
+  'gators',
+  'golden panthers',
+  'crimson',
+  'revolutionaries',
+  'tar heels',
+  'gaels',
+  'pride',
+  'red foxes',
+  'mountain hawks',
+  'hokies',
+  'bobcats',
+  'boilermakers',
+  'commodores',
+  'volunteers',
+  'coyotes',
+  'buckeyes',
+  'braves',
+  'sooners',
+  'redbirds',
+  'cavaliers',
+  'terrapins',
+  'horned frogs',
+  'racers',
+  'crimson tide',
+  'warhawks',
+  'sun devils',
+  'vandals',
+  'blue demons',
+  'cardinal',
+  'pilots',
+  'tritons',
+  'seminoles',
+  'hurricanes',
+  'vikings',
 
 ].sort((a, b) => b.length - a.length);
 
