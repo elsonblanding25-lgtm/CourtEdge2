@@ -1,49 +1,49 @@
+
 name: Refresh basketball games and results
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15,45 * * * *"
+    - cron: "15 * * * *"
 
 permissions:
   contents: write
 
-concurrency:
-  group: courtedge-sync
-  cancel-in-progress: false
-
 jobs:
   refresh:
     runs-on: ubuntu-latest
+
     steps:
+      
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-           node-version: '20'
-           package-manager-cache: false
+          node-version: "20"
+
+      - name: Build real ESPN team statistics
+        run: node scripts/build_team_stats.mjs
 
       - name: Refresh basketball data
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-          SYNC_FORWARD_DAYS: "7"
-          SYNC_LOOKBACK_DAYS: "7"
+          SYNC_DAYS: "3"
         run: node scripts/sync.mjs
-
       - name: Run historical backtest
         run: node scripts/backtest.mjs
+
 
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/games.json public/data/ats_results.json public/data/backtest_2026-11-05_06.json
+          git add public/data/games.json public/data/backtest_2026-11-05_06.json public/data/team_stats.json public/data/team_stats_cache.json public/data/ats_results.json
           if ! git diff --cached --quiet; then
-            git commit -m "Update basketball games, ATS and results"
+            git commit -m "Update basketball games and results"
             git push
           fi
