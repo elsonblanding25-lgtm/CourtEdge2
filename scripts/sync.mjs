@@ -1564,13 +1564,13 @@ const url =
   '&oddsFormat=american' +
   '&dateFormat=iso' +
   `&commenceTimeFrom=${encodeURIComponent(apiTime(oddsNow))}` +
-  `&commenceTimeTo=${encodeURIComponent(apiTime(odds24Hours))}`;
+  `&commenceTimeTo=${encodeURIComponent(apiTime(odds12Hours))}`;
 
 console.log(
   'ODDS: Checking next 24 hours:',
   apiTime(oddsNow),
   'through',
-  apiTime(odds24Hours)
+  apiTime(odds12Hours)
 );
 
     const response = await fetch(url);
