@@ -909,12 +909,17 @@ function kickoff(g) {
 function setModel(
   g,
   awayNames = [],
-  homeNames = []
+  homeNames = [],
+  preview = false
 ) {
-
-if (!ENABLE_MODEL_PREDICTIONS || isFinal(g) || !isDIGame(g) || g.atsPick) {
-  return false;
-}
+  if (
+    (!ENABLE_MODEL_PREDICTIONS && !preview) ||
+    isFinal(g) ||
+    !isDIGame(g) ||
+    g.atsPick
+  ) {
+    return false;
+  }
 
   const start = kickoff(g);
 
@@ -1134,8 +1139,15 @@ function verifiedMarket(g) {
 }
 
 function recordPick(g) {
-  if (!ENABLE_MODEL_PREDICTIONS || g.atsPick || !pregame(g) ||
-      !verifiedModel(g) || !verifiedMarket(g)) return false;
+  if (
+    !ENABLE_ATS_RECORDING ||
+    g.atsPick ||
+    !pregame(g) ||
+    !verifiedModel(g) ||
+    !verifiedMarket(g)
+  ) {
+    return false;
+  }
   const modelHome = homeHandicap(g.modelFavorite, g.modelSpread, g);
   const marketHome = homeHandicap(g.marketFavorite, g.marketSpread, g);
   const modelMargin = -modelHome;
@@ -2030,12 +2042,139 @@ const baselineModels = diGames.filter(
     g.modelVersion === 'v2-baseline-1'
 );
 
-const upcoming = diGames.filter(
-  g =>
-    !isFinal(g) &&
-    g.status !== 'live' &&
-    kickoff(g) > now
+
+ // ============================================================
+ // COURTEDGE — PREDICTION-ONLY PREVIEW
+ // ============================================================
+
+const modelPreview = {
+  generatedAt: isoNow,
+  mode: 'prediction-only',
+  officialAtsRecordingEnabled: ENABLE_ATS_RECORDING,
+  note: 'Experimental projections; not official ATS picks.',
+  games: []
+};
+
+if (ENABLE_MODEL_PREVIEW) {
+  for (const g of upcoming) {
+    // Work on a copy so official game data stays unchanged.
+    const draft = {
+      ...g,
+      modelFavorite: null,
+      modelSpread: null,
+      modelVersion: null,
+      modelGeneratedAt: null,
+      modelBaseMargin: null,
+      modelMatchupAdjustment: null,
+      preUpgradeModel: null,
+      edge: null,
+      confidence: null,
+      atsPick: null
+    };
+
+    if (!setModel(draft, [], [], true)) {
+      continue;
+    }
+
+    computeEdge(draft);
+
+    const modelHomeHandicap = homeHandicap(
+      draft.modelFavorite,
+      draft.modelSpread,
+      draft
+    );
+
+    const marketHomeHandicap = draft.marketSpread == null
+      ? null
+      : homeHandicap(
+          draft.marketFavorite,
+          draft.marketSpread,
+          draft
+        );
+
+    const homeMargin = modelHomeHandicap == null
+      ? null
+      : -modelHomeHandicap;
+
+    const marketMargin = marketHomeHandicap == null
+      ? null
+      : -marketHomeHandicap;
+
+    const advantageHome =
+      homeMargin != null && marketMargin != null
+        ? round1(homeMargin - marketMargin)
+        : null;
+
+    modelPreview.games.push({
+      espnId: g.espnId || null,
+      date: g.date,
+      startTime: g.startTime || null,
+      away: g.away,
+      home: g.home,
+
+      modelFavorite: draft.modelFavorite,
+      modelSpread: draft.modelSpread,
+      modelVersion: draft.modelVersion,
+      modelBaseMargin: draft.modelBaseMargin,
+      modelMatchupAdjustment: draft.modelMatchupAdjustment,
+      modelGeneratedAt: draft.modelGeneratedAt,
+
+      marketFavorite: g.marketFavorite || null,
+      marketSpread: g.marketSpread ?? null,
+      sportsbook: g.oddsBook || null,
+
+      modelHomeHandicap,
+      marketHomeHandicap,
+      edge: draft.edge,
+      confidence: draft.confidence,
+
+      // Diagnostic lean only; not an official ATS pick.
+      previewLean:
+        advantageHome == null || advantageHome === 0
+          ? null
+          : advantageHome > 0
+            ? 'home'
+            : 'away',
+
+      previewAdvantageHome: advantageHome,
+
+      statsGamesAway:
+        Number(stats.get(schoolName(g.away))?.gamesPlayed) || 0,
+
+      statsGamesHome:
+        Number(stats.get(schoolName(g.home))?.gamesPlayed) || 0
+    });
+  }
+}
+
+// Save preview separately from official games.json.
+write('model_preview.json', modelPreview);
+
+const previewMatchup = modelPreview.games.filter(
+  g => g.modelVersion === 'v2-matchup-1'
+).length;
+
+const previewWithMarket = modelPreview.games.filter(
+  g => g.marketHomeHandicap != null
+).length;
+
+console.log(
+  `MODEL PREVIEW: ${modelPreview.games.length} pregame projections; ` +
+  `${previewMatchup} matchup-adjusted; ` +
+  `${modelPreview.games.length - previewMatchup} baseline; ` +
+  `${previewWithMarket} with comparable sportsbook spreads; ` +
+  `official ATS recording ${ENABLE_ATS_RECORDING ? 'ON' : 'OFF'}.`
 );
+
+for (const p of modelPreview.games.slice(0, 15)) {
+  console.log(
+    `PREVIEW: ${p.away} @ ${p.home}: ${p.modelFavorite} ` +
+    `${p.modelSpread} (${p.modelVersion}); ` +
+    `matchup ${p.modelMatchupAdjustment}; ` +
+    `edge ${p.edge ?? 'no market'}`
+  );
+}
+
 
 const upcomingMissingModels = upcoming.filter(
   g =>
