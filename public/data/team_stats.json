@@ -28,6 +28,20 @@
     "pace": 81.3
   },
   {
+    "team": "Akron",
+    "espnTeamId": "2006",
+    "gamesPlayed": 1,
+    "offTO": 16.8,
+    "defTOForced": 15.7,
+    "offEFG": 45.2,
+    "defEFGAllowed": 40.2,
+    "offORB": 37.2,
+    "defORBAllowed": 21.1,
+    "offFTR": 25.4,
+    "defFTRAllowed": 41.1,
+    "pace": 67.8
+  },
+  {
     "team": "Alabama",
     "espnTeamId": "333",
     "gamesPlayed": 3,
@@ -3992,16 +4006,16 @@
   {
     "team": "Tulane",
     "espnTeamId": "2655",
-    "gamesPlayed": 2,
-    "offTO": 20.2,
-    "defTOForced": 15.6,
-    "offEFG": 53.9,
-    "defEFGAllowed": 50.9,
-    "offORB": 33.3,
-    "defORBAllowed": 22.4,
-    "offFTR": 66,
-    "defFTRAllowed": 35.7,
-    "pace": 71.2
+    "gamesPlayed": 3,
+    "offTO": 18.8,
+    "defTOForced": 15.9,
+    "offEFG": 49.1,
+    "defEFGAllowed": 48.9,
+    "offORB": 28.7,
+    "defORBAllowed": 28.2,
+    "offFTR": 57.2,
+    "defFTRAllowed": 32,
+    "pace": 70.1
   },
   {
     "team": "Tulsa",
