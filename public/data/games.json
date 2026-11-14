@@ -13160,7 +13160,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T06:52:56.961Z",
       "homeHandicap": -7,
       "book": "BetOnline.ag",
       "homePrice": -110,
@@ -13305,7 +13305,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:52:56.961Z",
       "homeHandicap": 7.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -13344,8 +13344,8 @@
     "source": "ESPN / The Odds API",
     "marketFavorite": "Colorado St",
     "marketSpread": -8.5,
-    "awayML": null,
-    "homeML": null,
+    "awayML": 350,
+    "homeML": -455,
     "awayScore": null,
     "homeScore": null,
     "status": "scheduled",
@@ -13391,7 +13391,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:52:56.961Z",
       "homeHandicap": -9.5,
       "book": "DraftKings",
       "homePrice": -108,
