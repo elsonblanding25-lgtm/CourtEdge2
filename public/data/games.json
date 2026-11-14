@@ -13160,7 +13160,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T06:57:39.505Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -7,
       "book": "BetOnline.ag",
       "homePrice": -110,
@@ -13198,7 +13198,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T06:57:39.505Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -12.5,
       "book": "DraftKings",
       "homePrice": -102,
@@ -13236,7 +13236,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T06:57:39.505Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -40.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -13294,7 +13294,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T06:57:39.505Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -1.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -13332,7 +13332,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T06:57:39.505Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -13.5,
       "book": "DraftKings",
       "homePrice": -102,
@@ -13377,7 +13377,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T06:57:39.505Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": 7.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -13415,7 +13415,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T06:57:39.505Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": 1.5,
       "book": "DraftKings",
       "homePrice": -122,
@@ -13481,7 +13481,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T06:57:39.505Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -9.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -13573,7 +13573,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -1.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -13618,7 +13618,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -25.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -13683,7 +13683,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -11.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -13728,7 +13728,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -27.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -13773,7 +13773,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -7.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -13791,8 +13791,8 @@
     "source": "ESPN / The Odds API",
     "marketFavorite": "Wyoming",
     "marketSpread": -5,
-    "awayML": null,
-    "homeML": null,
+    "awayML": -310,
+    "homeML": 250,
     "awayScore": null,
     "homeScore": null,
     "status": "scheduled",
@@ -13832,7 +13832,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": 7.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -13850,8 +13850,8 @@
     "source": "ESPN / The Odds API",
     "marketFavorite": "Gonzaga",
     "marketSpread": -6.5,
-    "awayML": null,
-    "homeML": null,
+    "awayML": 195,
+    "homeML": -238,
     "awayScore": null,
     "homeScore": null,
     "status": "scheduled",
@@ -13874,14 +13874,21 @@
         "book": "DraftKings",
         "homePrice": -108,
         "awayPrice": -112
+      },
+      {
+        "capturedAt": "2026-11-14T06:59:39.694Z",
+        "homeHandicap": -5.5,
+        "book": "DraftKings",
+        "homePrice": -115,
+        "awayPrice": -105
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
-      "homeHandicap": -6.5,
+      "capturedAt": "2026-11-14T06:59:39.694Z",
+      "homeHandicap": -5.5,
       "book": "DraftKings",
-      "homePrice": -108,
-      "awayPrice": -112
+      "homePrice": -115,
+      "awayPrice": -105
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-13T21:29:55.956Z"
@@ -13943,7 +13950,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -13,
       "book": "BetOnline.ag",
       "homePrice": -115,
@@ -14015,7 +14022,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": 4.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -14060,7 +14067,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -7.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -14105,7 +14112,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -1.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -14150,7 +14157,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -16.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -14255,7 +14262,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -8.5,
       "book": "DraftKings",
       "homePrice": -115,
@@ -14314,7 +14321,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -1.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -14386,7 +14393,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": 1.5,
       "book": "DraftKings",
       "homePrice": -125,
@@ -14445,7 +14452,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -8.5,
       "book": "DraftKings",
       "homePrice": -115,
@@ -14523,7 +14530,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -4.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -14542,8 +14549,8 @@
     "source": "ESPN / The Odds API",
     "marketFavorite": "San Francisco",
     "marketSpread": -10,
-    "awayML": null,
-    "homeML": null,
+    "awayML": 440,
+    "homeML": -600,
     "awayScore": null,
     "homeScore": null,
     "status": "scheduled",
@@ -14575,7 +14582,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -11.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -14620,7 +14627,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -9.5,
       "book": "DraftKings",
       "homePrice": -102,
@@ -14845,7 +14852,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -10.5,
       "book": "DraftKings",
       "homePrice": -102,
@@ -14883,7 +14890,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -9.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -14955,7 +14962,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -32.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -15040,7 +15047,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T05:57:42.152Z",
+      "capturedAt": "2026-11-14T06:59:39.694Z",
       "homeHandicap": -10.5,
       "book": "DraftKings",
       "homePrice": -102,
