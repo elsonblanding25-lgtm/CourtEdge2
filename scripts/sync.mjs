@@ -275,6 +275,12 @@ const aliases = {
   'n arizona': 'northern arizona',
   'se missouri': 'southeast missouri state',
   'siue': 'siu edwardsville',
+  'queens university': 'queens',
+  'nicholls st': 'nicholls state',
+  'ut arlington': 'texas arlington',
+  'texas arlington': 'texas arlington',
+  'ut a': 'texas arlington',
+  'miami ohio': 'miami ohio',
 };
 
 const specialAliases = {
@@ -317,8 +323,37 @@ const specialAliases = {
   'longwood lancers': 'longwood',
   'fairleigh dickinson knights': 'fairleigh dickinson',
   'north carolina a t aggies': 'north carolina a and t',
-
-
+  // Sportsbook name fixes — November 14 audit
+  'queens university': 'queens',
+  'queens university royals': 'queens',
+  'miami oh redhawks': 'miami ohio',
+  'ut arlington': 'texas arlington',
+  'ut arlington mavericks': 'texas arlington',
+  'ut rio grande valley vaqueros': 'texas rio grande valley',
+  'ut rio grande vaqueros': 'texas rio grande valley',
+  'west georgia wolves': 'west georgia',
+  'charleston southern buccaneers': 'charleston southern',
+  'western carolina catamounts': 'western carolina',
+  'jacksonville st gamecocks': 'jacksonville state',
+  'jacksonville state gamecocks': 'jacksonville state',
+  'iu indy jaguars': 'iupui',
+  'iupui jaguars': 'iupui',
+  'uc riverside highlanders': 'uc riverside',
+  'california golden bears': 'california',
+  'central michigan chippewas': 'central michigan',
+  'northern kentucky norse': 'northern kentucky',
+  'seattle redhawks': 'seattle',
+  'utah tech trailblazers': 'utah tech',
+  'detroit mercy titans': 'detroit mercy',
+  'colorado buffaloes': 'colorado',
+  'providence friars': 'providence',
+  'new mexico lobos': 'new mexico',
+  'santa clara broncos': 'santa clara',
+  'furman paladins': 'furman',
+  'belmont bruins': 'belmont',
+  'cincinnati bearcats': 'cincinnati',
+  'dayton flyers': 'dayton',
+  'lipscomb bisons': 'lipscomb',
 };
 
 function canonical(value) {
@@ -530,14 +565,63 @@ const mascotSuffixes = [
   'hurricanes',
   'vikings',
   'islanders',
-  'green wave',
-  'braves',
-  'patriots',
-  'black bears',
-  'thundering herd',
-  'fighting hawks',
-  'grizzlies',
-  'skyhawks',
+ 'green wave',
+'braves',
+'patriots',
+'black bears',
+'thundering herd',
+'fighting hawks',
+'grizzlies',
+'skyhawks',
+
+// Additional sportsbook mascot names
+'dragons',
+'purple aces',
+'ospreys',
+'royals',
+'rockets',
+'leopards',
+'demon deacons',
+'hornets',
+'trailblazers',
+'dolphins',
+'buffaloes',
+'friars',
+'broncs',
+'stags',
+'blazers',
+'saints',
+'catamounts',
+'vaqueros',
+'bearcats',
+'dukes',
+'flyers',
+'paladins',
+'lobos',
+'chippewas',
+'norse',
+'utes',
+'broncos',
+'shockers',
+'governors',
+'buccaneers',
+'redhawks',
+'jaspers',
+'mavericks',
+'highlanders',
+'wildcats',
+'red raiders',
+'gamecocks',
+'bears',
+'black bears',
+'bulldogs',
+'terriers',
+'bison',
+'bisons',
+'aggies',
+'colonels',
+'golden bears',
+'thunderbirds',
 ].sort((a, b) => b.length - a.length);
 
 function schoolName(raw) {
@@ -1676,12 +1760,17 @@ console.log(
             )
         ).slice(0, 3);
 
-        for (const g of closest) {
-          console.log(
-            `  CLOSEST: ${g.away} @ ${g.home}`
-          );
-        }
+      console.log(
+  `  NORMALIZED ODDS: ${schoolName(event.away_team)} @ ` +
+  `${schoolName(event.home_team)}`
+);
 
+for (const g of closest) {
+  console.log(
+    `  CLOSEST: ${g.away} @ ${g.home}` +
+    ` [${schoolName(g.away)} @ ${schoolName(g.home)}]`
+  );
+}
         continue;
       }
 
