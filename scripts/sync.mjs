@@ -2053,6 +2053,16 @@ const baselineModels = diGames.filter(
     g.modelVersion === 'v2-baseline-1'
 );
 
+const upcoming = diGames.filter(g => {
+  const start = kickoff(g);
+
+  return (
+    !isFinal(g) &&
+    g.status !== 'live' &&
+    start instanceof Date &&
+    start > now
+  );
+});
 
  // ============================================================
  // COURTEDGE — PREDICTION-ONLY PREVIEW
@@ -2067,7 +2077,19 @@ const modelPreview = {
 };
 
 if (ENABLE_MODEL_PREVIEW) {
-  for (const g of upcoming) {
+  const previewUpcoming = games.filter(g => {
+    const start = kickoff(g);
+
+    return (
+      isDIGame(g) &&
+      !isFinal(g) &&
+      g.status !== 'live' &&
+      start instanceof Date &&
+      start > now
+    );
+  });
+
+  for (const g of previewUpcoming) {
     // Work on a copy so official game data stays unchanged.
     const draft = {
       ...g,
