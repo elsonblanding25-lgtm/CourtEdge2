@@ -31,8 +31,19 @@ if (!Array.isArray(published) ||
 
 const now = new Date();
 const isoNow = now.toISOString();
-// Phase 2 preparation: keep model predictions paused until explicitly enabled.
-const ENABLE_MODEL_PREDICTIONS = process.env.COURTEDGE_ENABLE_MODEL === 'true';
+// Phase 2 preparation: keep model predictions paused until explicitly enabled
+const ENABLE_MODEL_PREDICTIONS =
+  process.env.COURTEDGE_ENABLE_MODEL === 'true';
+
+// Keep official ATS recording disabled during testing.
+const ENABLE_ATS_RECORDING =
+  ENABLE_MODEL_PREDICTIONS &&
+  process.env.COURTEDGE_RECORD_ATS === 'true';
+
+// Enable experimental prediction previews.
+const ENABLE_MODEL_PREVIEW =
+  process.env.COURTEDGE_MODEL_PREVIEW !== 'false';
+
 const round1 = x => Math.round(x * 10) / 10;
 const validDate = x => x && Number.isFinite(new Date(x).getTime());
 
