@@ -1554,8 +1554,8 @@ const oddsNow = new Date();
 // Round down to the current minute
 oddsNow.setUTCSeconds(0, 0);
 
-const odds12Hours = new Date(
-  oddsNow.getTime() + 12 * 60 * 60 * 1000
+const odds24Hours = new Date(
+  oddsNow.getTime() + 24 * 60 * 60 * 1000
 );
 
 // API requires seconds, so use :00Z
@@ -1571,13 +1571,13 @@ const url =
   '&oddsFormat=american' +
   '&dateFormat=iso' +
   `&commenceTimeFrom=${encodeURIComponent(apiTime(oddsNow))}` +
-  `&commenceTimeTo=${encodeURIComponent(apiTime(odds12Hours))}`;
+  `&commenceTimeTo=${encodeURIComponent(apiTime(odds24Hours))}`;
 
 console.log(
-  'ODDS: Checking next 12 hours:',
+  'ODDS: Checking next 24 hours:',
   apiTime(oddsNow),
   'through',
-  apiTime(odds12Hours)
+  apiTime(odds24Hours)
 );
 
     const response = await fetch(url);
