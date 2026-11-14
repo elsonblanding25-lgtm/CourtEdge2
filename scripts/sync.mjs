@@ -798,8 +798,7 @@ const statFields = [
   'defFTRAllowed',
   'pace'
 ];
-
-const usableStats = [...stats.values()].filter(r =>
+  const validatedTeamStats = [...stats.values()].filter(r =>
   Number(r.gamesPlayed) >= 3 &&
   statFields.every(k =>
     r[k] != null &&
@@ -810,8 +809,7 @@ const usableStats = [...stats.values()].filter(r =>
 
 console.log(
   `STATS VALIDATION: ${stats.size} profiles loaded; ` +
-  `${usableStats.length} usable with 3+ games`
-);
+`${validatedTeamStats.length} usable with 3+ games`);
 
 const usableStats = [...stats.values()].filter(r =>
   Number(r.gamesPlayed) >= 3 &&
