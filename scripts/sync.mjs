@@ -1567,7 +1567,7 @@ const url =
   `&commenceTimeTo=${encodeURIComponent(apiTime(odds12Hours))}`;
 
 console.log(
-  'ODDS: Checking next 24 hours:',
+  'ODDS: Checking next 12 hours:',
   apiTime(oddsNow),
   'through',
   apiTime(odds12Hours)
