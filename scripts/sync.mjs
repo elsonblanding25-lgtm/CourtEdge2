@@ -530,7 +530,14 @@ const mascotSuffixes = [
   'hurricanes',
   'vikings',
   'islanders',
-
+  'green wave',
+  'braves',
+  'patriots',
+  'black bears',
+  'thundering herd',
+  'fighting hawks',
+  'grizzlies',
+  'skyhawks',
 ].sort((a, b) => b.length - a.length);
 
 function schoolName(raw) {
