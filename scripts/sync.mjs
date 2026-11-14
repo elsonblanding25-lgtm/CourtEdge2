@@ -786,6 +786,48 @@ if (Array.isArray(statsInput)) {
   );
 }
 
+// Validate loaded team statistics
+const statFields = [
+  'offTO',
+  'defTOForced',
+  'offEFG',
+  'defEFGAllowed',
+  'offORB',
+  'defORBAllowed',
+  'offFTR',
+  'defFTRAllowed',
+  'pace'
+];
+
+const usableStats = [...stats.values()].filter(r =>
+  Number(r.gamesPlayed) >= 3 &&
+  statFields.every(k =>
+    r[k] != null &&
+    r[k] !== '' &&
+    Number.isFinite(Number(r[k]))
+  )
+);
+
+console.log(
+  `STATS VALIDATION: ${stats.size} profiles loaded; ` +
+  `${usableStats.length} usable with 3+ games`
+);
+
+const usableStats = [...stats.values()].filter(r =>
+  Number(r.gamesPlayed) >= 3 &&
+  statFields.every(k =>
+    r[k] != null &&
+    r[k] !== '' &&
+    Number.isFinite(Number(r[k]))
+  )
+);
+
+console.log(
+  `STATS VALIDATION: ${stats.size} profiles loaded; ` +
+  `${usableStats.length} usable with 3+ games`
+);
+}
+
 // Approximate national baselines.
 // These are starting assumptions, not verified
 // 2026-27 national averages.
