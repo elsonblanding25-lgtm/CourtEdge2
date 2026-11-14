@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T06:55:34.385Z",
+  "generatedAt": "2026-11-14T06:57:39.505Z",
   "methodology": "First observed pregame model/market pair, fixed side and line; final score grading. No retrospective ATS picks.",
   "wins": 0,
   "losses": 0,
@@ -7,7 +7,7 @@
   "pending": 0,
   "noEdge": 0,
   "void": 0,
-  "gamesWithMarket": 163,
+  "gamesWithMarket": 168,
   "gamesWithModel": 0,
   "picks": [],
   "graded": 0,

@@ -13160,7 +13160,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T06:55:34.385Z",
+      "capturedAt": "2026-11-14T06:57:39.505Z",
       "homeHandicap": -7,
       "book": "BetOnline.ag",
       "homePrice": -110,
@@ -13176,10 +13176,10 @@
     "home": "Akron",
     "site": "Home",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
-    "awayML": null,
-    "homeML": null,
+    "marketFavorite": "Akron",
+    "marketSpread": -12.5,
+    "awayML": 550,
+    "homeML": -800,
     "awayScore": null,
     "homeScore": null,
     "status": "scheduled",
@@ -13187,7 +13187,25 @@
     "espnAwayTeamId": "2655",
     "espnHomeTeamId": "2006",
     "time": "11:00",
-    "startTime": "2026-11-14T17:00:00.000Z"
+    "startTime": "2026-11-14T17:00:00.000Z",
+    "marketHistory": [
+      {
+        "capturedAt": "2026-11-14T06:57:39.505Z",
+        "homeHandicap": -12.5,
+        "book": "DraftKings",
+        "homePrice": -102,
+        "awayPrice": -118
+      }
+    ],
+    "latestMarket": {
+      "capturedAt": "2026-11-14T06:57:39.505Z",
+      "homeHandicap": -12.5,
+      "book": "DraftKings",
+      "homePrice": -102,
+      "awayPrice": -118
+    },
+    "oddsBook": "DraftKings",
+    "oddsCapturedAt": "2026-11-14T06:57:39.505Z"
   },
   {
     "id": "espn-401919847",
@@ -13196,8 +13214,8 @@
     "home": "Texas Tech",
     "site": "Home",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
+    "marketFavorite": "Texas Tech",
+    "marketSpread": -40.5,
     "awayML": null,
     "homeML": null,
     "awayScore": null,
@@ -13207,7 +13225,25 @@
     "espnAwayTeamId": "284",
     "espnHomeTeamId": "2641",
     "time": "12:00",
-    "startTime": "2026-11-14T18:00:00.000Z"
+    "startTime": "2026-11-14T18:00:00.000Z",
+    "marketHistory": [
+      {
+        "capturedAt": "2026-11-14T06:57:39.505Z",
+        "homeHandicap": -40.5,
+        "book": "DraftKings",
+        "homePrice": -105,
+        "awayPrice": -115
+      }
+    ],
+    "latestMarket": {
+      "capturedAt": "2026-11-14T06:57:39.505Z",
+      "homeHandicap": -40.5,
+      "book": "DraftKings",
+      "homePrice": -105,
+      "awayPrice": -115
+    },
+    "oddsBook": "DraftKings",
+    "oddsCapturedAt": "2026-11-14T06:57:39.505Z"
   },
   {
     "id": "espn-401923303",
@@ -13236,10 +13272,10 @@
     "home": "North Dakota",
     "site": "Home",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
-    "awayML": null,
-    "homeML": null,
+    "marketFavorite": "North Dakota",
+    "marketSpread": -1.5,
+    "awayML": 102,
+    "homeML": -122,
     "awayScore": null,
     "homeScore": null,
     "status": "scheduled",
@@ -13247,7 +13283,25 @@
     "espnAwayTeamId": "149",
     "espnHomeTeamId": "155",
     "time": "12:00",
-    "startTime": "2026-11-14T18:00:00.000Z"
+    "startTime": "2026-11-14T18:00:00.000Z",
+    "marketHistory": [
+      {
+        "capturedAt": "2026-11-14T06:57:39.505Z",
+        "homeHandicap": -1.5,
+        "book": "DraftKings",
+        "homePrice": -105,
+        "awayPrice": -115
+      }
+    ],
+    "latestMarket": {
+      "capturedAt": "2026-11-14T06:57:39.505Z",
+      "homeHandicap": -1.5,
+      "book": "DraftKings",
+      "homePrice": -105,
+      "awayPrice": -115
+    },
+    "oddsBook": "DraftKings",
+    "oddsCapturedAt": "2026-11-14T06:57:39.505Z"
   },
   {
     "id": "espn-401920074",
@@ -13256,10 +13310,10 @@
     "home": "George Mason",
     "site": "Neutral",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
-    "awayML": null,
-    "homeML": null,
+    "marketFavorite": "George Mason",
+    "marketSpread": -13.5,
+    "awayML": 625,
+    "homeML": -950,
     "awayScore": null,
     "homeScore": null,
     "status": "scheduled",
@@ -13267,7 +13321,25 @@
     "espnAwayTeamId": "71",
     "espnHomeTeamId": "2244",
     "time": "12:00",
-    "startTime": "2026-11-14T18:00:00.000Z"
+    "startTime": "2026-11-14T18:00:00.000Z",
+    "marketHistory": [
+      {
+        "capturedAt": "2026-11-14T06:57:39.505Z",
+        "homeHandicap": -13.5,
+        "book": "DraftKings",
+        "homePrice": -102,
+        "awayPrice": -118
+      }
+    ],
+    "latestMarket": {
+      "capturedAt": "2026-11-14T06:57:39.505Z",
+      "homeHandicap": -13.5,
+      "book": "DraftKings",
+      "homePrice": -102,
+      "awayPrice": -118
+    },
+    "oddsBook": "DraftKings",
+    "oddsCapturedAt": "2026-11-14T06:57:39.505Z"
   },
   {
     "id": "espn-401912229",
@@ -13305,7 +13377,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T06:55:34.385Z",
+      "capturedAt": "2026-11-14T06:57:39.505Z",
       "homeHandicap": 7.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -13321,10 +13393,10 @@
     "home": "Youngstown St",
     "site": "Home",
     "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
-    "awayML": null,
-    "homeML": null,
+    "marketFavorite": "Marshall",
+    "marketSpread": -1.5,
+    "awayML": -115,
+    "homeML": -105,
     "awayScore": null,
     "homeScore": null,
     "status": "scheduled",
@@ -13332,7 +13404,25 @@
     "espnAwayTeamId": "276",
     "espnHomeTeamId": "2754",
     "time": "12:00",
-    "startTime": "2026-11-14T18:00:00.000Z"
+    "startTime": "2026-11-14T18:00:00.000Z",
+    "marketHistory": [
+      {
+        "capturedAt": "2026-11-14T06:57:39.505Z",
+        "homeHandicap": 1.5,
+        "book": "DraftKings",
+        "homePrice": -122,
+        "awayPrice": 102
+      }
+    ],
+    "latestMarket": {
+      "capturedAt": "2026-11-14T06:57:39.505Z",
+      "homeHandicap": 1.5,
+      "book": "DraftKings",
+      "homePrice": -122,
+      "awayPrice": 102
+    },
+    "oddsBook": "DraftKings",
+    "oddsCapturedAt": "2026-11-14T06:57:39.505Z"
   },
   {
     "id": "espn-401911231",
@@ -13391,7 +13481,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T06:55:34.385Z",
+      "capturedAt": "2026-11-14T06:57:39.505Z",
       "homeHandicap": -9.5,
       "book": "DraftKings",
       "homePrice": -108,
