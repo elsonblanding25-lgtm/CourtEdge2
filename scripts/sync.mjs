@@ -1547,9 +1547,8 @@ const oddsNow = new Date();
 // Round down to the current minute
 oddsNow.setUTCSeconds(0, 0);
 
-// Exactly 24 hours ahead, to the minute
-const odds24Hours = new Date(
-  oddsNow.getTime() + 24 * 60 * 60 * 1000
+const odds12Hours = new Date(
+  oddsNow.getTime() + 12 * 60 * 60 * 1000
 );
 
 // API requires seconds, so use :00Z
