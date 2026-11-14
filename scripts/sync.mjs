@@ -805,7 +805,6 @@ const statFields = [
     r[k] !== '' &&
     Number.isFinite(Number(r[k]))
   )
-);
 
 console.log(
   `STATS VALIDATION: ${stats.size} profiles loaded; ` +
