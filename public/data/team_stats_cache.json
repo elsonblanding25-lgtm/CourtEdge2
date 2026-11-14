@@ -1,0 +1,9177 @@
+{
+  "401902277": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2086",
+        "fgm": 29,
+        "fga": 74,
+        "tpm": 8,
+        "fta": 16,
+        "oreb": 12,
+        "dreb": 31,
+        "turnovers": 15
+      },
+      {
+        "id": "68",
+        "fgm": 36,
+        "fga": 79,
+        "tpm": 17,
+        "fta": 17,
+        "oreb": 14,
+        "dreb": 31,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401902278": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "221",
+        "fgm": 26,
+        "fga": 56,
+        "tpm": 8,
+        "fta": 20,
+        "oreb": 9,
+        "dreb": 28,
+        "turnovers": 14
+      },
+      {
+        "id": "2086",
+        "fgm": 20,
+        "fga": 61,
+        "tpm": 7,
+        "fta": 21,
+        "oreb": 15,
+        "dreb": 23,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401906758": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2032",
+        "fgm": 32,
+        "fga": 76,
+        "tpm": 15,
+        "fta": 16,
+        "oreb": 17,
+        "dreb": 29,
+        "turnovers": 19
+      },
+      {
+        "id": "333",
+        "fgm": 27,
+        "fga": 76,
+        "tpm": 15,
+        "fta": 43,
+        "oreb": 25,
+        "dreb": 33,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401906759": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2473",
+        "fgm": 23,
+        "fga": 66,
+        "tpm": 3,
+        "fta": 25,
+        "oreb": 21,
+        "dreb": 16,
+        "turnovers": 15
+      },
+      {
+        "id": "333",
+        "fgm": 39,
+        "fga": 62,
+        "tpm": 24,
+        "fta": 8,
+        "oreb": 7,
+        "dreb": 24,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401906760": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2550",
+        "fgm": 26,
+        "fga": 69,
+        "tpm": 7,
+        "fta": 18,
+        "oreb": 16,
+        "dreb": 20,
+        "turnovers": 12
+      },
+      {
+        "id": "333",
+        "fgm": 23,
+        "fga": 53,
+        "tpm": 7,
+        "fta": 38,
+        "oreb": 14,
+        "dreb": 27,
+        "turnovers": 17
+      }
+    ]
+  },
+  "401906770": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "294",
+        "fgm": 19,
+        "fga": 57,
+        "tpm": 6,
+        "fta": 15,
+        "oreb": 8,
+        "dreb": 17,
+        "turnovers": 9
+      },
+      {
+        "id": "57",
+        "fgm": 29,
+        "fga": 60,
+        "tpm": 11,
+        "fta": 27,
+        "oreb": 20,
+        "dreb": 32,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401906771": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "57",
+        "fgm": 21,
+        "fga": 51,
+        "tpm": 9,
+        "fta": 41,
+        "oreb": 12,
+        "dreb": 29,
+        "turnovers": 14
+      },
+      {
+        "id": "52",
+        "fgm": 27,
+        "fga": 62,
+        "tpm": 4,
+        "fta": 18,
+        "oreb": 9,
+        "dreb": 20,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401906772": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2771",
+        "fgm": 21,
+        "fga": 52,
+        "tpm": 10,
+        "fta": 2,
+        "oreb": 3,
+        "dreb": 14,
+        "turnovers": 13
+      },
+      {
+        "id": "57",
+        "fgm": 27,
+        "fga": 52,
+        "tpm": 8,
+        "fta": 22,
+        "oreb": 11,
+        "dreb": 28,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401906780": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2506",
+        "fgm": 24,
+        "fga": 48,
+        "tpm": 5,
+        "fta": 32,
+        "oreb": 10,
+        "dreb": 20,
+        "turnovers": 13
+      },
+      {
+        "id": "61",
+        "fgm": 32,
+        "fga": 67,
+        "tpm": 10,
+        "fta": 28,
+        "oreb": 19,
+        "dreb": 19,
+        "turnovers": 3
+      }
+    ]
+  },
+  "401906781": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "526",
+        "fgm": 28,
+        "fga": 59,
+        "tpm": 11,
+        "fta": 10,
+        "oreb": 9,
+        "dreb": 24,
+        "turnovers": 14
+      },
+      {
+        "id": "61",
+        "fgm": 28,
+        "fga": 61,
+        "tpm": 8,
+        "fta": 21,
+        "oreb": 12,
+        "dreb": 22,
+        "turnovers": 7
+      }
+    ]
+  },
+  "401906782": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "61",
+        "fgm": 27,
+        "fga": 70,
+        "tpm": 14,
+        "fta": 15,
+        "oreb": 18,
+        "dreb": 34,
+        "turnovers": 12
+      },
+      {
+        "id": "153",
+        "fgm": 24,
+        "fga": 73,
+        "tpm": 9,
+        "fta": 19,
+        "oreb": 16,
+        "dreb": 27,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401906792": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2466",
+        "fgm": 14,
+        "fga": 47,
+        "tpm": 4,
+        "fta": 25,
+        "oreb": 10,
+        "dreb": 24,
+        "turnovers": 12
+      },
+      {
+        "id": "344",
+        "fgm": 26,
+        "fga": 64,
+        "tpm": 8,
+        "fta": 31,
+        "oreb": 20,
+        "dreb": 30,
+        "turnovers": 6
+      }
+    ]
+  },
+  "401906793": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2296",
+        "fgm": 21,
+        "fga": 60,
+        "tpm": 10,
+        "fta": 7,
+        "oreb": 7,
+        "dreb": 14,
+        "turnovers": 17
+      },
+      {
+        "id": "344",
+        "fgm": 39,
+        "fga": 67,
+        "tpm": 9,
+        "fta": 15,
+        "oreb": 16,
+        "dreb": 33,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401906794": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2752",
+        "fgm": 24,
+        "fga": 60,
+        "tpm": 10,
+        "fta": 34,
+        "oreb": 13,
+        "dreb": 31,
+        "turnovers": 14
+      },
+      {
+        "id": "344",
+        "fgm": 22,
+        "fga": 66,
+        "tpm": 4,
+        "fta": 22,
+        "oreb": 15,
+        "dreb": 28,
+        "turnovers": 18
+      }
+    ]
+  },
+  "401906802": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2400",
+        "fgm": 21,
+        "fga": 58,
+        "tpm": 3,
+        "fta": 16,
+        "oreb": 13,
+        "dreb": 19,
+        "turnovers": 17
+      },
+      {
+        "id": "201",
+        "fgm": 33,
+        "fga": 70,
+        "tpm": 13,
+        "fta": 6,
+        "oreb": 17,
+        "dreb": 25,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401906803": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2453",
+        "fgm": 26,
+        "fga": 54,
+        "tpm": 8,
+        "fta": 16,
+        "oreb": 8,
+        "dreb": 27,
+        "turnovers": 13
+      },
+      {
+        "id": "201",
+        "fgm": 25,
+        "fga": 58,
+        "tpm": 13,
+        "fta": 27,
+        "oreb": 10,
+        "dreb": 23,
+        "turnovers": 6
+      }
+    ]
+  },
+  "401906804": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "161",
+        "fgm": 20,
+        "fga": 49,
+        "tpm": 7,
+        "fta": 16,
+        "oreb": 4,
+        "dreb": 25,
+        "turnovers": 11
+      },
+      {
+        "id": "201",
+        "fgm": 23,
+        "fga": 56,
+        "tpm": 9,
+        "fta": 24,
+        "oreb": 11,
+        "dreb": 25,
+        "turnovers": 4
+      }
+    ]
+  },
+  "401906849": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2515",
+        "fgm": 16,
+        "fga": 61,
+        "tpm": 5,
+        "fta": 17,
+        "oreb": 13,
+        "dreb": 19,
+        "turnovers": 17
+      },
+      {
+        "id": "2633",
+        "fgm": 24,
+        "fga": 52,
+        "tpm": 4,
+        "fta": 23,
+        "oreb": 9,
+        "dreb": 34,
+        "turnovers": 16
+      }
+    ]
+  },
+  "401906850": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2634",
+        "fgm": 25,
+        "fga": 78,
+        "tpm": 8,
+        "fta": 24,
+        "oreb": 24,
+        "dreb": 21,
+        "turnovers": 12
+      },
+      {
+        "id": "2633",
+        "fgm": 23,
+        "fga": 53,
+        "tpm": 10,
+        "fta": 40,
+        "oreb": 14,
+        "dreb": 29,
+        "turnovers": 17
+      }
+    ]
+  },
+  "401906864": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2241",
+        "fgm": 15,
+        "fga": 45,
+        "tpm": 5,
+        "fta": 23,
+        "oreb": 7,
+        "dreb": 16,
+        "turnovers": 23
+      },
+      {
+        "id": "251",
+        "fgm": 34,
+        "fga": 56,
+        "tpm": 6,
+        "fta": 31,
+        "oreb": 9,
+        "dreb": 28,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401906865": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2755",
+        "fgm": 23,
+        "fga": 64,
+        "tpm": 6,
+        "fta": 15,
+        "oreb": 12,
+        "dreb": 22,
+        "turnovers": 13
+      },
+      {
+        "id": "251",
+        "fgm": 30,
+        "fga": 59,
+        "tpm": 6,
+        "fta": 42,
+        "oreb": 13,
+        "dreb": 32,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401909491": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2330",
+        "fgm": 17,
+        "fga": 56,
+        "tpm": 7,
+        "fta": 16,
+        "oreb": 9,
+        "dreb": 23,
+        "turnovers": 19
+      },
+      {
+        "id": "156",
+        "fgm": 29,
+        "fga": 70,
+        "tpm": 11,
+        "fta": 21,
+        "oreb": 22,
+        "dreb": 30,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401909492": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "156",
+        "fgm": 28,
+        "fga": 67,
+        "tpm": 13,
+        "fta": 17,
+        "oreb": 13,
+        "dreb": 15,
+        "turnovers": 14
+      },
+      {
+        "id": "2306",
+        "fgm": 30,
+        "fga": 53,
+        "tpm": 14,
+        "fta": 17,
+        "oreb": 6,
+        "dreb": 25,
+        "turnovers": 22
+      }
+    ]
+  },
+  "401909501": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "58",
+        "fgm": 28,
+        "fga": 58,
+        "tpm": 9,
+        "fta": 19,
+        "oreb": 9,
+        "dreb": 21,
+        "turnovers": 6
+      },
+      {
+        "id": "305",
+        "fgm": 28,
+        "fga": 60,
+        "tpm": 14,
+        "fta": 17,
+        "oreb": 9,
+        "dreb": 22,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401909502": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2010",
+        "fgm": 14,
+        "fga": 53,
+        "tpm": 5,
+        "fta": 21,
+        "oreb": 10,
+        "dreb": 18,
+        "turnovers": 17
+      },
+      {
+        "id": "305",
+        "fgm": 25,
+        "fga": 57,
+        "tpm": 13,
+        "fta": 25,
+        "oreb": 13,
+        "dreb": 31,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401909503": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "305",
+        "fgm": 21,
+        "fga": 59,
+        "tpm": 11,
+        "fta": 16,
+        "oreb": 19,
+        "dreb": 26,
+        "turnovers": 16
+      },
+      {
+        "id": "77",
+        "fgm": 16,
+        "fga": 53,
+        "tpm": 4,
+        "fta": 16,
+        "oreb": 12,
+        "dreb": 16,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401909513": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "120",
+        "fgm": 26,
+        "fga": 63,
+        "tpm": 3,
+        "fta": 24,
+        "oreb": 19,
+        "dreb": 18,
+        "turnovers": 14
+      },
+      {
+        "id": "46",
+        "fgm": 27,
+        "fga": 52,
+        "tpm": 15,
+        "fta": 25,
+        "oreb": 10,
+        "dreb": 17,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401909514": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2169",
+        "fgm": 29,
+        "fga": 54,
+        "tpm": 9,
+        "fta": 15,
+        "oreb": 8,
+        "dreb": 22,
+        "turnovers": 15
+      },
+      {
+        "id": "46",
+        "fgm": 27,
+        "fga": 55,
+        "tpm": 8,
+        "fta": 28,
+        "oreb": 12,
+        "dreb": 20,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401909515": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "46",
+        "fgm": 31,
+        "fga": 61,
+        "tpm": 10,
+        "fta": 13,
+        "oreb": 11,
+        "dreb": 22,
+        "turnovers": 6
+      },
+      {
+        "id": "228",
+        "fgm": 28,
+        "fga": 59,
+        "tpm": 11,
+        "fta": 14,
+        "oreb": 9,
+        "dreb": 18,
+        "turnovers": 5
+      }
+    ]
+  },
+  "401909523": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2174",
+        "fgm": 13,
+        "fga": 59,
+        "tpm": 5,
+        "fta": 2,
+        "oreb": 13,
+        "dreb": 23,
+        "turnovers": 20
+      },
+      {
+        "id": "269",
+        "fgm": 37,
+        "fga": 77,
+        "tpm": 12,
+        "fta": 10,
+        "oreb": 17,
+        "dreb": 31,
+        "turnovers": 3
+      }
+    ]
+  },
+  "401909524": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "269",
+        "fgm": 25,
+        "fga": 71,
+        "tpm": 12,
+        "fta": 9,
+        "oreb": 11,
+        "dreb": 22,
+        "turnovers": 12
+      },
+      {
+        "id": "130",
+        "fgm": 32,
+        "fga": 62,
+        "tpm": 11,
+        "fta": 15,
+        "oreb": 9,
+        "dreb": 36,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401909532": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2507",
+        "fgm": 19,
+        "fga": 62,
+        "tpm": 7,
+        "fta": 14,
+        "oreb": 15,
+        "dreb": 18,
+        "turnovers": 18
+      },
+      {
+        "id": "158",
+        "fgm": 22,
+        "fga": 49,
+        "tpm": 5,
+        "fta": 24,
+        "oreb": 7,
+        "dreb": 24,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401909533": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2803",
+        "fgm": 19,
+        "fga": 47,
+        "tpm": 7,
+        "fta": 14,
+        "oreb": 6,
+        "dreb": 23,
+        "turnovers": 25
+      },
+      {
+        "id": "2507",
+        "fgm": 30,
+        "fga": 62,
+        "tpm": 8,
+        "fta": 13,
+        "oreb": 11,
+        "dreb": 24,
+        "turnovers": 16
+      }
+    ]
+  },
+  "401909542": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2199",
+        "fgm": 16,
+        "fga": 58,
+        "tpm": 6,
+        "fta": 18,
+        "oreb": 18,
+        "dreb": 21,
+        "turnovers": 22
+      },
+      {
+        "id": "2752",
+        "fgm": 29,
+        "fga": 55,
+        "tpm": 3,
+        "fta": 25,
+        "oreb": 9,
+        "dreb": 24,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401909543": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2174",
+        "fgm": 19,
+        "fga": 67,
+        "tpm": 7,
+        "fta": 17,
+        "oreb": 6,
+        "dreb": 31,
+        "turnovers": 17
+      },
+      {
+        "id": "2752",
+        "fgm": 40,
+        "fga": 76,
+        "tpm": 8,
+        "fta": 19,
+        "oreb": 8,
+        "dreb": 44,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401909552": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "113",
+        "fgm": 21,
+        "fga": 54,
+        "tpm": 5,
+        "fta": 14,
+        "oreb": 18,
+        "dreb": 21,
+        "turnovers": 14
+      },
+      {
+        "id": "103",
+        "fgm": 22,
+        "fga": 59,
+        "tpm": 3,
+        "fta": 26,
+        "oreb": 17,
+        "dreb": 19,
+        "turnovers": 4
+      }
+    ]
+  },
+  "401909553": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2379",
+        "fgm": 18,
+        "fga": 42,
+        "tpm": 3,
+        "fta": 24,
+        "oreb": 7,
+        "dreb": 13,
+        "turnovers": 14
+      },
+      {
+        "id": "103",
+        "fgm": 24,
+        "fga": 55,
+        "tpm": 11,
+        "fta": 24,
+        "oreb": 19,
+        "dreb": 23,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401909563": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "324",
+        "fgm": 19,
+        "fga": 63,
+        "tpm": 4,
+        "fta": 17,
+        "oreb": 11,
+        "dreb": 16,
+        "turnovers": 17
+      },
+      {
+        "id": "150",
+        "fgm": 38,
+        "fga": 62,
+        "tpm": 11,
+        "fta": 41,
+        "oreb": 14,
+        "dreb": 39,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401909564": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "127",
+        "fgm": 25,
+        "fga": 56,
+        "tpm": 7,
+        "fta": 28,
+        "oreb": 9,
+        "dreb": 29,
+        "turnovers": 13
+      },
+      {
+        "id": "150",
+        "fgm": 20,
+        "fga": 60,
+        "tpm": 7,
+        "fta": 37,
+        "oreb": 18,
+        "dreb": 22,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401909565": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2565",
+        "fgm": 17,
+        "fga": 56,
+        "tpm": 3,
+        "fta": 16,
+        "oreb": 9,
+        "dreb": 24,
+        "turnovers": 19
+      },
+      {
+        "id": "150",
+        "fgm": 30,
+        "fga": 66,
+        "tpm": 9,
+        "fta": 29,
+        "oreb": 18,
+        "dreb": 33,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401909695": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2653",
+        "fgm": 23,
+        "fga": 55,
+        "tpm": 9,
+        "fta": 21,
+        "oreb": 5,
+        "dreb": 16,
+        "turnovers": 11
+      },
+      {
+        "id": "52",
+        "fgm": 25,
+        "fga": 58,
+        "tpm": 7,
+        "fta": 39,
+        "oreb": 18,
+        "dreb": 28,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401909696": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "357",
+        "fgm": 23,
+        "fga": 59,
+        "tpm": 5,
+        "fta": 17,
+        "oreb": 8,
+        "dreb": 17,
+        "turnovers": 14
+      },
+      {
+        "id": "52",
+        "fgm": 23,
+        "fga": 62,
+        "tpm": 2,
+        "fta": 45,
+        "oreb": 25,
+        "dreb": 33,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401909706": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2084",
+        "fgm": 18,
+        "fga": 51,
+        "tpm": 9,
+        "fta": 22,
+        "oreb": 5,
+        "dreb": 22,
+        "turnovers": 17
+      },
+      {
+        "id": "221",
+        "fgm": 20,
+        "fga": 54,
+        "tpm": 5,
+        "fta": 49,
+        "oreb": 18,
+        "dreb": 32,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401909707": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "221",
+        "fgm": 31,
+        "fga": 63,
+        "tpm": 5,
+        "fta": 22,
+        "oreb": 10,
+        "dreb": 18,
+        "turnovers": 9
+      },
+      {
+        "id": "213",
+        "fgm": 21,
+        "fga": 50,
+        "tpm": 5,
+        "fta": 36,
+        "oreb": 12,
+        "dreb": 25,
+        "turnovers": 16
+      }
+    ]
+  },
+  "401909717": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2115",
+        "fgm": 18,
+        "fga": 53,
+        "tpm": 3,
+        "fta": 16,
+        "oreb": 5,
+        "dreb": 15,
+        "turnovers": 11
+      },
+      {
+        "id": "183",
+        "fgm": 38,
+        "fga": 59,
+        "tpm": 9,
+        "fta": 24,
+        "oreb": 11,
+        "dreb": 34,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401909718": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "183",
+        "fgm": 28,
+        "fga": 55,
+        "tpm": 8,
+        "fta": 20,
+        "oreb": 7,
+        "dreb": 21,
+        "turnovers": 12
+      },
+      {
+        "id": "84",
+        "fgm": 26,
+        "fga": 62,
+        "tpm": 9,
+        "fta": 26,
+        "oreb": 14,
+        "dreb": 23,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401909726": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "154",
+        "fgm": 19,
+        "fga": 54,
+        "tpm": 6,
+        "fta": 14,
+        "oreb": 7,
+        "dreb": 26,
+        "turnovers": 12
+      },
+      {
+        "id": "238",
+        "fgm": 28,
+        "fga": 72,
+        "tpm": 10,
+        "fta": 11,
+        "oreb": 17,
+        "dreb": 31,
+        "turnovers": 7
+      }
+    ]
+  },
+  "401909739": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "13",
+        "fgm": 29,
+        "fga": 66,
+        "tpm": 16,
+        "fta": 21,
+        "oreb": 13,
+        "dreb": 17,
+        "turnovers": 19
+      },
+      {
+        "id": "12",
+        "fgm": 36,
+        "fga": 66,
+        "tpm": 4,
+        "fta": 36,
+        "oreb": 15,
+        "dreb": 29,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401909740": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2464",
+        "fgm": 21,
+        "fga": 51,
+        "tpm": 9,
+        "fta": 10,
+        "oreb": 6,
+        "dreb": 18,
+        "turnovers": 15
+      },
+      {
+        "id": "12",
+        "fgm": 37,
+        "fga": 60,
+        "tpm": 8,
+        "fta": 12,
+        "oreb": 8,
+        "dreb": 23,
+        "turnovers": 6
+      }
+    ]
+  },
+  "401909741": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "12",
+        "fgm": 28,
+        "fga": 63,
+        "tpm": 6,
+        "fta": 22,
+        "oreb": 15,
+        "dreb": 34,
+        "turnovers": 14
+      },
+      {
+        "id": "2",
+        "fgm": 23,
+        "fga": 66,
+        "tpm": 11,
+        "fta": 20,
+        "oreb": 14,
+        "dreb": 23,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401909751": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2029",
+        "fgm": 18,
+        "fga": 51,
+        "tpm": 5,
+        "fta": 19,
+        "oreb": 11,
+        "dreb": 21,
+        "turnovers": 34
+      },
+      {
+        "id": "239",
+        "fgm": 35,
+        "fga": 72,
+        "tpm": 5,
+        "fta": 42,
+        "oreb": 20,
+        "dreb": 24,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401909752": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "43",
+        "fgm": 22,
+        "fga": 54,
+        "tpm": 10,
+        "fta": 11,
+        "oreb": 9,
+        "dreb": 19,
+        "turnovers": 17
+      },
+      {
+        "id": "239",
+        "fgm": 33,
+        "fga": 62,
+        "tpm": 8,
+        "fta": 27,
+        "oreb": 14,
+        "dreb": 23,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401909760": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "21",
+        "fgm": 23,
+        "fga": 47,
+        "tpm": 8,
+        "fta": 31,
+        "oreb": 7,
+        "dreb": 31,
+        "turnovers": 20
+      },
+      {
+        "id": "38",
+        "fgm": 21,
+        "fga": 57,
+        "tpm": 9,
+        "fta": 25,
+        "oreb": 8,
+        "dreb": 19,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401909761": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "301",
+        "fgm": 28,
+        "fga": 67,
+        "tpm": 8,
+        "fta": 16,
+        "oreb": 11,
+        "dreb": 21,
+        "turnovers": 10
+      },
+      {
+        "id": "38",
+        "fgm": 26,
+        "fga": 51,
+        "tpm": 13,
+        "fta": 22,
+        "oreb": 5,
+        "dreb": 31,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401909772": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2572",
+        "fgm": 19,
+        "fga": 52,
+        "tpm": 8,
+        "fta": 22,
+        "oreb": 11,
+        "dreb": 17,
+        "turnovers": 18
+      },
+      {
+        "id": "66",
+        "fgm": 27,
+        "fga": 51,
+        "tpm": 4,
+        "fta": 36,
+        "oreb": 12,
+        "dreb": 26,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401909773": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2582",
+        "fgm": 18,
+        "fga": 51,
+        "tpm": 4,
+        "fta": 11,
+        "oreb": 8,
+        "dreb": 25,
+        "turnovers": 30
+      },
+      {
+        "id": "66",
+        "fgm": 31,
+        "fga": 67,
+        "tpm": 7,
+        "fta": 22,
+        "oreb": 15,
+        "dreb": 28,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401909785": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2393",
+        "fgm": 17,
+        "fga": 68,
+        "tpm": 7,
+        "fta": 9,
+        "oreb": 18,
+        "dreb": 17,
+        "turnovers": 16
+      },
+      {
+        "id": "2305",
+        "fgm": 35,
+        "fga": 56,
+        "tpm": 7,
+        "fta": 22,
+        "oreb": 9,
+        "dreb": 32,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401909786": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2305",
+        "fgm": 32,
+        "fga": 69,
+        "tpm": 10,
+        "fta": 23,
+        "oreb": 12,
+        "dreb": 28,
+        "turnovers": 10
+      },
+      {
+        "id": "96",
+        "fgm": 27,
+        "fga": 59,
+        "tpm": 4,
+        "fta": 19,
+        "oreb": 8,
+        "dreb": 27,
+        "turnovers": 16
+      }
+    ]
+  },
+  "401909797": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2463",
+        "fgm": 26,
+        "fga": 67,
+        "tpm": 7,
+        "fta": 26,
+        "oreb": 16,
+        "dreb": 27,
+        "turnovers": 17
+      },
+      {
+        "id": "2306",
+        "fgm": 31,
+        "fga": 63,
+        "tpm": 17,
+        "fta": 25,
+        "oreb": 9,
+        "dreb": 28,
+        "turnovers": 17
+      }
+    ]
+  },
+  "401911005": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "282",
+        "fgm": 22,
+        "fga": 55,
+        "tpm": 8,
+        "fta": 23,
+        "oreb": 11,
+        "dreb": 25,
+        "turnovers": 14
+      },
+      {
+        "id": "2050",
+        "fgm": 24,
+        "fga": 54,
+        "tpm": 3,
+        "fta": 26,
+        "oreb": 11,
+        "dreb": 25,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401911007": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "91",
+        "fgm": 30,
+        "fga": 66,
+        "tpm": 3,
+        "fta": 10,
+        "oreb": 10,
+        "dreb": 21,
+        "turnovers": 10
+      },
+      {
+        "id": "193",
+        "fgm": 24,
+        "fga": 55,
+        "tpm": 10,
+        "fta": 26,
+        "oreb": 10,
+        "dreb": 26,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401911010": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "325",
+        "fgm": 31,
+        "fga": 51,
+        "tpm": 7,
+        "fta": 17,
+        "oreb": 7,
+        "dreb": 15,
+        "turnovers": 11
+      },
+      {
+        "id": "189",
+        "fgm": 33,
+        "fga": 55,
+        "tpm": 14,
+        "fta": 17,
+        "oreb": 8,
+        "dreb": 18,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401911012": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2349",
+        "fgm": 20,
+        "fga": 60,
+        "tpm": 9,
+        "fta": 26,
+        "oreb": 6,
+        "dreb": 29,
+        "turnovers": 8
+      },
+      {
+        "id": "113",
+        "fgm": 28,
+        "fga": 66,
+        "tpm": 6,
+        "fta": 18,
+        "oreb": 13,
+        "dreb": 42,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401911013": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "315",
+        "fgm": 27,
+        "fga": 63,
+        "tpm": 11,
+        "fta": 13,
+        "oreb": 9,
+        "dreb": 20,
+        "turnovers": 12
+      },
+      {
+        "id": "189",
+        "fgm": 33,
+        "fga": 65,
+        "tpm": 11,
+        "fta": 18,
+        "oreb": 17,
+        "dreb": 29,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401911014": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2050",
+        "fgm": 19,
+        "fga": 60,
+        "tpm": 10,
+        "fta": 22,
+        "oreb": 11,
+        "dreb": 21,
+        "turnovers": 10
+      },
+      {
+        "id": "2567",
+        "fgm": 23,
+        "fga": 53,
+        "tpm": 8,
+        "fta": 41,
+        "oreb": 11,
+        "dreb": 33,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401911186": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2459",
+        "fgm": 22,
+        "fga": 55,
+        "tpm": 12,
+        "fta": 31,
+        "oreb": 13,
+        "dreb": 30,
+        "turnovers": 20
+      },
+      {
+        "id": "2168",
+        "fgm": 22,
+        "fga": 49,
+        "tpm": 2,
+        "fta": 41,
+        "oreb": 6,
+        "dreb": 23,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401911187": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2561",
+        "fgm": 30,
+        "fga": 67,
+        "tpm": 11,
+        "fta": 33,
+        "oreb": 14,
+        "dreb": 23,
+        "turnovers": 9
+      },
+      {
+        "id": "2168",
+        "fgm": 36,
+        "fga": 66,
+        "tpm": 11,
+        "fta": 12,
+        "oreb": 11,
+        "dreb": 26,
+        "turnovers": 18
+      }
+    ]
+  },
+  "401911195": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "284",
+        "fgm": 21,
+        "fga": 53,
+        "tpm": 6,
+        "fta": 20,
+        "oreb": 10,
+        "dreb": 17,
+        "turnovers": 16
+      },
+      {
+        "id": "2230",
+        "fgm": 32,
+        "fga": 59,
+        "tpm": 7,
+        "fta": 15,
+        "oreb": 11,
+        "dreb": 25,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401911196": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "314",
+        "fgm": 21,
+        "fga": 52,
+        "tpm": 10,
+        "fta": 22,
+        "oreb": 12,
+        "dreb": 23,
+        "turnovers": 19
+      },
+      {
+        "id": "2230",
+        "fgm": 25,
+        "fga": 52,
+        "tpm": 10,
+        "fta": 25,
+        "oreb": 9,
+        "dreb": 21,
+        "turnovers": 16
+      }
+    ]
+  },
+  "401911197": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "112358",
+        "fgm": 20,
+        "fga": 53,
+        "tpm": 5,
+        "fta": 16,
+        "oreb": 8,
+        "dreb": 18,
+        "turnovers": 17
+      },
+      {
+        "id": "2230",
+        "fgm": 29,
+        "fga": 56,
+        "tpm": 7,
+        "fta": 17,
+        "oreb": 10,
+        "dreb": 28,
+        "turnovers": 17
+      }
+    ]
+  },
+  "401911209": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2210",
+        "fgm": 14,
+        "fga": 53,
+        "tpm": 5,
+        "fta": 23,
+        "oreb": 13,
+        "dreb": 26,
+        "turnovers": 16
+      },
+      {
+        "id": "45",
+        "fgm": 23,
+        "fga": 58,
+        "tpm": 5,
+        "fta": 25,
+        "oreb": 13,
+        "dreb": 30,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401911210": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "108",
+        "fgm": 22,
+        "fga": 58,
+        "tpm": 6,
+        "fta": 11,
+        "oreb": 13,
+        "dreb": 10,
+        "turnovers": 13
+      },
+      {
+        "id": "45",
+        "fgm": 30,
+        "fga": 50,
+        "tpm": 8,
+        "fta": 19,
+        "oreb": 10,
+        "dreb": 24,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401911229": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2698",
+        "fgm": 16,
+        "fga": 60,
+        "tpm": 6,
+        "fta": 18,
+        "oreb": 16,
+        "dreb": 18,
+        "turnovers": 17
+      },
+      {
+        "id": "2350",
+        "fgm": 28,
+        "fga": 55,
+        "tpm": 7,
+        "fta": 15,
+        "oreb": 7,
+        "dreb": 26,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401911230": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2350",
+        "fgm": 36,
+        "fga": 78,
+        "tpm": 10,
+        "fta": 19,
+        "oreb": 15,
+        "dreb": 27,
+        "turnovers": 13
+      },
+      {
+        "id": "2005",
+        "fgm": 31,
+        "fga": 64,
+        "tpm": 15,
+        "fta": 41,
+        "oreb": 13,
+        "dreb": 31,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401911238": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "257",
+        "fgm": 30,
+        "fga": 59,
+        "tpm": 9,
+        "fta": 13,
+        "oreb": 9,
+        "dreb": 33,
+        "turnovers": 13
+      },
+      {
+        "id": "218",
+        "fgm": 16,
+        "fga": 54,
+        "tpm": 7,
+        "fta": 21,
+        "oreb": 10,
+        "dreb": 23,
+        "turnovers": 16
+      }
+    ]
+  },
+  "401911239": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "257",
+        "fgm": 26,
+        "fga": 65,
+        "tpm": 9,
+        "fta": 15,
+        "oreb": 15,
+        "dreb": 19,
+        "turnovers": 15
+      },
+      {
+        "id": "79",
+        "fgm": 22,
+        "fga": 48,
+        "tpm": 8,
+        "fta": 28,
+        "oreb": 7,
+        "dreb": 28,
+        "turnovers": 16
+      }
+    ]
+  },
+  "401911249": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "139",
+        "fgm": 33,
+        "fga": 63,
+        "tpm": 14,
+        "fta": 14,
+        "oreb": 6,
+        "dreb": 29,
+        "turnovers": 10
+      },
+      {
+        "id": "142",
+        "fgm": 29,
+        "fga": 71,
+        "tpm": 8,
+        "fta": 26,
+        "oreb": 18,
+        "dreb": 27,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401911250": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "94",
+        "fgm": 24,
+        "fga": 73,
+        "tpm": 5,
+        "fta": 17,
+        "oreb": 21,
+        "dreb": 21,
+        "turnovers": 22
+      },
+      {
+        "id": "139",
+        "fgm": 44,
+        "fga": 75,
+        "tpm": 18,
+        "fta": 23,
+        "oreb": 12,
+        "dreb": 33,
+        "turnovers": 7
+      }
+    ]
+  },
+  "401911262": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "179",
+        "fgm": 33,
+        "fga": 59,
+        "tpm": 8,
+        "fta": 23,
+        "oreb": 15,
+        "dreb": 33,
+        "turnovers": 11
+      },
+      {
+        "id": "2099",
+        "fgm": 16,
+        "fga": 52,
+        "tpm": 5,
+        "fta": 24,
+        "oreb": 10,
+        "dreb": 13,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401911263": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "172",
+        "fgm": 25,
+        "fga": 65,
+        "tpm": 10,
+        "fta": 8,
+        "oreb": 8,
+        "dreb": 20,
+        "turnovers": 11
+      },
+      {
+        "id": "179",
+        "fgm": 34,
+        "fga": 63,
+        "tpm": 1,
+        "fta": 30,
+        "oreb": 14,
+        "dreb": 34,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401911273": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2066",
+        "fgm": 15,
+        "fga": 45,
+        "tpm": 3,
+        "fta": 35,
+        "oreb": 11,
+        "dreb": 19,
+        "turnovers": 10
+      },
+      {
+        "id": "2612",
+        "fgm": 17,
+        "fga": 48,
+        "tpm": 6,
+        "fta": 20,
+        "oreb": 8,
+        "dreb": 21,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401911274": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2520",
+        "fgm": 24,
+        "fga": 61,
+        "tpm": 6,
+        "fta": 11,
+        "oreb": 13,
+        "dreb": 17,
+        "turnovers": 7
+      },
+      {
+        "id": "2066",
+        "fgm": 30,
+        "fga": 58,
+        "tpm": 6,
+        "fta": 12,
+        "oreb": 12,
+        "dreb": 24,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401911306": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "225",
+        "fgm": 27,
+        "fga": 59,
+        "tpm": 5,
+        "fta": 16,
+        "oreb": 12,
+        "dreb": 28,
+        "turnovers": 12
+      },
+      {
+        "id": "2329",
+        "fgm": 17,
+        "fga": 47,
+        "tpm": 5,
+        "fta": 21,
+        "oreb": 3,
+        "dreb": 27,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401911307": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2099",
+        "fgm": 27,
+        "fga": 47,
+        "tpm": 13,
+        "fta": 25,
+        "oreb": 7,
+        "dreb": 22,
+        "turnovers": 18
+      },
+      {
+        "id": "225",
+        "fgm": 34,
+        "fga": 60,
+        "tpm": 6,
+        "fta": 15,
+        "oreb": 10,
+        "dreb": 18,
+        "turnovers": 16
+      }
+    ]
+  },
+  "401911335": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "304",
+        "fgm": 28,
+        "fga": 72,
+        "tpm": 7,
+        "fta": 25,
+        "oreb": 20,
+        "dreb": 26,
+        "turnovers": 16
+      },
+      {
+        "id": "2005",
+        "fgm": 25,
+        "fga": 67,
+        "tpm": 5,
+        "fta": 40,
+        "oreb": 19,
+        "dreb": 27,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401911345": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2065",
+        "fgm": 26,
+        "fga": 55,
+        "tpm": 6,
+        "fta": 32,
+        "oreb": 6,
+        "dreb": 24,
+        "turnovers": 18
+      },
+      {
+        "id": "2253",
+        "fgm": 33,
+        "fga": 64,
+        "tpm": 6,
+        "fta": 36,
+        "oreb": 11,
+        "dreb": 23,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401911346": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "13",
+        "fgm": 25,
+        "fga": 59,
+        "tpm": 5,
+        "fta": 21,
+        "oreb": 8,
+        "dreb": 27,
+        "turnovers": 19
+      },
+      {
+        "id": "2253",
+        "fgm": 39,
+        "fga": 77,
+        "tpm": 10,
+        "fta": 20,
+        "oreb": 12,
+        "dreb": 26,
+        "turnovers": 7
+      }
+    ]
+  },
+  "401911453": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2608",
+        "fgm": 33,
+        "fga": 76,
+        "tpm": 13,
+        "fta": 19,
+        "oreb": 12,
+        "dreb": 26,
+        "turnovers": 10
+      },
+      {
+        "id": "2440",
+        "fgm": 34,
+        "fga": 59,
+        "tpm": 5,
+        "fta": 36,
+        "oreb": 5,
+        "dreb": 33,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401911454": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2440",
+        "fgm": 23,
+        "fga": 58,
+        "tpm": 2,
+        "fta": 19,
+        "oreb": 12,
+        "dreb": 20,
+        "turnovers": 13
+      },
+      {
+        "id": "2540",
+        "fgm": 22,
+        "fga": 51,
+        "tpm": 7,
+        "fta": 30,
+        "oreb": 10,
+        "dreb": 25,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401911470": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "23",
+        "fgm": 29,
+        "fga": 64,
+        "tpm": 13,
+        "fta": 11,
+        "oreb": 6,
+        "dreb": 18,
+        "turnovers": 11
+      },
+      {
+        "id": "300",
+        "fgm": 33,
+        "fga": 63,
+        "tpm": 6,
+        "fta": 27,
+        "oreb": 16,
+        "dreb": 30,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401911471": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "27",
+        "fgm": 28,
+        "fga": 51,
+        "tpm": 11,
+        "fta": 23,
+        "oreb": 5,
+        "dreb": 16,
+        "turnovers": 15
+      },
+      {
+        "id": "23",
+        "fgm": 26,
+        "fga": 43,
+        "tpm": 6,
+        "fta": 25,
+        "oreb": 6,
+        "dreb": 23,
+        "turnovers": 24
+      }
+    ]
+  },
+  "401911519": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2916",
+        "fgm": 25,
+        "fga": 64,
+        "tpm": 8,
+        "fta": 16,
+        "oreb": 13,
+        "dreb": 22,
+        "turnovers": 15
+      },
+      {
+        "id": "302",
+        "fgm": 25,
+        "fga": 53,
+        "tpm": 9,
+        "fta": 26,
+        "oreb": 7,
+        "dreb": 29,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401911533": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "166",
+        "fgm": 19,
+        "fga": 48,
+        "tpm": 10,
+        "fta": 18,
+        "oreb": 16,
+        "dreb": 21,
+        "turnovers": 18
+      },
+      {
+        "id": "2638",
+        "fgm": 21,
+        "fga": 55,
+        "tpm": 8,
+        "fta": 14,
+        "oreb": 15,
+        "dreb": 19,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401912208": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "44",
+        "fgm": 26,
+        "fga": 56,
+        "tpm": 13,
+        "fta": 12,
+        "oreb": 4,
+        "dreb": 25,
+        "turnovers": 12
+      },
+      {
+        "id": "228",
+        "fgm": 26,
+        "fga": 61,
+        "tpm": 12,
+        "fta": 24,
+        "oreb": 12,
+        "dreb": 28,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401912209": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "44",
+        "fgm": 24,
+        "fga": 43,
+        "tpm": 6,
+        "fta": 16,
+        "oreb": 6,
+        "dreb": 23,
+        "turnovers": 11
+      },
+      {
+        "id": "2182",
+        "fgm": 22,
+        "fga": 49,
+        "tpm": 8,
+        "fta": 17,
+        "oreb": 6,
+        "dreb": 14,
+        "turnovers": 6
+      }
+    ]
+  },
+  "401912228": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "349",
+        "fgm": 22,
+        "fga": 72,
+        "tpm": 7,
+        "fta": 6,
+        "oreb": 19,
+        "dreb": 26,
+        "turnovers": 6
+      },
+      {
+        "id": "2441",
+        "fgm": 20,
+        "fga": 50,
+        "tpm": 7,
+        "fta": 20,
+        "oreb": 7,
+        "dreb": 33,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401913100": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2747",
+        "fgm": 23,
+        "fga": 69,
+        "tpm": 7,
+        "fta": 24,
+        "oreb": 17,
+        "dreb": 25,
+        "turnovers": 13
+      },
+      {
+        "id": "153",
+        "fgm": 38,
+        "fga": 73,
+        "tpm": 10,
+        "fta": 29,
+        "oreb": 14,
+        "dreb": 35,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401913101": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2751",
+        "fgm": 27,
+        "fga": 74,
+        "tpm": 8,
+        "fta": 2,
+        "oreb": 19,
+        "dreb": 24,
+        "turnovers": 12
+      },
+      {
+        "id": "153",
+        "fgm": 29,
+        "fga": 58,
+        "tpm": 9,
+        "fta": 18,
+        "oreb": 10,
+        "dreb": 27,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401913526": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "219",
+        "fgm": 25,
+        "fga": 86,
+        "tpm": 10,
+        "fta": 15,
+        "oreb": 16,
+        "dreb": 17,
+        "turnovers": 9
+      },
+      {
+        "id": "356",
+        "fgm": 43,
+        "fga": 73,
+        "tpm": 10,
+        "fta": 23,
+        "oreb": 15,
+        "dreb": 47,
+        "turnovers": 19
+      }
+    ]
+  },
+  "401913527": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "356",
+        "fgm": 30,
+        "fga": 60,
+        "tpm": 10,
+        "fta": 19,
+        "oreb": 10,
+        "dreb": 22,
+        "turnovers": 16
+      },
+      {
+        "id": "2641",
+        "fgm": 26,
+        "fga": 65,
+        "tpm": 9,
+        "fta": 26,
+        "oreb": 18,
+        "dreb": 25,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401913528": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2534",
+        "fgm": 31,
+        "fga": 73,
+        "tpm": 14,
+        "fta": 15,
+        "oreb": 12,
+        "dreb": 23,
+        "turnovers": 14
+      },
+      {
+        "id": "356",
+        "fgm": 40,
+        "fga": 75,
+        "tpm": 15,
+        "fta": 19,
+        "oreb": 15,
+        "dreb": 30,
+        "turnovers": 6
+      }
+    ]
+  },
+  "401916287": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "91",
+        "fgm": 25,
+        "fga": 52,
+        "tpm": 6,
+        "fta": 20,
+        "oreb": 8,
+        "dreb": 18,
+        "turnovers": 12
+      },
+      {
+        "id": "84",
+        "fgm": 31,
+        "fga": 62,
+        "tpm": 12,
+        "fta": 25,
+        "oreb": 18,
+        "dreb": 24,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401916288": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2635",
+        "fgm": 24,
+        "fga": 70,
+        "tpm": 9,
+        "fta": 16,
+        "oreb": 16,
+        "dreb": 19,
+        "turnovers": 15
+      },
+      {
+        "id": "84",
+        "fgm": 29,
+        "fga": 54,
+        "tpm": 6,
+        "fta": 36,
+        "oreb": 10,
+        "dreb": 31,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401916297": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "258",
+        "fgm": 33,
+        "fga": 53,
+        "tpm": 4,
+        "fta": 27,
+        "oreb": 8,
+        "dreb": 27,
+        "turnovers": 17
+      },
+      {
+        "id": "120",
+        "fgm": 24,
+        "fga": 57,
+        "tpm": 4,
+        "fta": 39,
+        "oreb": 10,
+        "dreb": 16,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401916304": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2900",
+        "fgm": 20,
+        "fga": 59,
+        "tpm": 9,
+        "fta": 18,
+        "oreb": 9,
+        "dreb": 22,
+        "turnovers": 6
+      },
+      {
+        "id": "135",
+        "fgm": 23,
+        "fga": 60,
+        "tpm": 11,
+        "fta": 22,
+        "oreb": 17,
+        "dreb": 33,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401916305": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "135",
+        "fgm": 24,
+        "fga": 56,
+        "tpm": 8,
+        "fta": 11,
+        "oreb": 13,
+        "dreb": 27,
+        "turnovers": 17
+      },
+      {
+        "id": "2132",
+        "fgm": 23,
+        "fga": 56,
+        "tpm": 7,
+        "fta": 12,
+        "oreb": 8,
+        "dreb": 20,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401916306": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2582",
+        "fgm": 24,
+        "fga": 52,
+        "tpm": 5,
+        "fta": 18,
+        "oreb": 4,
+        "dreb": 17,
+        "turnovers": 12
+      },
+      {
+        "id": "135",
+        "fgm": 33,
+        "fga": 55,
+        "tpm": 13,
+        "fta": 18,
+        "oreb": 11,
+        "dreb": 29,
+        "turnovers": 17
+      }
+    ]
+  },
+  "401916314": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2754",
+        "fgm": 23,
+        "fga": 61,
+        "tpm": 9,
+        "fta": 17,
+        "oreb": 9,
+        "dreb": 18,
+        "turnovers": 13
+      },
+      {
+        "id": "194",
+        "fgm": 28,
+        "fga": 59,
+        "tpm": 4,
+        "fta": 34,
+        "oreb": 15,
+        "dreb": 31,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401916315": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "276",
+        "fgm": 29,
+        "fga": 61,
+        "tpm": 5,
+        "fta": 15,
+        "oreb": 8,
+        "dreb": 26,
+        "turnovers": 15
+      },
+      {
+        "id": "194",
+        "fgm": 26,
+        "fga": 59,
+        "tpm": 7,
+        "fta": 35,
+        "oreb": 9,
+        "dreb": 25,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401916316": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "194",
+        "fgm": 24,
+        "fga": 49,
+        "tpm": 4,
+        "fta": 19,
+        "oreb": 7,
+        "dreb": 14,
+        "turnovers": 16
+      },
+      {
+        "id": "41",
+        "fgm": 30,
+        "fga": 49,
+        "tpm": 9,
+        "fta": 23,
+        "oreb": 6,
+        "dreb": 18,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401917176": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2385",
+        "fgm": 20,
+        "fga": 60,
+        "tpm": 6,
+        "fta": 13,
+        "oreb": 9,
+        "dreb": 24,
+        "turnovers": 9
+      },
+      {
+        "id": "213",
+        "fgm": 25,
+        "fga": 49,
+        "tpm": 6,
+        "fta": 27,
+        "oreb": 8,
+        "dreb": 31,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401917177": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "236",
+        "fgm": 34,
+        "fga": 66,
+        "tpm": 11,
+        "fta": 23,
+        "oreb": 13,
+        "dreb": 17,
+        "turnovers": 11
+      },
+      {
+        "id": "213",
+        "fgm": 24,
+        "fga": 53,
+        "tpm": 6,
+        "fta": 49,
+        "oreb": 15,
+        "dreb": 25,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401917515": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2627",
+        "fgm": 27,
+        "fga": 52,
+        "tpm": 10,
+        "fta": 39,
+        "oreb": 9,
+        "dreb": 22,
+        "turnovers": 18
+      },
+      {
+        "id": "301",
+        "fgm": 25,
+        "fga": 65,
+        "tpm": 12,
+        "fta": 39,
+        "oreb": 18,
+        "dreb": 18,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401917517": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2502",
+        "fgm": 20,
+        "fga": 57,
+        "tpm": 5,
+        "fta": 24,
+        "oreb": 12,
+        "dreb": 18,
+        "turnovers": 13
+      },
+      {
+        "id": "2547",
+        "fgm": 27,
+        "fga": 52,
+        "tpm": 4,
+        "fta": 30,
+        "oreb": 11,
+        "dreb": 28,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401917518": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "279",
+        "fgm": 22,
+        "fga": 52,
+        "tpm": 6,
+        "fta": 18,
+        "oreb": 13,
+        "dreb": 28,
+        "turnovers": 15
+      },
+      {
+        "id": "71",
+        "fgm": 17,
+        "fga": 59,
+        "tpm": 7,
+        "fta": 15,
+        "oreb": 17,
+        "dreb": 20,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401917520": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2351",
+        "fgm": 27,
+        "fga": 74,
+        "tpm": 8,
+        "fta": 13,
+        "oreb": 17,
+        "dreb": 27,
+        "turnovers": 7
+      },
+      {
+        "id": "2653",
+        "fgm": 25,
+        "fga": 56,
+        "tpm": 7,
+        "fta": 27,
+        "oreb": 11,
+        "dreb": 33,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401917521": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2636",
+        "fgm": 30,
+        "fga": 59,
+        "tpm": 9,
+        "fta": 21,
+        "oreb": 9,
+        "dreb": 31,
+        "turnovers": 12
+      },
+      {
+        "id": "2547",
+        "fgm": 19,
+        "fga": 54,
+        "tpm": 5,
+        "fta": 30,
+        "oreb": 10,
+        "dreb": 23,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401917522": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2541",
+        "fgm": 27,
+        "fga": 63,
+        "tpm": 8,
+        "fta": 17,
+        "oreb": 16,
+        "dreb": 25,
+        "turnovers": 17
+      },
+      {
+        "id": "249",
+        "fgm": 26,
+        "fga": 56,
+        "tpm": 3,
+        "fta": 25,
+        "oreb": 10,
+        "dreb": 23,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401917523": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "279",
+        "fgm": 24,
+        "fga": 61,
+        "tpm": 3,
+        "fta": 11,
+        "oreb": 14,
+        "dreb": 28,
+        "turnovers": 15
+      },
+      {
+        "id": "299",
+        "fgm": 19,
+        "fga": 49,
+        "tpm": 5,
+        "fta": 29,
+        "oreb": 7,
+        "dreb": 22,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401917524": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2351",
+        "fgm": 28,
+        "fga": 60,
+        "tpm": 7,
+        "fta": 11,
+        "oreb": 14,
+        "dreb": 19,
+        "turnovers": 10
+      },
+      {
+        "id": "6",
+        "fgm": 28,
+        "fga": 52,
+        "tpm": 9,
+        "fta": 19,
+        "oreb": 5,
+        "dreb": 16,
+        "turnovers": 6
+      }
+    ]
+  },
+  "401917525": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "82",
+        "fgm": 20,
+        "fga": 55,
+        "tpm": 5,
+        "fta": 21,
+        "oreb": 10,
+        "dreb": 16,
+        "turnovers": 12
+      },
+      {
+        "id": "2608",
+        "fgm": 33,
+        "fga": 61,
+        "tpm": 12,
+        "fta": 8,
+        "oreb": 14,
+        "dreb": 27,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401917526": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2130",
+        "fgm": 24,
+        "fga": 46,
+        "tpm": 8,
+        "fta": 20,
+        "oreb": 10,
+        "dreb": 14,
+        "turnovers": 17
+      },
+      {
+        "id": "301",
+        "fgm": 30,
+        "fga": 52,
+        "tpm": 11,
+        "fta": 22,
+        "oreb": 10,
+        "dreb": 17,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401917527": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2837",
+        "fgm": 33,
+        "fga": 72,
+        "tpm": 14,
+        "fta": 23,
+        "oreb": 14,
+        "dreb": 26,
+        "turnovers": 19
+      },
+      {
+        "id": "2501",
+        "fgm": 28,
+        "fga": 60,
+        "tpm": 6,
+        "fta": 36,
+        "oreb": 11,
+        "dreb": 26,
+        "turnovers": 20
+      }
+    ]
+  },
+  "401917901": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2427",
+        "fgm": 24,
+        "fga": 51,
+        "tpm": 8,
+        "fta": 24,
+        "oreb": 3,
+        "dreb": 29,
+        "turnovers": 12
+      },
+      {
+        "id": "2698",
+        "fgm": 26,
+        "fga": 71,
+        "tpm": 4,
+        "fta": 25,
+        "oreb": 23,
+        "dreb": 29,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401917914": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2110",
+        "fgm": 19,
+        "fga": 50,
+        "tpm": 9,
+        "fta": 21,
+        "oreb": 7,
+        "dreb": 26,
+        "turnovers": 18
+      },
+      {
+        "id": "145",
+        "fgm": 36,
+        "fga": 70,
+        "tpm": 10,
+        "fta": 14,
+        "oreb": 11,
+        "dreb": 28,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401917916": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2110",
+        "fgm": 25,
+        "fga": 58,
+        "tpm": 8,
+        "fta": 14,
+        "oreb": 8,
+        "dreb": 22,
+        "turnovers": 13
+      },
+      {
+        "id": "8",
+        "fgm": 29,
+        "fga": 56,
+        "tpm": 9,
+        "fta": 16,
+        "oreb": 5,
+        "dreb": 28,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401917962": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2320",
+        "fgm": 28,
+        "fga": 58,
+        "tpm": 9,
+        "fta": 27,
+        "oreb": 10,
+        "dreb": 22,
+        "turnovers": 15
+      },
+      {
+        "id": "2000",
+        "fgm": 30,
+        "fga": 59,
+        "tpm": 10,
+        "fta": 22,
+        "oreb": 11,
+        "dreb": 25,
+        "turnovers": 17
+      }
+    ]
+  },
+  "401917963": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2617",
+        "fgm": 28,
+        "fga": 56,
+        "tpm": 5,
+        "fta": 24,
+        "oreb": 11,
+        "dreb": 24,
+        "turnovers": 8
+      },
+      {
+        "id": "2000",
+        "fgm": 23,
+        "fga": 55,
+        "tpm": 5,
+        "fta": 28,
+        "oreb": 14,
+        "dreb": 25,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401917978": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2433",
+        "fgm": 22,
+        "fga": 65,
+        "tpm": 9,
+        "fta": 22,
+        "oreb": 15,
+        "dreb": 25,
+        "turnovers": 21
+      },
+      {
+        "id": "245",
+        "fgm": 38,
+        "fga": 73,
+        "tpm": 9,
+        "fta": 29,
+        "oreb": 13,
+        "dreb": 33,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401917979": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2433",
+        "fgm": 34,
+        "fga": 66,
+        "tpm": 11,
+        "fta": 19,
+        "oreb": 13,
+        "dreb": 35,
+        "turnovers": 24
+      },
+      {
+        "id": "2628",
+        "fgm": 29,
+        "fga": 76,
+        "tpm": 10,
+        "fta": 46,
+        "oreb": 17,
+        "dreb": 20,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401917980": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2433",
+        "fgm": 20,
+        "fga": 59,
+        "tpm": 6,
+        "fta": 19,
+        "oreb": 12,
+        "dreb": 23,
+        "turnovers": 14
+      },
+      {
+        "id": "9",
+        "fgm": 34,
+        "fga": 75,
+        "tpm": 15,
+        "fta": 13,
+        "oreb": 20,
+        "dreb": 28,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401918053": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "25",
+        "fgm": 25,
+        "fga": 57,
+        "tpm": 9,
+        "fta": 14,
+        "oreb": 10,
+        "dreb": 21,
+        "turnovers": 16
+      },
+      {
+        "id": "248",
+        "fgm": 35,
+        "fga": 68,
+        "tpm": 6,
+        "fta": 11,
+        "oreb": 12,
+        "dreb": 24,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401918054": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "30",
+        "fgm": 26,
+        "fga": 64,
+        "tpm": 6,
+        "fta": 25,
+        "oreb": 19,
+        "dreb": 34,
+        "turnovers": 12
+      },
+      {
+        "id": "25",
+        "fgm": 23,
+        "fga": 66,
+        "tpm": 4,
+        "fta": 21,
+        "oreb": 14,
+        "dreb": 22,
+        "turnovers": 7
+      }
+    ]
+  },
+  "401918074": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "155",
+        "fgm": 28,
+        "fga": 62,
+        "tpm": 13,
+        "fta": 13,
+        "oreb": 10,
+        "dreb": 12,
+        "turnovers": 6
+      },
+      {
+        "id": "228",
+        "fgm": 31,
+        "fga": 47,
+        "tpm": 9,
+        "fta": 26,
+        "oreb": 8,
+        "dreb": 24,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401918452": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2729",
+        "fgm": 37,
+        "fga": 74,
+        "tpm": 5,
+        "fta": 19,
+        "oreb": 11,
+        "dreb": 17,
+        "turnovers": 3
+      },
+      {
+        "id": "2226",
+        "fgm": 33,
+        "fga": 63,
+        "tpm": 13,
+        "fta": 19,
+        "oreb": 15,
+        "dreb": 29,
+        "turnovers": 18
+      }
+    ]
+  },
+  "401918956": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2193",
+        "fgm": 24,
+        "fga": 48,
+        "tpm": 8,
+        "fta": 10,
+        "oreb": 5,
+        "dreb": 20,
+        "turnovers": 14
+      },
+      {
+        "id": "152",
+        "fgm": 26,
+        "fga": 58,
+        "tpm": 13,
+        "fta": 12,
+        "oreb": 12,
+        "dreb": 21,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401918957": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2506",
+        "fgm": 21,
+        "fga": 56,
+        "tpm": 4,
+        "fta": 28,
+        "oreb": 12,
+        "dreb": 20,
+        "turnovers": 13
+      },
+      {
+        "id": "152",
+        "fgm": 36,
+        "fga": 73,
+        "tpm": 10,
+        "fta": 17,
+        "oreb": 20,
+        "dreb": 32,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401918958": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2653",
+        "fgm": 20,
+        "fga": 58,
+        "tpm": 8,
+        "fta": 19,
+        "oreb": 11,
+        "dreb": 20,
+        "turnovers": 7
+      },
+      {
+        "id": "152",
+        "fgm": 25,
+        "fga": 58,
+        "tpm": 11,
+        "fta": 24,
+        "oreb": 15,
+        "dreb": 29,
+        "turnovers": 7
+      }
+    ]
+  },
+  "401918968": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2678",
+        "fgm": 18,
+        "fga": 63,
+        "tpm": 5,
+        "fta": 33,
+        "oreb": 13,
+        "dreb": 23,
+        "turnovers": 19
+      },
+      {
+        "id": "2567",
+        "fgm": 33,
+        "fga": 62,
+        "tpm": 14,
+        "fta": 21,
+        "oreb": 8,
+        "dreb": 30,
+        "turnovers": 19
+      }
+    ]
+  },
+  "401918969": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2504",
+        "fgm": 23,
+        "fga": 66,
+        "tpm": 6,
+        "fta": 13,
+        "oreb": 11,
+        "dreb": 21,
+        "turnovers": 15
+      },
+      {
+        "id": "2567",
+        "fgm": 32,
+        "fga": 63,
+        "tpm": 6,
+        "fta": 36,
+        "oreb": 14,
+        "dreb": 33,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401918977": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "350",
+        "fgm": 25,
+        "fga": 58,
+        "tpm": 9,
+        "fta": 35,
+        "oreb": 13,
+        "dreb": 35,
+        "turnovers": 19
+      },
+      {
+        "id": "151",
+        "fgm": 23,
+        "fga": 62,
+        "tpm": 9,
+        "fta": 24,
+        "oreb": 7,
+        "dreb": 24,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401918986": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2670",
+        "fgm": 26,
+        "fga": 54,
+        "tpm": 13,
+        "fta": 27,
+        "oreb": 7,
+        "dreb": 21,
+        "turnovers": 13
+      },
+      {
+        "id": "235",
+        "fgm": 27,
+        "fga": 54,
+        "tpm": 10,
+        "fta": 38,
+        "oreb": 8,
+        "dreb": 22,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401918987": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "235",
+        "fgm": 27,
+        "fga": 63,
+        "tpm": 4,
+        "fta": 34,
+        "oreb": 12,
+        "dreb": 17,
+        "turnovers": 6
+      },
+      {
+        "id": "238",
+        "fgm": 36,
+        "fga": 63,
+        "tpm": 15,
+        "fta": 24,
+        "oreb": 12,
+        "dreb": 32,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401918992": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "58",
+        "fgm": 28,
+        "fga": 62,
+        "tpm": 8,
+        "fta": 20,
+        "oreb": 17,
+        "dreb": 35,
+        "turnovers": 23
+      },
+      {
+        "id": "2603",
+        "fgm": 24,
+        "fga": 69,
+        "tpm": 12,
+        "fta": 34,
+        "oreb": 16,
+        "dreb": 20,
+        "turnovers": 6
+      }
+    ]
+  },
+  "401919002": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2296",
+        "fgm": 29,
+        "fga": 62,
+        "tpm": 9,
+        "fta": 24,
+        "oreb": 7,
+        "dreb": 21,
+        "turnovers": 10
+      },
+      {
+        "id": "2655",
+        "fgm": 28,
+        "fga": 59,
+        "tpm": 8,
+        "fta": 30,
+        "oreb": 12,
+        "dreb": 27,
+        "turnovers": 17
+      }
+    ]
+  },
+  "401919003": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2447",
+        "fgm": 23,
+        "fga": 53,
+        "tpm": 4,
+        "fta": 17,
+        "oreb": 8,
+        "dreb": 21,
+        "turnovers": 12
+      },
+      {
+        "id": "2655",
+        "fgm": 19,
+        "fga": 44,
+        "tpm": 9,
+        "fta": 38,
+        "oreb": 9,
+        "dreb": 25,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401919015": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2447",
+        "fgm": 23,
+        "fga": 72,
+        "tpm": 8,
+        "fta": 16,
+        "oreb": 15,
+        "dreb": 23,
+        "turnovers": 8
+      },
+      {
+        "id": "5",
+        "fgm": 21,
+        "fga": 55,
+        "tpm": 6,
+        "fta": 28,
+        "oreb": 12,
+        "dreb": 38,
+        "turnovers": 17
+      }
+    ]
+  },
+  "401919016": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "50",
+        "fgm": 25,
+        "fga": 56,
+        "tpm": 6,
+        "fta": 23,
+        "oreb": 7,
+        "dreb": 26,
+        "turnovers": 13
+      },
+      {
+        "id": "5",
+        "fgm": 31,
+        "fga": 75,
+        "tpm": 12,
+        "fta": 21,
+        "oreb": 19,
+        "dreb": 30,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401919040": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2511",
+        "fgm": 24,
+        "fga": 68,
+        "tpm": 7,
+        "fta": 18,
+        "oreb": 15,
+        "dreb": 16,
+        "turnovers": 18
+      },
+      {
+        "id": "197",
+        "fgm": 44,
+        "fga": 71,
+        "tpm": 16,
+        "fta": 19,
+        "oreb": 13,
+        "dreb": 28,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401919041": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "197",
+        "fgm": 20,
+        "fga": 66,
+        "tpm": 6,
+        "fta": 29,
+        "oreb": 20,
+        "dreb": 18,
+        "turnovers": 16
+      },
+      {
+        "id": "245",
+        "fgm": 26,
+        "fga": 51,
+        "tpm": 12,
+        "fta": 34,
+        "oreb": 11,
+        "dreb": 27,
+        "turnovers": 19
+      }
+    ]
+  },
+  "401919048": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2582",
+        "fgm": 19,
+        "fga": 55,
+        "tpm": 2,
+        "fta": 18,
+        "oreb": 13,
+        "dreb": 17,
+        "turnovers": 22
+      },
+      {
+        "id": "2628",
+        "fgm": 32,
+        "fga": 65,
+        "tpm": 13,
+        "fta": 34,
+        "oreb": 19,
+        "dreb": 24,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401919049": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "270",
+        "fgm": 26,
+        "fga": 64,
+        "tpm": 5,
+        "fta": 9,
+        "oreb": 9,
+        "dreb": 32,
+        "turnovers": 15
+      },
+      {
+        "id": "2628",
+        "fgm": 23,
+        "fga": 64,
+        "tpm": 4,
+        "fta": 36,
+        "oreb": 15,
+        "dreb": 31,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401919732": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2130",
+        "fgm": 24,
+        "fga": 56,
+        "tpm": 3,
+        "fta": 21,
+        "oreb": 13,
+        "dreb": 34,
+        "turnovers": 21
+      },
+      {
+        "id": "2916",
+        "fgm": 14,
+        "fga": 53,
+        "tpm": 3,
+        "fta": 35,
+        "oreb": 12,
+        "dreb": 23,
+        "turnovers": 19
+      }
+    ]
+  },
+  "401919734": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2130",
+        "fgm": 28,
+        "fga": 55,
+        "tpm": 10,
+        "fta": 19,
+        "oreb": 14,
+        "dreb": 24,
+        "turnovers": 11
+      },
+      {
+        "id": "2856",
+        "fgm": 20,
+        "fga": 53,
+        "tpm": 10,
+        "fta": 17,
+        "oreb": 13,
+        "dreb": 15,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401919759": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "161",
+        "fgm": 26,
+        "fga": 64,
+        "tpm": 7,
+        "fta": 26,
+        "oreb": 20,
+        "dreb": 26,
+        "turnovers": 14
+      },
+      {
+        "id": "2837",
+        "fgm": 25,
+        "fga": 63,
+        "tpm": 12,
+        "fta": 20,
+        "oreb": 15,
+        "dreb": 21,
+        "turnovers": 16
+      }
+    ]
+  },
+  "401919804": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "112358",
+        "fgm": 20,
+        "fga": 55,
+        "tpm": 5,
+        "fta": 18,
+        "oreb": 7,
+        "dreb": 22,
+        "turnovers": 13
+      },
+      {
+        "id": "2550",
+        "fgm": 20,
+        "fga": 49,
+        "tpm": 6,
+        "fta": 28,
+        "oreb": 9,
+        "dreb": 30,
+        "turnovers": 16
+      }
+    ]
+  },
+  "401919805": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "112358",
+        "fgm": 29,
+        "fga": 64,
+        "tpm": 7,
+        "fta": 18,
+        "oreb": 14,
+        "dreb": 22,
+        "turnovers": 17
+      },
+      {
+        "id": "2325",
+        "fgm": 28,
+        "fga": 63,
+        "tpm": 13,
+        "fta": 28,
+        "oreb": 16,
+        "dreb": 23,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401919806": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "112358",
+        "fgm": 15,
+        "fga": 54,
+        "tpm": 3,
+        "fta": 18,
+        "oreb": 10,
+        "dreb": 20,
+        "turnovers": 15
+      },
+      {
+        "id": "119",
+        "fgm": 24,
+        "fga": 51,
+        "tpm": 6,
+        "fta": 27,
+        "oreb": 15,
+        "dreb": 31,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401919823": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2385",
+        "fgm": 19,
+        "fga": 51,
+        "tpm": 7,
+        "fta": 14,
+        "oreb": 5,
+        "dreb": 17,
+        "turnovers": 11
+      },
+      {
+        "id": "87",
+        "fgm": 28,
+        "fga": 52,
+        "tpm": 15,
+        "fta": 14,
+        "oreb": 9,
+        "dreb": 26,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401919846": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "284",
+        "fgm": 18,
+        "fga": 48,
+        "tpm": 6,
+        "fta": 22,
+        "oreb": 8,
+        "dreb": 27,
+        "turnovers": 14
+      },
+      {
+        "id": "171",
+        "fgm": 27,
+        "fga": 69,
+        "tpm": 14,
+        "fta": 12,
+        "oreb": 18,
+        "dreb": 27,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401920062": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2405",
+        "fgm": 25,
+        "fga": 58,
+        "tpm": 4,
+        "fta": 18,
+        "oreb": 7,
+        "dreb": 24,
+        "turnovers": 13
+      },
+      {
+        "id": "227",
+        "fgm": 31,
+        "fga": 65,
+        "tpm": 11,
+        "fta": 17,
+        "oreb": 12,
+        "dreb": 27,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401920063": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "311",
+        "fgm": 20,
+        "fga": 44,
+        "tpm": 7,
+        "fta": 26,
+        "oreb": 3,
+        "dreb": 27,
+        "turnovers": 18
+      },
+      {
+        "id": "227",
+        "fgm": 20,
+        "fga": 56,
+        "tpm": 9,
+        "fta": 28,
+        "oreb": 12,
+        "dreb": 26,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401920064": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2379",
+        "fgm": 19,
+        "fga": 55,
+        "tpm": 2,
+        "fta": 9,
+        "oreb": 8,
+        "dreb": 22,
+        "turnovers": 9
+      },
+      {
+        "id": "227",
+        "fgm": 21,
+        "fga": 57,
+        "tpm": 8,
+        "fta": 20,
+        "oreb": 15,
+        "dreb": 28,
+        "turnovers": 7
+      }
+    ]
+  },
+  "401920072": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2154",
+        "fgm": 18,
+        "fga": 47,
+        "tpm": 4,
+        "fta": 14,
+        "oreb": 7,
+        "dreb": 20,
+        "turnovers": 18
+      },
+      {
+        "id": "2244",
+        "fgm": 23,
+        "fga": 51,
+        "tpm": 3,
+        "fta": 25,
+        "oreb": 10,
+        "dreb": 21,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401920073": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "140",
+        "fgm": 23,
+        "fga": 50,
+        "tpm": 8,
+        "fta": 15,
+        "oreb": 4,
+        "dreb": 20,
+        "turnovers": 14
+      },
+      {
+        "id": "2244",
+        "fgm": 24,
+        "fga": 48,
+        "tpm": 6,
+        "fta": 30,
+        "oreb": 8,
+        "dreb": 24,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401920123": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "13",
+        "fgm": 27,
+        "fga": 68,
+        "tpm": 11,
+        "fta": 23,
+        "oreb": 12,
+        "dreb": 28,
+        "turnovers": 8
+      },
+      {
+        "id": "70",
+        "fgm": 27,
+        "fga": 62,
+        "tpm": 10,
+        "fta": 20,
+        "oreb": 12,
+        "dreb": 31,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401920192": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "322",
+        "fgm": 20,
+        "fga": 56,
+        "tpm": 7,
+        "fta": 11,
+        "oreb": 6,
+        "dreb": 35,
+        "turnovers": 25
+      },
+      {
+        "id": "2603",
+        "fgm": 23,
+        "fga": 66,
+        "tpm": 3,
+        "fta": 31,
+        "oreb": 10,
+        "dreb": 27,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401920202": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2885",
+        "fgm": 15,
+        "fga": 60,
+        "tpm": 5,
+        "fta": 21,
+        "oreb": 16,
+        "dreb": 21,
+        "turnovers": 13
+      },
+      {
+        "id": "2670",
+        "fgm": 29,
+        "fga": 59,
+        "tpm": 7,
+        "fta": 33,
+        "oreb": 16,
+        "dreb": 33,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401920233": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2115",
+        "fgm": 29,
+        "fga": 58,
+        "tpm": 9,
+        "fta": 13,
+        "oreb": 9,
+        "dreb": 24,
+        "turnovers": 13
+      },
+      {
+        "id": "159",
+        "fgm": 25,
+        "fga": 65,
+        "tpm": 7,
+        "fta": 20,
+        "oreb": 15,
+        "dreb": 18,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401920234": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "159",
+        "fgm": 29,
+        "fga": 56,
+        "tpm": 13,
+        "fta": 17,
+        "oreb": 11,
+        "dreb": 22,
+        "turnovers": 17
+      },
+      {
+        "id": "399",
+        "fgm": 31,
+        "fga": 66,
+        "tpm": 5,
+        "fta": 10,
+        "oreb": 13,
+        "dreb": 18,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401920305": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "290",
+        "fgm": 28,
+        "fga": 73,
+        "tpm": 10,
+        "fta": 32,
+        "oreb": 24,
+        "dreb": 21,
+        "turnovers": 12
+      },
+      {
+        "id": "59",
+        "fgm": 25,
+        "fga": 49,
+        "tpm": 9,
+        "fta": 47,
+        "oreb": 9,
+        "dreb": 25,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401920344": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2856",
+        "fgm": 24,
+        "fga": 53,
+        "tpm": 9,
+        "fta": 17,
+        "oreb": 6,
+        "dreb": 17,
+        "turnovers": 12
+      },
+      {
+        "id": "204",
+        "fgm": 38,
+        "fga": 68,
+        "tpm": 12,
+        "fta": 8,
+        "oreb": 12,
+        "dreb": 23,
+        "turnovers": 6
+      }
+    ]
+  },
+  "401920345": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2029",
+        "fgm": 23,
+        "fga": 56,
+        "tpm": 2,
+        "fta": 15,
+        "oreb": 12,
+        "dreb": 23,
+        "turnovers": 12
+      },
+      {
+        "id": "2856",
+        "fgm": 19,
+        "fga": 49,
+        "tpm": 5,
+        "fta": 36,
+        "oreb": 9,
+        "dreb": 22,
+        "turnovers": 7
+      }
+    ]
+  },
+  "401920356": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "108",
+        "fgm": 26,
+        "fga": 63,
+        "tpm": 6,
+        "fta": 19,
+        "oreb": 8,
+        "dreb": 28,
+        "turnovers": 10
+      },
+      {
+        "id": "111",
+        "fgm": 28,
+        "fga": 65,
+        "tpm": 6,
+        "fta": 14,
+        "oreb": 9,
+        "dreb": 32,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401920372": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "28",
+        "fgm": 30,
+        "fga": 67,
+        "tpm": 13,
+        "fta": 11,
+        "oreb": 7,
+        "dreb": 19,
+        "turnovers": 13
+      },
+      {
+        "id": "328",
+        "fgm": 42,
+        "fga": 68,
+        "tpm": 21,
+        "fta": 18,
+        "oreb": 7,
+        "dreb": 31,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401920377": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2382",
+        "fgm": 22,
+        "fga": 54,
+        "tpm": 6,
+        "fta": 27,
+        "oreb": 10,
+        "dreb": 24,
+        "turnovers": 18
+      },
+      {
+        "id": "259",
+        "fgm": 34,
+        "fga": 70,
+        "tpm": 8,
+        "fta": 26,
+        "oreb": 14,
+        "dreb": 25,
+        "turnovers": 4
+      }
+    ]
+  },
+  "401920378": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "259",
+        "fgm": 30,
+        "fga": 56,
+        "tpm": 7,
+        "fta": 33,
+        "oreb": 9,
+        "dreb": 17,
+        "turnovers": 12
+      },
+      {
+        "id": "2294",
+        "fgm": 26,
+        "fga": 52,
+        "tpm": 5,
+        "fta": 47,
+        "oreb": 18,
+        "dreb": 22,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401920379": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "116",
+        "fgm": 22,
+        "fga": 48,
+        "tpm": 5,
+        "fta": 20,
+        "oreb": 9,
+        "dreb": 23,
+        "turnovers": 23
+      },
+      {
+        "id": "259",
+        "fgm": 27,
+        "fga": 67,
+        "tpm": 9,
+        "fta": 29,
+        "oreb": 21,
+        "dreb": 20,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401920411": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "265",
+        "fgm": 24,
+        "fga": 53,
+        "tpm": 12,
+        "fta": 14,
+        "oreb": 13,
+        "dreb": 16,
+        "turnovers": 16
+      },
+      {
+        "id": "2272",
+        "fgm": 27,
+        "fga": 46,
+        "tpm": 8,
+        "fta": 29,
+        "oreb": 8,
+        "dreb": 19,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401920412": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "253",
+        "fgm": 22,
+        "fga": 57,
+        "tpm": 6,
+        "fta": 19,
+        "oreb": 17,
+        "dreb": 19,
+        "turnovers": 25
+      },
+      {
+        "id": "2272",
+        "fgm": 35,
+        "fga": 72,
+        "tpm": 3,
+        "fta": 24,
+        "oreb": 21,
+        "dreb": 25,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401920423": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "111",
+        "fgm": 24,
+        "fga": 52,
+        "tpm": 6,
+        "fta": 22,
+        "oreb": 5,
+        "dreb": 22,
+        "turnovers": 19
+      },
+      {
+        "id": "258",
+        "fgm": 34,
+        "fga": 63,
+        "tpm": 12,
+        "fta": 21,
+        "oreb": 11,
+        "dreb": 26,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401920424": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "8",
+        "fgm": 27,
+        "fga": 59,
+        "tpm": 7,
+        "fta": 18,
+        "oreb": 15,
+        "dreb": 21,
+        "turnovers": 15
+      },
+      {
+        "id": "258",
+        "fgm": 32,
+        "fga": 69,
+        "tpm": 12,
+        "fta": 20,
+        "oreb": 19,
+        "dreb": 21,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401920425": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2083",
+        "fgm": 20,
+        "fga": 57,
+        "tpm": 11,
+        "fta": 14,
+        "oreb": 11,
+        "dreb": 18,
+        "turnovers": 16
+      },
+      {
+        "id": "258",
+        "fgm": 37,
+        "fga": 73,
+        "tpm": 12,
+        "fta": 16,
+        "oreb": 23,
+        "dreb": 29,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401920566": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2352",
+        "fgm": 24,
+        "fga": 60,
+        "tpm": 6,
+        "fta": 7,
+        "oreb": 10,
+        "dreb": 19,
+        "turnovers": 16
+      },
+      {
+        "id": "119",
+        "fgm": 37,
+        "fga": 64,
+        "tpm": 6,
+        "fta": 19,
+        "oreb": 13,
+        "dreb": 27,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401920680": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2142",
+        "fgm": 23,
+        "fga": 61,
+        "tpm": 7,
+        "fta": 11,
+        "oreb": 13,
+        "dreb": 21,
+        "turnovers": 19
+      },
+      {
+        "id": "2599",
+        "fgm": 30,
+        "fga": 62,
+        "tpm": 12,
+        "fta": 23,
+        "oreb": 13,
+        "dreb": 26,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401920685": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "41",
+        "fgm": 23,
+        "fga": 55,
+        "tpm": 9,
+        "fta": 36,
+        "oreb": 9,
+        "dreb": 24,
+        "turnovers": 12
+      },
+      {
+        "id": "130",
+        "fgm": 26,
+        "fga": 63,
+        "tpm": 7,
+        "fta": 23,
+        "oreb": 13,
+        "dreb": 22,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401920686": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2681",
+        "fgm": 17,
+        "fga": 51,
+        "tpm": 4,
+        "fta": 4,
+        "oreb": 15,
+        "dreb": 18,
+        "turnovers": 26
+      },
+      {
+        "id": "41",
+        "fgm": 28,
+        "fga": 64,
+        "tpm": 9,
+        "fta": 24,
+        "oreb": 22,
+        "dreb": 17,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401920691": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "261",
+        "fgm": 31,
+        "fga": 58,
+        "tpm": 8,
+        "fta": 14,
+        "oreb": 12,
+        "dreb": 27,
+        "turnovers": 14
+      },
+      {
+        "id": "2217",
+        "fgm": 24,
+        "fga": 61,
+        "tpm": 4,
+        "fta": 16,
+        "oreb": 11,
+        "dreb": 19,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401920692": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2514",
+        "fgm": 27,
+        "fga": 63,
+        "tpm": 11,
+        "fta": 17,
+        "oreb": 11,
+        "dreb": 19,
+        "turnovers": 2
+      },
+      {
+        "id": "261",
+        "fgm": 27,
+        "fga": 53,
+        "tpm": 5,
+        "fta": 25,
+        "oreb": 11,
+        "dreb": 26,
+        "turnovers": 7
+      }
+    ]
+  },
+  "401920703": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2565",
+        "fgm": 33,
+        "fga": 67,
+        "tpm": 4,
+        "fta": 10,
+        "oreb": 10,
+        "dreb": 21,
+        "turnovers": 11
+      },
+      {
+        "id": "288",
+        "fgm": 24,
+        "fga": 54,
+        "tpm": 8,
+        "fta": 29,
+        "oreb": 10,
+        "dreb": 26,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401920704": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2057",
+        "fgm": 30,
+        "fga": 66,
+        "tpm": 6,
+        "fta": 12,
+        "oreb": 14,
+        "dreb": 23,
+        "turnovers": 13
+      },
+      {
+        "id": "288",
+        "fgm": 35,
+        "fga": 64,
+        "tpm": 9,
+        "fta": 10,
+        "oreb": 6,
+        "dreb": 24,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401920717": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "331",
+        "fgm": 26,
+        "fga": 58,
+        "tpm": 5,
+        "fta": 23,
+        "oreb": 9,
+        "dreb": 15,
+        "turnovers": 13
+      },
+      {
+        "id": "2483",
+        "fgm": 39,
+        "fga": 65,
+        "tpm": 9,
+        "fta": 15,
+        "oreb": 10,
+        "dreb": 28,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401920718": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "331",
+        "fgm": 32,
+        "fga": 75,
+        "tpm": 8,
+        "fta": 15,
+        "oreb": 16,
+        "dreb": 21,
+        "turnovers": 10
+      },
+      {
+        "id": "204",
+        "fgm": 23,
+        "fga": 51,
+        "tpm": 12,
+        "fta": 44,
+        "oreb": 9,
+        "dreb": 28,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401920726": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2197",
+        "fgm": 17,
+        "fga": 52,
+        "tpm": 0,
+        "fta": 20,
+        "oreb": 11,
+        "dreb": 13,
+        "turnovers": 13
+      },
+      {
+        "id": "2294",
+        "fgm": 33,
+        "fga": 52,
+        "tpm": 14,
+        "fta": 17,
+        "oreb": 9,
+        "dreb": 30,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401920733": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2619",
+        "fgm": 20,
+        "fga": 51,
+        "tpm": 7,
+        "fta": 25,
+        "oreb": 10,
+        "dreb": 17,
+        "turnovers": 9
+      },
+      {
+        "id": "77",
+        "fgm": 25,
+        "fga": 52,
+        "tpm": 12,
+        "fta": 19,
+        "oreb": 11,
+        "dreb": 25,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401920739": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2097",
+        "fgm": 26,
+        "fga": 57,
+        "tpm": 7,
+        "fta": 17,
+        "oreb": 8,
+        "dreb": 19,
+        "turnovers": 8
+      },
+      {
+        "id": "2711",
+        "fgm": 30,
+        "fga": 57,
+        "tpm": 13,
+        "fta": 18,
+        "oreb": 10,
+        "dreb": 23,
+        "turnovers": 7
+      }
+    ]
+  },
+  "401920740": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2097",
+        "fgm": 19,
+        "fga": 55,
+        "tpm": 6,
+        "fta": 11,
+        "oreb": 7,
+        "dreb": 19,
+        "turnovers": 7
+      },
+      {
+        "id": "2193",
+        "fgm": 24,
+        "fga": 57,
+        "tpm": 12,
+        "fta": 14,
+        "oreb": 18,
+        "dreb": 29,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401920747": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "43",
+        "fgm": 32,
+        "fga": 71,
+        "tpm": 8,
+        "fta": 2,
+        "oreb": 14,
+        "dreb": 18,
+        "turnovers": 6
+      },
+      {
+        "id": "111",
+        "fgm": 29,
+        "fga": 54,
+        "tpm": 15,
+        "fta": 13,
+        "oreb": 8,
+        "dreb": 26,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401920770": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2142",
+        "fgm": 27,
+        "fga": 71,
+        "tpm": 13,
+        "fta": 10,
+        "oreb": 13,
+        "dreb": 31,
+        "turnovers": 9
+      },
+      {
+        "id": "2182",
+        "fgm": 25,
+        "fga": 60,
+        "tpm": 8,
+        "fta": 22,
+        "oreb": 7,
+        "dreb": 32,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401920799": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2026",
+        "fgm": 18,
+        "fga": 56,
+        "tpm": 7,
+        "fta": 16,
+        "oreb": 13,
+        "dreb": 22,
+        "turnovers": 11
+      },
+      {
+        "id": "2",
+        "fgm": 25,
+        "fga": 61,
+        "tpm": 8,
+        "fta": 23,
+        "oreb": 16,
+        "dreb": 24,
+        "turnovers": 6
+      }
+    ]
+  },
+  "401920807": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "94",
+        "fgm": 20,
+        "fga": 58,
+        "tpm": 7,
+        "fta": 25,
+        "oreb": 12,
+        "dreb": 26,
+        "turnovers": 23
+      },
+      {
+        "id": "245",
+        "fgm": 41,
+        "fga": 75,
+        "tpm": 12,
+        "fta": 17,
+        "oreb": 11,
+        "dreb": 28,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401920816": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2545",
+        "fgm": 27,
+        "fga": 51,
+        "tpm": 13,
+        "fta": 22,
+        "oreb": 8,
+        "dreb": 19,
+        "turnovers": 14
+      },
+      {
+        "id": "2031",
+        "fgm": 26,
+        "fga": 58,
+        "tpm": 7,
+        "fta": 24,
+        "oreb": 15,
+        "dreb": 19,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401920817": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2545",
+        "fgm": 18,
+        "fga": 51,
+        "tpm": 3,
+        "fta": 19,
+        "oreb": 12,
+        "dreb": 21,
+        "turnovers": 23
+      },
+      {
+        "id": "145",
+        "fgm": 34,
+        "fga": 66,
+        "tpm": 8,
+        "fta": 20,
+        "oreb": 14,
+        "dreb": 23,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401920843": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2739",
+        "fgm": 26,
+        "fga": 60,
+        "tpm": 9,
+        "fta": 18,
+        "oreb": 11,
+        "dreb": 25,
+        "turnovers": 9
+      },
+      {
+        "id": "2900",
+        "fgm": 18,
+        "fga": 46,
+        "tpm": 6,
+        "fta": 29,
+        "oreb": 6,
+        "dreb": 25,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401920856": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2649",
+        "fgm": 29,
+        "fga": 66,
+        "tpm": 3,
+        "fta": 35,
+        "oreb": 11,
+        "dreb": 27,
+        "turnovers": 5
+      },
+      {
+        "id": "276",
+        "fgm": 29,
+        "fga": 70,
+        "tpm": 10,
+        "fta": 12,
+        "oreb": 15,
+        "dreb": 34,
+        "turnovers": 16
+      }
+    ]
+  },
+  "401920864": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2885",
+        "fgm": 18,
+        "fga": 63,
+        "tpm": 5,
+        "fta": 10,
+        "oreb": 10,
+        "dreb": 16,
+        "turnovers": 8
+      },
+      {
+        "id": "314",
+        "fgm": 29,
+        "fga": 53,
+        "tpm": 8,
+        "fta": 10,
+        "oreb": 10,
+        "dreb": 35,
+        "turnovers": 17
+      }
+    ]
+  },
+  "401920865": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2612",
+        "fgm": 19,
+        "fga": 58,
+        "tpm": 8,
+        "fta": 11,
+        "oreb": 19,
+        "dreb": 17,
+        "turnovers": 13
+      },
+      {
+        "id": "2885",
+        "fgm": 15,
+        "fga": 35,
+        "tpm": 7,
+        "fta": 26,
+        "oreb": 5,
+        "dreb": 20,
+        "turnovers": 16
+      }
+    ]
+  },
+  "401920866": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2885",
+        "fgm": 21,
+        "fga": 66,
+        "tpm": 4,
+        "fta": 25,
+        "oreb": 12,
+        "dreb": 22,
+        "turnovers": 12
+      },
+      {
+        "id": "164",
+        "fgm": 31,
+        "fga": 60,
+        "tpm": 8,
+        "fta": 41,
+        "oreb": 12,
+        "dreb": 34,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401920877": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "140",
+        "fgm": 14,
+        "fga": 47,
+        "tpm": 6,
+        "fta": 37,
+        "oreb": 8,
+        "dreb": 20,
+        "turnovers": 9
+      },
+      {
+        "id": "294",
+        "fgm": 24,
+        "fga": 56,
+        "tpm": 9,
+        "fta": 32,
+        "oreb": 8,
+        "dreb": 26,
+        "turnovers": 6
+      }
+    ]
+  },
+  "401920887": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2550",
+        "fgm": 21,
+        "fga": 54,
+        "tpm": 7,
+        "fta": 24,
+        "oreb": 9,
+        "dreb": 24,
+        "turnovers": 10
+      },
+      {
+        "id": "2429",
+        "fgm": 21,
+        "fga": 46,
+        "tpm": 9,
+        "fta": 21,
+        "oreb": 6,
+        "dreb": 26,
+        "turnovers": 17
+      }
+    ]
+  },
+  "401920894": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "48",
+        "fgm": 21,
+        "fga": 59,
+        "tpm": 12,
+        "fta": 11,
+        "oreb": 6,
+        "dreb": 26,
+        "turnovers": 9
+      },
+      {
+        "id": "275",
+        "fgm": 25,
+        "fga": 63,
+        "tpm": 10,
+        "fta": 18,
+        "oreb": 12,
+        "dreb": 30,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401920895": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2217",
+        "fgm": 14,
+        "fga": 72,
+        "tpm": 1,
+        "fta": 22,
+        "oreb": 23,
+        "dreb": 19,
+        "turnovers": 13
+      },
+      {
+        "id": "275",
+        "fgm": 29,
+        "fga": 56,
+        "tpm": 11,
+        "fta": 27,
+        "oreb": 12,
+        "dreb": 40,
+        "turnovers": 16
+      }
+    ]
+  },
+  "401920903": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "256",
+        "fgm": 22,
+        "fga": 56,
+        "tpm": 7,
+        "fta": 26,
+        "oreb": 12,
+        "dreb": 29,
+        "turnovers": 10
+      },
+      {
+        "id": "48",
+        "fgm": 22,
+        "fga": 55,
+        "tpm": 9,
+        "fta": 12,
+        "oreb": 7,
+        "dreb": 26,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401920913": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2459",
+        "fgm": 24,
+        "fga": 56,
+        "tpm": 11,
+        "fta": 19,
+        "oreb": 4,
+        "dreb": 22,
+        "turnovers": 6
+      },
+      {
+        "id": "202",
+        "fgm": 28,
+        "fga": 57,
+        "tpm": 14,
+        "fta": 34,
+        "oreb": 14,
+        "dreb": 28,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401920920": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2352",
+        "fgm": 18,
+        "fga": 61,
+        "tpm": 9,
+        "fta": 20,
+        "oreb": 12,
+        "dreb": 30,
+        "turnovers": 10
+      },
+      {
+        "id": "116",
+        "fgm": 24,
+        "fga": 59,
+        "tpm": 8,
+        "fta": 21,
+        "oreb": 10,
+        "dreb": 33,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401920952": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "79",
+        "fgm": 33,
+        "fga": 66,
+        "tpm": 8,
+        "fta": 24,
+        "oreb": 11,
+        "dreb": 20,
+        "turnovers": 9
+      },
+      {
+        "id": "140",
+        "fgm": 33,
+        "fga": 57,
+        "tpm": 14,
+        "fta": 28,
+        "oreb": 7,
+        "dreb": 23,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401920973": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "236",
+        "fgm": 25,
+        "fga": 58,
+        "tpm": 3,
+        "fta": 28,
+        "oreb": 19,
+        "dreb": 23,
+        "turnovers": 15
+      },
+      {
+        "id": "2210",
+        "fgm": 20,
+        "fga": 55,
+        "tpm": 12,
+        "fta": 24,
+        "oreb": 15,
+        "dreb": 16,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401921005": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "140",
+        "fgm": 32,
+        "fga": 64,
+        "tpm": 15,
+        "fta": 12,
+        "oreb": 8,
+        "dreb": 30,
+        "turnovers": 9
+      },
+      {
+        "id": "50",
+        "fgm": 25,
+        "fga": 67,
+        "tpm": 7,
+        "fta": 14,
+        "oreb": 16,
+        "dreb": 27,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401921025": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2382",
+        "fgm": 35,
+        "fga": 82,
+        "tpm": 6,
+        "fta": 30,
+        "oreb": 20,
+        "dreb": 27,
+        "turnovers": 12
+      },
+      {
+        "id": "290",
+        "fgm": 29,
+        "fga": 72,
+        "tpm": 14,
+        "fta": 23,
+        "oreb": 13,
+        "dreb": 27,
+        "turnovers": 16
+      }
+    ]
+  },
+  "401921026": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "290",
+        "fgm": 22,
+        "fga": 70,
+        "tpm": 10,
+        "fta": 20,
+        "oreb": 12,
+        "dreb": 23,
+        "turnovers": 5
+      },
+      {
+        "id": "2116",
+        "fgm": 33,
+        "fga": 63,
+        "tpm": 3,
+        "fta": 18,
+        "oreb": 9,
+        "dreb": 38,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401921037": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2296",
+        "fgm": 32,
+        "fga": 73,
+        "tpm": 8,
+        "fta": 13,
+        "oreb": 13,
+        "dreb": 24,
+        "turnovers": 14
+      },
+      {
+        "id": "2572",
+        "fgm": 27,
+        "fga": 61,
+        "tpm": 4,
+        "fta": 42,
+        "oreb": 18,
+        "dreb": 31,
+        "turnovers": 18
+      }
+    ]
+  },
+  "401921061": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2449",
+        "fgm": 26,
+        "fga": 70,
+        "tpm": 10,
+        "fta": 13,
+        "oreb": 18,
+        "dreb": 18,
+        "turnovers": 12
+      },
+      {
+        "id": "2539",
+        "fgm": 24,
+        "fga": 49,
+        "tpm": 12,
+        "fta": 28,
+        "oreb": 12,
+        "dreb": 26,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401921062": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "149",
+        "fgm": 18,
+        "fga": 50,
+        "tpm": 5,
+        "fta": 26,
+        "oreb": 11,
+        "dreb": 21,
+        "turnovers": 17
+      },
+      {
+        "id": "2539",
+        "fgm": 21,
+        "fga": 51,
+        "tpm": 4,
+        "fta": 22,
+        "oreb": 11,
+        "dreb": 26,
+        "turnovers": 16
+      }
+    ]
+  },
+  "401921084": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2378",
+        "fgm": 26,
+        "fga": 51,
+        "tpm": 4,
+        "fta": 29,
+        "oreb": 5,
+        "dreb": 27,
+        "turnovers": 19
+      },
+      {
+        "id": "2368",
+        "fgm": 27,
+        "fga": 62,
+        "tpm": 11,
+        "fta": 32,
+        "oreb": 13,
+        "dreb": 23,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401921086": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2415",
+        "fgm": 21,
+        "fga": 54,
+        "tpm": 4,
+        "fta": 29,
+        "oreb": 10,
+        "dreb": 26,
+        "turnovers": 20
+      },
+      {
+        "id": "2378",
+        "fgm": 30,
+        "fga": 62,
+        "tpm": 12,
+        "fta": 16,
+        "oreb": 8,
+        "dreb": 25,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401921094": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2837",
+        "fgm": 24,
+        "fga": 67,
+        "tpm": 10,
+        "fta": 24,
+        "oreb": 25,
+        "dreb": 29,
+        "turnovers": 15
+      },
+      {
+        "id": "242",
+        "fgm": 24,
+        "fga": 67,
+        "tpm": 9,
+        "fta": 20,
+        "oreb": 19,
+        "dreb": 22,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401921095": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "242",
+        "fgm": 25,
+        "fga": 61,
+        "tpm": 6,
+        "fta": 22,
+        "oreb": 11,
+        "dreb": 20,
+        "turnovers": 17
+      },
+      {
+        "id": "24",
+        "fgm": 32,
+        "fga": 62,
+        "tpm": 7,
+        "fta": 21,
+        "oreb": 10,
+        "dreb": 27,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401921133": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2065",
+        "fgm": 16,
+        "fga": 44,
+        "tpm": 7,
+        "fta": 32,
+        "oreb": 7,
+        "dreb": 27,
+        "turnovers": 18
+      },
+      {
+        "id": "2641",
+        "fgm": 24,
+        "fga": 57,
+        "tpm": 9,
+        "fta": 31,
+        "oreb": 14,
+        "dreb": 27,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401921140": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2430",
+        "fgm": 24,
+        "fga": 57,
+        "tpm": 8,
+        "fta": 11,
+        "oreb": 3,
+        "dreb": 19,
+        "turnovers": 10
+      },
+      {
+        "id": "2210",
+        "fgm": 27,
+        "fga": 58,
+        "tpm": 4,
+        "fta": 21,
+        "oreb": 14,
+        "dreb": 31,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401921174": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2630",
+        "fgm": 28,
+        "fga": 53,
+        "tpm": 4,
+        "fta": 21,
+        "oreb": 13,
+        "dreb": 30,
+        "turnovers": 20
+      },
+      {
+        "id": "85",
+        "fgm": 23,
+        "fga": 62,
+        "tpm": 10,
+        "fta": 24,
+        "oreb": 11,
+        "dreb": 14,
+        "turnovers": 7
+      }
+    ]
+  },
+  "401921175": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "88",
+        "fgm": 28,
+        "fga": 64,
+        "tpm": 4,
+        "fta": 17,
+        "oreb": 18,
+        "dreb": 28,
+        "turnovers": 18
+      },
+      {
+        "id": "85",
+        "fgm": 22,
+        "fga": 62,
+        "tpm": 9,
+        "fta": 28,
+        "oreb": 13,
+        "dreb": 22,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401921180": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "47",
+        "fgm": 23,
+        "fga": 61,
+        "tpm": 8,
+        "fta": 16,
+        "oreb": 12,
+        "dreb": 25,
+        "turnovers": 21
+      },
+      {
+        "id": "219",
+        "fgm": 26,
+        "fga": 57,
+        "tpm": 10,
+        "fta": 23,
+        "oreb": 10,
+        "dreb": 28,
+        "turnovers": 18
+      }
+    ]
+  },
+  "401921181": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "219",
+        "fgm": 25,
+        "fga": 59,
+        "tpm": 9,
+        "fta": 29,
+        "oreb": 10,
+        "dreb": 24,
+        "turnovers": 9
+      },
+      {
+        "id": "2426",
+        "fgm": 25,
+        "fga": 58,
+        "tpm": 12,
+        "fta": 27,
+        "oreb": 14,
+        "dreb": 32,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401921191": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "314",
+        "fgm": 21,
+        "fga": 63,
+        "tpm": 6,
+        "fta": 20,
+        "oreb": 21,
+        "dreb": 28,
+        "turnovers": 17
+      },
+      {
+        "id": "2275",
+        "fgm": 23,
+        "fga": 65,
+        "tpm": 10,
+        "fta": 10,
+        "oreb": 17,
+        "dreb": 28,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401921219": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2169",
+        "fgm": 23,
+        "fga": 53,
+        "tpm": 5,
+        "fta": 15,
+        "oreb": 8,
+        "dreb": 26,
+        "turnovers": 18
+      },
+      {
+        "id": "2426",
+        "fgm": 19,
+        "fga": 50,
+        "tpm": 9,
+        "fta": 34,
+        "oreb": 13,
+        "dreb": 25,
+        "turnovers": 17
+      }
+    ]
+  },
+  "401921285": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "107",
+        "fgm": 20,
+        "fga": 59,
+        "tpm": 7,
+        "fta": 27,
+        "oreb": 12,
+        "dreb": 25,
+        "turnovers": 11
+      },
+      {
+        "id": "222",
+        "fgm": 38,
+        "fga": 74,
+        "tpm": 10,
+        "fta": 14,
+        "oreb": 15,
+        "dreb": 35,
+        "turnovers": 5
+      }
+    ]
+  },
+  "401921286": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "231",
+        "fgm": 30,
+        "fga": 64,
+        "tpm": 5,
+        "fta": 21,
+        "oreb": 12,
+        "dreb": 33,
+        "turnovers": 13
+      },
+      {
+        "id": "107",
+        "fgm": 24,
+        "fga": 63,
+        "tpm": 10,
+        "fta": 18,
+        "oreb": 10,
+        "dreb": 24,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401921678": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "399",
+        "fgm": 23,
+        "fga": 56,
+        "tpm": 5,
+        "fta": 30,
+        "oreb": 14,
+        "dreb": 23,
+        "turnovers": 10
+      },
+      {
+        "id": "2363",
+        "fgm": 27,
+        "fga": 59,
+        "tpm": 5,
+        "fta": 18,
+        "oreb": 12,
+        "dreb": 24,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401921679": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2349",
+        "fgm": 24,
+        "fga": 59,
+        "tpm": 7,
+        "fta": 23,
+        "oreb": 14,
+        "dreb": 26,
+        "turnovers": 10
+      },
+      {
+        "id": "2771",
+        "fgm": 25,
+        "fga": 58,
+        "tpm": 3,
+        "fta": 20,
+        "oreb": 14,
+        "dreb": 24,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401921680": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2803",
+        "fgm": 21,
+        "fga": 61,
+        "tpm": 7,
+        "fta": 13,
+        "oreb": 12,
+        "dreb": 17,
+        "turnovers": 12
+      },
+      {
+        "id": "2514",
+        "fgm": 25,
+        "fga": 56,
+        "tpm": 8,
+        "fta": 18,
+        "oreb": 14,
+        "dreb": 24,
+        "turnovers": 16
+      }
+    ]
+  },
+  "401921681": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "160",
+        "fgm": 22,
+        "fga": 46,
+        "tpm": 4,
+        "fta": 27,
+        "oreb": 5,
+        "dreb": 31,
+        "turnovers": 14
+      },
+      {
+        "id": "2520",
+        "fgm": 16,
+        "fga": 61,
+        "tpm": 2,
+        "fta": 31,
+        "oreb": 21,
+        "dreb": 23,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401921682": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "311",
+        "fgm": 25,
+        "fga": 59,
+        "tpm": 10,
+        "fta": 17,
+        "oreb": 6,
+        "dreb": 33,
+        "turnovers": 11
+      },
+      {
+        "id": "2529",
+        "fgm": 24,
+        "fga": 68,
+        "tpm": 5,
+        "fta": 22,
+        "oreb": 13,
+        "dreb": 30,
+        "turnovers": 7
+      }
+    ]
+  },
+  "401921683": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2217",
+        "fgm": 23,
+        "fga": 57,
+        "tpm": 5,
+        "fta": 27,
+        "oreb": 9,
+        "dreb": 27,
+        "turnovers": 9
+      },
+      {
+        "id": "2803",
+        "fgm": 21,
+        "fga": 54,
+        "tpm": 9,
+        "fta": 17,
+        "oreb": 10,
+        "dreb": 32,
+        "turnovers": 20
+      }
+    ]
+  },
+  "401921684": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2363",
+        "fgm": 21,
+        "fga": 49,
+        "tpm": 3,
+        "fta": 33,
+        "oreb": 6,
+        "dreb": 30,
+        "turnovers": 11
+      },
+      {
+        "id": "311",
+        "fgm": 24,
+        "fga": 55,
+        "tpm": 6,
+        "fta": 16,
+        "oreb": 9,
+        "dreb": 28,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401921685": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2529",
+        "fgm": 25,
+        "fga": 69,
+        "tpm": 10,
+        "fta": 25,
+        "oreb": 13,
+        "dreb": 34,
+        "turnovers": 14
+      },
+      {
+        "id": "160",
+        "fgm": 28,
+        "fga": 68,
+        "tpm": 10,
+        "fta": 15,
+        "oreb": 8,
+        "dreb": 32,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401921686": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2771",
+        "fgm": 23,
+        "fga": 50,
+        "tpm": 12,
+        "fta": 21,
+        "oreb": 8,
+        "dreb": 13,
+        "turnovers": 10
+      },
+      {
+        "id": "399",
+        "fgm": 24,
+        "fga": 53,
+        "tpm": 4,
+        "fta": 12,
+        "oreb": 15,
+        "dreb": 22,
+        "turnovers": 21
+      }
+    ]
+  },
+  "401921687": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2368",
+        "fgm": 24,
+        "fga": 49,
+        "tpm": 3,
+        "fta": 14,
+        "oreb": 3,
+        "dreb": 29,
+        "turnovers": 12
+      },
+      {
+        "id": "2349",
+        "fgm": 21,
+        "fga": 61,
+        "tpm": 6,
+        "fta": 19,
+        "oreb": 12,
+        "dreb": 25,
+        "turnovers": 6
+      }
+    ]
+  },
+  "401921698": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "119",
+        "fgm": 22,
+        "fga": 56,
+        "tpm": 6,
+        "fta": 16,
+        "oreb": 11,
+        "dreb": 19,
+        "turnovers": 13
+      },
+      {
+        "id": "254",
+        "fgm": 20,
+        "fga": 44,
+        "tpm": 8,
+        "fta": 24,
+        "oreb": 8,
+        "dreb": 27,
+        "turnovers": 18
+      }
+    ]
+  },
+  "401921719": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2681",
+        "fgm": 21,
+        "fga": 63,
+        "tpm": 7,
+        "fta": 13,
+        "oreb": 11,
+        "dreb": 22,
+        "turnovers": 15
+      },
+      {
+        "id": "2390",
+        "fgm": 31,
+        "fga": 58,
+        "tpm": 5,
+        "fta": 18,
+        "oreb": 7,
+        "dreb": 29,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401921720": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2454",
+        "fgm": 21,
+        "fga": 67,
+        "tpm": 6,
+        "fta": 8,
+        "oreb": 9,
+        "dreb": 25,
+        "turnovers": 17
+      },
+      {
+        "id": "2390",
+        "fgm": 38,
+        "fga": 83,
+        "tpm": 5,
+        "fta": 14,
+        "oreb": 23,
+        "dreb": 39,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401921721": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2453",
+        "fgm": 20,
+        "fga": 61,
+        "tpm": 10,
+        "fta": 4,
+        "oreb": 5,
+        "dreb": 26,
+        "turnovers": 18
+      },
+      {
+        "id": "2390",
+        "fgm": 34,
+        "fga": 70,
+        "tpm": 20,
+        "fta": 7,
+        "oreb": 9,
+        "dreb": 37,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401921727": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2473",
+        "fgm": 22,
+        "fga": 49,
+        "tpm": 3,
+        "fta": 25,
+        "oreb": 6,
+        "dreb": 23,
+        "turnovers": 14
+      },
+      {
+        "id": "24",
+        "fgm": 29,
+        "fga": 62,
+        "tpm": 9,
+        "fta": 15,
+        "oreb": 10,
+        "dreb": 26,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401921728": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "24",
+        "fgm": 24,
+        "fga": 60,
+        "tpm": 3,
+        "fta": 22,
+        "oreb": 12,
+        "dreb": 17,
+        "turnovers": 11
+      },
+      {
+        "id": "2439",
+        "fgm": 26,
+        "fga": 45,
+        "tpm": 7,
+        "fta": 24,
+        "oreb": 4,
+        "dreb": 26,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401921732": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2458",
+        "fgm": 24,
+        "fga": 56,
+        "tpm": 8,
+        "fta": 16,
+        "oreb": 9,
+        "dreb": 23,
+        "turnovers": 12
+      },
+      {
+        "id": "9",
+        "fgm": 35,
+        "fga": 65,
+        "tpm": 7,
+        "fta": 19,
+        "oreb": 11,
+        "dreb": 29,
+        "turnovers": 5
+      }
+    ]
+  },
+  "401921733": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2275",
+        "fgm": 24,
+        "fga": 63,
+        "tpm": 8,
+        "fta": 9,
+        "oreb": 8,
+        "dreb": 17,
+        "turnovers": 6
+      },
+      {
+        "id": "9",
+        "fgm": 28,
+        "fga": 58,
+        "tpm": 13,
+        "fta": 21,
+        "oreb": 17,
+        "dreb": 32,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401921739": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2437",
+        "fgm": 26,
+        "fga": 61,
+        "tpm": 8,
+        "fta": 13,
+        "oreb": 8,
+        "dreb": 19,
+        "turnovers": 12
+      },
+      {
+        "id": "252",
+        "fgm": 39,
+        "fga": 70,
+        "tpm": 16,
+        "fta": 18,
+        "oreb": 15,
+        "dreb": 31,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401921740": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2511",
+        "fgm": 28,
+        "fga": 69,
+        "tpm": 14,
+        "fta": 14,
+        "oreb": 13,
+        "dreb": 25,
+        "turnovers": 13
+      },
+      {
+        "id": "252",
+        "fgm": 35,
+        "fga": 65,
+        "tpm": 17,
+        "fta": 17,
+        "oreb": 8,
+        "dreb": 29,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401921741": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "147",
+        "fgm": 27,
+        "fga": 62,
+        "tpm": 10,
+        "fta": 13,
+        "oreb": 9,
+        "dreb": 21,
+        "turnovers": 12
+      },
+      {
+        "id": "252",
+        "fgm": 32,
+        "fga": 55,
+        "tpm": 9,
+        "fta": 24,
+        "oreb": 8,
+        "dreb": 30,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401921747": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2739",
+        "fgm": 23,
+        "fga": 48,
+        "tpm": 7,
+        "fta": 17,
+        "oreb": 7,
+        "dreb": 18,
+        "turnovers": 21
+      },
+      {
+        "id": "2132",
+        "fgm": 28,
+        "fga": 57,
+        "tpm": 10,
+        "fta": 22,
+        "oreb": 12,
+        "dreb": 17,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401921754": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "43",
+        "fgm": 27,
+        "fga": 60,
+        "tpm": 10,
+        "fta": 13,
+        "oreb": 8,
+        "dreb": 26,
+        "turnovers": 11
+      },
+      {
+        "id": "2116",
+        "fgm": 31,
+        "fga": 68,
+        "tpm": 5,
+        "fta": 24,
+        "oreb": 13,
+        "dreb": 26,
+        "turnovers": 2
+      }
+    ]
+  },
+  "401921755": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "6",
+        "fgm": 27,
+        "fga": 59,
+        "tpm": 8,
+        "fta": 9,
+        "oreb": 15,
+        "dreb": 21,
+        "turnovers": 12
+      },
+      {
+        "id": "2116",
+        "fgm": 25,
+        "fga": 55,
+        "tpm": 17,
+        "fta": 15,
+        "oreb": 11,
+        "dreb": 18,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401921767": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "56",
+        "fgm": 19,
+        "fga": 54,
+        "tpm": 8,
+        "fta": 20,
+        "oreb": 11,
+        "dreb": 21,
+        "turnovers": 13
+      },
+      {
+        "id": "277",
+        "fgm": 31,
+        "fga": 62,
+        "tpm": 13,
+        "fta": 23,
+        "oreb": 13,
+        "dreb": 33,
+        "turnovers": 7
+      }
+    ]
+  },
+  "401921768": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2382",
+        "fgm": 22,
+        "fga": 61,
+        "tpm": 6,
+        "fta": 12,
+        "oreb": 14,
+        "dreb": 20,
+        "turnovers": 14
+      },
+      {
+        "id": "277",
+        "fgm": 23,
+        "fga": 58,
+        "tpm": 7,
+        "fta": 30,
+        "oreb": 16,
+        "dreb": 25,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401921774": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2325",
+        "fgm": 22,
+        "fga": 66,
+        "tpm": 6,
+        "fta": 15,
+        "oreb": 18,
+        "dreb": 23,
+        "turnovers": 13
+      },
+      {
+        "id": "222",
+        "fgm": 31,
+        "fga": 59,
+        "tpm": 7,
+        "fta": 18,
+        "oreb": 10,
+        "dreb": 29,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401921802": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "256",
+        "fgm": 27,
+        "fga": 68,
+        "tpm": 15,
+        "fta": 15,
+        "oreb": 14,
+        "dreb": 22,
+        "turnovers": 7
+      },
+      {
+        "id": "96",
+        "fgm": 32,
+        "fga": 63,
+        "tpm": 10,
+        "fta": 19,
+        "oreb": 11,
+        "dreb": 29,
+        "turnovers": 7
+      }
+    ]
+  },
+  "401921803": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2464",
+        "fgm": 27,
+        "fga": 52,
+        "tpm": 13,
+        "fta": 12,
+        "oreb": 8,
+        "dreb": 24,
+        "turnovers": 10
+      },
+      {
+        "id": "96",
+        "fgm": 31,
+        "fga": 55,
+        "tpm": 11,
+        "fta": 6,
+        "oreb": 1,
+        "dreb": 19,
+        "turnovers": 4
+      }
+    ]
+  },
+  "401921809": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2640",
+        "fgm": 14,
+        "fga": 59,
+        "tpm": 7,
+        "fta": 23,
+        "oreb": 10,
+        "dreb": 19,
+        "turnovers": 14
+      },
+      {
+        "id": "99",
+        "fgm": 36,
+        "fga": 63,
+        "tpm": 5,
+        "fta": 25,
+        "oreb": 12,
+        "dreb": 38,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401921810": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2348",
+        "fgm": 18,
+        "fga": 57,
+        "tpm": 2,
+        "fta": 19,
+        "oreb": 16,
+        "dreb": 17,
+        "turnovers": 23
+      },
+      {
+        "id": "99",
+        "fgm": 31,
+        "fga": 55,
+        "tpm": 8,
+        "fta": 29,
+        "oreb": 9,
+        "dreb": 26,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401921815": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2565",
+        "fgm": 23,
+        "fga": 56,
+        "tpm": 3,
+        "fta": 14,
+        "oreb": 12,
+        "dreb": 17,
+        "turnovers": 14
+      },
+      {
+        "id": "142",
+        "fgm": 31,
+        "fga": 53,
+        "tpm": 12,
+        "fta": 27,
+        "oreb": 8,
+        "dreb": 24,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401921820": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2546",
+        "fgm": 24,
+        "fga": 54,
+        "tpm": 5,
+        "fta": 22,
+        "oreb": 4,
+        "dreb": 20,
+        "turnovers": 11
+      },
+      {
+        "id": "2579",
+        "fgm": 21,
+        "fga": 47,
+        "tpm": 6,
+        "fta": 40,
+        "oreb": 10,
+        "dreb": 30,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401921821": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2612",
+        "fgm": 14,
+        "fga": 53,
+        "tpm": 3,
+        "fta": 13,
+        "oreb": 9,
+        "dreb": 21,
+        "turnovers": 15
+      },
+      {
+        "id": "2579",
+        "fgm": 21,
+        "fga": 45,
+        "tpm": 9,
+        "fta": 34,
+        "oreb": 7,
+        "dreb": 28,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401921825": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2504",
+        "fgm": 27,
+        "fga": 61,
+        "tpm": 2,
+        "fta": 8,
+        "oreb": 6,
+        "dreb": 13,
+        "turnovers": 11
+      },
+      {
+        "id": "238",
+        "fgm": 34,
+        "fga": 60,
+        "tpm": 6,
+        "fta": 23,
+        "oreb": 18,
+        "dreb": 26,
+        "turnovers": 16
+      }
+    ]
+  },
+  "401922021": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "304",
+        "fgm": 18,
+        "fga": 58,
+        "tpm": 6,
+        "fta": 27,
+        "oreb": 15,
+        "dreb": 12,
+        "turnovers": 14
+      },
+      {
+        "id": "2751",
+        "fgm": 32,
+        "fga": 64,
+        "tpm": 8,
+        "fta": 28,
+        "oreb": 21,
+        "dreb": 29,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401922044": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2428",
+        "fgm": 28,
+        "fga": 64,
+        "tpm": 4,
+        "fta": 24,
+        "oreb": 11,
+        "dreb": 26,
+        "turnovers": 10
+      },
+      {
+        "id": "2344",
+        "fgm": 29,
+        "fga": 62,
+        "tpm": 11,
+        "fta": 14,
+        "oreb": 9,
+        "dreb": 31,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401922060": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2908",
+        "fgm": 18,
+        "fga": 60,
+        "tpm": 6,
+        "fta": 22,
+        "oreb": 15,
+        "dreb": 25,
+        "turnovers": 11
+      },
+      {
+        "id": "324",
+        "fgm": 26,
+        "fga": 60,
+        "tpm": 6,
+        "fta": 12,
+        "oreb": 11,
+        "dreb": 29,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401922211": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2229",
+        "fgm": 36,
+        "fga": 69,
+        "tpm": 8,
+        "fta": 9,
+        "oreb": 9,
+        "dreb": 27,
+        "turnovers": 10
+      },
+      {
+        "id": "526",
+        "fgm": 26,
+        "fga": 62,
+        "tpm": 8,
+        "fta": 23,
+        "oreb": 9,
+        "dreb": 23,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401922219": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2454",
+        "fgm": 20,
+        "fga": 63,
+        "tpm": 10,
+        "fta": 20,
+        "oreb": 9,
+        "dreb": 25,
+        "turnovers": 17
+      },
+      {
+        "id": "26",
+        "fgm": 38,
+        "fga": 70,
+        "tpm": 14,
+        "fta": 34,
+        "oreb": 14,
+        "dreb": 35,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401922239": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "56",
+        "fgm": 21,
+        "fga": 50,
+        "tpm": 8,
+        "fta": 21,
+        "oreb": 6,
+        "dreb": 23,
+        "turnovers": 13
+      },
+      {
+        "id": "47",
+        "fgm": 31,
+        "fga": 56,
+        "tpm": 8,
+        "fta": 11,
+        "oreb": 6,
+        "dreb": 26,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401922261": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "70",
+        "fgm": 25,
+        "fga": 61,
+        "tpm": 7,
+        "fta": 15,
+        "oreb": 9,
+        "dreb": 25,
+        "turnovers": 11
+      },
+      {
+        "id": "36",
+        "fgm": 30,
+        "fga": 60,
+        "tpm": 7,
+        "fta": 15,
+        "oreb": 7,
+        "dreb": 30,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401922291": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2717",
+        "fgm": 23,
+        "fga": 52,
+        "tpm": 8,
+        "fta": 38,
+        "oreb": 10,
+        "dreb": 23,
+        "turnovers": 9
+      },
+      {
+        "id": "2427",
+        "fgm": 25,
+        "fga": 58,
+        "tpm": 11,
+        "fta": 24,
+        "oreb": 13,
+        "dreb": 24,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401923260": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2226",
+        "fgm": 22,
+        "fga": 54,
+        "tpm": 8,
+        "fta": 26,
+        "oreb": 10,
+        "dreb": 16,
+        "turnovers": 14
+      },
+      {
+        "id": "2750",
+        "fgm": 33,
+        "fga": 58,
+        "tpm": 7,
+        "fta": 27,
+        "oreb": 11,
+        "dreb": 27,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401923270": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2803",
+        "fgm": 20,
+        "fga": 59,
+        "tpm": 9,
+        "fta": 7,
+        "oreb": 10,
+        "dreb": 19,
+        "turnovers": 7
+      },
+      {
+        "id": "164",
+        "fgm": 24,
+        "fga": 56,
+        "tpm": 4,
+        "fta": 28,
+        "oreb": 16,
+        "dreb": 31,
+        "turnovers": 6
+      }
+    ]
+  },
+  "401923392": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "88",
+        "fgm": 25,
+        "fga": 66,
+        "tpm": 12,
+        "fta": 30,
+        "oreb": 13,
+        "dreb": 34,
+        "turnovers": 8
+      },
+      {
+        "id": "339",
+        "fgm": 25,
+        "fga": 64,
+        "tpm": 15,
+        "fta": 21,
+        "oreb": 10,
+        "dreb": 35,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401924264": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "299",
+        "fgm": 22,
+        "fga": 46,
+        "tpm": 3,
+        "fta": 31,
+        "oreb": 3,
+        "dreb": 20,
+        "turnovers": 9
+      },
+      {
+        "id": "147",
+        "fgm": 30,
+        "fga": 58,
+        "tpm": 11,
+        "fta": 17,
+        "oreb": 12,
+        "dreb": 27,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401924646": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "314",
+        "fgm": 22,
+        "fga": 54,
+        "tpm": 10,
+        "fta": 13,
+        "oreb": 8,
+        "dreb": 20,
+        "turnovers": 19
+      },
+      {
+        "id": "2599",
+        "fgm": 37,
+        "fga": 67,
+        "tpm": 13,
+        "fta": 24,
+        "oreb": 12,
+        "dreb": 26,
+        "turnovers": 4
+      }
+    ]
+  },
+  "401924704": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "171",
+        "fgm": 28,
+        "fga": 57,
+        "tpm": 10,
+        "fta": 17,
+        "oreb": 13,
+        "dreb": 28,
+        "turnovers": 15
+      },
+      {
+        "id": "2083",
+        "fgm": 24,
+        "fga": 62,
+        "tpm": 7,
+        "fta": 12,
+        "oreb": 12,
+        "dreb": 16,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401924718": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "172",
+        "fgm": 23,
+        "fga": 63,
+        "tpm": 5,
+        "fta": 18,
+        "oreb": 12,
+        "dreb": 28,
+        "turnovers": 11
+      },
+      {
+        "id": "2329",
+        "fgm": 22,
+        "fga": 59,
+        "tpm": 7,
+        "fta": 26,
+        "oreb": 11,
+        "dreb": 31,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401924733": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2275",
+        "fgm": 24,
+        "fga": 50,
+        "tpm": 4,
+        "fta": 8,
+        "oreb": 9,
+        "dreb": 29,
+        "turnovers": 18
+      },
+      {
+        "id": "163",
+        "fgm": 18,
+        "fga": 59,
+        "tpm": 12,
+        "fta": 17,
+        "oreb": 12,
+        "dreb": 18,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401924734": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "163",
+        "fgm": 25,
+        "fga": 73,
+        "tpm": 7,
+        "fta": 18,
+        "oreb": 18,
+        "dreb": 25,
+        "turnovers": 11
+      },
+      {
+        "id": "2561",
+        "fgm": 31,
+        "fga": 58,
+        "tpm": 5,
+        "fta": 25,
+        "oreb": 10,
+        "dreb": 34,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401924735": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2619",
+        "fgm": 22,
+        "fga": 52,
+        "tpm": 5,
+        "fta": 18,
+        "oreb": 10,
+        "dreb": 19,
+        "turnovers": 12
+      },
+      {
+        "id": "163",
+        "fgm": 26,
+        "fga": 55,
+        "tpm": 11,
+        "fta": 9,
+        "oreb": 12,
+        "dreb": 27,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401924796": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2368",
+        "fgm": 23,
+        "fga": 59,
+        "tpm": 4,
+        "fta": 12,
+        "oreb": 14,
+        "dreb": 26,
+        "turnovers": 11
+      },
+      {
+        "id": "2329",
+        "fgm": 24,
+        "fga": 50,
+        "tpm": 5,
+        "fta": 19,
+        "oreb": 7,
+        "dreb": 24,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401924843": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2415",
+        "fgm": 21,
+        "fga": 63,
+        "tpm": 8,
+        "fta": 27,
+        "oreb": 15,
+        "dreb": 27,
+        "turnovers": 17
+      },
+      {
+        "id": "315",
+        "fgm": 18,
+        "fga": 53,
+        "tpm": 10,
+        "fta": 30,
+        "oreb": 7,
+        "dreb": 22,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401924857": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2405",
+        "fgm": 26,
+        "fga": 66,
+        "tpm": 6,
+        "fta": 19,
+        "oreb": 13,
+        "dreb": 21,
+        "turnovers": 6
+      },
+      {
+        "id": "2514",
+        "fgm": 26,
+        "fga": 61,
+        "tpm": 3,
+        "fta": 19,
+        "oreb": 9,
+        "dreb": 24,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401924876": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2115",
+        "fgm": 29,
+        "fga": 60,
+        "tpm": 13,
+        "fta": 12,
+        "oreb": 15,
+        "dreb": 21,
+        "turnovers": 11
+      },
+      {
+        "id": "2529",
+        "fgm": 28,
+        "fga": 59,
+        "tpm": 10,
+        "fta": 10,
+        "oreb": 10,
+        "dreb": 19,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401924895": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2464",
+        "fgm": 19,
+        "fga": 46,
+        "tpm": 6,
+        "fta": 27,
+        "oreb": 10,
+        "dreb": 24,
+        "turnovers": 16
+      },
+      {
+        "id": "167",
+        "fgm": 34,
+        "fga": 70,
+        "tpm": 7,
+        "fta": 24,
+        "oreb": 16,
+        "dreb": 19,
+        "turnovers": 2
+      }
+    ]
+  },
+  "401924896": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2031",
+        "fgm": 22,
+        "fga": 55,
+        "tpm": 11,
+        "fta": 18,
+        "oreb": 8,
+        "dreb": 26,
+        "turnovers": 16
+      },
+      {
+        "id": "167",
+        "fgm": 30,
+        "fga": 63,
+        "tpm": 16,
+        "fta": 29,
+        "oreb": 13,
+        "dreb": 27,
+        "turnovers": 6
+      }
+    ]
+  },
+  "401924912": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2535",
+        "fgm": 30,
+        "fga": 62,
+        "tpm": 5,
+        "fta": 19,
+        "oreb": 5,
+        "dreb": 23,
+        "turnovers": 11
+      },
+      {
+        "id": "2439",
+        "fgm": 29,
+        "fga": 58,
+        "tpm": 5,
+        "fta": 32,
+        "oreb": 11,
+        "dreb": 27,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401924940": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "295",
+        "fgm": 28,
+        "fga": 54,
+        "tpm": 17,
+        "fta": 11,
+        "oreb": 10,
+        "dreb": 27,
+        "turnovers": 15
+      },
+      {
+        "id": "2083",
+        "fgm": 18,
+        "fga": 51,
+        "tpm": 7,
+        "fta": 22,
+        "oreb": 5,
+        "dreb": 15,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401925031": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2377",
+        "fgm": 20,
+        "fga": 55,
+        "tpm": 10,
+        "fta": 21,
+        "oreb": 14,
+        "dreb": 18,
+        "turnovers": 15
+      },
+      {
+        "id": "249",
+        "fgm": 26,
+        "fga": 56,
+        "tpm": 7,
+        "fta": 22,
+        "oreb": 13,
+        "dreb": 24,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401925077": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2466",
+        "fgm": 26,
+        "fga": 52,
+        "tpm": 7,
+        "fta": 16,
+        "oreb": 5,
+        "dreb": 22,
+        "turnovers": 18
+      },
+      {
+        "id": "93",
+        "fgm": 31,
+        "fga": 61,
+        "tpm": 14,
+        "fta": 24,
+        "oreb": 13,
+        "dreb": 23,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401925097": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "357",
+        "fgm": 20,
+        "fga": 43,
+        "tpm": 5,
+        "fta": 32,
+        "oreb": 10,
+        "dreb": 30,
+        "turnovers": 17
+      },
+      {
+        "id": "309",
+        "fgm": 15,
+        "fga": 48,
+        "tpm": 7,
+        "fta": 28,
+        "oreb": 6,
+        "dreb": 16,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401925106": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2504",
+        "fgm": 20,
+        "fga": 51,
+        "tpm": 2,
+        "fta": 27,
+        "oreb": 9,
+        "dreb": 22,
+        "turnovers": 10
+      },
+      {
+        "id": "292",
+        "fgm": 20,
+        "fga": 51,
+        "tpm": 3,
+        "fta": 35,
+        "oreb": 14,
+        "dreb": 24,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401925107": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "326",
+        "fgm": 24,
+        "fga": 49,
+        "tpm": 11,
+        "fta": 13,
+        "oreb": 10,
+        "dreb": 21,
+        "turnovers": 15
+      },
+      {
+        "id": "292",
+        "fgm": 25,
+        "fga": 54,
+        "tpm": 7,
+        "fta": 13,
+        "oreb": 10,
+        "dreb": 15,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401925631": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "71",
+        "fgm": 17,
+        "fga": 45,
+        "tpm": 5,
+        "fta": 24,
+        "oreb": 14,
+        "dreb": 22,
+        "turnovers": 19
+      },
+      {
+        "id": "2154",
+        "fgm": 20,
+        "fga": 55,
+        "tpm": 4,
+        "fta": 12,
+        "oreb": 14,
+        "dreb": 18,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401925681": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2197",
+        "fgm": 21,
+        "fga": 41,
+        "tpm": 6,
+        "fta": 28,
+        "oreb": 3,
+        "dreb": 20,
+        "turnovers": 23
+      },
+      {
+        "id": "87",
+        "fgm": 33,
+        "fga": 56,
+        "tpm": 11,
+        "fta": 24,
+        "oreb": 7,
+        "dreb": 19,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401925685": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2016",
+        "fgm": 19,
+        "fga": 60,
+        "tpm": 6,
+        "fta": 21,
+        "oreb": 16,
+        "dreb": 20,
+        "turnovers": 21
+      },
+      {
+        "id": "93",
+        "fgm": 31,
+        "fga": 66,
+        "tpm": 12,
+        "fta": 33,
+        "oreb": 20,
+        "dreb": 29,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401925686": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2016",
+        "fgm": 26,
+        "fga": 65,
+        "tpm": 6,
+        "fta": 16,
+        "oreb": 14,
+        "dreb": 25,
+        "turnovers": 13
+      },
+      {
+        "id": "2627",
+        "fgm": 29,
+        "fga": 64,
+        "tpm": 4,
+        "fta": 20,
+        "oreb": 14,
+        "dreb": 27,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401925702": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "55",
+        "fgm": 15,
+        "fga": 56,
+        "tpm": 7,
+        "fta": 16,
+        "oreb": 11,
+        "dreb": 15,
+        "turnovers": 14
+      },
+      {
+        "id": "248",
+        "fgm": 29,
+        "fga": 54,
+        "tpm": 7,
+        "fta": 32,
+        "oreb": 13,
+        "dreb": 33,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401925707": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "155",
+        "fgm": 28,
+        "fga": 62,
+        "tpm": 3,
+        "fta": 41,
+        "oreb": 18,
+        "dreb": 20,
+        "turnovers": 11
+      },
+      {
+        "id": "2737",
+        "fgm": 33,
+        "fga": 64,
+        "tpm": 11,
+        "fta": 23,
+        "oreb": 15,
+        "dreb": 20,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401925717": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2065",
+        "fgm": 29,
+        "fga": 69,
+        "tpm": 8,
+        "fta": 10,
+        "oreb": 16,
+        "dreb": 13,
+        "turnovers": 12
+      },
+      {
+        "id": "21",
+        "fgm": 34,
+        "fga": 50,
+        "tpm": 6,
+        "fta": 21,
+        "oreb": 8,
+        "dreb": 22,
+        "turnovers": 15
+      }
+    ]
+  },
+  "401925737": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2400",
+        "fgm": 19,
+        "fga": 52,
+        "tpm": 7,
+        "fta": 23,
+        "oreb": 6,
+        "dreb": 19,
+        "turnovers": 8
+      },
+      {
+        "id": "264",
+        "fgm": 28,
+        "fga": 67,
+        "tpm": 17,
+        "fta": 7,
+        "oreb": 16,
+        "dreb": 30,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401925738": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2400",
+        "fgm": 24,
+        "fga": 61,
+        "tpm": 8,
+        "fta": 19,
+        "oreb": 12,
+        "dreb": 14,
+        "turnovers": 10
+      },
+      {
+        "id": "2483",
+        "fgm": 39,
+        "fga": 64,
+        "tpm": 16,
+        "fta": 7,
+        "oreb": 10,
+        "dreb": 32,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401925739": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2400",
+        "fgm": 23,
+        "fga": 58,
+        "tpm": 5,
+        "fta": 20,
+        "oreb": 8,
+        "dreb": 24,
+        "turnovers": 16
+      },
+      {
+        "id": "204",
+        "fgm": 27,
+        "fga": 56,
+        "tpm": 11,
+        "fta": 20,
+        "oreb": 7,
+        "dreb": 29,
+        "turnovers": 17
+      }
+    ]
+  },
+  "401925754": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2649",
+        "fgm": 19,
+        "fga": 57,
+        "tpm": 5,
+        "fta": 29,
+        "oreb": 9,
+        "dreb": 18,
+        "turnovers": 12
+      },
+      {
+        "id": "127",
+        "fgm": 29,
+        "fga": 57,
+        "tpm": 10,
+        "fta": 38,
+        "oreb": 16,
+        "dreb": 36,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401925755": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2460",
+        "fgm": 25,
+        "fga": 59,
+        "tpm": 7,
+        "fta": 26,
+        "oreb": 13,
+        "dreb": 15,
+        "turnovers": 16
+      },
+      {
+        "id": "127",
+        "fgm": 28,
+        "fga": 58,
+        "tpm": 18,
+        "fta": 43,
+        "oreb": 19,
+        "dreb": 27,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401925772": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2382",
+        "fgm": 27,
+        "fga": 62,
+        "tpm": 10,
+        "fta": 15,
+        "oreb": 12,
+        "dreb": 23,
+        "turnovers": 9
+      },
+      {
+        "id": "2166",
+        "fgm": 36,
+        "fga": 70,
+        "tpm": 8,
+        "fta": 11,
+        "oreb": 14,
+        "dreb": 25,
+        "turnovers": 5
+      }
+    ]
+  },
+  "401925773": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "71",
+        "fgm": 17,
+        "fga": 54,
+        "tpm": 5,
+        "fta": 8,
+        "oreb": 8,
+        "dreb": 28,
+        "turnovers": 18
+      },
+      {
+        "id": "2166",
+        "fgm": 22,
+        "fga": 59,
+        "tpm": 8,
+        "fta": 19,
+        "oreb": 12,
+        "dreb": 28,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401925781": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "265",
+        "fgm": 25,
+        "fga": 55,
+        "tpm": 11,
+        "fta": 13,
+        "oreb": 13,
+        "dreb": 15,
+        "turnovers": 14
+      },
+      {
+        "id": "2184",
+        "fgm": 24,
+        "fga": 47,
+        "tpm": 4,
+        "fta": 29,
+        "oreb": 12,
+        "dreb": 17,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401925819": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2247",
+        "fgm": 23,
+        "fga": 54,
+        "tpm": 8,
+        "fta": 23,
+        "oreb": 11,
+        "dreb": 23,
+        "turnovers": 13
+      },
+      {
+        "id": "2429",
+        "fgm": 28,
+        "fga": 57,
+        "tpm": 6,
+        "fta": 21,
+        "oreb": 10,
+        "dreb": 25,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401925820": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2026",
+        "fgm": 24,
+        "fga": 56,
+        "tpm": 9,
+        "fta": 14,
+        "oreb": 8,
+        "dreb": 31,
+        "turnovers": 7
+      },
+      {
+        "id": "2429",
+        "fgm": 20,
+        "fga": 66,
+        "tpm": 9,
+        "fta": 17,
+        "oreb": 20,
+        "dreb": 27,
+        "turnovers": 7
+      }
+    ]
+  },
+  "401925858": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "232",
+        "fgm": 31,
+        "fga": 54,
+        "tpm": 6,
+        "fta": 29,
+        "oreb": 7,
+        "dreb": 26,
+        "turnovers": 12
+      },
+      {
+        "id": "218",
+        "fgm": 33,
+        "fga": 74,
+        "tpm": 7,
+        "fta": 12,
+        "oreb": 17,
+        "dreb": 17,
+        "turnovers": 7
+      }
+    ]
+  },
+  "401925863": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "198",
+        "fgm": 23,
+        "fga": 64,
+        "tpm": 10,
+        "fta": 22,
+        "oreb": 18,
+        "dreb": 14,
+        "turnovers": 11
+      },
+      {
+        "id": "202",
+        "fgm": 25,
+        "fga": 55,
+        "tpm": 7,
+        "fta": 28,
+        "oreb": 17,
+        "dreb": 26,
+        "turnovers": 17
+      }
+    ]
+  },
+  "401925894": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2450",
+        "fgm": 22,
+        "fga": 61,
+        "tpm": 8,
+        "fta": 29,
+        "oreb": 10,
+        "dreb": 19,
+        "turnovers": 8
+      },
+      {
+        "id": "2729",
+        "fgm": 35,
+        "fga": 63,
+        "tpm": 15,
+        "fta": 27,
+        "oreb": 15,
+        "dreb": 31,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401925895": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "295",
+        "fgm": 26,
+        "fga": 52,
+        "tpm": 8,
+        "fta": 18,
+        "oreb": 12,
+        "dreb": 21,
+        "turnovers": 16
+      },
+      {
+        "id": "2450",
+        "fgm": 16,
+        "fga": 36,
+        "tpm": 4,
+        "fta": 29,
+        "oreb": 3,
+        "dreb": 15,
+        "turnovers": 17
+      }
+    ]
+  },
+  "401925915": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2502",
+        "fgm": 24,
+        "fga": 58,
+        "tpm": 6,
+        "fta": 23,
+        "oreb": 14,
+        "dreb": 24,
+        "turnovers": 16
+      },
+      {
+        "id": "36",
+        "fgm": 27,
+        "fga": 51,
+        "tpm": 10,
+        "fta": 29,
+        "oreb": 1,
+        "dreb": 24,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401925940": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "3101",
+        "fgm": 34,
+        "fga": 69,
+        "tpm": 8,
+        "fta": 12,
+        "oreb": 9,
+        "dreb": 28,
+        "turnovers": 13
+      },
+      {
+        "id": "328",
+        "fgm": 42,
+        "fga": 86,
+        "tpm": 14,
+        "fta": 23,
+        "oreb": 17,
+        "dreb": 27,
+        "turnovers": 2
+      }
+    ]
+  },
+  "401926062": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2815",
+        "fgm": 22,
+        "fga": 62,
+        "tpm": 3,
+        "fta": 19,
+        "oreb": 14,
+        "dreb": 24,
+        "turnovers": 18
+      },
+      {
+        "id": "158",
+        "fgm": 33,
+        "fga": 64,
+        "tpm": 11,
+        "fta": 24,
+        "oreb": 13,
+        "dreb": 28,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401926112": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2460",
+        "fgm": 29,
+        "fga": 69,
+        "tpm": 9,
+        "fta": 19,
+        "oreb": 11,
+        "dreb": 25,
+        "turnovers": 9
+      },
+      {
+        "id": "231",
+        "fgm": 26,
+        "fga": 54,
+        "tpm": 15,
+        "fta": 44,
+        "oreb": 10,
+        "dreb": 31,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401926117": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2750",
+        "fgm": 36,
+        "fga": 63,
+        "tpm": 9,
+        "fta": 10,
+        "oreb": 9,
+        "dreb": 30,
+        "turnovers": 12
+      },
+      {
+        "id": "2535",
+        "fgm": 23,
+        "fga": 59,
+        "tpm": 5,
+        "fta": 21,
+        "oreb": 9,
+        "dreb": 19,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401926131": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2674",
+        "fgm": 33,
+        "fga": 71,
+        "tpm": 7,
+        "fta": 16,
+        "oreb": 10,
+        "dreb": 27,
+        "turnovers": 9
+      },
+      {
+        "id": "2509",
+        "fgm": 24,
+        "fga": 64,
+        "tpm": 5,
+        "fta": 32,
+        "oreb": 13,
+        "dreb": 33,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401926132": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2287",
+        "fgm": 23,
+        "fga": 49,
+        "tpm": 5,
+        "fta": 11,
+        "oreb": 4,
+        "dreb": 13,
+        "turnovers": 9
+      },
+      {
+        "id": "2509",
+        "fgm": 26,
+        "fga": 46,
+        "tpm": 8,
+        "fta": 18,
+        "oreb": 6,
+        "dreb": 24,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401926133": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "195",
+        "fgm": 20,
+        "fga": 49,
+        "tpm": 3,
+        "fta": 23,
+        "oreb": 10,
+        "dreb": 17,
+        "turnovers": 15
+      },
+      {
+        "id": "2509",
+        "fgm": 26,
+        "fga": 60,
+        "tpm": 10,
+        "fta": 20,
+        "oreb": 15,
+        "dreb": 22,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401926135": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2441",
+        "fgm": 20,
+        "fga": 50,
+        "tpm": 7,
+        "fta": 8,
+        "oreb": 7,
+        "dreb": 21,
+        "turnovers": 17
+      },
+      {
+        "id": "164",
+        "fgm": 30,
+        "fga": 60,
+        "tpm": 9,
+        "fta": 18,
+        "oreb": 13,
+        "dreb": 24,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401926152": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2546",
+        "fgm": 27,
+        "fga": 60,
+        "tpm": 6,
+        "fta": 23,
+        "oreb": 12,
+        "dreb": 25,
+        "turnovers": 12
+      },
+      {
+        "id": "2393",
+        "fgm": 27,
+        "fga": 51,
+        "tpm": 14,
+        "fta": 26,
+        "oreb": 3,
+        "dreb": 24,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401926181": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2430",
+        "fgm": 24,
+        "fga": 60,
+        "tpm": 11,
+        "fta": 13,
+        "oreb": 16,
+        "dreb": 18,
+        "turnovers": 16
+      },
+      {
+        "id": "82",
+        "fgm": 26,
+        "fga": 59,
+        "tpm": 7,
+        "fta": 28,
+        "oreb": 15,
+        "dreb": 18,
+        "turnovers": 5
+      }
+    ]
+  },
+  "401926201": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2678",
+        "fgm": 22,
+        "fga": 56,
+        "tpm": 6,
+        "fta": 26,
+        "oreb": 17,
+        "dreb": 30,
+        "turnovers": 18
+      },
+      {
+        "id": "2636",
+        "fgm": 28,
+        "fga": 67,
+        "tpm": 7,
+        "fta": 12,
+        "oreb": 12,
+        "dreb": 18,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401926202": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2428",
+        "fgm": 22,
+        "fga": 56,
+        "tpm": 1,
+        "fta": 10,
+        "oreb": 7,
+        "dreb": 26,
+        "turnovers": 13
+      },
+      {
+        "id": "2678",
+        "fgm": 22,
+        "fga": 58,
+        "tpm": 10,
+        "fta": 18,
+        "oreb": 13,
+        "dreb": 29,
+        "turnovers": 14
+      }
+    ]
+  },
+  "401926227": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2172",
+        "fgm": 24,
+        "fga": 58,
+        "tpm": 4,
+        "fta": 13,
+        "oreb": 10,
+        "dreb": 35,
+        "turnovers": 16
+      },
+      {
+        "id": "27",
+        "fgm": 22,
+        "fga": 65,
+        "tpm": 8,
+        "fta": 19,
+        "oreb": 10,
+        "dreb": 27,
+        "turnovers": 7
+      }
+    ]
+  },
+  "401926731": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2630",
+        "fgm": 29,
+        "fga": 64,
+        "tpm": 9,
+        "fta": 24,
+        "oreb": 19,
+        "dreb": 35,
+        "turnovers": 16
+      },
+      {
+        "id": "2032",
+        "fgm": 22,
+        "fga": 71,
+        "tpm": 8,
+        "fta": 22,
+        "oreb": 20,
+        "dreb": 20,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401926780": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "55",
+        "fgm": 27,
+        "fga": 64,
+        "tpm": 16,
+        "fta": 17,
+        "oreb": 10,
+        "dreb": 30,
+        "turnovers": 14
+      },
+      {
+        "id": "6",
+        "fgm": 33,
+        "fga": 71,
+        "tpm": 5,
+        "fta": 17,
+        "oreb": 10,
+        "dreb": 28,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401926794": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2428",
+        "fgm": 25,
+        "fga": 53,
+        "tpm": 5,
+        "fta": 17,
+        "oreb": 10,
+        "dreb": 23,
+        "turnovers": 8
+      },
+      {
+        "id": "2335",
+        "fgm": 27,
+        "fga": 55,
+        "tpm": 10,
+        "fta": 18,
+        "oreb": 10,
+        "dreb": 22,
+        "turnovers": 7
+      }
+    ]
+  },
+  "401926825": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2261",
+        "fgm": 20,
+        "fga": 55,
+        "tpm": 7,
+        "fta": 21,
+        "oreb": 7,
+        "dreb": 20,
+        "turnovers": 10
+      },
+      {
+        "id": "45",
+        "fgm": 25,
+        "fga": 55,
+        "tpm": 8,
+        "fta": 23,
+        "oreb": 12,
+        "dreb": 31,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401926863": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2309",
+        "fgm": 24,
+        "fga": 63,
+        "tpm": 7,
+        "fta": 25,
+        "oreb": 17,
+        "dreb": 19,
+        "turnovers": 11
+      },
+      {
+        "id": "350",
+        "fgm": 30,
+        "fga": 57,
+        "tpm": 9,
+        "fta": 26,
+        "oreb": 11,
+        "dreb": 26,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401926868": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "270",
+        "fgm": 31,
+        "fga": 60,
+        "tpm": 4,
+        "fta": 26,
+        "oreb": 7,
+        "dreb": 36,
+        "turnovers": 8
+      },
+      {
+        "id": "282",
+        "fgm": 25,
+        "fga": 59,
+        "tpm": 7,
+        "fta": 27,
+        "oreb": 6,
+        "dreb": 27,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401927362": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2582",
+        "fgm": 22,
+        "fga": 45,
+        "tpm": 6,
+        "fta": 24,
+        "oreb": 7,
+        "dreb": 22,
+        "turnovers": 21
+      },
+      {
+        "id": "2181",
+        "fgm": 24,
+        "fga": 52,
+        "tpm": 8,
+        "fta": 31,
+        "oreb": 11,
+        "dreb": 20,
+        "turnovers": 16
+      }
+    ]
+  },
+  "401927363": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "233",
+        "fgm": 22,
+        "fga": 43,
+        "tpm": 9,
+        "fta": 27,
+        "oreb": 4,
+        "dreb": 24,
+        "turnovers": 15
+      },
+      {
+        "id": "2181",
+        "fgm": 25,
+        "fga": 56,
+        "tpm": 5,
+        "fta": 37,
+        "oreb": 15,
+        "dreb": 23,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401927369": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "339",
+        "fgm": 22,
+        "fga": 62,
+        "tpm": 10,
+        "fta": 19,
+        "oreb": 12,
+        "dreb": 24,
+        "turnovers": 11
+      },
+      {
+        "id": "2393",
+        "fgm": 27,
+        "fga": 53,
+        "tpm": 5,
+        "fta": 21,
+        "oreb": 5,
+        "dreb": 30,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401927374": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2287",
+        "fgm": 27,
+        "fga": 59,
+        "tpm": 8,
+        "fta": 22,
+        "oreb": 9,
+        "dreb": 19,
+        "turnovers": 14
+      },
+      {
+        "id": "2449",
+        "fgm": 25,
+        "fga": 58,
+        "tpm": 14,
+        "fta": 26,
+        "oreb": 15,
+        "dreb": 21,
+        "turnovers": 18
+      }
+    ]
+  },
+  "401927380": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2640",
+        "fgm": 29,
+        "fga": 68,
+        "tpm": 6,
+        "fta": 22,
+        "oreb": 8,
+        "dreb": 26,
+        "turnovers": 11
+      },
+      {
+        "id": "93",
+        "fgm": 30,
+        "fga": 73,
+        "tpm": 12,
+        "fta": 35,
+        "oreb": 22,
+        "dreb": 36,
+        "turnovers": 16
+      }
+    ]
+  },
+  "401927386": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2739",
+        "fgm": 30,
+        "fga": 64,
+        "tpm": 7,
+        "fta": 13,
+        "oreb": 17,
+        "dreb": 13,
+        "turnovers": 14
+      },
+      {
+        "id": "2460",
+        "fgm": 33,
+        "fga": 49,
+        "tpm": 10,
+        "fta": 16,
+        "oreb": 4,
+        "dreb": 17,
+        "turnovers": 13
+      }
+    ]
+  },
+  "401928352": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2473",
+        "fgm": 23,
+        "fga": 49,
+        "tpm": 10,
+        "fta": 16,
+        "oreb": 3,
+        "dreb": 22,
+        "turnovers": 11
+      },
+      {
+        "id": "2540",
+        "fgm": 30,
+        "fga": 58,
+        "tpm": 18,
+        "fta": 18,
+        "oreb": 9,
+        "dreb": 26,
+        "turnovers": 6
+      }
+    ]
+  },
+  "401928788": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "166",
+        "fgm": 21,
+        "fga": 48,
+        "tpm": 4,
+        "fta": 24,
+        "oreb": 9,
+        "dreb": 17,
+        "turnovers": 19
+      },
+      {
+        "id": "2250",
+        "fgm": 38,
+        "fga": 62,
+        "tpm": 13,
+        "fta": 29,
+        "oreb": 11,
+        "dreb": 19,
+        "turnovers": 6
+      }
+    ]
+  },
+  "401928794": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2492",
+        "fgm": 26,
+        "fga": 57,
+        "tpm": 10,
+        "fta": 27,
+        "oreb": 8,
+        "dreb": 23,
+        "turnovers": 9
+      },
+      {
+        "id": "2534",
+        "fgm": 23,
+        "fga": 58,
+        "tpm": 5,
+        "fta": 38,
+        "oreb": 14,
+        "dreb": 30,
+        "turnovers": 9
+      }
+    ]
+  },
+  "401928814": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2473",
+        "fgm": 27,
+        "fga": 56,
+        "tpm": 9,
+        "fta": 18,
+        "oreb": 12,
+        "dreb": 21,
+        "turnovers": 23
+      },
+      {
+        "id": "68",
+        "fgm": 38,
+        "fga": 67,
+        "tpm": 14,
+        "fta": 26,
+        "oreb": 11,
+        "dreb": 18,
+        "turnovers": 6
+      }
+    ]
+  },
+  "401928818": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2711",
+        "fgm": 30,
+        "fga": 57,
+        "tpm": 11,
+        "fta": 11,
+        "oreb": 8,
+        "dreb": 30,
+        "turnovers": 15
+      },
+      {
+        "id": "2870",
+        "fgm": 20,
+        "fga": 52,
+        "tpm": 4,
+        "fta": 23,
+        "oreb": 6,
+        "dreb": 17,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401928823": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2523",
+        "fgm": 19,
+        "fga": 48,
+        "tpm": 8,
+        "fta": 13,
+        "oreb": 7,
+        "dreb": 20,
+        "turnovers": 20
+      },
+      {
+        "id": "82",
+        "fgm": 29,
+        "fga": 60,
+        "tpm": 9,
+        "fta": 21,
+        "oreb": 9,
+        "dreb": 22,
+        "turnovers": 12
+      }
+    ]
+  },
+  "401928824": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2523",
+        "fgm": 19,
+        "fga": 51,
+        "tpm": 8,
+        "fta": 12,
+        "oreb": 3,
+        "dreb": 18,
+        "turnovers": 10
+      },
+      {
+        "id": "8",
+        "fgm": 31,
+        "fga": 62,
+        "tpm": 5,
+        "fta": 17,
+        "oreb": 14,
+        "dreb": 31,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401928828": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2750",
+        "fgm": 26,
+        "fga": 53,
+        "tpm": 7,
+        "fta": 26,
+        "oreb": 10,
+        "dreb": 28,
+        "turnovers": 14
+      },
+      {
+        "id": "2649",
+        "fgm": 27,
+        "fga": 66,
+        "tpm": 3,
+        "fta": 15,
+        "oreb": 12,
+        "dreb": 24,
+        "turnovers": 8
+      }
+    ]
+  },
+  "401928996": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2674",
+        "fgm": 20,
+        "fga": 53,
+        "tpm": 6,
+        "fta": 35,
+        "oreb": 13,
+        "dreb": 25,
+        "turnovers": 9
+      },
+      {
+        "id": "2571",
+        "fgm": 26,
+        "fga": 57,
+        "tpm": 8,
+        "fta": 26,
+        "oreb": 9,
+        "dreb": 28,
+        "turnovers": 7
+      }
+    ]
+  },
+  "401929002": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "250",
+        "fgm": 23,
+        "fga": 61,
+        "tpm": 8,
+        "fta": 16,
+        "oreb": 11,
+        "dreb": 28,
+        "turnovers": 17
+      },
+      {
+        "id": "62",
+        "fgm": 25,
+        "fga": 66,
+        "tpm": 4,
+        "fta": 22,
+        "oreb": 15,
+        "dreb": 29,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401929003": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2501",
+        "fgm": 22,
+        "fga": 43,
+        "tpm": 8,
+        "fta": 24,
+        "oreb": 3,
+        "dreb": 32,
+        "turnovers": 14
+      },
+      {
+        "id": "62",
+        "fgm": 25,
+        "fga": 70,
+        "tpm": 9,
+        "fta": 14,
+        "oreb": 15,
+        "dreb": 17,
+        "turnovers": 4
+      }
+    ]
+  },
+  "401929040": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2815",
+        "fgm": 19,
+        "fga": 50,
+        "tpm": 4,
+        "fta": 27,
+        "oreb": 12,
+        "dreb": 28,
+        "turnovers": 17
+      },
+      {
+        "id": "2437",
+        "fgm": 17,
+        "fga": 53,
+        "tpm": 3,
+        "fta": 38,
+        "oreb": 13,
+        "dreb": 28,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401929199": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2572",
+        "fgm": 21,
+        "fga": 51,
+        "tpm": 3,
+        "fta": 28,
+        "oreb": 13,
+        "dreb": 17,
+        "turnovers": 22
+      },
+      {
+        "id": "326",
+        "fgm": 26,
+        "fga": 44,
+        "tpm": 8,
+        "fta": 33,
+        "oreb": 3,
+        "dreb": 22,
+        "turnovers": 20
+      }
+    ]
+  },
+  "401929293": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2437",
+        "fgm": 19,
+        "fga": 65,
+        "tpm": 7,
+        "fta": 14,
+        "oreb": 15,
+        "dreb": 26,
+        "turnovers": 15
+      },
+      {
+        "id": "328",
+        "fgm": 35,
+        "fga": 60,
+        "tpm": 8,
+        "fta": 21,
+        "oreb": 7,
+        "dreb": 32,
+        "turnovers": 11
+      }
+    ]
+  },
+  "401929352": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2916",
+        "fgm": 21,
+        "fga": 53,
+        "tpm": 7,
+        "fta": 18,
+        "oreb": 10,
+        "dreb": 22,
+        "turnovers": 15
+      },
+      {
+        "id": "2638",
+        "fgm": 29,
+        "fga": 57,
+        "tpm": 11,
+        "fta": 18,
+        "oreb": 10,
+        "dreb": 27,
+        "turnovers": 10
+      }
+    ]
+  },
+  "401929356": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "250",
+        "fgm": 31,
+        "fga": 62,
+        "tpm": 11,
+        "fta": 25,
+        "oreb": 9,
+        "dreb": 21,
+        "turnovers": 13
+      },
+      {
+        "id": "2501",
+        "fgm": 29,
+        "fga": 55,
+        "tpm": 11,
+        "fta": 27,
+        "oreb": 6,
+        "dreb": 25,
+        "turnovers": 21
+      }
+    ]
+  },
+  "401930177": {
+    "checkedAt": "2026-11-14T07:23:28.078Z",
+    "teams": [
+      {
+        "id": "2029",
+        "fgm": 14,
+        "fga": 51,
+        "tpm": 2,
+        "fta": 11,
+        "oreb": 11,
+        "dreb": 11,
+        "turnovers": 30
+      },
+      {
+        "id": "26",
+        "fgm": 40,
+        "fga": 68,
+        "tpm": 13,
+        "fta": 20,
+        "oreb": 13,
+        "dreb": 25,
+        "turnovers": 13
+      }
+    ]
+  }
+}
