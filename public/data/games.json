@@ -12101,9 +12101,9 @@
     "marketSpread": -4.5,
     "awayML": 150,
     "homeML": -180,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 56,
+    "homeScore": 67,
+    "status": "final",
     "espnId": "401929040",
     "espnAwayTeamId": "2815",
     "espnHomeTeamId": "2437",
@@ -12126,7 +12126,9 @@
       "awayPrice": -110
     },
     "oddsBook": "DraftKings",
-    "oddsCapturedAt": "2026-11-13T02:28:28.891Z"
+    "oddsCapturedAt": "2026-11-13T02:28:28.891Z",
+    "actualMargin": 11,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920123",
@@ -12139,9 +12141,9 @@
     "marketSpread": -1.5,
     "awayML": 105,
     "homeML": -125,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 83,
+    "homeScore": 74,
+    "status": "final",
     "espnId": "401920123",
     "espnAwayTeamId": "13",
     "espnHomeTeamId": "70",
@@ -12185,7 +12187,9 @@
       "awayPrice": -115
     },
     "oddsBook": "DraftKings",
-    "oddsCapturedAt": "2026-11-13T07:07:59.920Z"
+    "oddsCapturedAt": "2026-11-13T07:07:59.920Z",
+    "actualMargin": -9,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909503",
@@ -12198,9 +12202,9 @@
     "marketSpread": -1.5,
     "awayML": -118,
     "homeML": -102,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 67,
+    "homeScore": 47,
+    "status": "final",
     "espnId": "401909503",
     "espnAwayTeamId": "305",
     "espnHomeTeamId": "77",
@@ -12265,7 +12269,9 @@
       "awayPrice": -130
     },
     "oddsBook": "DraftKings",
-    "oddsCapturedAt": "2026-11-13T07:07:59.920Z"
+    "oddsCapturedAt": "2026-11-13T07:07:59.920Z",
+    "actualMargin": -20,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401909741",
@@ -12278,9 +12284,9 @@
     "marketSpread": -2.5,
     "awayML": -122,
     "homeML": 102,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 80,
+    "homeScore": 69,
+    "status": "final",
     "espnId": "401909741",
     "espnAwayTeamId": "12",
     "espnHomeTeamId": "2",
@@ -12338,7 +12344,9 @@
       "awayPrice": -105
     },
     "oddsBook": "DraftKings",
-    "oddsCapturedAt": "2026-11-13T02:28:28.891Z"
+    "oddsCapturedAt": "2026-11-13T02:28:28.891Z",
+    "actualMargin": -11,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401906760",
@@ -12351,9 +12359,9 @@
     "marketSpread": -17.5,
     "awayML": 1200,
     "homeML": -2400,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 76,
+    "homeScore": 82,
+    "status": "final",
     "espnId": "401906760",
     "espnAwayTeamId": "2550",
     "espnHomeTeamId": "333",
@@ -12397,7 +12405,9 @@
       "awayPrice": -118
     },
     "oddsBook": "DraftKings",
-    "oddsCapturedAt": "2026-11-13T07:07:59.920Z"
+    "oddsCapturedAt": "2026-11-13T07:07:59.920Z",
+    "actualMargin": 6,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401921728",
@@ -12410,9 +12420,9 @@
     "marketSpread": -1.5,
     "awayML": -115,
     "homeML": -105,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 68,
+    "homeScore": 76,
+    "status": "final",
     "espnId": "401921728",
     "espnAwayTeamId": "24",
     "espnHomeTeamId": "2439",
@@ -12442,7 +12452,9 @@
       "awayPrice": -102
     },
     "oddsBook": "DraftKings",
-    "oddsCapturedAt": "2026-11-13T07:07:59.920Z"
+    "oddsCapturedAt": "2026-11-13T07:07:59.920Z",
+    "actualMargin": 8,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911014",
@@ -12455,9 +12467,9 @@
     "marketSpread": -22.5,
     "awayML": 2000,
     "homeML": -6500,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 65,
+    "homeScore": 90,
+    "status": "final",
     "espnId": "401911014",
     "espnAwayTeamId": "2050",
     "espnHomeTeamId": "2567",
@@ -12501,7 +12513,9 @@
       "awayPrice": -110
     },
     "oddsBook": "DraftKings",
-    "oddsCapturedAt": "2026-11-13T02:28:28.891Z"
+    "oddsCapturedAt": "2026-11-13T02:28:28.891Z",
+    "actualMargin": 25,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401906794",
@@ -12514,9 +12528,9 @@
     "marketSpread": -3.5,
     "awayML": -175,
     "homeML": 145,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 81,
+    "homeScore": 63,
+    "status": "final",
     "espnId": "401906794",
     "espnAwayTeamId": "2752",
     "espnHomeTeamId": "344",
@@ -12553,7 +12567,9 @@
       "awayPrice": -105
     },
     "oddsBook": "DraftKings",
-    "oddsCapturedAt": "2026-11-13T02:28:28.891Z"
+    "oddsCapturedAt": "2026-11-13T02:28:28.891Z",
+    "actualMargin": -18,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401917980",
@@ -12641,9 +12657,9 @@
     "marketSpread": -13.5,
     "awayML": 650,
     "homeML": -1000,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 67,
+    "homeScore": 87,
+    "status": "final",
     "espnId": "401917526",
     "espnAwayTeamId": "2130",
     "espnHomeTeamId": "301",
@@ -12729,7 +12745,9 @@
       "awayPrice": -105
     },
     "oddsBook": "BetOnline.ag",
-    "oddsCapturedAt": "2026-11-13T03:32:50.571Z"
+    "oddsCapturedAt": "2026-11-13T03:32:50.571Z",
+    "actualMargin": 20,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925739",
@@ -12743,9 +12761,9 @@
     "marketSpread": -31.5,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 65,
+    "homeScore": 81,
+    "status": "final",
     "espnAwayTeamId": "2400",
     "espnHomeTeamId": "204",
     "startTime": "2026-11-14T02:30:00.000Z",
@@ -12795,7 +12813,9 @@
       "awayPrice": -108
     },
     "oddsBook": "BetOnline.ag",
-    "oddsCapturedAt": "2026-11-13T03:32:50.571Z"
+    "oddsCapturedAt": "2026-11-13T03:32:50.571Z",
+    "actualMargin": 16,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920372",
@@ -12941,9 +12961,9 @@
     "marketSpread": -5.5,
     "awayML": 220,
     "homeML": -270,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 61,
+    "homeScore": 84,
+    "status": "final",
     "espnAwayTeamId": "82",
     "espnHomeTeamId": "2608",
     "startTime": "2026-11-14T03:00:00.000Z",
@@ -12993,7 +13013,9 @@
       "awayPrice": -108
     },
     "oddsBook": "DraftKings",
-    "oddsCapturedAt": "2026-11-13T07:07:59.920Z"
+    "oddsCapturedAt": "2026-11-13T07:07:59.920Z",
+    "actualMargin": 23,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920345",
@@ -13277,7 +13299,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T05:00:01.156Z",
       "homeHandicap": 7.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -13285,6 +13307,26 @@
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-14T02:58:25.798Z"
+  },
+  {
+    "id": "espn-401920750",
+    "date": "2026-11-14",
+    "away": "Marshall",
+    "home": "Youngstown St",
+    "site": "Home",
+    "source": "ESPN / The Odds API",
+    "marketFavorite": null,
+    "marketSpread": null,
+    "awayML": null,
+    "homeML": null,
+    "awayScore": null,
+    "homeScore": null,
+    "status": "scheduled",
+    "espnId": "401920750",
+    "espnAwayTeamId": "276",
+    "espnHomeTeamId": "2754",
+    "time": "12:00",
+    "startTime": "2026-11-14T18:00:00.000Z"
   },
   {
     "id": "espn-401911231",
@@ -13343,7 +13385,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T05:00:01.156Z",
       "homeHandicap": -9.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -13418,14 +13460,21 @@
         "book": "BetOnline.ag",
         "homePrice": -110,
         "awayPrice": -110
+      },
+      {
+        "capturedAt": "2026-11-14T05:00:01.156Z",
+        "homeHandicap": -1.5,
+        "book": "DraftKings",
+        "homePrice": 100,
+        "awayPrice": -120
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
-      "homeHandicap": -1,
-      "book": "BetOnline.ag",
-      "homePrice": -110,
-      "awayPrice": -110
+      "capturedAt": "2026-11-14T05:00:01.156Z",
+      "homeHandicap": -1.5,
+      "book": "DraftKings",
+      "homePrice": 100,
+      "awayPrice": -120
     },
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-14T02:58:25.798Z"
@@ -13439,8 +13488,8 @@
     "source": "ESPN / The Odds API",
     "marketFavorite": "South Carolina",
     "marketSpread": -25.5,
-    "awayML": null,
-    "homeML": null,
+    "awayML": 3000,
+    "homeML": -10000,
     "awayScore": null,
     "homeScore": null,
     "status": "scheduled",
@@ -13456,12 +13505,19 @@
         "book": "BetOnline.ag",
         "homePrice": -110,
         "awayPrice": -110
+      },
+      {
+        "capturedAt": "2026-11-14T05:00:01.156Z",
+        "homeHandicap": -25.5,
+        "book": "DraftKings",
+        "homePrice": -110,
+        "awayPrice": -110
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T05:00:01.156Z",
       "homeHandicap": -25.5,
-      "book": "BetOnline.ag",
+      "book": "DraftKings",
       "homePrice": -110,
       "awayPrice": -110
     },
@@ -13514,14 +13570,21 @@
         "book": "BetOnline.ag",
         "homePrice": -115,
         "awayPrice": -105
+      },
+      {
+        "capturedAt": "2026-11-14T05:00:01.156Z",
+        "homeHandicap": -11.5,
+        "book": "DraftKings",
+        "homePrice": -105,
+        "awayPrice": -115
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
-      "homeHandicap": -11,
-      "book": "BetOnline.ag",
-      "homePrice": -115,
-      "awayPrice": -105
+      "capturedAt": "2026-11-14T05:00:01.156Z",
+      "homeHandicap": -11.5,
+      "book": "DraftKings",
+      "homePrice": -105,
+      "awayPrice": -115
     },
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-14T02:58:25.798Z"
@@ -13536,8 +13599,8 @@
     "source": "ESPN / The Odds API",
     "marketFavorite": "South Florida",
     "marketSpread": -27.5,
-    "awayML": null,
-    "homeML": null,
+    "awayML": 3500,
+    "homeML": -20000,
     "awayScore": null,
     "homeScore": null,
     "status": "scheduled",
@@ -13552,12 +13615,19 @@
         "book": "BetOnline.ag",
         "homePrice": -110,
         "awayPrice": -110
+      },
+      {
+        "capturedAt": "2026-11-14T05:00:01.156Z",
+        "homeHandicap": -27.5,
+        "book": "DraftKings",
+        "homePrice": -110,
+        "awayPrice": -110
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T05:00:01.156Z",
       "homeHandicap": -27.5,
-      "book": "BetOnline.ag",
+      "book": "DraftKings",
       "homePrice": -110,
       "awayPrice": -110
     },
@@ -13590,12 +13660,19 @@
         "book": "BetOnline.ag",
         "homePrice": -110,
         "awayPrice": -110
+      },
+      {
+        "capturedAt": "2026-11-14T05:00:01.156Z",
+        "homeHandicap": -7.5,
+        "book": "DraftKings",
+        "homePrice": -110,
+        "awayPrice": -110
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T05:00:01.156Z",
       "homeHandicap": -7.5,
-      "book": "BetOnline.ag",
+      "book": "DraftKings",
       "homePrice": -110,
       "awayPrice": -110
     },
@@ -13652,7 +13729,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T05:00:01.156Z",
       "homeHandicap": 7.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -13697,7 +13774,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T05:00:01.156Z",
       "homeHandicap": -6.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -13835,7 +13912,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T05:00:01.156Z",
       "homeHandicap": 4.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -13880,7 +13957,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T05:00:01.156Z",
       "homeHandicap": -7.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -13925,7 +14002,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T05:00:01.156Z",
       "homeHandicap": -1.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -13960,12 +14037,19 @@
         "book": "BetOnline.ag",
         "homePrice": -110,
         "awayPrice": -110
+      },
+      {
+        "capturedAt": "2026-11-14T05:00:01.156Z",
+        "homeHandicap": -16.5,
+        "book": "DraftKings",
+        "homePrice": -110,
+        "awayPrice": -110
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T05:00:01.156Z",
       "homeHandicap": -16.5,
-      "book": "BetOnline.ag",
+      "book": "DraftKings",
       "homePrice": -110,
       "awayPrice": -110
     },
@@ -14042,8 +14126,8 @@
     "source": "ESPN / The Odds API",
     "marketFavorite": "Campbell",
     "marketSpread": -8.5,
-    "awayML": null,
-    "homeML": null,
+    "awayML": 260,
+    "homeML": -325,
     "awayScore": null,
     "homeScore": null,
     "status": "scheduled",
@@ -14058,12 +14142,19 @@
         "book": "BetOnline.ag",
         "homePrice": -115,
         "awayPrice": -105
+      },
+      {
+        "capturedAt": "2026-11-14T05:00:01.156Z",
+        "homeHandicap": -8.5,
+        "book": "DraftKings",
+        "homePrice": -115,
+        "awayPrice": -105
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T05:00:01.156Z",
       "homeHandicap": -8.5,
-      "book": "BetOnline.ag",
+      "book": "DraftKings",
       "homePrice": -115,
       "awayPrice": -105
     },
@@ -14120,7 +14211,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T05:00:01.156Z",
       "homeHandicap": -1.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -14159,8 +14250,8 @@
     "source": "ESPN / The Odds API",
     "marketFavorite": "Loyola MD",
     "marketSpread": -1,
-    "awayML": null,
-    "homeML": null,
+    "awayML": -110,
+    "homeML": -110,
     "awayScore": null,
     "homeScore": null,
     "status": "scheduled",
@@ -14182,14 +14273,21 @@
         "book": "BetOnline.ag",
         "homePrice": -110,
         "awayPrice": -110
+      },
+      {
+        "capturedAt": "2026-11-14T05:00:01.156Z",
+        "homeHandicap": 1.5,
+        "book": "DraftKings",
+        "homePrice": -125,
+        "awayPrice": 105
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
-      "homeHandicap": 0,
-      "book": "BetOnline.ag",
-      "homePrice": -110,
-      "awayPrice": -110
+      "capturedAt": "2026-11-14T05:00:01.156Z",
+      "homeHandicap": 1.5,
+      "book": "DraftKings",
+      "homePrice": -125,
+      "awayPrice": 105
     },
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-14T02:58:25.798Z"
@@ -14237,7 +14335,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T05:00:01.156Z",
       "homeHandicap": -8.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -14245,26 +14343,6 @@
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-13T23:22:43.860Z"
-  },
-  {
-    "id": "espn-401920750",
-    "date": "2026-11-14",
-    "away": "Marshall",
-    "home": "Youngstown St",
-    "site": "Home",
-    "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
-    "awayML": null,
-    "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
-    "espnId": "401920750",
-    "espnAwayTeamId": "276",
-    "espnHomeTeamId": "2754",
-    "time": "17:00",
-    "startTime": "2026-11-14T23:00:00.000Z"
   },
   {
     "id": "espn-401919782",
@@ -14335,7 +14413,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T05:00:01.156Z",
       "homeHandicap": -4.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -14387,7 +14465,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T05:00:01.156Z",
       "homeHandicap": -11.5,
       "book": "DraftKings",
       "homePrice": -108,
@@ -14422,14 +14500,21 @@
         "book": "BetOnline.ag",
         "homePrice": -110,
         "awayPrice": -110
+      },
+      {
+        "capturedAt": "2026-11-14T05:00:01.156Z",
+        "homeHandicap": -9.5,
+        "book": "DraftKings",
+        "homePrice": -102,
+        "awayPrice": -118
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
-      "homeHandicap": -9,
-      "book": "BetOnline.ag",
-      "homePrice": -110,
-      "awayPrice": -110
+      "capturedAt": "2026-11-14T05:00:01.156Z",
+      "homeHandicap": -9.5,
+      "book": "DraftKings",
+      "homePrice": -102,
+      "awayPrice": -118
     },
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-14T02:58:25.798Z"
@@ -14650,7 +14735,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T05:00:01.156Z",
       "homeHandicap": -10.5,
       "book": "DraftKings",
       "homePrice": -102,
@@ -14688,7 +14773,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T05:00:01.156Z",
       "homeHandicap": -9.5,
       "book": "DraftKings",
       "homePrice": -110,
@@ -14760,7 +14845,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T05:00:01.156Z",
       "homeHandicap": -32.5,
       "book": "DraftKings",
       "homePrice": -105,
@@ -14838,7 +14923,7 @@
       }
     ],
     "latestMarket": {
-      "capturedAt": "2026-11-14T03:59:29.045Z",
+      "capturedAt": "2026-11-14T05:00:01.156Z",
       "homeHandicap": -10.5,
       "book": "DraftKings",
       "homePrice": -105,
