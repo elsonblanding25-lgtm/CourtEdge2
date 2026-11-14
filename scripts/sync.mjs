@@ -749,29 +749,6 @@ function competitorDI(c) {
   return competitorNames(c).some(isDI);
 }
 
-// Optional team_stats.json format:
-// [
-//   {
-//     team: "Duke",
-//     gamesPlayed: 10,
-//     offTO: 15.2,
-//     defTOForced: 19.4,
-//     offEFG: 54.1,
-//     defEFGAllowed: 45.8,
-//     offORB: 31.2,
-//     defORBAllowed: 25.1,
-//     offFTR: 34.5,
-//     defFTRAllowed: 28.3,
-//     pace: 70.5
-//   }
-// ]
-//
-// All rates are percentages, e.g. 18.2,
-// rather than decimals such as 0.182.
-//
-// Statistics should be opponent-adjusted when possible
-// and must represent information available before tipoff.
-
 const stats = new Map();
 
 if (Array.isArray(statsInput)) {
@@ -798,19 +775,8 @@ const statFields = [
   'defFTRAllowed',
   'pace'
 ];
-  const validatedTeamStats = [...stats.values()].filter(r =>
-  Number(r.gamesPlayed) >= 3 &&
-  statFields.every(k =>
-    r[k] != null &&
-    r[k] !== '' &&
-    Number.isFinite(Number(r[k]))
-  )
 
-console.log(
-  `STATS VALIDATION: ${stats.size} profiles loaded; ` +
-`${validatedTeamStats.length} usable with 3+ games`);
-
-const usableStats = [...stats.values()].filter(r =>
+const validatedTeamStats = [...stats.values()].filter(r =>
   Number(r.gamesPlayed) >= 3 &&
   statFields.every(k =>
     r[k] != null &&
@@ -821,9 +787,9 @@ const usableStats = [...stats.values()].filter(r =>
 
 console.log(
   `STATS VALIDATION: ${stats.size} profiles loaded; ` +
-  `${usableStats.length} usable with 3+ games`
+  `${validatedTeamStats.length} usable with 3+ games`
 );
-}
+
 
 // Approximate national baselines.
 // These are starting assumptions, not verified
