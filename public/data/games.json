@@ -13208,44 +13208,6 @@
     "oddsCapturedAt": "2026-11-14T06:57:39.505Z"
   },
   {
-    "id": "espn-401919847",
-    "date": "2026-11-14",
-    "away": "Stonehill",
-    "home": "Texas Tech",
-    "site": "Home",
-    "source": "ESPN / The Odds API",
-    "marketFavorite": "Texas Tech",
-    "marketSpread": -40.5,
-    "awayML": null,
-    "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
-    "espnId": "401919847",
-    "espnAwayTeamId": "284",
-    "espnHomeTeamId": "2641",
-    "time": "12:00",
-    "startTime": "2026-11-14T18:00:00.000Z",
-    "marketHistory": [
-      {
-        "capturedAt": "2026-11-14T06:57:39.505Z",
-        "homeHandicap": -40.5,
-        "book": "DraftKings",
-        "homePrice": -105,
-        "awayPrice": -115
-      }
-    ],
-    "latestMarket": {
-      "capturedAt": "2026-11-14T07:37:09.597Z",
-      "homeHandicap": -40.5,
-      "book": "DraftKings",
-      "homePrice": -105,
-      "awayPrice": -115
-    },
-    "oddsBook": "DraftKings",
-    "oddsCapturedAt": "2026-11-14T06:57:39.505Z"
-  },
-  {
     "id": "espn-401923303",
     "date": "2026-11-14",
     "away": "Drexel",
@@ -13282,44 +13244,6 @@
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-14T07:09:47.173Z"
-  },
-  {
-    "id": "espn-401922031",
-    "date": "2026-11-14",
-    "away": "Montana",
-    "home": "North Dakota",
-    "site": "Home",
-    "source": "ESPN / The Odds API",
-    "marketFavorite": "North Dakota",
-    "marketSpread": -1.5,
-    "awayML": 102,
-    "homeML": -122,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
-    "espnId": "401922031",
-    "espnAwayTeamId": "149",
-    "espnHomeTeamId": "155",
-    "time": "12:00",
-    "startTime": "2026-11-14T18:00:00.000Z",
-    "marketHistory": [
-      {
-        "capturedAt": "2026-11-14T06:57:39.505Z",
-        "homeHandicap": -1.5,
-        "book": "DraftKings",
-        "homePrice": -105,
-        "awayPrice": -115
-      }
-    ],
-    "latestMarket": {
-      "capturedAt": "2026-11-14T07:37:09.597Z",
-      "homeHandicap": -1.5,
-      "book": "DraftKings",
-      "homePrice": -105,
-      "awayPrice": -115
-    },
-    "oddsBook": "DraftKings",
-    "oddsCapturedAt": "2026-11-14T06:57:39.505Z"
   },
   {
     "id": "espn-401920074",
@@ -13507,6 +13431,44 @@
     },
     "oddsBook": "BetOnline.ag",
     "oddsCapturedAt": "2026-11-13T21:29:55.956Z"
+  },
+  {
+    "id": "espn-401919847",
+    "date": "2026-11-14",
+    "away": "Stonehill",
+    "home": "Texas Tech",
+    "site": "Home",
+    "source": "ESPN / The Odds API",
+    "marketFavorite": "Texas Tech",
+    "marketSpread": -40.5,
+    "awayML": null,
+    "homeML": null,
+    "awayScore": null,
+    "homeScore": null,
+    "status": "scheduled",
+    "espnId": "401919847",
+    "espnAwayTeamId": "284",
+    "espnHomeTeamId": "2641",
+    "time": "13:00",
+    "startTime": "2026-11-14T19:00:00.000Z",
+    "marketHistory": [
+      {
+        "capturedAt": "2026-11-14T06:57:39.505Z",
+        "homeHandicap": -40.5,
+        "book": "DraftKings",
+        "homePrice": -105,
+        "awayPrice": -115
+      }
+    ],
+    "latestMarket": {
+      "capturedAt": "2026-11-14T07:37:09.597Z",
+      "homeHandicap": -40.5,
+      "book": "DraftKings",
+      "homePrice": -105,
+      "awayPrice": -115
+    },
+    "oddsBook": "DraftKings",
+    "oddsCapturedAt": "2026-11-14T06:57:39.505Z"
   },
   {
     "id": "espn-401922230",
@@ -15389,6 +15351,44 @@
     },
     "oddsBook": "DraftKings",
     "oddsCapturedAt": "2026-11-14T07:09:47.173Z"
+  },
+  {
+    "id": "espn-401922031",
+    "date": "2026-11-14",
+    "away": "Montana",
+    "home": "North Dakota",
+    "site": "Home",
+    "source": "ESPN / The Odds API",
+    "marketFavorite": "North Dakota",
+    "marketSpread": -1.5,
+    "awayML": 102,
+    "homeML": -122,
+    "awayScore": null,
+    "homeScore": null,
+    "status": "scheduled",
+    "espnId": "401922031",
+    "espnAwayTeamId": "149",
+    "espnHomeTeamId": "155",
+    "time": "20:00",
+    "startTime": "2026-11-15T02:00:00.000Z",
+    "marketHistory": [
+      {
+        "capturedAt": "2026-11-14T06:57:39.505Z",
+        "homeHandicap": -1.5,
+        "book": "DraftKings",
+        "homePrice": -105,
+        "awayPrice": -115
+      }
+    ],
+    "latestMarket": {
+      "capturedAt": "2026-11-14T07:37:09.597Z",
+      "homeHandicap": -1.5,
+      "book": "DraftKings",
+      "homePrice": -105,
+      "awayPrice": -115
+    },
+    "oddsBook": "DraftKings",
+    "oddsCapturedAt": "2026-11-14T06:57:39.505Z"
   },
   {
     "id": "espn-401917530",
