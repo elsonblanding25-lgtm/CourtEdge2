@@ -2522,16 +2522,16 @@
   {
     "team": "Nevada",
     "espnTeamId": "2440",
-    "gamesPlayed": 2,
-    "offTO": 16.5,
-    "defTOForced": 14.6,
-    "offEFG": 51.7,
-    "defEFGAllowed": 51.2,
-    "offORB": 25,
-    "defORBAllowed": 29.3,
-    "offFTR": 47,
-    "defFTRAllowed": 38.6,
-    "pace": 75.4
+    "gamesPlayed": 3,
+    "offTO": 17.7,
+    "defTOForced": 19.2,
+    "offEFG": 46.7,
+    "defEFGAllowed": 51.9,
+    "offORB": 35.3,
+    "defORBAllowed": 31.4,
+    "offFTR": 48.6,
+    "defFTRAllowed": 38.1,
+    "pace": 74.1
   },
   {
     "team": "New Hampshire",
@@ -2564,16 +2564,16 @@
   {
     "team": "New Mexico",
     "espnTeamId": "167",
-    "gamesPlayed": 2,
-    "offTO": 5.8,
-    "defTOForced": 23.5,
-    "offEFG": 56.8,
-    "defEFGAllowed": 49,
-    "offORB": 36.7,
-    "defORBAllowed": 28.1,
-    "offFTR": 39.8,
-    "defFTRAllowed": 44.6,
-    "pace": 68.4
+    "gamesPlayed": 3,
+    "offTO": 7.5,
+    "defTOForced": 20.8,
+    "offEFG": 54,
+    "defEFGAllowed": 53.1,
+    "offORB": 36.1,
+    "defORBAllowed": 26.7,
+    "offFTR": 44.2,
+    "defFTRAllowed": 42.6,
+    "pace": 70.8
   },
   {
     "team": "New Mexico St",
@@ -3446,16 +3446,16 @@
   {
     "team": "Santa Clara",
     "espnTeamId": "2541",
-    "gamesPlayed": 1,
-    "offTO": 23.6,
-    "defTOForced": 20.6,
-    "offEFG": 49.2,
-    "defEFGAllowed": 49.1,
-    "offORB": 41,
-    "defORBAllowed": 28.6,
-    "offFTR": 27,
-    "defFTRAllowed": 44.6,
-    "pace": 72.5
+    "gamesPlayed": 2,
+    "offTO": 19.7,
+    "defTOForced": 15.5,
+    "offEFG": 54.4,
+    "defEFGAllowed": 48.8,
+    "offORB": 32.9,
+    "defORBAllowed": 32.1,
+    "offFTR": 33.1,
+    "defFTRAllowed": 49.2,
+    "pace": 74
   },
   {
     "team": "SC Upstate",
@@ -4394,6 +4394,20 @@
     "offFTR": 13.4,
     "defFTRAllowed": 28.7,
     "pace": 73.9
+  },
+  {
+    "team": "Utah Valley",
+    "espnTeamId": "3084",
+    "gamesPlayed": 1,
+    "offTO": 28.6,
+    "defTOForced": 20.1,
+    "offEFG": 53.7,
+    "defEFGAllowed": 37.5,
+    "offORB": 36.7,
+    "defORBAllowed": 50,
+    "offFTR": 37,
+    "defFTRAllowed": 51.6,
+    "pace": 71.6
   },
   {
     "team": "UTEP",
