@@ -2298,16 +2298,16 @@
   {
     "team": "Montana",
     "espnTeamId": "149",
-    "gamesPlayed": 1,
-    "offTO": 24.9,
-    "defTOForced": 24.1,
-    "offEFG": 41,
-    "defEFGAllowed": 45.1,
-    "offORB": 29.7,
-    "defORBAllowed": 34.4,
-    "offFTR": 52,
-    "defFTRAllowed": 43.1,
-    "pace": 67.4
+    "gamesPlayed": 2,
+    "offTO": 21.6,
+    "defTOForced": 19.9,
+    "offEFG": 46.8,
+    "defEFGAllowed": 47.4,
+    "offORB": 36.2,
+    "defORBAllowed": 26.5,
+    "offFTR": 50,
+    "defFTRAllowed": 30.7,
+    "pace": 69.8
   },
   {
     "team": "Montana St",
@@ -2676,16 +2676,16 @@
   {
     "team": "North Dakota",
     "espnTeamId": "155",
-    "gamesPlayed": 2,
-    "offTO": 12.3,
-    "defTOForced": 19.5,
-    "offEFG": 51.6,
-    "defEFGAllowed": 66.7,
-    "offORB": 38.9,
-    "defORBAllowed": 41.8,
-    "offFTR": 43.5,
-    "defFTRAllowed": 44.1,
-    "pace": 69.2
+    "gamesPlayed": 3,
+    "offTO": 13.6,
+    "defTOForced": 19.2,
+    "offEFG": 50.8,
+    "defEFGAllowed": 61.5,
+    "offORB": 32.4,
+    "defORBAllowed": 42.5,
+    "offFTR": 35.8,
+    "defFTRAllowed": 45.6,
+    "pace": 70.2
   },
   {
     "team": "North Florida",
