@@ -16267,8 +16267,8 @@
     "status": "scheduled",
     "espnAwayTeamId": "50",
     "espnHomeTeamId": "2638",
-    "startTime": "2026-11-16T18:00:00.000Z",
-    "time": "12:00"
+    "startTime": "2026-11-16T19:00:00.000Z",
+    "time": "13:00"
   },
   {
     "id": "espn-401921087",
@@ -16507,26 +16507,6 @@
     "status": "scheduled",
     "espnAwayTeamId": "149",
     "espnHomeTeamId": "2306",
-    "startTime": "2026-11-17T01:00:00.000Z",
-    "time": "19:00"
-  },
-  {
-    "id": "espn-401926143",
-    "espnId": "401926143",
-    "date": "2026-11-16",
-    "away": "SIUE",
-    "home": "North Dakota",
-    "site": "Home",
-    "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
-    "awayML": null,
-    "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
-    "espnAwayTeamId": "2565",
-    "espnHomeTeamId": "155",
     "startTime": "2026-11-17T01:00:00.000Z",
     "time": "19:00"
   },
@@ -17229,6 +17209,26 @@
     "espnHomeTeamId": "5",
     "startTime": "2026-11-18T00:30:00.000Z",
     "time": "18:30"
+  },
+  {
+    "id": "espn-401926143",
+    "espnId": "401926143",
+    "date": "2026-11-17",
+    "away": "SIUE",
+    "home": "North Dakota",
+    "site": "Home",
+    "source": "ESPN / The Odds API",
+    "marketFavorite": null,
+    "marketSpread": null,
+    "awayML": null,
+    "homeML": null,
+    "awayScore": null,
+    "homeScore": null,
+    "status": "scheduled",
+    "espnAwayTeamId": "2565",
+    "espnHomeTeamId": "155",
+    "startTime": "2026-11-18T01:00:00.000Z",
+    "time": "19:00"
   },
   {
     "id": "espn-401921826",
