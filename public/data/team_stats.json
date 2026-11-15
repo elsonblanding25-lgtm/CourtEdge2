@@ -3012,16 +3012,16 @@
   {
     "team": "Portland St",
     "espnTeamId": "2502",
-    "gamesPlayed": 2,
-    "offTO": 20.7,
-    "defTOForced": 15,
-    "offEFG": 43,
-    "defEFGAllowed": 59.2,
-    "offORB": 33.3,
-    "defORBAllowed": 22.2,
-    "offFTR": 40.9,
-    "defFTRAllowed": 57.3,
-    "pace": 70.1
+    "gamesPlayed": 3,
+    "offTO": 20.4,
+    "defTOForced": 15.1,
+    "offEFG": 49.4,
+    "defEFGAllowed": 50,
+    "offORB": 33,
+    "defORBAllowed": 28.8,
+    "offFTR": 47,
+    "defFTRAllowed": 51.5,
+    "pace": 70.6
   },
   {
     "team": "Prairie View",
@@ -3404,16 +3404,16 @@
   {
     "team": "San Francisco",
     "espnTeamId": "2539",
-    "gamesPlayed": 2,
-    "offTO": 23.5,
-    "defTOForced": 20.9,
-    "offEFG": 53,
-    "defEFGAllowed": 42.9,
-    "offORB": 37.1,
-    "defORBAllowed": 35.8,
-    "offFTR": 50,
-    "defFTRAllowed": 32.5,
-    "pace": 67.6
+    "gamesPlayed": 3,
+    "offTO": 20.6,
+    "defTOForced": 20.5,
+    "offEFG": 46.1,
+    "defEFGAllowed": 49.1,
+    "offORB": 36.6,
+    "defORBAllowed": 34.9,
+    "offFTR": 47,
+    "defFTRAllowed": 40.9,
+    "pace": 68.9
   },
   {
     "team": "San José St",
