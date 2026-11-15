@@ -15270,9 +15270,9 @@
     "marketSpread": -9.5,
     "awayML": 320,
     "homeML": -410,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 83,
+    "homeScore": 84,
+    "status": "final",
     "espnId": "401925079",
     "espnAwayTeamId": "2466",
     "espnHomeTeamId": "2031",
@@ -15295,7 +15295,9 @@
       "awayPrice": -110
     },
     "oddsBook": "DraftKings",
-    "oddsCapturedAt": "2026-11-14T02:58:25.798Z"
+    "oddsCapturedAt": "2026-11-14T02:58:25.798Z",
+    "actualMargin": 1,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401925063",
@@ -15309,9 +15311,9 @@
     "marketSpread": -2.5,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 68,
+    "homeScore": 71,
+    "status": "final",
     "espnAwayTeamId": "2348",
     "espnHomeTeamId": "2447",
     "startTime": "2026-11-15T01:00:00.000Z",
@@ -15333,7 +15335,9 @@
       "awayPrice": -122
     },
     "oddsBook": "DraftKings",
-    "oddsCapturedAt": "2026-11-14T07:09:47.173Z"
+    "oddsCapturedAt": "2026-11-14T07:09:47.173Z",
+    "actualMargin": 3,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401911347",
@@ -15347,9 +15351,9 @@
     "marketSpread": -31.5,
     "awayML": 5000,
     "homeML": -100000,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 52,
+    "homeScore": 88,
+    "status": "final",
     "espnAwayTeamId": "2433",
     "espnHomeTeamId": "2253",
     "startTime": "2026-11-15T01:00:00.000Z",
@@ -15392,7 +15396,9 @@
       "awayPrice": -105
     },
     "oddsBook": "DraftKings",
-    "oddsCapturedAt": "2026-11-14T01:46:39.167Z"
+    "oddsCapturedAt": "2026-11-14T01:46:39.167Z",
+    "actualMargin": 36,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920760",
@@ -15405,9 +15411,9 @@
     "marketSpread": -2.5,
     "awayML": 124,
     "homeML": -148,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 62,
+    "homeScore": 72,
+    "status": "final",
     "espnId": "401920760",
     "espnAwayTeamId": "231",
     "espnHomeTeamId": "2057",
@@ -15430,7 +15436,9 @@
       "awayPrice": -105
     },
     "oddsBook": "DraftKings",
-    "oddsCapturedAt": "2026-11-14T07:09:47.173Z"
+    "oddsCapturedAt": "2026-11-14T07:09:47.173Z",
+    "actualMargin": 10,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401922031",
@@ -15483,7 +15491,7 @@
     "homeML": 105,
     "awayScore": null,
     "homeScore": null,
-    "status": "scheduled",
+    "status": "live",
     "espnId": "401917530",
     "espnAwayTeamId": "167",
     "espnHomeTeamId": "2541",
@@ -15521,7 +15529,7 @@
     "homeML": -470,
     "awayScore": null,
     "homeScore": null,
-    "status": "scheduled",
+    "status": "live",
     "espnId": "401911455",
     "espnAwayTeamId": "3084",
     "espnHomeTeamId": "2440",
@@ -16177,26 +16185,6 @@
     "time": "18:00"
   },
   {
-    "id": "espn-401929419",
-    "espnId": "401929419",
-    "date": "2026-11-15",
-    "away": "Florida A&M",
-    "home": "UTEP",
-    "site": "Home",
-    "source": "ESPN / The Odds API",
-    "marketFavorite": null,
-    "marketSpread": null,
-    "awayML": null,
-    "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "scheduled",
-    "espnAwayTeamId": "50",
-    "espnHomeTeamId": "2638",
-    "startTime": "2026-11-16T01:00:00.000Z",
-    "time": "19:00"
-  },
-  {
     "id": "espn-401929200",
     "espnId": "401929200",
     "date": "2026-11-15",
@@ -16255,6 +16243,26 @@
     "espnHomeTeamId": "23",
     "startTime": "2026-11-16T02:00:00.000Z",
     "time": "20:00"
+  },
+  {
+    "id": "espn-401929419",
+    "espnId": "401929419",
+    "date": "2026-11-16",
+    "away": "Florida A&M",
+    "home": "UTEP",
+    "site": "Home",
+    "source": "ESPN / The Odds API",
+    "marketFavorite": null,
+    "marketSpread": null,
+    "awayML": null,
+    "homeML": null,
+    "awayScore": null,
+    "homeScore": null,
+    "status": "scheduled",
+    "espnAwayTeamId": "50",
+    "espnHomeTeamId": "2638",
+    "startTime": "2026-11-16T18:00:00.000Z",
+    "time": "12:00"
   },
   {
     "id": "espn-401921087",
