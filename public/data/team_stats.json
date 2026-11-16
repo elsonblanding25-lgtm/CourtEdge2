@@ -1136,16 +1136,16 @@
   {
     "team": "Florida A&M",
     "espnTeamId": "50",
-    "gamesPlayed": 2,
-    "offTO": 18.7,
-    "defTOForced": 11.8,
-    "offEFG": 45.9,
-    "defEFGAllowed": 55,
-    "offORB": 27.7,
-    "defORBAllowed": 33.8,
-    "offFTR": 30.1,
-    "defFTRAllowed": 23.7,
-    "pace": 72.3
+    "gamesPlayed": 3,
+    "offTO": 22.7,
+    "defTOForced": 16,
+    "offEFG": 45.5,
+    "defEFGAllowed": 54.4,
+    "offORB": 25.2,
+    "defORBAllowed": 40.3,
+    "offFTR": 31,
+    "defFTRAllowed": 20.9,
+    "pace": 70.7
   },
   {
     "team": "Florida St",
@@ -4440,16 +4440,16 @@
   {
     "team": "UTEP",
     "espnTeamId": "2638",
-    "gamesPlayed": 2,
-    "offTO": 19,
-    "defTOForced": 26.4,
+    "gamesPlayed": 3,
+    "offTO": 21.1,
+    "defTOForced": 28.1,
     "offEFG": 53.1,
-    "defEFGAllowed": 48,
-    "offORB": 36.8,
-    "defORBAllowed": 36.1,
-    "offFTR": 28.6,
-    "defFTRAllowed": 35.6,
-    "pace": 62.8
+    "defEFGAllowed": 46.9,
+    "offORB": 43,
+    "defORBAllowed": 30.8,
+    "offFTR": 23.5,
+    "defFTRAllowed": 34.9,
+    "pace": 64.4
   },
   {
     "team": "UTSA",
