@@ -16,16 +16,16 @@
   {
     "team": "Air Force",
     "espnTeamId": "2005",
-    "gamesPlayed": 2,
-    "offTO": 14.3,
-    "defTOForced": 17.6,
-    "offEFG": 50.4,
-    "defEFGAllowed": 48.3,
-    "offORB": 37.6,
-    "defORBAllowed": 37.6,
-    "offFTR": 61.8,
-    "defFTRAllowed": 29.3,
-    "pace": 81.3
+    "gamesPlayed": 3,
+    "offTO": 12.9,
+    "defTOForced": 18.3,
+    "offEFG": 46.6,
+    "defEFGAllowed": 53.3,
+    "offORB": 33.8,
+    "defORBAllowed": 38.5,
+    "offFTR": 56.7,
+    "defFTRAllowed": 30.1,
+    "pace": 77.9
   },
   {
     "team": "Akron",
@@ -2956,16 +2956,16 @@
   {
     "team": "Pacific",
     "espnTeamId": "279",
-    "gamesPlayed": 2,
-    "offTO": 23.1,
-    "defTOForced": 20.5,
-    "offEFG": 44.7,
+    "gamesPlayed": 3,
+    "offTO": 22,
+    "defTOForced": 16.7,
+    "offEFG": 52,
     "defEFGAllowed": 38.9,
-    "offORB": 39.1,
-    "defORBAllowed": 30,
-    "offFTR": 25.7,
-    "defFTRAllowed": 40.7,
-    "pace": 65.4
+    "offORB": 39.8,
+    "defORBAllowed": 28.8,
+    "offFTR": 27.9,
+    "defFTRAllowed": 42.7,
+    "pace": 67.2
   },
   {
     "team": "Penn",
