@@ -1444,16 +1444,16 @@
   {
     "team": "Houston",
     "espnTeamId": "248",
-    "gamesPlayed": 2,
-    "offTO": 13.9,
-    "defTOForced": 22,
-    "offEFG": 57.8,
-    "defEFGAllowed": 42.5,
-    "offORB": 41,
-    "defORBAllowed": 26.9,
-    "offFTR": 35.2,
-    "defFTRAllowed": 26.5,
-    "pace": 68.2
+    "gamesPlayed": 3,
+    "offTO": 15,
+    "defTOForced": 21.7,
+    "offEFG": 55.8,
+    "defEFGAllowed": 44.4,
+    "offORB": 43.5,
+    "defORBAllowed": 26.4,
+    "offFTR": 40.9,
+    "defFTRAllowed": 38.5,
+    "pace": 69.1
   },
   {
     "team": "Howard",
@@ -3250,16 +3250,16 @@
   {
     "team": "Rutgers",
     "espnTeamId": "164",
-    "gamesPlayed": 3,
-    "offTO": 12.4,
-    "defTOForced": 17.9,
-    "offEFG": 54.3,
-    "defEFGAllowed": 40.6,
-    "offORB": 39.8,
-    "defORBAllowed": 24.6,
-    "offFTR": 49.4,
-    "defFTRAllowed": 22.9,
-    "pace": 67.1
+    "gamesPlayed": 4,
+    "offTO": 14.7,
+    "defTOForced": 17.7,
+    "offEFG": 53.1,
+    "defEFGAllowed": 43.4,
+    "offORB": 36.6,
+    "defORBAllowed": 29.5,
+    "offFTR": 53.1,
+    "defFTRAllowed": 30.3,
+    "pace": 68
   },
   {
     "team": "S Dakota St",
