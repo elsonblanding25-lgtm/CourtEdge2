@@ -1416,16 +1416,16 @@
   {
     "team": "Hofstra",
     "espnTeamId": "2275",
-    "gamesPlayed": 3,
-    "offTO": 19.1,
-    "defTOForced": 19.4,
-    "offEFG": 46.1,
-    "defEFGAllowed": 45.8,
-    "offORB": 30.4,
-    "defORBAllowed": 40.3,
-    "offFTR": 15.2,
-    "defFTRAllowed": 32.2,
-    "pace": 64.9
+    "gamesPlayed": 4,
+    "offTO": 25,
+    "defTOForced": 18.9,
+    "offEFG": 48.4,
+    "defEFGAllowed": 45,
+    "offORB": 31.9,
+    "defORBAllowed": 40.7,
+    "offFTR": 19.7,
+    "defFTRAllowed": 41,
+    "pace": 67.3
   },
   {
     "team": "Holy Cross",
@@ -2396,16 +2396,16 @@
   {
     "team": "Murray St",
     "espnTeamId": "93",
-    "gamesPlayed": 3,
-    "offTO": 18.2,
-    "defTOForced": 21.8,
-    "offEFG": 55.5,
-    "defEFGAllowed": 46.4,
-    "offORB": 44.7,
-    "defORBAllowed": 24.8,
-    "offFTR": 46,
-    "defFTRAllowed": 32.8,
-    "pace": 76.6
+    "gamesPlayed": 4,
+    "offTO": 18,
+    "defTOForced": 26.4,
+    "offEFG": 52.5,
+    "defEFGAllowed": 48.7,
+    "offORB": 44.1,
+    "defORBAllowed": 27.1,
+    "offFTR": 51,
+    "defFTRAllowed": 33.8,
+    "pace": 76.1
   },
   {
     "team": "N Arizona",
