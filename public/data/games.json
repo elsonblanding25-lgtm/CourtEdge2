@@ -16644,13 +16644,15 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 71,
+    "homeScore": 109,
+    "status": "final",
     "espnAwayTeamId": "2837",
     "espnHomeTeamId": "204",
     "startTime": "2026-11-17T02:30:00.000Z",
-    "time": "20:30"
+    "time": "20:30",
+    "actualMargin": 38,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920373",
@@ -16684,13 +16686,15 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 78,
+    "homeScore": 94,
+    "status": "final",
     "espnAwayTeamId": "2502",
     "espnHomeTeamId": "2608",
     "startTime": "2026-11-17T03:00:00.000Z",
-    "time": "21:00"
+    "time": "21:00",
+    "actualMargin": 16,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401924265",
