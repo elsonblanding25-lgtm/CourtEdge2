@@ -212,16 +212,16 @@
   {
     "team": "Auburn",
     "espnTeamId": "2",
-    "gamesPlayed": 2,
-    "offTO": 12,
-    "defTOForced": 18.6,
-    "offEFG": 45.3,
-    "defEFGAllowed": 44.1,
-    "offORB": 34.9,
-    "defORBAllowed": 37.3,
-    "offFTR": 33.9,
-    "defFTRAllowed": 31.9,
-    "pace": 66.9
+    "gamesPlayed": 3,
+    "offTO": 16.1,
+    "defTOForced": 19.3,
+    "offEFG": 47.5,
+    "defEFGAllowed": 46.3,
+    "offORB": 33.9,
+    "defORBAllowed": 38.3,
+    "offFTR": 35.9,
+    "defFTRAllowed": 34.9,
+    "pace": 67.8
   },
   {
     "team": "Ball State",
@@ -4678,16 +4678,16 @@
   {
     "team": "West Virginia",
     "espnTeamId": "277",
-    "gamesPlayed": 2,
-    "offTO": 13.4,
-    "defTOForced": 20.4,
-    "offEFG": 53.3,
-    "defEFGAllowed": 41.7,
-    "offORB": 41.4,
-    "defORBAllowed": 30.1,
-    "offFTR": 44.2,
-    "defFTRAllowed": 27.8,
-    "pace": 66.6
+    "gamesPlayed": 3,
+    "offTO": 15.8,
+    "defTOForced": 21.6,
+    "offEFG": 52.6,
+    "defEFGAllowed": 45.3,
+    "offORB": 41.2,
+    "defORBAllowed": 30.4,
+    "offFTR": 43.2,
+    "defFTRAllowed": 32,
+    "pace": 67.6
   },
   {
     "team": "William & Mary",
