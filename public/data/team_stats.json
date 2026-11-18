@@ -240,16 +240,16 @@
   {
     "team": "Baylor",
     "espnTeamId": "239",
-    "gamesPlayed": 3,
-    "offTO": 12.4,
-    "defTOForced": 29.1,
-    "offEFG": 52,
-    "defEFGAllowed": 48.4,
-    "offORB": 42.5,
-    "defORBAllowed": 31.7,
-    "offFTR": 43.5,
-    "defFTRAllowed": 33.1,
-    "pace": 72.3
+    "gamesPlayed": 4,
+    "offTO": 14.1,
+    "defTOForced": 28.8,
+    "offEFG": 56,
+    "defEFGAllowed": 47.9,
+    "offORB": 44.7,
+    "defORBAllowed": 30.3,
+    "offFTR": 39.5,
+    "defFTRAllowed": 29.3,
+    "pace": 72.2
   },
   {
     "team": "Bellarmine",
@@ -1626,16 +1626,16 @@
   {
     "team": "Jackson St",
     "espnTeamId": "2296",
-    "gamesPlayed": 4,
-    "offTO": 17.4,
-    "defTOForced": 22.4,
-    "offEFG": 48.2,
-    "defEFGAllowed": 51.9,
-    "offORB": 22.8,
-    "defORBAllowed": 45.2,
-    "offFTR": 32,
-    "defFTRAllowed": 56.7,
-    "pace": 76.6
+    "gamesPlayed": 5,
+    "offTO": 19.4,
+    "defTOForced": 21.8,
+    "offEFG": 47.9,
+    "defEFGAllowed": 55.4,
+    "offORB": 23.3,
+    "defORBAllowed": 46.6,
+    "offFTR": 29.5,
+    "defFTRAllowed": 50.3,
+    "pace": 75.7
   },
   {
     "team": "Jacksonville",
