@@ -1122,16 +1122,16 @@
   {
     "team": "Florida",
     "espnTeamId": "57",
-    "gamesPlayed": 4,
-    "offTO": 20,
-    "defTOForced": 16.3,
-    "offEFG": 56.9,
-    "defEFGAllowed": 48.2,
-    "offORB": 45.7,
-    "defORBAllowed": 17.6,
-    "offFTR": 54.6,
-    "defFTRAllowed": 24.1,
-    "pace": 67.5
+    "gamesPlayed": 5,
+    "offTO": 19.9,
+    "defTOForced": 14.9,
+    "offEFG": 58.3,
+    "defEFGAllowed": 48.9,
+    "offORB": 43.2,
+    "defORBAllowed": 22.3,
+    "offFTR": 47.1,
+    "defFTRAllowed": 28.6,
+    "pace": 66.6
   },
   {
     "team": "Florida A&M",
@@ -1444,16 +1444,16 @@
   {
     "team": "Houston",
     "espnTeamId": "248",
-    "gamesPlayed": 3,
-    "offTO": 15,
-    "defTOForced": 21.7,
-    "offEFG": 55.8,
-    "defEFGAllowed": 44.4,
-    "offORB": 43.5,
-    "defORBAllowed": 26.4,
-    "offFTR": 40.9,
-    "defFTRAllowed": 38.5,
-    "pace": 69.1
+    "gamesPlayed": 4,
+    "offTO": 13.6,
+    "defTOForced": 21.2,
+    "offEFG": 54.8,
+    "defEFGAllowed": 49.3,
+    "offORB": 43.4,
+    "defORBAllowed": 27.6,
+    "offFTR": 42.1,
+    "defFTRAllowed": 33,
+    "pace": 67.6
   },
   {
     "team": "Howard",
