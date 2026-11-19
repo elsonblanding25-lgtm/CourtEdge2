@@ -212,16 +212,16 @@
   {
     "team": "Auburn",
     "espnTeamId": "2",
-    "gamesPlayed": 3,
-    "offTO": 16.1,
-    "defTOForced": 19.3,
-    "offEFG": 47.5,
-    "defEFGAllowed": 46.3,
-    "offORB": 33.9,
-    "defORBAllowed": 38.3,
-    "offFTR": 35.9,
-    "defFTRAllowed": 34.9,
-    "pace": 67.8
+    "gamesPlayed": 4,
+    "offTO": 16.2,
+    "defTOForced": 20.2,
+    "offEFG": 50.6,
+    "defEFGAllowed": 45.9,
+    "offORB": 35.7,
+    "defORBAllowed": 40.1,
+    "offFTR": 33.1,
+    "defFTRAllowed": 39.7,
+    "pace": 68.6
   },
   {
     "team": "Ball State",
@@ -4328,16 +4328,16 @@
   {
     "team": "UNLV",
     "espnTeamId": "2439",
-    "gamesPlayed": 3,
-    "offTO": 17.1,
-    "defTOForced": 15.8,
-    "offEFG": 53,
-    "defEFGAllowed": 53.7,
-    "offORB": 25.7,
-    "defORBAllowed": 25.3,
-    "offFTR": 51.5,
-    "defFTRAllowed": 44.9,
-    "pace": 75.1
+    "gamesPlayed": 4,
+    "offTO": 18.5,
+    "defTOForced": 16,
+    "offEFG": 50.9,
+    "defEFGAllowed": 55.1,
+    "offORB": 31.2,
+    "defORBAllowed": 29.8,
+    "offFTR": 52.2,
+    "defFTRAllowed": 39.6,
+    "pace": 74
   },
   {
     "team": "USC",
