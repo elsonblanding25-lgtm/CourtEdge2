@@ -19732,7 +19732,7 @@
     "homeML": null,
     "awayScore": null,
     "homeScore": null,
-    "status": "scheduled",
+    "status": "live",
     "espnAwayTeamId": "5",
     "espnHomeTeamId": "45",
     "startTime": "2026-11-20T19:00:00.000Z",
