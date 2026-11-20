@@ -1192,16 +1192,16 @@
   {
     "team": "G Washington",
     "espnTeamId": "45",
-    "gamesPlayed": 3,
-    "offTO": 19.2,
-    "defTOForced": 19.7,
-    "offEFG": 54.3,
-    "defEFGAllowed": 39.2,
-    "offORB": 38.5,
-    "defORBAllowed": 28,
-    "offFTR": 41.1,
-    "defFTRAllowed": 33.1,
-    "pace": 66
+    "gamesPlayed": 4,
+    "offTO": 18.1,
+    "defTOForced": 17.4,
+    "offEFG": 50.9,
+    "defEFGAllowed": 43.7,
+    "offORB": 42.6,
+    "defORBAllowed": 26.4,
+    "offFTR": 36.2,
+    "defFTRAllowed": 34.2,
+    "pace": 66.3
   },
   {
     "team": "GA Southern",
@@ -4090,16 +4090,16 @@
   {
     "team": "UAB",
     "espnTeamId": "5",
-    "gamesPlayed": 4,
-    "offTO": 15,
-    "defTOForced": 16.6,
-    "offEFG": 49.2,
-    "defEFGAllowed": 47.3,
-    "offORB": 37.8,
-    "defORBAllowed": 29.9,
-    "offFTR": 34.1,
-    "defFTRAllowed": 29,
-    "pace": 72.1
+    "gamesPlayed": 5,
+    "offTO": 14.1,
+    "defTOForced": 16.3,
+    "offEFG": 50.6,
+    "defEFGAllowed": 46.3,
+    "offORB": 34.9,
+    "defORBAllowed": 34.4,
+    "offFTR": 34.7,
+    "defFTRAllowed": 28.1,
+    "pace": 71.1
   },
   {
     "team": "UAlbany",
