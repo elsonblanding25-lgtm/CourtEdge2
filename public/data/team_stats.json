@@ -310,16 +310,16 @@
   {
     "team": "Boise St",
     "espnTeamId": "68",
-    "gamesPlayed": 3,
-    "offTO": 13,
-    "defTOForced": 22.9,
-    "offEFG": 57.1,
-    "defEFGAllowed": 58,
-    "offORB": 28.2,
-    "defORBAllowed": 29.3,
-    "offFTR": 28.3,
-    "defFTRAllowed": 27.8,
-    "pace": 79.7
+    "gamesPlayed": 4,
+    "offTO": 14.3,
+    "defTOForced": 24.2,
+    "offEFG": 52.3,
+    "defEFGAllowed": 57.6,
+    "offORB": 27.1,
+    "defORBAllowed": 29.5,
+    "offFTR": 33.6,
+    "defFTRAllowed": 33.1,
+    "pace": 80.5
   },
   {
     "team": "Boston College",
@@ -3390,16 +3390,16 @@
   {
     "team": "Sam Houston",
     "espnTeamId": "2534",
-    "gamesPlayed": 3,
-    "offTO": 16.3,
-    "defTOForced": 11,
-    "offEFG": 51.9,
-    "defEFGAllowed": 54.6,
-    "offORB": 29.4,
-    "defORBAllowed": 32.2,
-    "offFTR": 37.8,
-    "defFTRAllowed": 37.6,
-    "pace": 74.1
+    "gamesPlayed": 4,
+    "offTO": 19.4,
+    "defTOForced": 12.9,
+    "offEFG": 52.9,
+    "defEFGAllowed": 50.2,
+    "offORB": 29.5,
+    "defORBAllowed": 29.9,
+    "offFTR": 40.7,
+    "defFTRAllowed": 40.8,
+    "pace": 76.4
   },
   {
     "team": "Samford",
