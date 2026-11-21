@@ -2536,16 +2536,16 @@
   {
     "team": "NC State",
     "espnTeamId": "152",
-    "gamesPlayed": 4,
-    "offTO": 16.1,
-    "defTOForced": 18,
-    "offEFG": 58,
-    "defEFGAllowed": 48,
-    "offORB": 37.7,
-    "defORBAllowed": 27.4,
-    "offFTR": 31.8,
-    "defFTRAllowed": 35,
-    "pace": 68.3
+    "gamesPlayed": 5,
+    "offTO": 17.3,
+    "defTOForced": 18.3,
+    "offEFG": 56.6,
+    "defEFGAllowed": 49.8,
+    "offORB": 38.5,
+    "defORBAllowed": 29.5,
+    "offFTR": 34.1,
+    "defFTRAllowed": 38.1,
+    "pace": 69
   },
   {
     "team": "Nebraska",
@@ -3558,16 +3558,16 @@
   {
     "team": "Seton Hall",
     "espnTeamId": "2550",
-    "gamesPlayed": 4,
-    "offTO": 18.2,
-    "defTOForced": 23.7,
-    "offEFG": 47.4,
-    "defEFGAllowed": 50,
-    "offORB": 31.7,
-    "defORBAllowed": 31.8,
-    "offFTR": 37.7,
+    "gamesPlayed": 5,
+    "offTO": 18.5,
+    "defTOForced": 23.4,
+    "offEFG": 49.3,
+    "defEFGAllowed": 50.2,
+    "offORB": 33.1,
+    "defORBAllowed": 33.7,
+    "offFTR": 40.3,
     "defFTRAllowed": 43.8,
-    "pace": 68.6
+    "pace": 69.2
   },
   {
     "team": "SF Austin",

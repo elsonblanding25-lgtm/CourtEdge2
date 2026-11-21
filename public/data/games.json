@@ -20630,13 +20630,15 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 78,
+    "homeScore": 95,
+    "status": "final",
     "espnAwayTeamId": "139",
     "espnHomeTeamId": "2608",
     "startTime": "2026-11-21T04:00:00.000Z",
-    "time": "22:00"
+    "time": "22:00",
+    "actualMargin": 17,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401924884",
