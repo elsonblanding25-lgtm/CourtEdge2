@@ -3502,16 +3502,16 @@
   {
     "team": "SC Upstate",
     "espnTeamId": "2908",
-    "gamesPlayed": 3,
-    "offTO": 17.8,
-    "defTOForced": 15.4,
-    "offEFG": 44.5,
-    "defEFGAllowed": 58.6,
-    "offORB": 33.6,
-    "defORBAllowed": 23.4,
-    "offFTR": 37.9,
-    "defFTRAllowed": 30.4,
-    "pace": 67.3
+    "gamesPlayed": 4,
+    "offTO": 17.9,
+    "defTOForced": 17.1,
+    "offEFG": 46.7,
+    "defEFGAllowed": 60.3,
+    "offORB": 31.5,
+    "defORBAllowed": 27.7,
+    "offFTR": 33.9,
+    "defFTRAllowed": 30.9,
+    "pace": 67.1
   },
   {
     "team": "SE Louisiana",
@@ -4300,16 +4300,16 @@
   {
     "team": "UNC Greensboro",
     "espnTeamId": "2430",
-    "gamesPlayed": 3,
-    "offTO": 18.2,
-    "defTOForced": 15.4,
-    "offEFG": 50,
-    "defEFGAllowed": 51.7,
-    "offORB": 30.1,
-    "defORBAllowed": 40.4,
-    "offFTR": 32.2,
-    "defFTRAllowed": 38.2,
-    "pace": 66.2
+    "gamesPlayed": 4,
+    "offTO": 19.2,
+    "defTOForced": 16.2,
+    "offEFG": 53.8,
+    "defEFGAllowed": 52.2,
+    "offORB": 32.8,
+    "defORBAllowed": 36.4,
+    "offFTR": 32.3,
+    "defFTRAllowed": 34.1,
+    "pace": 66.3
   },
   {
     "team": "UNC Wilmington",
