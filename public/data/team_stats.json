@@ -394,16 +394,16 @@
   {
     "team": "Bucknell",
     "espnTeamId": "2083",
-    "gamesPlayed": 4,
-    "offTO": 18.4,
-    "defTOForced": 21.2,
-    "offEFG": 43.7,
-    "defEFGAllowed": 55,
-    "offORB": 26.4,
-    "defORBAllowed": 45.9,
-    "offFTR": 27.9,
-    "defFTRAllowed": 24.4,
-    "pace": 65.6
+    "gamesPlayed": 5,
+    "offTO": 18.3,
+    "defTOForced": 19.8,
+    "offEFG": 47.7,
+    "defEFGAllowed": 53.8,
+    "offORB": 25.7,
+    "defORBAllowed": 45.3,
+    "offFTR": 30.9,
+    "defFTRAllowed": 33.9,
+    "pace": 68.1
   },
   {
     "team": "Buffalo",
@@ -3586,16 +3586,16 @@
   {
     "team": "Siena",
     "espnTeamId": "2561",
-    "gamesPlayed": 4,
-    "offTO": 16.6,
-    "defTOForced": 15,
+    "gamesPlayed": 5,
+    "offTO": 16.3,
+    "defTOForced": 15.6,
     "offEFG": 48.9,
-    "defEFGAllowed": 52.9,
-    "offORB": 32.7,
-    "defORBAllowed": 37.4,
-    "offFTR": 38.4,
-    "defFTRAllowed": 19.1,
-    "pace": 76.8
+    "defEFGAllowed": 54.5,
+    "offORB": 34.7,
+    "defORBAllowed": 34.9,
+    "offFTR": 44.6,
+    "defFTRAllowed": 22.9,
+    "pace": 77.1
   },
   {
     "team": "SIUE",
