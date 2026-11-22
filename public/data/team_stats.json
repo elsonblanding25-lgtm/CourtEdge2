@@ -366,16 +366,16 @@
   {
     "team": "Bradley",
     "espnTeamId": "71",
-    "gamesPlayed": 5,
-    "offTO": 22.4,
-    "defTOForced": 20.2,
-    "offEFG": 42.8,
-    "defEFGAllowed": 48.5,
-    "offORB": 31.7,
-    "defORBAllowed": 32.7,
-    "offFTR": 31.1,
-    "defFTRAllowed": 33.6,
-    "pace": 63.3
+    "gamesPlayed": 6,
+    "offTO": 21.7,
+    "defTOForced": 20.7,
+    "offEFG": 44.2,
+    "defEFGAllowed": 49.4,
+    "offORB": 29.4,
+    "defORBAllowed": 31.5,
+    "offFTR": 29.3,
+    "defFTRAllowed": 32.6,
+    "pace": 63.6
   },
   {
     "team": "Brown",
@@ -2984,16 +2984,16 @@
   {
     "team": "Pacific",
     "espnTeamId": "279",
-    "gamesPlayed": 3,
-    "offTO": 22,
-    "defTOForced": 16.7,
-    "offEFG": 52,
-    "defEFGAllowed": 38.9,
-    "offORB": 39.8,
-    "defORBAllowed": 28.8,
-    "offFTR": 27.9,
-    "defFTRAllowed": 42.7,
-    "pace": 67.2
+    "gamesPlayed": 4,
+    "offTO": 22.3,
+    "defTOForced": 17.1,
+    "offEFG": 52.5,
+    "defEFGAllowed": 41.7,
+    "offORB": 36.2,
+    "defORBAllowed": 26.3,
+    "offFTR": 27.8,
+    "defFTRAllowed": 37.5,
+    "pace": 66.7
   },
   {
     "team": "Penn",
