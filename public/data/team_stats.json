@@ -926,16 +926,16 @@
   {
     "team": "Duke",
     "espnTeamId": "150",
-    "gamesPlayed": 4,
-    "offTO": 16.5,
-    "defTOForced": 20,
-    "offEFG": 51.6,
-    "defEFGAllowed": 41.3,
-    "offORB": 36.4,
-    "defORBAllowed": 28.5,
-    "offFTR": 55.6,
-    "defFTRAllowed": 40.5,
-    "pace": 77.4
+    "gamesPlayed": 5,
+    "offTO": 17.7,
+    "defTOForced": 19.1,
+    "offEFG": 50.7,
+    "defEFGAllowed": 42.1,
+    "offORB": 38.7,
+    "defORBAllowed": 30.4,
+    "offFTR": 57.5,
+    "defFTRAllowed": 40.1,
+    "pace": 75.8
   },
   {
     "team": "Duquesne",
@@ -4678,16 +4678,16 @@
   {
     "team": "Washington St",
     "espnTeamId": "265",
-    "gamesPlayed": 3,
-    "offTO": 22.7,
-    "defTOForced": 20.2,
-    "offEFG": 55.2,
-    "defEFGAllowed": 53.4,
-    "offORB": 41.3,
-    "defORBAllowed": 36,
-    "offFTR": 34,
-    "defFTRAllowed": 59.3,
-    "pace": 64.5
+    "gamesPlayed": 4,
+    "offTO": 20.6,
+    "defTOForced": 20.9,
+    "offEFG": 52.5,
+    "defEFGAllowed": 51.5,
+    "offORB": 40.5,
+    "defORBAllowed": 39.8,
+    "offFTR": 35.3,
+    "defFTRAllowed": 61.3,
+    "pace": 65.7
   },
   {
     "team": "West Georgia",
