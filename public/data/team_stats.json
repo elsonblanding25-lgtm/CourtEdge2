@@ -3558,16 +3558,16 @@
   {
     "team": "Seattle U",
     "espnTeamId": "2547",
-    "gamesPlayed": 4,
-    "offTO": 14.8,
-    "defTOForced": 20.1,
-    "offEFG": 47.2,
-    "defEFGAllowed": 46.5,
-    "offORB": 31.8,
-    "defORBAllowed": 30,
-    "offFTR": 48.1,
-    "defFTRAllowed": 36,
-    "pace": 69.3
+    "gamesPlayed": 5,
+    "offTO": 14.9,
+    "defTOForced": 20.8,
+    "offEFG": 49.5,
+    "defEFGAllowed": 47.8,
+    "offORB": 33.3,
+    "defORBAllowed": 28,
+    "offFTR": 48.6,
+    "defFTRAllowed": 35.1,
+    "pace": 69.5
   },
   {
     "team": "Seton Hall",
@@ -4174,16 +4174,16 @@
   {
     "team": "UC San Diego",
     "espnTeamId": "28",
-    "gamesPlayed": 2,
-    "offTO": 13.6,
-    "defTOForced": 15.8,
-    "offEFG": 52.5,
-    "defEFGAllowed": 69,
-    "offORB": 34.5,
-    "defORBAllowed": 27.8,
-    "offFTR": 34,
-    "defFTRAllowed": 31,
-    "pace": 78.2
+    "gamesPlayed": 3,
+    "offTO": 16.6,
+    "defTOForced": 15.7,
+    "offEFG": 52.9,
+    "defEFGAllowed": 65.7,
+    "offORB": 30.3,
+    "defORBAllowed": 32.6,
+    "offFTR": 33.3,
+    "defFTRAllowed": 37.2,
+    "pace": 75.4
   },
   {
     "team": "UCF",
