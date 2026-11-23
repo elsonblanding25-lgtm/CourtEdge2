@@ -1990,16 +1990,16 @@
   {
     "team": "Loyola Chicago",
     "espnTeamId": "2350",
-    "gamesPlayed": 3,
-    "offTO": 16.9,
-    "defTOForced": 20.8,
-    "offEFG": 52.9,
-    "defEFGAllowed": 45,
-    "offORB": 28.3,
-    "defORBAllowed": 28,
-    "offFTR": 30.7,
-    "defFTRAllowed": 51.8,
-    "pace": 75.1
+    "gamesPlayed": 4,
+    "offTO": 19.5,
+    "defTOForced": 21.3,
+    "offEFG": 53.6,
+    "defEFGAllowed": 42.7,
+    "offORB": 27.1,
+    "defORBAllowed": 28.1,
+    "offFTR": 35.3,
+    "defFTRAllowed": 59.2,
+    "pace": 74.7
   },
   {
     "team": "Loyola MD",
@@ -3474,16 +3474,16 @@
   {
     "team": "San José St",
     "espnTeamId": "23",
-    "gamesPlayed": 3,
-    "offTO": 20.5,
-    "defTOForced": 18.8,
-    "offEFG": 60.1,
-    "defEFGAllowed": 60.1,
-    "offORB": 29.1,
-    "defORBAllowed": 30.3,
-    "offFTR": 37.7,
-    "defFTRAllowed": 32.5,
-    "pace": 68.6
+    "gamesPlayed": 4,
+    "offTO": 21.1,
+    "defTOForced": 21.1,
+    "offEFG": 54.1,
+    "defEFGAllowed": 59.3,
+    "offORB": 28.9,
+    "defORBAllowed": 28.6,
+    "offFTR": 48.8,
+    "defFTRAllowed": 37.2,
+    "pace": 69.9
   },
   {
     "team": "Santa Barbara",
