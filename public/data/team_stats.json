@@ -2340,16 +2340,16 @@
   {
     "team": "Monmouth",
     "espnTeamId": "2405",
-    "gamesPlayed": 4,
-    "offTO": 14.9,
-    "defTOForced": 14.9,
-    "offEFG": 47.2,
-    "defEFGAllowed": 50.6,
-    "offORB": 27.1,
-    "defORBAllowed": 33.3,
-    "offFTR": 33.3,
-    "defFTRAllowed": 38,
-    "pace": 69.8
+    "gamesPlayed": 5,
+    "offTO": 16.2,
+    "defTOForced": 14.6,
+    "offEFG": 43.1,
+    "defEFGAllowed": 51.6,
+    "offORB": 26.1,
+    "defORBAllowed": 31.8,
+    "offFTR": 31.8,
+    "defFTRAllowed": 34.7,
+    "pace": 70.8
   },
   {
     "team": "Montana",
@@ -2718,16 +2718,16 @@
   {
     "team": "North Carolina",
     "espnTeamId": "153",
-    "gamesPlayed": 4,
-    "offTO": 11.8,
-    "defTOForced": 16.5,
-    "offEFG": 52.4,
-    "defEFGAllowed": 42.8,
-    "offORB": 31.6,
-    "defORBAllowed": 37,
-    "offFTR": 30,
-    "defFTRAllowed": 19.2,
-    "pace": 73.4
+    "gamesPlayed": 5,
+    "offTO": 12.1,
+    "defTOForced": 17.5,
+    "offEFG": 52.9,
+    "defEFGAllowed": 40.1,
+    "offORB": 30.6,
+    "defORBAllowed": 34.5,
+    "offFTR": 28.6,
+    "defFTRAllowed": 20.4,
+    "pace": 73.7
   },
   {
     "team": "North Dakota",
