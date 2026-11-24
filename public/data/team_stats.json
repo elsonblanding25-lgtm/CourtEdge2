@@ -2634,16 +2634,16 @@
   {
     "team": "New Mexico St",
     "espnTeamId": "166",
-    "gamesPlayed": 5,
-    "offTO": 25,
-    "defTOForced": 16,
-    "offEFG": 44.6,
-    "defEFGAllowed": 55.4,
-    "offORB": 36.2,
-    "defORBAllowed": 35.5,
-    "offFTR": 51.2,
-    "defFTRAllowed": 52.7,
-    "pace": 68.9
+    "gamesPlayed": 6,
+    "offTO": 23.2,
+    "defTOForced": 16.7,
+    "offEFG": 45.6,
+    "defEFGAllowed": 53.5,
+    "offORB": 34,
+    "defORBAllowed": 34.8,
+    "offFTR": 45.9,
+    "defFTRAllowed": 54.7,
+    "pace": 68.5
   },
   {
     "team": "Niagara",
@@ -2844,16 +2844,16 @@
   {
     "team": "Ohio",
     "espnTeamId": "195",
-    "gamesPlayed": 1,
-    "offTO": 23.1,
-    "defTOForced": 14.2,
-    "offEFG": 43.9,
-    "defEFGAllowed": 51.7,
+    "gamesPlayed": 2,
+    "offTO": 21.7,
+    "defTOForced": 14,
+    "offEFG": 43.4,
+    "defEFGAllowed": 50.8,
     "offORB": 31.3,
-    "defORBAllowed": 46.9,
-    "offFTR": 46.9,
-    "defFTRAllowed": 33.3,
-    "pace": 64.2
+    "defORBAllowed": 34.3,
+    "offFTR": 56.6,
+    "defFTRAllowed": 28,
+    "pace": 65.6
   },
   {
     "team": "Ohio State",
