@@ -282,16 +282,16 @@
   {
     "team": "Belmont",
     "espnTeamId": "2057",
-    "gamesPlayed": 4,
-    "offTO": 19.4,
-    "defTOForced": 16,
-    "offEFG": 51.5,
-    "defEFGAllowed": 52.7,
-    "offORB": 36.2,
-    "defORBAllowed": 35.9,
-    "offFTR": 29.1,
-    "defFTRAllowed": 22.4,
-    "pace": 65.6
+    "gamesPlayed": 5,
+    "offTO": 20.2,
+    "defTOForced": 15.3,
+    "offEFG": 52.6,
+    "defEFGAllowed": 53,
+    "offORB": 33.3,
+    "defORBAllowed": 32.4,
+    "offFTR": 32.6,
+    "defFTRAllowed": 23.3,
+    "pace": 65.4
   },
   {
     "team": "Bethune",
@@ -3740,16 +3740,16 @@
   {
     "team": "St Bonaventure",
     "espnTeamId": "179",
-    "gamesPlayed": 6,
-    "offTO": 15.8,
-    "defTOForced": 18.9,
-    "offEFG": 56,
-    "defEFGAllowed": 45.1,
-    "offORB": 41.7,
-    "defORBAllowed": 28.6,
-    "offFTR": 38.1,
-    "defFTRAllowed": 32,
-    "pace": 66.3
+    "gamesPlayed": 7,
+    "offTO": 15.3,
+    "defTOForced": 19.5,
+    "offEFG": 55.8,
+    "defEFGAllowed": 46.6,
+    "offORB": 38.1,
+    "defORBAllowed": 27.6,
+    "offFTR": 36.5,
+    "defFTRAllowed": 34.2,
+    "pace": 66.1
   },
   {
     "team": "St John's",
