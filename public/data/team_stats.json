@@ -1528,16 +1528,16 @@
   {
     "team": "Illinois St",
     "espnTeamId": "2287",
-    "gamesPlayed": 4,
-    "offTO": 17.4,
-    "defTOForced": 16,
-    "offEFG": 58.3,
-    "defEFGAllowed": 55,
-    "offORB": 30.6,
-    "defORBAllowed": 33.6,
-    "offFTR": 34.6,
-    "defFTRAllowed": 44.7,
-    "pace": 66.8
+    "gamesPlayed": 5,
+    "offTO": 17.3,
+    "defTOForced": 16.9,
+    "offEFG": 58.8,
+    "defEFGAllowed": 53.8,
+    "offORB": 30.2,
+    "defORBAllowed": 31,
+    "offFTR": 33.5,
+    "defFTRAllowed": 48.9,
+    "pace": 66.9
   },
   {
     "team": "Incarnate Word",
@@ -4090,16 +4090,16 @@
   {
     "team": "Tulsa",
     "espnTeamId": "202",
-    "gamesPlayed": 4,
-    "offTO": 18.6,
+    "gamesPlayed": 5,
+    "offTO": 19,
     "defTOForced": 16.7,
-    "offEFG": 49.1,
-    "defEFGAllowed": 50,
-    "offORB": 39.2,
-    "defORBAllowed": 30.5,
-    "offFTR": 44.4,
-    "defFTRAllowed": 36.8,
-    "pace": 68
+    "offEFG": 48.9,
+    "defEFGAllowed": 52.1,
+    "offORB": 36.2,
+    "defORBAllowed": 30.2,
+    "offFTR": 48.4,
+    "defFTRAllowed": 35.3,
+    "pace": 67.8
   },
   {
     "team": "UAB",
