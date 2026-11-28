@@ -1976,16 +1976,16 @@
   {
     "team": "Louisville",
     "espnTeamId": "97",
-    "gamesPlayed": 4,
-    "offTO": 17.4,
-    "defTOForced": 10.9,
-    "offEFG": 52,
-    "defEFGAllowed": 53,
-    "offORB": 42.6,
-    "defORBAllowed": 28.7,
-    "offFTR": 37.1,
-    "defFTRAllowed": 28.9,
-    "pace": 69.4
+    "gamesPlayed": 5,
+    "offTO": 17.3,
+    "defTOForced": 13,
+    "offEFG": 52.9,
+    "defEFGAllowed": 52.3,
+    "offORB": 41.9,
+    "defORBAllowed": 29.9,
+    "offFTR": 37,
+    "defFTRAllowed": 28.7,
+    "pace": 68.5
   },
   {
     "team": "Loyola Chicago",
@@ -3894,16 +3894,16 @@
   {
     "team": "Tennessee",
     "espnTeamId": "2633",
-    "gamesPlayed": 6,
-    "offTO": 21.5,
+    "gamesPlayed": 7,
+    "offTO": 21.6,
     "defTOForced": 16.5,
-    "offEFG": 53.9,
-    "defEFGAllowed": 32.5,
-    "offORB": 32.6,
-    "defORBAllowed": 36.5,
-    "offFTR": 40.7,
-    "defFTRAllowed": 32.8,
-    "pace": 69.4
+    "offEFG": 53.2,
+    "defEFGAllowed": 35.5,
+    "offORB": 33,
+    "defORBAllowed": 36.7,
+    "offFTR": 38.8,
+    "defFTRAllowed": 33.3,
+    "pace": 68.8
   },
   {
     "team": "Tennessee St",
