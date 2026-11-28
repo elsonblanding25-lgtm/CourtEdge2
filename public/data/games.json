@@ -28439,13 +28439,15 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 97,
+    "homeScore": 89,
+    "status": "final",
     "espnAwayTeamId": "156",
     "espnHomeTeamId": "2250",
     "startTime": "2026-11-28T04:15:00.000Z",
-    "time": "22:15"
+    "time": "22:15",
+    "actualMargin": -8,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920535",
@@ -28462,9 +28464,9 @@
     "marketSpread": null,
     "awayML": null,
     "homeML": null,
-    "awayScore": null,
-    "homeScore": null,
-    "status": "live",
+    "awayScore": 75,
+    "homeScore": 78,
+    "status": "final",
     "espnAwayTeamId": "21",
     "espnHomeTeamId": "2641",
     "startTime": "2026-11-28T04:30:00.000Z",
@@ -28475,7 +28477,9 @@
     "latestMarket": null,
     "marketHistory": [],
     "edge": null,
-    "confidence": null
+    "confidence": null,
+    "actualMargin": 3,
+    "evaluationStatus": "no-pregame-prediction"
   },
   {
     "id": "espn-401920849",
@@ -29718,6 +29722,29 @@
     "espnHomeTeamId": "28",
     "startTime": "2026-11-29T03:00:00.000Z",
     "time": "21:00"
+  },
+  {
+    "id": "espn-401920536",
+    "espnId": "401920536",
+    "date": "2026-11-28",
+    "away": "Creighton",
+    "home": "Louisville",
+    "site": "Neutral",
+    "source": "ESPN / The Odds API",
+    "modelFavorite": null,
+    "modelSpread": null,
+    "modelVersion": null,
+    "marketFavorite": null,
+    "marketSpread": null,
+    "awayML": null,
+    "homeML": null,
+    "awayScore": null,
+    "homeScore": null,
+    "status": "scheduled",
+    "espnAwayTeamId": "156",
+    "espnHomeTeamId": "97",
+    "startTime": "2026-11-29T03:30:00.000Z",
+    "time": "21:30"
   },
   {
     "id": "espn-401923306",

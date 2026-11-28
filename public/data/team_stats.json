@@ -1682,16 +1682,16 @@
   {
     "team": "Jax State",
     "espnTeamId": "55",
-    "gamesPlayed": 7,
-    "offTO": 19.3,
-    "defTOForced": 14.2,
-    "offEFG": 52.9,
-    "defEFGAllowed": 52.9,
-    "offORB": 30.1,
-    "defORBAllowed": 33.9,
-    "offFTR": 31.6,
-    "defFTRAllowed": 32.5,
-    "pace": 65.6
+    "gamesPlayed": 8,
+    "offTO": 19.2,
+    "defTOForced": 14.3,
+    "offEFG": 52.2,
+    "defEFGAllowed": 53.4,
+    "offORB": 28.9,
+    "defORBAllowed": 33.2,
+    "offFTR": 32.4,
+    "defFTRAllowed": 31.3,
+    "pace": 66
   },
   {
     "team": "Kansas",
@@ -2928,16 +2928,16 @@
   {
     "team": "Omaha",
     "espnTeamId": "2437",
-    "gamesPlayed": 6,
-    "offTO": 19.8,
-    "defTOForced": 14.3,
-    "offEFG": 43.2,
-    "defEFGAllowed": 55.2,
-    "offORB": 32.5,
-    "defORBAllowed": 33.9,
-    "offFTR": 34.9,
-    "defFTRAllowed": 37.2,
-    "pace": 71
+    "gamesPlayed": 7,
+    "offTO": 19.1,
+    "defTOForced": 14.8,
+    "offEFG": 45.1,
+    "defEFGAllowed": 54.2,
+    "offORB": 32,
+    "defORBAllowed": 32.2,
+    "offFTR": 33.3,
+    "defFTRAllowed": 37.4,
+    "pace": 70.7
   },
   {
     "team": "Oral Roberts",
